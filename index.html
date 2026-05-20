@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RankLocal | Google Maps SEO & Local Lead Generation</title>
+<meta name="description" content="We help local businesses rank higher on Google Maps and generate more phone calls. Local SEO, GBP optimization, and pay-per-call lead generation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+/* =========================================
+   RESET & BASE
+   ========================================= */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #07070a;
+  color: #fff;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+img { max-width: 100%; }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0d0d14; }
+::-webkit-scrollbar-thumb { background: linear-gradient(#00AAFF, #0055CC); border-radius: 2px; }
+
+/* =========================================
+   DESIGN TOKENS
+   ========================================= */
+:root {
+  --blue: #00AAFF;
+  --blue-dark: #0066CC;
+  --blue-glow: rgba(0,170,255,0.25);
+  --green: #00FF87;
+  --bg-0: #07070a;
+  --bg-1: #0d0d14;
+  --bg-2: #12121c;
+  --bg-3: #18182a;
+  --border: rgba(255,255,255,0.07);
+  --border-blue: rgba(0,170,255,0.2);
+  --text-muted: #7a7a9a;
+  --text-dim: #555570;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --radius-lg: 20px;
+}
+
+/* =========================================
+   UTILITIES
+   ========================================= */
+.container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+.section { padding: 96px 0; }
+.section-alt { background: var(--bg-1); }
+
+/* Gradient text */
+.grad { background: linear-gradient(135deg, #00AAFF 0%, #00CCFF 60%, #80E8FF 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.grad-green { background: linear-gradient(135deg, #00FF87, #00D4FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
+/* Glass */
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.glass-blue {
+  background: rgba(0,170,255,0.08);
+  border: 1px solid var(--border-blue);
+  border-radius: var(--radius);
+}
+
+/* Glow */
+.glow { box-shadow: 0 0 40px var(--blue-glow); }
+.glow-sm { box-shadow: 0 0 20px rgba(0,170,255,0.2); }
+
+/* Section label */
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0,170,255,0.08);
+  border: 1px solid rgba(0,170,255,0.2);
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #60C8FF;
+  margin-bottom: 20px;
+}
+
+/* Section heading */
+.section-heading {
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+.section-sub {
+  font-size: 17px;
+  color: var(--text-muted);
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 13px 26px;
+  border-radius: var(--radius-sm);
+  transition: all 0.25s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #0088DD, #00AAFF);
+  color: #fff;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #00AAFF, #00D4FF);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.btn-primary:hover::after { opacity: 1; }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 35px rgba(0,170,255,0.45); }
+.btn-primary span, .btn-primary svg { position: relative; z-index: 1; }
+.btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+.btn-outline:hover { border-color: rgba(0,170,255,0.5); background: rgba(0,170,255,0.06); }
+
+/* Cards */
+.card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,170,255,0.04), transparent);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.card:hover { transform: translateY(-6px); border-color: rgba(0,170,255,0.25); box-shadow: 0 20px 50px rgba(0,170,255,0.12); }
+.card:hover::before { opacity: 1; }
+
+/* Star rating */
+.stars { color: #FFD700; font-size: 15px; letter-spacing: 1px; }
+
+/* Reveal animation */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.reveal.on { opacity: 1; transform: translateY(0); }
+
+/* Orb background blobs */
+.orb { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
+
+/* =========================================
+   NAV
+   ========================================= */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  transition: background 0.3s, border-color 0.3s;
+  border-bottom: 1px solid transparent;
+}
+nav.scrolled {
+  background: rgba(7,7,10,0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: var(--border);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+.nav-logo-icon {
+  width: 34px; height: 34px;
+  background: linear-gradient(135deg, #00AAFF, #0044BB);
+  border-radius: 9px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900; font-size: 14px; color: #fff;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+.nav-links a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: #fff; }
+.nav-ctas { display: flex; align-items: center; gap: 10px; }
+.nav-hamburger { display: none; flex-direction: column; gap: 5px; padding: 4px; }
+.nav-hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
+
+/* =========================================
+   HERO
+   ========================================= */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 0 60px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0,170,255,0.08);
+  border: 1px solid rgba(0,170,255,0.2);
+  border-radius: 999px;
+  padding: 7px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #60C8FF;
+  margin-bottom: 28px;
+}
+.pulse-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #00FF87;
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity:1; transform:scale(1); } 50% { opacity:0.6; transform:scale(1.3); } }
+
+.hero-title {
+  font-size: clamp(36px, 4.5vw, 58px);
+  font-weight: 900;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin-bottom: 22px;
+}
+.hero-sub {
+  font-size: 17px;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 36px;
+  max-width: 480px;
+}
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 44px;
+}
+.hero-trust {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.hero-trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.hero-trust-num { font-size: 22px; font-weight: 900; color: var(--blue); }
+.hero-divider { width: 1px; height: 28px; background: var(--border); }
+
+/* Dashboard mockup */
+.hero-visual { position: relative; }
+.hero-visual-glow {
+  position: absolute;
+  inset: -60px;
+  background: radial-gradient(ellipse at center, rgba(0,100,220,0.18), transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.dashboard {
+  background: var(--bg-2);
+  border: 1px solid rgba(0,170,255,0.15);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  animation: float 6s ease-in-out infinite;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5), 0 0 60px rgba(0,100,220,0.1);
+}
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+.dash-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.dash-title-group { display: flex; align-items: center; gap: 10px; }
+.dash-icon {
+  width: 34px; height: 34px;
+  background: linear-gradient(135deg, #00AAFF, #0044BB);
+  border-radius: 9px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+}
+.dash-title { font-size: 13px; font-weight: 700; color: #fff; }
+.dash-sub { font-size: 11px; color: var(--text-muted); }
+.dash-live {
+  background: rgba(0,170,255,0.12);
+  border: 1px solid rgba(0,170,255,0.25);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--blue);
+  letter-spacing: 0.08em;
+}
+/* Map area */
+.map-box {
+  background: #111825;
+  border-radius: 12px;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.map-grid-lines {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.map-road-h {
+  position: absolute; left: 0; right: 0;
+  background: rgba(255,255,255,0.07); height: 1px;
+}
+.map-road-v {
+  position: absolute; top: 0; bottom: 0;
+  background: rgba(255,255,255,0.07); width: 1px;
+}
+.map-pin {
+  position: absolute;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  font-weight: 900;
+  color: #fff;
+  font-size: 13px;
+}
+.map-pin-1 {
+  width: 38px; height: 38px;
+  background: linear-gradient(135deg, #00AAFF, #0055CC);
+  top: 50%; left: 50%;
+  transform: translate(-50%, -55%);
+  box-shadow: 0 0 20px rgba(0,170,255,0.6);
+  z-index: 3;
+}
+.map-pin-1::after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  border: 2px solid rgba(0,170,255,0.4);
+  animation: ping 1.8s cubic-bezier(0,0,0.2,1) infinite;
+}
+@keyframes ping { 0% { transform:scale(1);opacity:1; } 100% { transform:scale(2.2);opacity:0; } }
+.map-pin-2 { width: 28px; height: 28px; background: #333; top: 30%; left: 28%; font-size: 11px; z-index: 2; }
+.map-pin-3 { width: 28px; height: 28px; background: #333; top: 62%; right: 30%; font-size: 11px; z-index: 2; }
+.map-listing {
+  position: absolute;
+  bottom: 10px; left: 10px; right: 10px;
+  background: rgba(13,13,20,0.95);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex; align-items: center; gap: 10px;
+  backdrop-filter: blur(8px);
+}
+.map-listing-badge {
+  width: 32px; height: 32px;
+  background: rgba(0,170,255,0.15);
+  border-radius: 7px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px; font-weight: 900; color: var(--blue);
+  flex-shrink: 0;
+}
+.map-listing-name { font-size: 12px; font-weight: 700; }
+.map-listing-stars { font-size: 10px; color: var(--text-muted); }
+.map-listing-calls { font-size: 11px; font-weight: 700; color: var(--green); margin-left: auto; flex-shrink: 0; }
+
+/* Stat row */
+.dash-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 14px; }
+.dash-stat {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+.dash-stat-num { font-size: 20px; font-weight: 900; margin-bottom: 3px; }
+.dash-stat-label { font-size: 10px; color: var(--text-muted); }
+
+/* Sparkline */
+.dash-chart {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+}
+.dash-chart-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-size: 11px; }
+.dash-chart-label { color: var(--text-muted); }
+.dash-chart-growth { color: var(--green); font-weight: 700; }
+
+/* Floating badges */
+.badge-float {
+  position: absolute;
+  background: rgba(13,13,20,0.95);
+  border: 1px solid rgba(0,170,255,0.2);
+  border-radius: 12px;
+  padding: 10px 14px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  z-index: 10;
+}
+.badge-call {
+  top: -18px; right: -18px;
+  display: flex; align-items: center; gap: 10px;
+}
+.badge-rank {
+  bottom: -18px; left: -18px;
+}
+
+/* =========================================
+   TICKER
+   ========================================= */
+.ticker { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 14px 0; background: var(--bg-1); overflow: hidden; white-space: nowrap; }
+.ticker-inner { display: inline-flex; animation: ticker 28s linear infinite; }
+.ticker-inner:hover { animation-play-state: paused; }
+.ticker-item { padding: 0 28px; font-size: 13px; font-weight: 500; color: var(--text-muted); display: inline-flex; align-items: center; gap: 8px; }
+.ticker-dot { color: var(--blue); font-size: 18px; line-height: 1; }
+@keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* =========================================
+   STATS / SOCIAL PROOF
+   ========================================= */
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.stat-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 30px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.stat-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--blue), transparent);
+}
+.stat-num { font-size: clamp(30px, 3.5vw, 42px); font-weight: 900; line-height: 1; margin-bottom: 8px; }
+.stat-label { font-size: 13px; color: var(--text-muted); font-weight: 500; }
+
+.logos-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; opacity: 0.35; margin-top: 56px; }
+.logo-pill {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #888;
+}
+
+/* =========================================
+   SERVICES
+   ========================================= */
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.service-card { padding: 28px; }
+.service-icon {
+  width: 48px; height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(0,170,255,0.12), rgba(0,80,200,0.08));
+  border: 1px solid rgba(0,170,255,0.18);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.service-title { font-size: 17px; font-weight: 800; margin-bottom: 10px; }
+.service-text { font-size: 14px; color: var(--text-muted); line-height: 1.7; margin-bottom: 18px; }
+.service-link { font-size: 13px; font-weight: 700; color: var(--blue); display: inline-flex; align-items: center; gap: 4px; transition: gap 0.2s; }
+.service-link:hover { gap: 8px; }
+
+/* =========================================
+   RESULTS
+   ========================================= */
+.results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.result-card { padding: 28px; }
+.result-header { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+.result-logo {
+  width: 46px; height: 46px;
+  border-radius: 12px;
+  background: rgba(0,170,255,0.1);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; flex-shrink: 0;
+}
+.result-name { font-size: 15px; font-weight: 800; }
+.result-loc { font-size: 12px; color: var(--text-muted); }
+.before-after { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
+.ba-box {
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+.ba-before { background: rgba(255,50,50,0.07); border: 1px solid rgba(255,50,50,0.15); }
+.ba-after { background: rgba(0,255,135,0.07); border: 1px solid rgba(0,255,135,0.15); }
+.ba-label { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; margin-bottom: 4px; }
+.ba-before .ba-label { color: #FF6666; }
+.ba-after .ba-label { color: var(--green); }
+.ba-value { font-size: 26px; font-weight: 900; }
+.ba-before .ba-value { color: #FF6666; }
+.ba-after .ba-value { color: var(--green); }
+.ba-sub { font-size: 10px; color: var(--text-muted); }
+.result-metrics { border-top: 1px solid var(--border); padding-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.result-metric { display: flex; justify-content: space-between; font-size: 13px; }
+.result-metric-label { color: var(--text-muted); }
+.result-metric-value { font-weight: 700; }
+
+/* =========================================
+   COMPARISON TABLE
+   ========================================= */
+.compare-table { width: 100%; border-collapse: collapse; }
+.compare-table th { padding: 16px 24px; font-size: 13px; }
+.compare-table td { padding: 16px 24px; font-size: 14px; border-top: 1px solid var(--border); }
+.compare-table tr:hover td { background: rgba(255,255,255,0.02); }
+.th-us {
+  background: rgba(0,170,255,0.08);
+  border: 1px solid rgba(0,170,255,0.2);
+  border-radius: 10px;
+  padding: 14px 28px !important;
+  display: inline-block;
+  text-align: center;
+}
+.th-them { color: var(--text-muted); font-weight: 600; text-align: center; }
+.chk-yes { color: #00FF87; font-weight: 700; }
+.chk-yes::before { content: '✓ '; }
+.chk-no { color: var(--text-dim); }
+.chk-no::before { content: '✗ '; }
+.compare-feature { color: #ccc; font-weight: 500; }
+
+/* =========================================
+   PROCESS
+   ========================================= */
+.process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; position: relative; }
+.process-grid::before {
+  content: '';
+  position: absolute;
+  top: 28px; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,170,255,0.3), rgba(0,170,255,0.3), transparent);
+}
+.process-step { text-align: center; position: relative; z-index: 1; }
+.process-num-wrap { position: relative; display: inline-flex; margin-bottom: 22px; }
+.process-icon-box {
+  width: 58px; height: 58px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(0,170,255,0.12), rgba(0,80,200,0.06));
+  border: 1px solid rgba(0,170,255,0.22);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px;
+}
+.process-badge {
+  position: absolute;
+  top: -8px; right: -8px;
+  width: 24px; height: 24px;
+  background: linear-gradient(135deg, #00AAFF, #0044BB);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 900;
+}
+.process-title { font-size: 16px; font-weight: 800; margin-bottom: 10px; }
+.process-text { font-size: 13px; color: var(--text-muted); line-height: 1.7; }
+
+/* =========================================
+   TESTIMONIALS
+   ========================================= */
+.testimonial-overflow { overflow: hidden; }
+.testimonial-track { display: flex; gap: 22px; transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.tcard {
+  flex-shrink: 0;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: border-color 0.3s;
+}
+.tcard:hover { border-color: rgba(0,170,255,0.25); }
+.tcard-stars { margin-bottom: 16px; }
+.tcard-quote { font-size: 14px; color: #b0b0c8; line-height: 1.75; margin-bottom: 22px; }
+.tcard-author { display: flex; align-items: center; gap: 12px; }
+.tcard-avatar {
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900; font-size: 16px; color: #fff;
+  flex-shrink: 0;
+}
+.tcard-name { font-size: 14px; font-weight: 700; }
+.tcard-biz { font-size: 12px; color: var(--text-muted); }
+.tcard-result { margin-left: auto; font-size: 12px; font-weight: 800; color: var(--green); flex-shrink: 0; }
+.carousel-controls { display: flex; justify-content: center; align-items: center; gap: 14px; margin-top: 36px; }
+.carousel-btn {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s;
+  cursor: pointer;
+  color: #fff;
+}
+.carousel-btn:hover { border-color: rgba(0,170,255,0.4); background: rgba(0,170,255,0.08); }
+.carousel-dots { display: flex; gap: 7px; }
+.dot { width: 7px; height: 7px; border-radius: 999px; background: #333; cursor: pointer; transition: all 0.25s; border: none; }
+.dot.active { background: var(--blue); width: 22px; }
+
+/* =========================================
+   FAQ
+   ========================================= */
+.faq-list { max-width: 720px; margin: 0 auto; }
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: border-color 0.3s;
+}
+.faq-item.open { border-color: rgba(0,170,255,0.3); }
+.faq-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 22px;
+  text-align: left;
+  background: var(--bg-2);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  gap: 16px;
+}
+.faq-btn:hover { background: var(--bg-3); }
+.faq-arrow { flex-shrink: 0; color: var(--blue); transition: transform 0.3s; }
+.faq-item.open .faq-arrow { transform: rotate(180deg); }
+.faq-body {
+  max-height: 0;
+  overflow: hidden;
+  background: var(--bg-2);
+  transition: max-height 0.4s ease, padding 0.3s;
+}
+.faq-item.open .faq-body { max-height: 220px; }
+.faq-body p { padding: 0 22px 20px; font-size: 14px; color: var(--text-muted); line-height: 1.75; }
+
+/* =========================================
+   CTA SECTION
+   ========================================= */
+.cta-section {
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+.cta-bg {
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 50% 50%, rgba(0,80,200,0.18), transparent 70%);
+}
+.cta-box {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(0,170,255,0.15);
+  border-radius: 24px;
+  padding: 72px 48px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.cta-title { font-size: clamp(30px, 4vw, 50px); font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 18px; }
+.cta-sub { font-size: 17px; color: var(--text-muted); margin-bottom: 36px; max-width: 520px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+.cta-ctas { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 28px; }
+.cta-reassurance { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; font-size: 13px; color: var(--text-dim); }
+.cta-reassurance span::before { content: '✓ '; color: var(--green); }
+
+/* =========================================
+   AUDIT / FORM
+   ========================================= */
+.form-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  max-width: 660px;
+  margin: 0 auto;
+}
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-group { margin-bottom: 16px; }
+.form-label { display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 7px; }
+.form-input, .form-select {
+  width: 100%;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  transition: border-color 0.2s;
+  outline: none;
+}
+.form-input::placeholder { color: var(--text-dim); }
+.form-input:focus, .form-select:focus { border-color: rgba(0,170,255,0.4); }
+.form-select { color: var(--text-muted); appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; }
+.form-select option { background: #1a1a2e; }
+.form-success { text-align: center; padding: 40px 0; display: none; }
+
+/* =========================================
+   FOOTER
+   ========================================= */
+.footer { padding: 72px 0 32px; border-top: 1px solid var(--border); }
+.footer-grid { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1.2fr; gap: 48px; margin-bottom: 56px; }
+.footer-heading { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #fff; margin-bottom: 20px; }
+.footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.footer-links a { font-size: 14px; color: var(--text-muted); transition: color 0.2s; }
+.footer-links a:hover { color: var(--blue); }
+.footer-desc { font-size: 14px; color: var(--text-muted); line-height: 1.75; margin-bottom: 22px; }
+.footer-socials { display: flex; gap: 8px; }
+.footer-social {
+  width: 36px; height: 36px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; color: var(--text-muted);
+  transition: all 0.2s;
+}
+.footer-social:hover { color: var(--blue); border-color: rgba(0,170,255,0.3); }
+.footer-contact-item { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: var(--text-muted); margin-bottom: 12px; }
+.footer-contact-item a { color: var(--text-muted); transition: color 0.2s; }
+.footer-contact-item a:hover { color: var(--blue); }
+.footer-bottom { border-top: 1px solid var(--border); padding-top: 28px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.footer-copy { font-size: 13px; color: var(--text-dim); }
+.footer-legal { display: flex; gap: 20px; }
+.footer-legal a { font-size: 13px; color: var(--text-dim); transition: color 0.2s; }
+.footer-legal a:hover { color: var(--text-muted); }
+
+/* =========================================
+   FLOAT BUTTON (mobile)
+   ========================================= */
+.float-btn { display: none; }
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .results-grid { grid-template-columns: repeat(2, 1fr); }
+  .process-grid { grid-template-columns: repeat(2, 1fr); }
+  .process-grid::before { display: none; }
+  .footer-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  .section { padding: 64px 0; }
+  .hero { padding: 90px 0 48px; min-height: auto; }
+  .hero-grid { grid-template-columns: 1fr; gap: 48px; }
+  .hero-visual { display: none; }
+  .hero-title { font-size: clamp(30px, 8vw, 46px); }
+  .nav-links, .nav-ctas .btn-outline { display: none; }
+  .services-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .results-grid { grid-template-columns: 1fr; }
+  .process-grid { grid-template-columns: 1fr; gap: 24px; }
+  .process-step { text-align: left; display: flex; align-items: flex-start; gap: 16px; }
+  .process-num-wrap { flex-shrink: 0; margin-bottom: 0; }
+  .form-row { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  .cta-box { padding: 40px 24px; }
+  .compare-table { font-size: 12px; }
+  .compare-table td, .compare-table th { padding: 12px 14px; }
+  .nav-hamburger { display: flex; }
+  .float-btn { display: flex; position: fixed; bottom: 20px; right: 20px; z-index: 999; }
+}
+@media (max-width: 480px) {
+  .hero-ctas { flex-direction: column; }
+  .hero-ctas .btn { width: 100%; }
+  .cta-ctas { flex-direction: column; align-items: center; }
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- =================== NAV =================== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-icon">R</div>
+      Rank<span class="grad">Local</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-ctas">
+      <a href="#audit" class="btn btn-outline" style="padding:10px 18px;font-size:13px;">Free SEO Audit</a>
+      <a href="#contact" class="btn btn-primary" style="padding:10px 18px;font-size:13px;"><span>📞 Book Free Call</span></a>
+    </div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- =================== HERO =================== -->
+<section class="hero" id="hero">
+  <div class="orb" style="width:700px;height:700px;top:-200px;left:-180px;background:radial-gradient(circle,rgba(0,80,220,0.16),transparent 70%);"></div>
+  <div class="orb" style="width:500px;height:500px;top:20%;right:-150px;background:radial-gradient(circle,rgba(0,150,255,0.1),transparent 70%);"></div>
+  <div class="container">
+    <div class="hero-grid">
+      <!-- Copy -->
+      <div>
+        <div class="hero-badge">
+          <div class="pulse-dot"></div>
+          Now Accepting New Clients — Limited Spots
+        </div>
+        <h1 class="hero-title">
+          Get More Calls<br>
+          From <span class="grad">Google Maps</span>
+        </h1>
+        <p class="hero-sub">
+          We help local service businesses dominate Google Maps, outrank their competitors, and generate a flood of inbound calls — without wasting a dollar on ads that don't convert.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary glow" style="font-size:16px;padding:15px 30px;">
+            <span>🚀 Book Free Strategy Call</span>
+          </a>
+          <a href="#audit" class="btn btn-outline" style="font-size:16px;padding:15px 30px;">
+            Get Free SEO Audit →
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="hero-trust-item">
+            <span class="stars">★★★★★</span>
+            <span>5.0 on Google</span>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="hero-trust-item">
+            <span class="hero-trust-num">100+</span>
+            <span>businesses ranked</span>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="hero-trust-item">
+            <span class="hero-trust-num">$12M+</span>
+            <span>revenue generated</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual -->
+      <div class="hero-visual">
+        <div class="hero-visual-glow"></div>
+        <!-- Floating badge: call -->
+        <div class="badge-float badge-call">
+          <span style="font-size:22px;">📞</span>
+          <div>
+            <div style="font-size:11px;color:var(--text-muted);">New inbound call</div>
+            <div style="font-size:14px;font-weight:800;">+1 (555) 892-3471</div>
+          </div>
+        </div>
+        <!-- Dashboard -->
+        <div class="dashboard">
+          <div class="dash-header">
+            <div class="dash-title-group">
+              <div class="dash-icon">📍</div>
+              <div>
+                <div class="dash-title">ABC Plumbing Co.</div>
+                <div class="dash-sub">Google Maps Rankings</div>
+              </div>
+            </div>
+            <div class="dash-live">LIVE</div>
+          </div>
+          <!-- Map -->
+          <div class="map-box">
+            <div class="map-grid-lines"></div>
+            <div class="map-road-h" style="top:35%"></div>
+            <div class="map-road-h" style="top:65%"></div>
+            <div class="map-road-v" style="left:33%"></div>
+            <div class="map-road-v" style="left:66%"></div>
+            <div class="map-pin map-pin-1">1</div>
+            <div class="map-pin map-pin-2">2</div>
+            <div class="map-pin map-pin-3">3</div>
+            <div class="map-listing">
+              <div class="map-listing-badge">#1</div>
+              <div>
+                <div class="map-listing-name">ABC Plumbing Co.</div>
+                <div class="map-listing-stars">★★★★★ 4.9 · 284 reviews · Open now</div>
+              </div>
+              <div class="map-listing-calls">+312% calls</div>
+            </div>
+          </div>
+          <!-- Stats -->
+          <div class="dash-stats">
+            <div class="dash-stat">
+              <div class="dash-stat-num grad">#1</div>
+              <div class="dash-stat-label">Maps Rank</div>
+            </div>
+            <div class="dash-stat">
+              <div class="dash-stat-num" style="color:var(--green);">+312%</div>
+              <div class="dash-stat-label">More Calls</div>
+            </div>
+            <div class="dash-stat">
+              <div class="dash-stat-num">47</div>
+              <div class="dash-stat-label">Calls/Day</div>
+            </div>
+          </div>
+          <!-- Chart -->
+          <div class="dash-chart">
+            <div class="dash-chart-header">
+              <span class="dash-chart-label">Monthly Calls</span>
+              <span class="dash-chart-growth">↑ 312% vs last year</span>
+            </div>
+            <svg viewBox="0 0 280 52" width="100%" height="52" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="cg" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#00AAFF" stop-opacity="0.25"/>
+                  <stop offset="100%" stop-color="#00AAFF" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <path d="M0,50 C40,48 60,44 80,38 C100,32 120,24 150,16 C175,10 210,5 280,2 L280,52 L0,52Z" fill="url(#cg)"/>
+              <path d="M0,50 C40,48 60,44 80,38 C100,32 120,24 150,16 C175,10 210,5 280,2" fill="none" stroke="#00AAFF" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="280" cy="2" r="4" fill="#00AAFF"/>
+            </svg>
+          </div>
+        </div>
+        <!-- Floating badge: rank -->
+        <div class="badge-float badge-rank">
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:5px;">Ranking jumped today</div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span style="color:#FF6666;font-weight:800;font-size:16px;">#14</span>
+            <span style="color:var(--text-dim);">→</span>
+            <span style="color:var(--green);font-weight:900;font-size:22px;">#1</span>
+            <span style="font-size:14px;">⬆️</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== TICKER =================== -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span class="ticker-item"><span class="ticker-dot">·</span> Local SEO</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Google Maps Ranking</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Pay-Per-Call Lead Gen</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Reputation Management</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Google Business Profile</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Website SEO</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Citation Building</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Maps 3-Pack Domination</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Local SEO</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Google Maps Ranking</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Pay-Per-Call Lead Gen</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Reputation Management</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Google Business Profile</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Website SEO</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Citation Building</span>
+    <span class="ticker-item"><span class="ticker-dot">·</span> Maps 3-Pack Domination</span>
+  </div>
+</div>
+
+<!-- =================== STATS / SOCIAL PROOF =================== -->
+<section class="section">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;" class="reveal">
+      <div class="section-label">Real Results For Real Businesses</div>
+      <h2 class="section-heading">Numbers That Speak<br><span class="grad">For Themselves</span></h2>
+      <p class="section-sub" style="margin:0 auto;">We don't just rank websites — we build revenue engines for local service businesses across every major vertical.</p>
+    </div>
+    <div class="stats-grid reveal">
+      <div class="stat-card">
+        <div class="stat-num grad" data-count="300">0%</div>
+        <div class="stat-label">Average call growth</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num grad" data-count="100">0</div>
+        <div class="stat-label">Businesses ranked #1</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color:#fff;">$12M+</div>
+        <div class="stat-label">Revenue generated</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" style="color:#fff;">97%</div>
+        <div class="stat-label">Client retention rate</div>
+      </div>
+    </div>
+    <div class="logos-row reveal">
+      <div class="logo-pill">🔧 ProPlumb Co.</div>
+      <div class="logo-pill">🦷 Smile Dental</div>
+      <div class="logo-pill">⚖️ Apex Law Group</div>
+      <div class="logo-pill">🏠 TopRoof Roofing</div>
+      <div class="logo-pill">❄️ Arctic HVAC</div>
+      <div class="logo-pill">✨ Glow Med Spa</div>
+      <div class="logo-pill">⚡ Prime Electric</div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== SERVICES =================== -->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;" class="reveal">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-heading">Everything You Need To<br><span class="grad">Own Your Local Market</span></h2>
+      <p class="section-sub" style="margin:0 auto;">A complete local growth system designed to put your business at the top of Google Maps and keep your phone ringing all day.</p>
+    </div>
+    <div class="services-grid">
+      <div class="card service-card reveal">
+        <div class="service-icon">📍</div>
+        <div class="service-title">Local SEO</div>
+        <p class="service-text">Full local SEO strategy — keyword research, on-page optimization, local landing pages, and NAP consistency — built to dominate your entire service area.</p>
+        <a href="#contact" class="service-link">Get started →</a>
+      </div>
+      <div class="card service-card reveal">
+        <div class="service-icon">🏢</div>
+        <div class="service-title">Google Business Profile</div>
+        <p class="service-text">Complete GBP audit and rebuild — categories, services, photos, posts, Q&A, and the technical signals that move the needle in the Maps 3-Pack.</p>
+        <a href="#contact" class="service-link">Get started →</a>
+      </div>
+      <div class="card service-card reveal">
+        <div class="service-icon">🗺️</div>
+        <div class="service-title">Google Maps Ranking</div>
+        <p class="service-text">We engineer your Maps presence with geo-targeted signals, review velocity, proximity optimization, and authority links so you land in the 3-Pack and stay there.</p>
+        <a href="#contact" class="service-link">Get started →</a>
+      </div>
+      <div class="card service-card reveal">
+        <div class="service-icon">📞</div>
+        <div class="service-title">Pay-Per-Call Lead Gen</div>
+        <p class="service-text">You only pay when the phone rings. We build and rank lead-gen assets that drive exclusive, high-intent inbound calls to your business — zero wasted spend.</p>
+        <a href="#contact" class="service-link">Get started →</a>
+      </div>
+      <div class="card service-card reveal">
+        <div class="service-icon">⭐</div>
+        <div class="service-title">Reputation Management</div>
+        <p class="service-text">Automated review generation, real-time monitoring, and strategic response management. Build a 5-star reputation that converts browsers into callers.</p>
+        <a href="#contact" class="service-link">Get started →</a>
+      </div>
+      <div class="card service-card reveal">
+        <div class="service-icon">🌐</div>
+        <div class="service-title">Website SEO</div>
+        <p class="service-text">Technical SEO, speed optimization, schema markup, Core Web Vitals, and content strategy that ranks your site for the high-intent local searches that convert.</p>
+        <a href="#contact" class="service-link">Get started →</a>
+      </div>
+      <div class="card service-card reveal" style="grid-column: 1 / -1; max-width: 380px; margin: 0 auto;">
+        <div class="service-icon">🔗</div>
+        <div class="service-title">Citation Building</div>
+        <p class="service-text">Consistent NAP citations across 100+ top directories, industry platforms, and local data aggregators — building the authority foundation Google rewards.</p>
+        <a href="#contact" class="service-link">Get started →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== RESULTS =================== -->
+<section class="section" id="results">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;" class="reveal">
+      <div class="section-label">Client Results</div>
+      <h2 class="section-heading">Real Rankings.<br><span class="grad">Real Revenue.</span></h2>
+    </div>
+    <div class="results-grid">
+      <div class="card result-card reveal">
+        <div class="result-header">
+          <div class="result-logo">🔧</div>
+          <div><div class="result-name">ProPlumb Co.</div><div class="result-loc">Plumbing · Dallas, TX</div></div>
+        </div>
+        <div class="before-after">
+          <div class="ba-box ba-before">
+            <div class="ba-label">BEFORE</div>
+            <div class="ba-value">#14</div>
+            <div class="ba-sub">Maps Position</div>
+          </div>
+          <div class="ba-box ba-after">
+            <div class="ba-label">AFTER</div>
+            <div class="ba-value">#1</div>
+            <div class="ba-sub">Maps Position</div>
+          </div>
+        </div>
+        <div class="result-metrics">
+          <div class="result-metric"><span class="result-metric-label">Monthly calls</span><span class="result-metric-value">12 → 47/day</span></div>
+          <div class="result-metric"><span class="result-metric-label">Revenue growth</span><span class="result-metric-value" style="color:var(--green);">+$28,000/mo</span></div>
+          <div class="result-metric"><span class="result-metric-label">New reviews</span><span class="result-metric-value">+147 in 90 days</span></div>
+        </div>
+      </div>
+      <div class="card result-card reveal">
+        <div class="result-header">
+          <div class="result-logo">🦷</div>
+          <div><div class="result-name">Smile Dental Group</div><div class="result-loc">Dental · Phoenix, AZ</div></div>
+        </div>
+        <div class="before-after">
+          <div class="ba-box ba-before">
+            <div class="ba-label">BEFORE</div>
+            <div class="ba-value">#9</div>
+            <div class="ba-sub">Maps Position</div>
+          </div>
+          <div class="ba-box ba-after">
+            <div class="ba-label">AFTER</div>
+            <div class="ba-value">#1</div>
+            <div class="ba-sub">Maps Position</div>
+          </div>
+        </div>
+        <div class="result-metrics">
+          <div class="result-metric"><span class="result-metric-label">New patients/mo</span><span class="result-metric-value">18 → 89</span></div>
+          <div class="result-metric"><span class="result-metric-label">Revenue growth</span><span class="result-metric-value" style="color:var(--green);">+$52,000/mo</span></div>
+          <div class="result-metric"><span class="result-metric-label">Star rating</span><span class="result-metric-value">3.8 → 4.9 ★</span></div>
+        </div>
+      </div>
+      <div class="card result-card reveal">
+        <div class="result-header">
+          <div class="result-logo">❄️</div>
+          <div><div class="result-name">Arctic HVAC</div><div class="result-loc">HVAC · Atlanta, GA</div></div>
+        </div>
+        <div class="before-after">
+          <div class="ba-box ba-before">
+            <div class="ba-label">BEFORE</div>
+            <div class="ba-value">#11</div>
+            <div class="ba-sub">Maps Position</div>
+          </div>
+          <div class="ba-box ba-after">
+            <div class="ba-label">AFTER</div>
+            <div class="ba-value">#2</div>
+            <div class="ba-sub">Maps Position</div>
+          </div>
+        </div>
+        <div class="result-metrics">
+          <div class="result-metric"><span class="result-metric-label">Monthly calls</span><span class="result-metric-value">8 → 34/day</span></div>
+          <div class="result-metric"><span class="result-metric-label">Revenue growth</span><span class="result-metric-value" style="color:var(--green);">+$41,000/mo</span></div>
+          <div class="result-metric"><span class="result-metric-label">Timeline</span><span class="result-metric-value">Results in 60 days</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== WHY CHOOSE US =================== -->
+<section class="section section-alt">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;" class="reveal">
+      <div class="section-label">Why RankLocal</div>
+      <h2 class="section-heading">We're Not A<br><span class="grad">Generic Marketing Agency</span></h2>
+    </div>
+    <div class="reveal" style="overflow-x:auto;">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th style="width:40%;text-align:left;padding:16px 24px;"></th>
+            <th style="width:30%;text-align:center;">
+              <div class="th-us">
+                <div style="color:var(--blue);font-size:16px;font-weight:900;">RankLocal</div>
+                <div style="color:rgba(0,170,255,0.55);font-size:11px;margin-top:2px;">Local SEO Specialists</div>
+              </div>
+            </th>
+            <th style="width:30%;text-align:center;" class="th-them">
+              <div style="display:inline-block;padding:14px 28px;">
+                <div style="font-size:15px;">Traditional Agency</div>
+                <div style="font-size:11px;margin-top:2px;color:var(--text-dim);">Full-Service Marketing</div>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="compare-feature">Google Maps 3-Pack focus</td><td style="text-align:center;" class="chk-yes">Our specialty</td><td style="text-align:center;" class="chk-no">Rarely specialized</td></tr>
+          <tr><td class="compare-feature">Transparent ranking reports</td><td style="text-align:center;" class="chk-yes">Weekly live dashboard</td><td style="text-align:center;" class="chk-no">Monthly PDFs</td></tr>
+          <tr><td class="compare-feature">ROI-focused strategy</td><td style="text-align:center;" class="chk-yes">Calls & revenue tracked</td><td style="text-align:center;" class="chk-no">Impressions & clicks</td></tr>
+          <tr><td class="compare-feature">Time to first results</td><td style="text-align:center;" class="chk-yes">30–60 days</td><td style="text-align:center;" class="chk-no">6–12 months</td></tr>
+          <tr><td class="compare-feature">Local service business expertise</td><td style="text-align:center;" class="chk-yes">100% focus</td><td style="text-align:center;" class="chk-no">One of many niches</td></tr>
+          <tr><td class="compare-feature">GBP suspension recovery</td><td style="text-align:center;" class="chk-yes">Always included</td><td style="text-align:center;" class="chk-no">Extra cost</td></tr>
+          <tr><td class="compare-feature">Pay-per-call options</td><td style="text-align:center;" class="chk-yes">Available</td><td style="text-align:center;" class="chk-no">Not offered</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- =================== PROCESS =================== -->
+<section class="section" id="process">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:64px;" class="reveal">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-heading">From Invisible To<br><span class="grad">#1 On Google Maps</span></h2>
+      <p class="section-sub" style="margin:0 auto;">A proven 4-step system that's ranked 100+ local businesses in competitive markets across the US.</p>
+    </div>
+    <div class="process-grid reveal">
+      <div class="process-step">
+        <div class="process-num-wrap">
+          <div class="process-icon-box">🔍</div>
+          <div class="process-badge">1</div>
+        </div>
+        <div>
+          <div class="process-title">Deep Audit</div>
+          <p class="process-text">We analyze your GBP, website, citations, reviews, and competitors to find every gap and opportunity holding you back from the top.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num-wrap">
+          <div class="process-icon-box">⚙️</div>
+          <div class="process-badge">2</div>
+        </div>
+        <div>
+          <div class="process-title">Full Optimization</div>
+          <p class="process-text">We rebuild your GBP, fix citations, optimize your website, and launch a review generation system that stacks authority fast.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num-wrap">
+          <div class="process-icon-box">📈</div>
+          <div class="process-badge">3</div>
+        </div>
+        <div>
+          <div class="process-title">Rank & Dominate</div>
+          <p class="process-text">Authority links, local signals, and ongoing content push you to the top of the Maps 3-Pack for every profitable keyword in your area.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num-wrap">
+          <div class="process-icon-box">📞</div>
+          <div class="process-badge">4</div>
+        </div>
+        <div>
+          <div class="process-title">Generate Calls</div>
+          <p class="process-text">Watch your phone ring. We track every call, refine the strategy monthly, and keep optimizing so your growth never plateaus.</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:56px;" class="reveal">
+      <a href="#contact" class="btn btn-primary glow" style="font-size:16px;padding:15px 34px;"><span>🚀 Start My Growth Plan</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- =================== TESTIMONIALS =================== -->
+<section class="section section-alt" id="testimonials">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;" class="reveal">
+      <div class="section-label">Client Reviews</div>
+      <h2 class="section-heading">Local Business Owners<br><span class="grad">Love The Results</span></h2>
+    </div>
+    <div class="testimonial-overflow" id="tOuter">
+      <div class="testimonial-track" id="tTrack">
+        <div class="tcard" id="tsize">
+          <div class="tcard-stars stars">★★★★★</div>
+          <p class="tcard-quote">"We went from nowhere on Google Maps to the #1 result for 'plumber Dallas' in under 60 days. My phone rings constantly now. RankLocal is the real deal — no fluff, just results."</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="background:linear-gradient(135deg,#0088DD,#0044AA);">M</div>
+            <div><div class="tcard-name">Mike R.</div><div class="tcard-biz">ProPlumb Co. · Dallas, TX</div></div>
+            <div class="tcard-result">+312% calls</div>
+          </div>
+        </div>
+        <div class="tcard">
+          <div class="tcard-stars stars">★★★★★</div>
+          <p class="tcard-quote">"I was skeptical after getting burned by two other agencies. But RankLocal showed me week-by-week ranking movement, and my new patient bookings doubled in the first 3 months."</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="background:linear-gradient(135deg,#8844DD,#5522AA);">S</div>
+            <div><div class="tcard-name">Dr. Sarah K.</div><div class="tcard-biz">Smile Dental · Phoenix, AZ</div></div>
+            <div class="tcard-result">+395% leads</div>
+          </div>
+        </div>
+        <div class="tcard">
+          <div class="tcard-stars stars">★★★★★</div>
+          <p class="tcard-quote">"Best investment I've made for my HVAC company. We're top 3 on Maps across the whole metro. That's $40,000 extra per month in booked jobs coming directly from Google."</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="background:linear-gradient(135deg,#00AAFF,#0044BB);">J</div>
+            <div><div class="tcard-name">James T.</div><div class="tcard-biz">Arctic HVAC · Atlanta, GA</div></div>
+            <div class="tcard-result">+$40k/mo</div>
+          </div>
+        </div>
+        <div class="tcard">
+          <div class="tcard-stars stars">★★★★★</div>
+          <p class="tcard-quote">"As a roofing company we live and die by calls. RankLocal got us to #1 for 'roofing company near me' in two target cities. We had to hire 3 more crews to handle the volume."</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="background:linear-gradient(135deg,#FF6622,#CC3300);">D</div>
+            <div><div class="tcard-name">Dave M.</div><div class="tcard-biz">TopRoof Roofing · Houston, TX</div></div>
+            <div class="tcard-result">3 new hires</div>
+          </div>
+        </div>
+        <div class="tcard">
+          <div class="tcard-stars stars">★★★★★</div>
+          <p class="tcard-quote">"My law firm was barely visible online. Within 90 days we were ranking #1 for personal injury attorney in our city. My consultation requests went up 280%. Incredible ROI."</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="background:linear-gradient(135deg,#00CC77,#009955);">A</div>
+            <div><div class="tcard-name">Amanda L.</div><div class="tcard-biz">Apex Law Group · Miami, FL</div></div>
+            <div class="tcard-result">+280% consults</div>
+          </div>
+        </div>
+        <div class="tcard">
+          <div class="tcard-stars stars">★★★★★</div>
+          <p class="tcard-quote">"Our med spa was drowning in competitors. RankLocal's reputation strategy got us to 4.9 stars and their GBP work put us in the 3-Pack. Bookings are at an all-time high."</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="background:linear-gradient(135deg,#FF44AA,#CC1188);">C</div>
+            <div><div class="tcard-name">Christina V.</div><div class="tcard-biz">Glow Med Spa · Scottsdale, AZ</div></div>
+            <div class="tcard-result">All-time high</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn" id="tPrev" aria-label="Previous">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="carousel-dots" id="tDots"></div>
+      <button class="carousel-btn" id="tNext" aria-label="Next">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- =================== FAQ =================== -->
+<section class="section" id="faq">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;" class="reveal">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-heading">Got Questions?<br><span class="grad">We Have Answers.</span></h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-btn">
+          How long does it take to rank on Google Maps?
+          <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-body"><p>Most clients see meaningful ranking movement in 30–45 days and reach the top 3 within 60–90 days in moderate competition markets. Highly competitive cities may take 3–4 months. We track your progress weekly so you always know exactly where you stand.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          What types of businesses do you work with?
+          <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-body"><p>We specialize exclusively in local service businesses — plumbers, roofers, HVAC companies, electricians, dentists, lawyers, med spas, general contractors, and home service companies. If your business relies on local customers finding you on Google, we can help.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          Do you guarantee #1 rankings?
+          <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-body"><p>No ethical SEO company can guarantee specific rankings — Google controls that. What we guarantee is a proven process, full transparency, and demonstrated results. Over 90% of our clients reach the top 3 within 90 days. We'll show you our full track record before you commit to anything.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          How does the pay-per-call model work?
+          <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-body"><p>We build and rank lead-gen websites that drive calls directly to your business. You pay a flat fee per qualified call — no retainer, no monthly fee. It's pure performance marketing: you only pay when your phone rings with a real, vetted lead.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          What's included in the free SEO audit?
+          <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-body"><p>Your free audit includes a full GBP analysis, Maps 3-Pack ranking assessment, citation audit, competitor comparison, website technical SEO review, and a custom roadmap showing exactly what it will take to rank you #1 in your specific market.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">
+          Do you work in any city?
+          <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-body"><p>Yes — we work with local businesses across the entire US. Whether you're in a small town or a hyper-competitive market like NYC, LA, or Miami, our strategies are tailored to your specific market's competition level and keyword opportunity.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== CTA =================== -->
+<section class="cta-section" id="contact">
+  <div class="cta-bg"></div>
+  <div class="container">
+    <div class="cta-box reveal">
+      <div class="section-label" style="margin-bottom:24px;display:inline-flex;">
+        <div class="pulse-dot"></div>
+        Free — No Obligation
+      </div>
+      <h2 class="cta-title">Ready To Dominate<br><span class="grad">Google Maps?</span></h2>
+      <p class="cta-sub">Book a free 30-minute strategy call. We'll audit your local presence, show you exactly where you're losing calls to competitors, and hand you a custom ranking roadmap.</p>
+      <div class="cta-ctas">
+        <a href="tel:+15555551234" class="btn btn-primary glow" style="font-size:17px;padding:16px 36px;"><span>📞 Book Free Strategy Call</span></a>
+        <a href="#audit" class="btn btn-outline" style="font-size:17px;padding:16px 36px;">Get Free SEO Audit</a>
+      </div>
+      <div class="cta-reassurance">
+        <span>No credit card required</span>
+        <span>30-minute call</span>
+        <span>Custom ranking report included</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== AUDIT / FORM =================== -->
+<section class="section section-alt" id="audit">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:40px;" class="reveal">
+      <h2 class="section-heading">Get Your <span class="grad">Free SEO Audit</span></h2>
+      <p class="section-sub" style="margin:0 auto;font-size:15px;">Fill in your details and we'll send a complete local SEO analysis within 24 hours — no fluff, just actionable insights.</p>
+    </div>
+    <div class="form-card reveal">
+      <form id="auditForm" onsubmit="formSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Business Name</label>
+            <input class="form-input" type="text" placeholder="ABC Plumbing Co." required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input class="form-input" type="text" placeholder="John Smith" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Phone Number</label>
+            <input class="form-input" type="tel" placeholder="(555) 555-5555" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Industry</label>
+            <select class="form-select form-input" required>
+              <option value="">Select your industry</option>
+              <option>Plumbing</option><option>HVAC</option><option>Roofing</option>
+              <option>Electrical</option><option>Dental</option><option>Legal</option>
+              <option>Med Spa</option><option>General Contractor</option><option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Website URL</label>
+          <input class="form-input" type="url" placeholder="https://yourwebsite.com">
+        </div>
+        <button type="submit" class="btn btn-primary glow" style="width:100%;font-size:16px;padding:15px;"><span>🚀 Get My Free SEO Audit</span></button>
+        <p style="text-align:center;font-size:12px;color:var(--text-dim);margin-top:12px;">We respect your privacy. No spam, ever.</p>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <div style="font-size:48px;margin-bottom:16px;">🎉</div>
+        <h3 style="font-size:22px;font-weight:800;margin-bottom:8px;">You're all set!</h3>
+        <p style="color:var(--text-muted);font-size:15px;">We'll email your custom SEO audit within 24 hours. We may also call to book your strategy session.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== FOOTER =================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="#" class="nav-logo" style="display:inline-flex;margin-bottom:16px;">
+          <div class="nav-logo-icon">R</div>
+          Rank<span class="grad">Local</span>
+        </a>
+        <p class="footer-desc">Helping local service businesses dominate Google Maps and generate more inbound calls — since 2019.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social">in</a>
+          <a href="#" class="footer-social">𝕏</a>
+          <a href="#" class="footer-social">f</a>
+          <a href="#" class="footer-social">▶</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="#services">Local SEO</a></li>
+          <li><a href="#services">Google Business Profile</a></li>
+          <li><a href="#services">Google Maps Ranking</a></li>
+          <li><a href="#services">Pay-Per-Call Lead Gen</a></li>
+          <li><a href="#services">Reputation Management</a></li>
+          <li><a href="#services">Website SEO</a></li>
+          <li><a href="#services">Citation Building</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">We Serve</div>
+        <ul class="footer-links">
+          <li><a href="#contact">Plumbers</a></li>
+          <li><a href="#contact">HVAC Companies</a></li>
+          <li><a href="#contact">Roofers</a></li>
+          <li><a href="#contact">Dentists</a></li>
+          <li><a href="#contact">Lawyers</a></li>
+          <li><a href="#contact">Med Spas</a></li>
+          <li><a href="#contact">General Contractors</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Contact</div>
+        <div class="footer-contact-item">
+          <span style="color:var(--blue);flex-shrink:0;">📞</span>
+          <a href="tel:+15555551234">(555) 555-1234</a>
+        </div>
+        <div class="footer-contact-item">
+          <span style="color:var(--blue);flex-shrink:0;">✉️</span>
+          <a href="mailto:hello@ranklocal.com">hello@ranklocal.com</a>
+        </div>
+        <div class="footer-contact-item">
+          <span style="color:var(--blue);flex-shrink:0;">📍</span>
+          <span>United States — Serving businesses nationwide</span>
+        </div>
+        <div style="margin-top:20px;">
+          <a href="#contact" class="btn btn-primary" style="font-size:13px;padding:10px 20px;"><span>Book Free Call</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 RankLocal. All rights reserved. Local SEO agency specializing in Google Maps ranking for local service businesses.</div>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Float CTA (mobile) -->
+<div class="float-btn">
+  <a href="tel:+15555551234" class="btn btn-primary glow" style="font-size:14px;padding:13px 22px;box-shadow:0 8px 30px rgba(0,170,255,0.4);"><span>📞 Book Free Call</span></a>
+</div>
+
+<!-- =================== JS =================== -->
+<script>
+// --- Navbar scroll ---
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 40);
+}, { passive: true });
+
+// --- Reveal on scroll ---
+const reveals = document.querySelectorAll('.reveal');
+const revealObs = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('on'), i * 70);
+      revealObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+reveals.forEach(r => revealObs.observe(r));
+
+// --- Counter animation ---
+function animateNum(el) {
+  const end = parseInt(el.dataset.count, 10);
+  const isPercent = el.textContent.includes('%');
+  const suffix = isPercent ? '%' : '+';
+  let start = 0;
+  const dur = 1800;
+  const step = end / (dur / 16);
+  const t = setInterval(() => {
+    start = Math.min(start + step, end);
+    el.textContent = '+' + Math.round(start) + suffix;
+    if (start >= end) clearInterval(t);
+  }, 16);
+}
+const countObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting && e.target.dataset.count) {
+      animateNum(e.target);
+      countObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('[data-count]').forEach(el => countObs.observe(el));
+
+// --- FAQ accordion ---
+document.querySelectorAll('.faq-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+// --- Testimonial carousel ---
+(function() {
+  const track = document.getElementById('tTrack');
+  const outer = document.getElementById('tOuter');
+  const dotsEl = document.getElementById('tDots');
+  const cards = Array.from(track.children);
+  let cur = 0;
+  let auto;
+
+  function perView() {
+    const w = outer.offsetWidth;
+    if (w >= 960) return 3;
+    if (w >= 600) return 2;
+    return 1;
+  }
+  function cardW() {
+    const pv = perView();
+    const gap = 22;
+    return (outer.offsetWidth - gap * (pv - 1)) / pv;
+  }
+  function total() { return Math.ceil(cards.length / perView()); }
+
+  function setCardWidths() {
+    const w = cardW();
+    cards.forEach(c => { c.style.width = w + 'px'; c.style.minWidth = w + 'px'; });
+  }
+  function buildDots() {
+    dotsEl.innerHTML = '';
+    for (let i = 0; i < total(); i++) {
+      const d = document.createElement('button');
+      d.className = 'dot' + (i === cur ? ' active' : '');
+      d.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+      d.onclick = () => goTo(i);
+      dotsEl.appendChild(d);
+    }
+  }
+  function goTo(idx) {
+    cur = Math.max(0, Math.min(idx, total() - 1));
+    const w = cardW();
+    track.style.transform = `translateX(-${cur * (w + 22)}px)`;
+    buildDots();
+  }
+  function startAuto() {
+    clearInterval(auto);
+    auto = setInterval(() => goTo(cur >= total() - 1 ? 0 : cur + 1), 5000);
+  }
+  document.getElementById('tPrev').onclick = () => { goTo(cur - 1); startAuto(); };
+  document.getElementById('tNext').onclick = () => { goTo(cur + 1); startAuto(); };
+
+  function init() { setCardWidths(); goTo(0); startAuto(); }
+  init();
+  window.addEventListener('resize', () => { setCardWidths(); goTo(0); });
+})();
+
+// --- Form ---
+function formSubmit(e) {
+  e.preventDefault();
+  document.getElementById('auditForm').style.display = 'none';
+  const s = document.getElementById('formSuccess');
+  s.style.display = 'block';
+}
+
+// --- Live chat bubble ---
+setTimeout(() => {
+  const el = document.createElement('div');
+  el.style.cssText = 'position:fixed;bottom:80px;right:20px;z-index:999;';
+  el.innerHTML = `
+    <div id="chatBubble" style="display:none;position:absolute;bottom:64px;right:0;width:280px;background:#12121c;border:1px solid rgba(0,170,255,0.2);border-radius:16px;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,0.5);">
+      <p style="font-size:14px;font-weight:700;margin-bottom:6px;">👋 Hey there!</p>
+      <p style="font-size:13px;color:#7a7a9a;margin-bottom:16px;">Ready to rank #1 on Google Maps? Book a free 30-min strategy call.</p>
+      <a href="#contact" style="display:flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,#0088DD,#00AAFF);color:#fff;font-weight:700;font-size:13px;padding:11px 16px;border-radius:8px;text-decoration:none;">Book Free Call →</a>
+    </div>
+    <button onclick="document.getElementById('chatBubble').style.display=document.getElementById('chatBubble').style.display==='none'?'block':'none'" style="width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#0088DD,#00AAFF);border:none;cursor:pointer;font-size:22px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(0,170,255,0.4);">💬</button>
+  `;
+  document.body.appendChild(el);
+}, 2500);
+</script>
+</body>
+</html>
