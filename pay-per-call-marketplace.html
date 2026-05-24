@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pay Per Call Marketplace | RankLocal</title>
+<meta name="description" content="RankLocal offers multiple Pay Per Call programs designed to fit local service businesses of every size. Only pay for real inbound calls from customers ready to buy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #07070a; color: #fff; overflow-x: hidden; line-height: 1.6; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+img { max-width: 100%; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0d0d14; }
+::-webkit-scrollbar-thumb { background: linear-gradient(#00AAFF, #0055CC); border-radius: 2px; }
+
+:root {
+  --blue: #00AAFF;
+  --blue-dark: #0066CC;
+  --blue-glow: rgba(0,170,255,0.25);
+  --green: #00FF87;
+  --bg-0: #07070a;
+  --bg-1: #0d0d14;
+  --bg-2: #12121c;
+  --bg-3: #18182a;
+  --border: rgba(255,255,255,0.07);
+  --border-blue: rgba(0,170,255,0.2);
+  --text-muted: #7a7a9a;
+  --radius: 14px;
+  --radius-lg: 20px;
+}
+
+.container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+.grad { background: linear-gradient(135deg, #00AAFF 0%, #00CCFF 60%, #80E8FF 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.grad-green { background: linear-gradient(135deg, #00FF87, #00D4FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
+/* ===== NAV ===== */
+nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 1000;
+  transition: background 0.3s, border-color 0.3s;
+  border-bottom: 1px solid transparent;
+  overflow: visible;
+}
+nav.scrolled {
+  background: rgba(7,7,10,0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: rgba(255,255,255,0.07);
+}
+.nav-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 68px; max-width: 1180px; margin: 0 auto; padding: 0 24px;
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 900; font-size: 18px; letter-spacing: -0.02em; }
+.nav-logo-icon { width: 34px; height: 34px; background: linear-gradient(135deg, #00AAFF, #0044BB); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 14px; color: #fff; }
+.nav-links { display: flex; align-items: center; gap: 22px; list-style: none; }
+.nav-links a { font-size: 14px; font-weight: 500; color: var(--text-muted); transition: color 0.2s; }
+.nav-links a:hover { color: #fff; }
+.nav-ctas { display: flex; align-items: center; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 10px; font-weight: 600; font-size: 15px; transition: all 0.2s; cursor: pointer; position: relative; overflow: hidden; }
+.btn-primary { background: linear-gradient(135deg, #0077DD, #00AAFF); color: #fff; box-shadow: 0 4px 20px rgba(0,170,255,0.3); }
+.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 30px rgba(0,170,255,0.45); }
+.btn-outline { border: 1px solid var(--border-blue); color: #fff; background: rgba(0,170,255,0.06); }
+.btn-outline:hover { background: rgba(0,170,255,0.12); border-color: rgba(0,170,255,0.4); }
+.nav-hamburger { display: none; flex-direction: column; gap: 5px; padding: 4px; }
+.nav-hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; }
+
+/* ===== HERO ===== */
+.hero {
+  padding: 140px 0 80px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.orb { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(0,170,255,0.08); border: 1px solid rgba(0,170,255,0.2);
+  border-radius: 999px; padding: 7px 16px; font-size: 12px;
+  font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  color: #60C8FF; margin-bottom: 24px;
+}
+.pulse-dot { width: 7px; height: 7px; background: #00FF87; border-radius: 50%; box-shadow: 0 0 8px #00FF87; animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.6;transform:scale(1.3)} }
+.hero h1 { font-size: clamp(36px, 5vw, 62px); font-weight: 900; line-height: 1.1; letter-spacing: -0.03em; margin-bottom: 20px; }
+.hero-sub { font-size: clamp(16px, 2vw, 20px); color: var(--text-muted); max-width: 700px; margin: 0 auto 40px; line-height: 1.6; }
+.hero-stats { display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; margin-top: 48px; }
+.hero-stat-val { font-size: 32px; font-weight: 900; letter-spacing: -0.02em; }
+.hero-stat-label { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+/* ===== SECTION ===== */
+.section { padding: 96px 0; }
+.section-alt { background: var(--bg-1); }
+.section-label {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(0,170,255,0.08); border: 1px solid rgba(0,170,255,0.2);
+  border-radius: 999px; padding: 6px 16px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  color: #60C8FF; margin-bottom: 16px;
+}
+.section-heading { font-size: clamp(26px, 4vw, 42px); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 16px; }
+.section-sub { color: var(--text-muted); font-size: 17px; max-width: 600px; line-height: 1.6; }
+
+/* ===== PROGRAMS GRID ===== */
+.programs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 56px; }
+.program-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 36px 28px;
+  position: relative;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.program-card:hover { border-color: var(--border-blue); transform: translateY(-4px); }
+.program-card.featured {
+  background: rgba(0,170,255,0.06);
+  border-color: rgba(0,170,255,0.35);
+  box-shadow: 0 0 60px rgba(0,170,255,0.08);
+}
+.program-badge {
+  position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+  background: linear-gradient(135deg, #0077DD, #00AAFF);
+  color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; padding: 5px 16px; border-radius: 999px;
+  white-space: nowrap;
+}
+.program-tier { font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue); margin-bottom: 10px; }
+.program-name { font-size: 28px; font-weight: 900; letter-spacing: -0.02em; margin-bottom: 8px; }
+.program-tagline { font-size: 14px; color: var(--text-muted); margin-bottom: 28px; line-height: 1.5; }
+.program-price { margin-bottom: 28px; }
+.program-price-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+.program-price-value { font-size: 22px; font-weight: 800; color: #fff; }
+.program-divider { height: 1px; background: var(--border); margin: 24px 0; }
+.program-features { list-style: none; display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+.program-features li { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #ccc; line-height: 1.4; }
+.program-features li .check { color: #00FF87; font-size: 14px; margin-top: 1px; flex-shrink: 0; }
+.program-features li .x { color: #444; font-size: 14px; margin-top: 1px; flex-shrink: 0; }
+.program-features li.dimmed { color: var(--text-muted); }
+.program-cta { display: block; text-align: center; padding: 14px; border-radius: 10px; font-weight: 700; font-size: 15px; transition: all 0.2s; }
+.program-cta-primary { background: linear-gradient(135deg, #0077DD, #00AAFF); color: #fff; box-shadow: 0 4px 20px rgba(0,170,255,0.3); }
+.program-cta-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,170,255,0.45); }
+.program-cta-outline { border: 1px solid var(--border-blue); color: var(--blue); background: rgba(0,170,255,0.06); }
+.program-cta-outline:hover { background: rgba(0,170,255,0.12); }
+
+/* ===== COMPARISON TABLE ===== */
+.compare-wrap { overflow-x: auto; margin-top: 56px; border-radius: 16px; border: 1px solid var(--border); }
+.compare-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.compare-table th, .compare-table td { padding: 14px 20px; text-align: left; font-size: 14px; border-bottom: 1px solid var(--border); }
+.compare-table th { font-size: 13px; font-weight: 700; color: var(--text-muted); background: rgba(255,255,255,0.02); text-transform: uppercase; letter-spacing: 0.07em; }
+.compare-table th.tier { text-align: center; color: #fff; font-size: 14px; letter-spacing: 0; text-transform: none; }
+.compare-table th.tier.featured-col { color: var(--blue); }
+.compare-table td { color: #ccc; }
+.compare-table td.center { text-align: center; }
+.compare-table tr:last-child td { border-bottom: none; }
+.compare-table tr.section-row td { font-weight: 700; color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; background: rgba(255,255,255,0.02); padding: 10px 20px; }
+.compare-table .check-icon { color: #00FF87; font-size: 16px; }
+.compare-table .x-icon { color: #333; font-size: 16px; }
+.compare-table tr:hover td { background: rgba(255,255,255,0.02); }
+.featured-col { background: rgba(0,170,255,0.04); }
+
+/* ===== FIT GUIDE ===== */
+.fit-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 56px; }
+.fit-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 36px 28px;
+  transition: border-color 0.3s;
+}
+.fit-card:hover { border-color: var(--border-blue); }
+.fit-icon { font-size: 36px; margin-bottom: 16px; }
+.fit-tier { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
+.fit-title { font-size: 20px; font-weight: 800; margin-bottom: 16px; }
+.fit-list { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; }
+.fit-list li { display: flex; gap: 10px; font-size: 14px; color: #bbb; line-height: 1.4; }
+.fit-list li::before { content: "✓"; color: var(--blue); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+.fit-cta { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: var(--blue); transition: gap 0.2s; }
+.fit-cta:hover { gap: 10px; }
+
+/* ===== HOW IT WORKS ===== */
+.how-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 56px; }
+.how-card { text-align: center; }
+.how-num { width: 48px; height: 48px; border-radius: 50%; background: rgba(0,170,255,0.1); border: 1px solid rgba(0,170,255,0.3); display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 900; color: var(--blue); margin: 0 auto 16px; }
+.how-title { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+.how-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; }
+
+/* ===== TRUST BAR ===== */
+.trust-bar { display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap; padding: 40px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.trust-item { text-align: center; }
+.trust-val { font-size: 28px; font-weight: 900; letter-spacing: -0.02em; }
+.trust-label { font-size: 12px; color: var(--text-muted); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.08em; }
+
+/* ===== CTA ===== */
+.cta-section {
+  padding: 96px 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(0,100,220,0.12) 0%, transparent 70%);
+  text-align: center;
+}
+.cta-box {
+  background: rgba(0,170,255,0.06);
+  border: 1px solid rgba(0,170,255,0.2);
+  border-radius: 24px;
+  padding: 72px 40px;
+  position: relative;
+  overflow: hidden;
+}
+.cta-box::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% -20%, rgba(0,170,255,0.1), transparent 60%); pointer-events: none; }
+.cta-title { font-size: clamp(28px, 4vw, 46px); font-weight: 900; letter-spacing: -0.02em; margin-bottom: 16px; }
+.cta-sub { color: var(--text-muted); font-size: 18px; margin-bottom: 36px; }
+.cta-btns { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+
+/* ===== FOOTER ===== */
+footer { background: var(--bg-1); border-top: 1px solid var(--border); padding: 48px 0 32px; text-align: center; }
+.footer-logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 900; font-size: 18px; margin-bottom: 12px; }
+.footer-copy { font-size: 13px; color: var(--text-muted); }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .programs-grid { grid-template-columns: 1fr; max-width: 460px; margin-left: auto; margin-right: auto; }
+  .fit-grid { grid-template-columns: 1fr; max-width: 460px; margin-left: auto; margin-right: auto; }
+  .how-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  .hero { padding: 110px 0 60px; }
+  .section { padding: 64px 0; }
+  .hero-stats { gap: 28px; }
+  .trust-bar { gap: 24px; }
+  .nav-links, .nav-ctas .btn-outline { display: none; }
+  .nav-hamburger { display: flex; }
+  .cta-box { padding: 40px 24px; }
+  .how-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .cta-btns { flex-direction: column; align-items: center; }
+  .how-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">R</div>
+      Rank<span class="grad">Local</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="index.html#process">Process</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="pay-per-call-marketplace.html" style="color:#00AAFF;font-weight:600;">Pay Per Call Marketplace</a></li>
+    </ul>
+    <div class="nav-ctas">
+      <a href="index.html#audit" class="btn btn-outline" style="padding:10px 18px;font-size:13px;">Free SEO Audit</a>
+      <a href="index.html#contact" class="btn btn-primary" style="padding:10px 18px;font-size:13px;"><span>📞 Book Free Call</span></a>
+    </div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="orb" style="width:700px;height:700px;top:-300px;left:-200px;background:radial-gradient(circle,rgba(0,80,220,0.14),transparent 70%);"></div>
+  <div class="orb" style="width:500px;height:500px;top:-100px;right:-150px;background:radial-gradient(circle,rgba(0,150,255,0.09),transparent 70%);"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="hero-badge"><div class="pulse-dot"></div> Pay Per Call — Only Pay for Real Calls</div>
+    <h1>Pay Per Call<br><span class="grad">Marketplace Programs</span></h1>
+    <p class="hero-sub">We offer multiple Pay Per Call programs designed to fit local service businesses at every stage of growth. No wasted ad spend — only pay when a qualified customer calls you.</p>
+    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+      <a href="#programs" class="btn btn-primary" style="font-size:15px;">View Programs</a>
+      <a href="index.html#contact" class="btn btn-outline" style="font-size:15px;">Talk to an Expert</a>
+    </div>
+    <div class="hero-stats">
+      <div class="trust-item">
+        <div class="hero-stat-val grad">500+</div>
+        <div class="hero-stat-label">Active clients</div>
+      </div>
+      <div class="trust-item">
+        <div class="hero-stat-val grad">$12M+</div>
+        <div class="hero-stat-label">Revenue generated</div>
+      </div>
+      <div class="trust-item">
+        <div class="hero-stat-val grad">93%</div>
+        <div class="hero-stat-label">Call answer rate</div>
+      </div>
+      <div class="trust-item">
+        <div class="hero-stat-val grad">47</div>
+        <div class="hero-stat-label">Avg calls/month</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section class="section section-alt" id="programs">
+  <div class="container">
+    <div style="text-align:center;">
+      <div class="section-label">Our Programs</div>
+      <h2 class="section-heading">Choose Your <span class="grad">Growth Plan</span></h2>
+      <p class="section-sub" style="margin:0 auto;">Every program delivers exclusive, real-time inbound calls. Pick the tier that matches your business size and growth goals.</p>
+    </div>
+    <div class="programs-grid">
+
+      <!-- STARTER -->
+      <div class="program-card">
+        <div class="program-tier">Tier 1</div>
+        <div class="program-name">Marketplace</div>
+        <div class="program-tagline">Perfect for small businesses just starting with pay per call lead generation.</div>
+        <div class="program-price">
+          <div class="program-price-label">Pricing model</div>
+          <div class="program-price-value">Pay Per Call Only</div>
+        </div>
+        <div class="program-divider"></div>
+        <ul class="program-features">
+          <li><span class="check">✓</span> Exclusive inbound phone calls</li>
+          <li><span class="check">✓</span> Google Maps & Local SEO placement</li>
+          <li><span class="check">✓</span> Real-time call dashboard</li>
+          <li><span class="check">✓</span> Call recording & tracking</li>
+          <li><span class="check">✓</span> Email support</li>
+          <li class="dimmed"><span class="x">✕</span> Branded microsites</li>
+          <li class="dimmed"><span class="x">✕</span> Dedicated account manager</li>
+          <li class="dimmed"><span class="x">✕</span> Custom ad strategy</li>
+        </ul>
+        <a href="index.html#contact" class="program-cta program-cta-outline">Apply Now →</a>
+      </div>
+
+      <!-- GROWTH (FEATURED) -->
+      <div class="program-card featured">
+        <div class="program-badge">Most Popular</div>
+        <div class="program-tier">Tier 2</div>
+        <div class="program-name"><span class="grad">Growth</span></div>
+        <div class="program-tagline">For established businesses ready to scale their inbound call volume consistently.</div>
+        <div class="program-price">
+          <div class="program-price-label">Pricing model</div>
+          <div class="program-price-value">Pay Per Call + Monthly Fee</div>
+        </div>
+        <div class="program-divider"></div>
+        <ul class="program-features">
+          <li><span class="check">✓</span> Exclusive inbound phone calls</li>
+          <li><span class="check">✓</span> Google Maps & Local SEO placement</li>
+          <li><span class="check">✓</span> Real-time call dashboard</li>
+          <li><span class="check">✓</span> Call recording & tracking</li>
+          <li><span class="check">✓</span> Priority email & phone support</li>
+          <li><span class="check">✓</span> Custom branded microsites</li>
+          <li><span class="check">✓</span> Dedicated account manager</li>
+          <li><span class="check">✓</span> Custom ad strategy</li>
+        </ul>
+        <a href="index.html#contact" class="program-cta program-cta-primary">Apply Now →</a>
+      </div>
+
+      <!-- PRO -->
+      <div class="program-card">
+        <div class="program-tier">Tier 3</div>
+        <div class="program-name">Enterprise</div>
+        <div class="program-tagline">For multi-location businesses, franchises, and agencies needing full-scale solutions.</div>
+        <div class="program-price">
+          <div class="program-price-label">Pricing model</div>
+          <div class="program-price-value">Custom Pricing</div>
+        </div>
+        <div class="program-divider"></div>
+        <ul class="program-features">
+          <li><span class="check">✓</span> Exclusive inbound phone calls</li>
+          <li><span class="check">✓</span> Google Maps & Local SEO placement</li>
+          <li><span class="check">✓</span> Real-time call dashboard</li>
+          <li><span class="check">✓</span> Call recording & tracking</li>
+          <li><span class="check">✓</span> Priority email & phone support</li>
+          <li><span class="check">✓</span> Custom branded microsites</li>
+          <li><span class="check">✓</span> Dedicated account manager</li>
+          <li><span class="check">✓</span> Custom ad strategy</li>
+          <li><span class="check">✓</span> Multi-location management</li>
+          <li><span class="check">✓</span> White-label reporting</li>
+          <li><span class="check">✓</span> API integration</li>
+        </ul>
+        <a href="index.html#contact" class="program-cta program-cta-outline">Contact Sales →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="section" id="compare">
+  <div class="container">
+    <div style="text-align:center;">
+      <div class="section-label">Full Comparison</div>
+      <h2 class="section-heading">Program <span class="grad">Feature Matrix</span></h2>
+      <p class="section-sub" style="margin:0 auto;">See exactly what's included in each program at a glance.</p>
+    </div>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th style="width:42%;">Feature</th>
+            <th class="tier" style="width:19%;text-align:center;">Marketplace</th>
+            <th class="tier featured-col" style="width:19%;text-align:center;">Growth</th>
+            <th class="tier" style="width:19%;text-align:center;">Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="section-row"><td colspan="4">Calls & Leads</td></tr>
+          <tr>
+            <td>Exclusive inbound phone calls</td>
+            <td class="center"><span class="check-icon">✓</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Real-time call delivery</td>
+            <td class="center"><span class="check-icon">✓</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Call recording & playback</td>
+            <td class="center"><span class="check-icon">✓</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Lead volume boost</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr class="section-row"><td colspan="4">Campaigns & Placement</td></tr>
+          <tr>
+            <td>Google Maps placement</td>
+            <td class="center"><span class="check-icon">✓</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Custom ad strategy</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Custom branded microsites</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Multi-location management</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="x-icon">✕</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>White-label reporting</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="x-icon">✕</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>API integration</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="x-icon">✕</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr class="section-row"><td colspan="4">Support</td></tr>
+          <tr>
+            <td>Real-time dashboard access</td>
+            <td class="center"><span class="check-icon">✓</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Email support</td>
+            <td class="center"><span class="check-icon">✓</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Live phone support</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Dedicated account manager</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Dedicated success manager</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="x-icon">✕</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr class="section-row"><td colspan="4">Pricing</td></tr>
+          <tr>
+            <td>Pay per call cost</td>
+            <td class="center"><span class="check-icon">✓</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Monthly service fee</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td>Account activation cost</td>
+            <td class="center"><span class="x-icon">✕</span></td>
+            <td class="center featured-col"><span class="check-icon">✓</span></td>
+            <td class="center"><span class="check-icon">✓</span></td>
+          </tr>
+          <tr>
+            <td style="padding-top:20px;padding-bottom:20px;">
+              <a href="index.html#contact" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Apply — Marketplace</a>
+            </td>
+            <td class="center" style="padding-top:20px;padding-bottom:20px;">
+              <a href="index.html#contact" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Apply</a>
+            </td>
+            <td class="center featured-col" style="padding-top:20px;padding-bottom:20px;">
+              <a href="index.html#contact" class="btn btn-primary" style="font-size:13px;padding:10px 20px;">Apply</a>
+            </td>
+            <td class="center" style="padding-top:20px;padding-bottom:20px;">
+              <a href="index.html#contact" class="btn btn-outline" style="font-size:13px;padding:10px 20px;">Contact Sales</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section section-alt">
+  <div class="container">
+    <div style="text-align:center;">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-heading">From Sign-Up to <span class="grad">Ringing Phone</span></h2>
+      <p class="section-sub" style="margin:0 auto;">Get set up and receiving exclusive inbound calls in days, not months.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-num">1</div>
+        <div class="how-title">Apply & Qualify</div>
+        <div class="how-desc">Fill out a short application. We review your business and service area to confirm availability and fit.</div>
+      </div>
+      <div class="how-card">
+        <div class="how-num">2</div>
+        <div class="how-title">Campaign Setup</div>
+        <div class="how-desc">Our team builds your Google Maps and local SEO campaigns targeting customers in your service area.</div>
+      </div>
+      <div class="how-card">
+        <div class="how-num">3</div>
+        <div class="how-title">Calls Start Flowing</div>
+        <div class="how-desc">Qualified leads call your tracking number, which forwards live to your business phone in real time.</div>
+      </div>
+      <div class="how-card">
+        <div class="how-num">4</div>
+        <div class="how-title">Only Pay for Calls</div>
+        <div class="how-desc">You're billed only for valid inbound calls. Review recordings and dispute any calls that don't qualify.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FIT GUIDE -->
+<section class="section" id="fit">
+  <div class="container">
+    <div style="text-align:center;">
+      <div class="section-label">Which Program Fits You?</div>
+      <h2 class="section-heading">Find Your <span class="grad">Perfect Match</span></h2>
+      <p class="section-sub" style="margin:0 auto;">Answer a few simple questions to see which program makes the most sense for your business right now.</p>
+    </div>
+    <div class="fit-grid">
+
+      <div class="fit-card">
+        <div class="fit-icon">🏠</div>
+        <div class="fit-tier">Marketplace</div>
+        <div class="fit-title">Is Marketplace right for me?</div>
+        <ul class="fit-list">
+          <li>I'm a small or newer business (under 3 years)</li>
+          <li>I spend less than $1,000/month on advertising</li>
+          <li>I generate under $500K in annual revenue</li>
+          <li>I want to test pay per call with minimal commitment</li>
+          <li>I have capacity for 10–30 new calls per month</li>
+        </ul>
+        <a href="index.html#contact" class="fit-cta">Apply for Marketplace →</a>
+      </div>
+
+      <div class="fit-card" style="border-color:var(--border-blue);background:rgba(0,170,255,0.04);">
+        <div class="fit-icon">📈</div>
+        <div class="fit-tier">Growth</div>
+        <div class="fit-title">Is Growth right for me?</div>
+        <ul class="fit-list">
+          <li>I'm an established business (5+ years)</li>
+          <li>I spend $1,000–$5,000/month on advertising</li>
+          <li>I generate $500K–$2M in annual revenue</li>
+          <li>I want consistent, high-volume lead flow</li>
+          <li>I can handle 30–100+ new calls per month</li>
+        </ul>
+        <a href="index.html#contact" class="fit-cta">Apply for Growth →</a>
+      </div>
+
+      <div class="fit-card">
+        <div class="fit-icon">🏢</div>
+        <div class="fit-tier">Enterprise</div>
+        <div class="fit-title">Is Enterprise right for me?</div>
+        <ul class="fit-list">
+          <li>I operate multiple locations or a franchise</li>
+          <li>I spend $5,000+/month on advertising</li>
+          <li>I generate $2M+ in annual revenue</li>
+          <li>I need white-label or API-level integration</li>
+          <li>I need a dedicated team managing my account</li>
+        </ul>
+        <a href="index.html#contact" class="fit-cta">Contact Enterprise Sales →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box">
+      <div class="section-label" style="justify-content:center;">No Long-Term Contracts</div>
+      <div class="cta-title">Start Getting Calls<br><span class="grad">This Week</span></div>
+      <div class="cta-sub">Apply today — our team will review your application and get your campaign live within 72 hours.</div>
+      <div class="cta-btns">
+        <a href="index.html#contact" class="btn btn-primary" style="font-size:16px;padding:16px 32px;">📞 Apply Now — It's Free</a>
+        <a href="index.html#contact" class="btn btn-outline" style="font-size:16px;padding:16px 32px;">Talk to an Expert</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <a href="index.html" class="footer-logo">
+      <div class="nav-logo-icon">R</div>
+      Rank<span class="grad">Local</span>
+    </a>
+    <p class="footer-copy" style="margin-top:8px;">© 2025 RankLocal. All rights reserved. | <a href="index.html" style="color:var(--blue);">Back to Home</a></p>
+  </div>
+</footer>
+
+<script>
+// Nav scroll
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 40);
+}, { passive: true });
+
+// Hamburger
+(function() {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  if (!hamburger || !navLinks) return;
+  let isOpen = false;
+  function openNav() {
+    isOpen = true;
+    navLinks.style.cssText = 'display:flex!important;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:rgba(7,7,10,0.98);backdrop-filter:blur(20px);padding:20px 28px 28px;border-bottom:1px solid rgba(0,170,255,0.15);gap:8px;z-index:999;';
+    hamburger.innerHTML = '✕';
+  }
+  function closeNav() {
+    isOpen = false;
+    navLinks.removeAttribute('style');
+    hamburger.innerHTML = '☰';
+  }
+  hamburger.addEventListener('click', () => isOpen ? closeNav() : openNav());
+  document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => closeNav()));
+  document.addEventListener('click', (e) => { if (isOpen && !navbar.contains(e.target)) closeNav(); });
+})();
+</script>
+</body>
+</html>
