@@ -1591,6 +1591,37 @@ window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 40);
 }, { passive: true });
 
+// --- Mobile hamburger menu ---
+(function() {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  if (!hamburger || !navLinks) return;
+  let isOpen = false;
+
+  function openNav() {
+    isOpen = true;
+    navLinks.style.cssText = 'display:flex!important;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:rgba(7,7,10,0.98);backdrop-filter:blur(20px);padding:20px 28px 28px;border-bottom:1px solid rgba(0,170,255,0.15);gap:6px;z-index:999;';
+    hamburger.innerHTML = '✕';
+  }
+  function closeNav() {
+    isOpen = false;
+    navLinks.removeAttribute('style');
+    hamburger.innerHTML = '☰';
+  }
+
+  hamburger.addEventListener('click', () => isOpen ? closeNav() : openNav());
+
+  // Close when any nav link is clicked
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.addEventListener('click', () => closeNav());
+  });
+
+  // Close when clicking outside nav
+  document.addEventListener('click', (e) => {
+    if (isOpen && !navbar.contains(e.target)) closeNav();
+  });
+})();
+
 // --- Reveal on scroll ---
 const reveals = document.querySelectorAll('.reveal');
 const revealObs = new IntersectionObserver((entries) => {
@@ -1695,18 +1726,4 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
 function formSubmit(e) {
   e.preventDefault();
   document.getElementById('auditForm').style.display = 'none';
-  const s = document.getElementById('formSuccess');
-  s.style.display = 'block';
-}
-
-// --- Live chat bubble ---
-setTimeout(() => {
-  const el = document.createElement('div');
-  el.style.cssText = 'position:fixed;bottom:80px;right:20px;z-index:999;';
-  el.innerHTML = `
-    <div id="chatBubble" style="display:none;position:absolute;bottom:64px;right:0;width:280px;background:#12121c;border:1px solid rgba(0,170,255,0.2);border-radius:16px;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,0.5);">
-      <p style="font-size:14px;font-weight:700;margin-bottom:6px;">👋 Hey there!</p>
-      <p style="font-size:13px;color:#7a7a9a;margin-bottom:16px;">Ready to rank #1 on Google Maps? Book a free 30-min strategy call.</p>
-      <a href="#contact" style="display:flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,#0088DD,#00AAFF);color:#fff;font-weight:700;font-size:13px;padding:11px 16px;border-radius:8px;text-decoration:none;">Book Free Call →</a>
-    </div>
-    <button onclick="document.getElementById('chatBubble').style.display=document.getElementB
+  const s = do
