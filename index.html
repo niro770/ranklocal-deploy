@@ -975,6 +975,7 @@ nav.scrolled {
   ]
 }
 </script>
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 </head>
 <body>
 
@@ -1008,7 +1009,7 @@ nav.scrolled {
       <li><a href="/blog/" style="color:#00AAFF;font-weight:600;">Blog</a></li>
     </ul>
     <div class="nav-ctas">
-      <a href="#contact" class="btn btn-primary" style="padding:10px 18px;font-size:13px;"><span>📞 Book Free Call</span></a>
+      <a href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/admin-ranklocall/30min'});return false;" class="btn btn-primary" style="padding:10px 18px;font-size:13px;"><span>📅 Book Free Call</span></a>
     </div>
     <button type="button" class="nav-hamburger" id="hamburger" aria-label="Menu" onclick="navToggle()">
       <span></span><span></span><span></span>
@@ -1587,7 +1588,8 @@ nav.scrolled {
       <h2 class="cta-title">Ready To Dominate<br><span class="grad">Google Maps?</span></h2>
       <p class="cta-sub">Book a free 30-minute strategy call. We'll show you exactly where you're losing calls to competitors and hand you a custom ranking roadmap.</p>
       <div class="cta-ctas">
-        <a href="tel:+18337799997" class="btn btn-primary glow" style="font-size:17px;padding:16px 36px;"><span>📞 Book Free Strategy Call</span></a>
+        <a href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/admin-ranklocall/30min'});return false;" class="btn btn-primary glow" style="font-size:17px;padding:16px 36px;"><span>📅 Book a Free Strategy Call</span></a>
+        <a href="tel:+18337799997" class="btn btn-outline" style="font-size:15px;padding:14px 28px;margin-top:12px;"><span>📞 (833) 779-9997</span></a>
       </div>
       <div class="cta-reassurance">
         <span>No credit card required</span>
@@ -1850,5 +1852,6 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
 })();
 
 </script>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body>
 </html>
