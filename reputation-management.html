@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reputation Management | RankLocal — Build a 5-Star Business</title>
+<meta name="description" content="Automated review generation, real-time monitoring, and strategic response management. Build a 5-star reputation that converts browsers into buyers and boosts your local rankings.">
+<style>
+:root{--blue:#00AAFF;--bg-0:#07070a;--bg-1:#0d0d14;--bg-2:#12121e;--border:rgba(255,255,255,0.07);--text:#e8e8f0;--muted:#7a7a9a;--radius:16px;--radius-sm:10px;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg-0);color:var(--text);line-height:1.6;}
+a{text-decoration:none;color:inherit;}
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 24px;height:68px;display:flex;align-items:center;background:rgba(7,7,10,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+.nav-inner{max-width:1200px;margin:0 auto;width:100%;display:flex;align-items:center;justify-content:space-between;}
+.nav-logo{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:900;}
+.nav-logo .logo-icon{background:linear-gradient(135deg,#00AAFF,#0044BB);border-radius:8px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900;color:#fff;}
+.nav-logo .logo-text{color:#fff;}.nav-logo .logo-text span{color:var(--blue);}
+.nav-links{display:flex;gap:28px;list-style:none;}
+.nav-links a{font-size:14px;font-weight:500;color:var(--muted);transition:color 0.2s;}.nav-links a:hover{color:#fff;}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;padding:14px 28px;border-radius:var(--radius-sm);transition:all 0.25s;cursor:pointer;border:none;}
+.btn-primary{background:linear-gradient(135deg,#0088DD,#00AAFF);color:#fff;position:relative;overflow:hidden;}
+.btn-primary::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,#00AAFF,#00D4FF);opacity:0;transition:opacity 0.25s;pointer-events:none;}
+.btn-primary:hover::after{opacity:1;}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 35px rgba(0,170,255,.4);}
+.btn-primary span{position:relative;z-index:1;}
+.btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.2);}.btn-outline:hover{border-color:var(--blue);background:rgba(0,170,255,0.06);}
+.hero{padding:140px 24px 80px;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(0,100,220,0.18),transparent 65%);pointer-events:none;}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,170,255,0.08);border:1px solid rgba(0,170,255,0.2);border-radius:999px;padding:7px 16px;font-size:12px;font-weight:600;color:#60C8FF;margin-bottom:28px;}
+.badge-dot{width:7px;height:7px;border-radius:50%;background:var(--blue);animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.5;transform:scale(1.4);}}
+h1{font-size:clamp(36px,5vw,64px);font-weight:900;line-height:1.1;margin-bottom:20px;}
+.grad{background:linear-gradient(135deg,#00AAFF,#60D8FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{font-size:clamp(16px,2vw,20px);color:var(--muted);max-width:640px;margin:0 auto 40px;}
+.hero-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;}
+.stats{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;padding:48px 24px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg-1);}
+.stat-num{font-size:36px;font-weight:900;color:var(--blue);}.stat-label{font-size:13px;color:var(--muted);margin-top:4px;}
+.section{padding:80px 24px;}.container{max-width:1100px;margin:0 auto;}
+.section-label{font-size:12px;font-weight:700;letter-spacing:2px;color:var(--blue);text-transform:uppercase;margin-bottom:12px;}
+.section-heading{font-size:clamp(28px,4vw,44px);font-weight:900;line-height:1.15;margin-bottom:16px;}
+.section-sub{font-size:16px;color:var(--muted);max-width:580px;margin-bottom:48px;}
+.section-alt{background:var(--bg-1);}
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.feature-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:all 0.3s;position:relative;overflow:hidden;}
+.feature-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,170,255,0.04),transparent);opacity:0;transition:opacity 0.3s;pointer-events:none;}
+.feature-card:hover{border-color:rgba(0,170,255,0.25);transform:translateY(-4px);}.feature-card:hover::before{opacity:1;}
+.feature-icon{font-size:28px;margin-bottom:16px;}.feature-title{font-size:17px;font-weight:700;margin-bottom:10px;}
+.feature-text{font-size:14px;color:var(--muted);line-height:1.7;}
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;}
+.process-step{text-align:center;}
+.step-num{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,rgba(0,100,220,0.2),rgba(0,170,255,0.1));border:1px solid rgba(0,170,255,0.3);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:900;color:var(--blue);margin:0 auto 20px;}
+.step-title{font-size:16px;font-weight:700;margin-bottom:8px;}.step-text{font-size:13px;color:var(--muted);line-height:1.6;}
+.faq-list{max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:12px;}
+.faq-item{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;}
+.faq-btn{width:100%;display:flex;justify-content:space-between;align-items:center;padding:20px 24px;background:none;border:none;color:#fff;font-size:16px;font-weight:600;cursor:pointer;text-align:left;gap:16px;}
+.faq-icon{font-size:20px;color:var(--blue);flex-shrink:0;transition:transform 0.3s;}.faq-item.open .faq-icon{transform:rotate(45deg);}
+.faq-body{max-height:0;overflow:hidden;transition:max-height 0.35s ease;}.faq-item.open .faq-body{max-height:400px;}
+.faq-body p{padding:0 24px 20px;color:var(--muted);font-size:15px;line-height:1.7;}
+.cta-section{background:linear-gradient(135deg,rgba(0,68,187,0.15),rgba(0,170,255,0.08));border:1px solid rgba(0,170,255,0.15);border-radius:24px;padding:64px 40px;text-align:center;margin:0 24px 80px;}
+.cta-section h2{font-size:clamp(28px,4vw,42px);font-weight:900;margin-bottom:16px;}
+.cta-section p{font-size:16px;color:var(--muted);max-width:500px;margin:0 auto 36px;}
+footer{background:var(--bg-1);border-top:1px solid var(--border);padding:32px 24px;text-align:center;color:var(--muted);font-size:13px;}
+footer a{color:var(--blue);margin:0 12px;}
+@media(max-width:900px){.features-grid{grid-template-columns:1fr;}.process-steps{grid-template-columns:1fr 1fr;}.nav-links{display:none;}}
+@media(max-width:500px){.process-steps{grid-template-columns:1fr;}.stats{gap:28px;}.cta-section{padding:40px 24px;margin:0 16px 60px;}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><div class="logo-icon">R</div><div class="logo-text">Rank<span>Local</span></div></a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="index.html#process">Process</a></li>
+      <li><a href="index.html#testimonials">Reviews</a></li>
+      <li><a href="citations.html">Citations</a></li>
+    </ul>
+    <a href="index.html#contact" class="btn btn-primary"><span>📞 Book Free Call</span></a>
+  </div>
+</nav>
+<section class="hero">
+  <div class="badge"><div class="badge-dot"></div>Reputation Management</div>
+  <h1>Build a <span class="grad">5-Star Reputation</span><br>That Converts.</h1>
+  <p class="hero-sub">93% of consumers say online reviews impact their purchasing decisions. We build a systematic review generation engine that grows your star rating, protects your reputation, and turns your Google profile into your #1 sales tool.</p>
+  <div class="hero-btns">
+    <a href="index.html#contact" class="btn btn-primary"><span>🚀 Book a Free Call</span></a>
+    <a href="index.html#contact" class="btn btn-outline">See Our Results →</a>
+  </div>
+</section>
+<div class="stats"><div class="stat-item"><div class="stat-num">93%</div><div class="stat-label">Consumers Read Reviews Before Buying</div></div>
+<div class="stat-item"><div class="stat-num">5x</div><div class="stat-label">More Calls with 5-Star Rating</div></div>
+<div class="stat-item"><div class="stat-num">4.5+</div><div class="stat-label">Average Star Rating We Achieve</div></div>
+<div class="stat-item"><div class="stat-num">30 Days</div><div class="stat-label">To See Review Growth</div></div></div>
+<section class="section">
+  <div class="container">
+    <div class="section-label">What's Included</div>
+    <h2 class="section-heading">Everything Included<br><span class="grad">Done For You</span></h2>
+    <p class="section-sub">We handle every detail so you can focus on running your business. No guesswork. No DIY. Just results.</p>
+    <div class="features-grid"><div class="feature-card"><div class="feature-icon">⭐</div><div class="feature-title">Review Generation System</div><p class="feature-text">We build a fully automated, compliant review funnel — SMS and email sequences that request reviews from your happy customers at the perfect moment, dramatically increasing your response rate.</p></div>
+<div class="feature-card"><div class="feature-icon">🔔</div><div class="feature-title">Real-Time Monitoring</div><p class="feature-text">We monitor every major review platform 24/7 — Google, Yelp, Facebook, industry directories. You're notified the moment a new review appears, so nothing slips through the cracks.</p></div>
+<div class="feature-card"><div class="feature-icon">💬</div><div class="feature-title">Professional Review Responses</div><p class="feature-text">Every review — positive and negative — gets a thoughtful, professional response. This signals to Google that you're an engaged, trustworthy business and improves your local ranking.</p></div>
+<div class="feature-card"><div class="feature-icon">🛡️</div><div class="feature-title">Negative Review Defense</div><p class="feature-text">When negative reviews appear (real or fake), we have a proven playbook. We respond strategically, flag policy violations, and work to resolve issues in a way that protects your overall rating.</p></div>
+<div class="feature-card"><div class="feature-icon">📱</div><div class="feature-title">Multi-Platform Management</div><p class="feature-text">We manage your reputation across Google, Yelp, Facebook, TripAdvisor, Houzz, Healthgrades, and 50+ industry-specific platforms — wherever your customers are looking.</p></div>
+<div class="feature-card"><div class="feature-icon">📊</div><div class="feature-title">Reputation Dashboard</div><p class="feature-text">You get a single dashboard showing your ratings, review volume, response rate, and reputation trends across all platforms — updated in real time.</p></div></div>
+  </div>
+</section>
+<section class="section section-alt">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;">
+      <div class="section-label">Our Process</div>
+      <h2 class="section-heading">How We Deliver <span class="grad">Results</span></h2>
+    </div>
+    <div class="process-steps"><div class="process-step"><div class="step-num">1</div><div class="step-title">Audit & Baseline</div><p class="step-text">We audit your current reputation across all platforms, identify your review gaps, and benchmark you against your top competitors to set clear goals.</p></div>
+<div class="process-step"><div class="step-num">2</div><div class="step-title">System Setup</div><p class="step-text">We build your automated review request sequences and configure monitoring across all relevant platforms — everything is done for you.</p></div>
+<div class="process-step"><div class="step-num">3</div><div class="step-title">Generate & Protect</div><p class="step-text">The review funnel goes live, generating a steady stream of new 5-star reviews while we monitor and respond to everything that comes in.</p></div>
+<div class="process-step"><div class="step-num">4</div><div class="step-title">Report & Optimize</div><p class="step-text">Monthly reporting shows your rating trajectory, review volume, and response metrics — plus ongoing optimization to keep your reputation growing.</p></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:48px;">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-heading">Common <span class="grad">Questions</span></h2>
+    </div>
+    <div class="faq-list"><div class="faq-item"><button class="faq-btn">Is it against Google's terms to ask for reviews?<span class="faq-icon">+</span></button><div class="faq-body"><p>Asking customers for reviews is completely allowed — Google encourages it. What's prohibited is offering incentives for reviews or asking only satisfied customers. Our system is fully compliant with Google's guidelines.</p></div></div>
+<div class="faq-item"><button class="faq-btn">Can you remove negative reviews?<span class="faq-icon">+</span></button><div class="faq-body"><p>We can't guarantee removal of legitimate reviews, but we can flag policy-violating reviews for removal, respond professionally to minimize damage, and generate enough positive reviews to dilute the impact of occasional negatives.</p></div></div>
+<div class="faq-item"><button class="faq-btn">How quickly will I see new reviews coming in?<span class="faq-icon">+</span></button><div class="faq-body"><p>Most clients see their first new reviews within 2 weeks of launching the system. The pace accelerates as the automated sequences mature and your team gets comfortable with the process.</p></div></div>
+<div class="faq-item"><button class="faq-btn">What if I have almost no reviews right now?<span class="faq-icon">+</span></button><div class="faq-body"><p>That's actually a great starting point — there's nowhere to go but up. We'll help you prioritize your most loyal customers for outreach and build momentum quickly from a clean slate.</p></div></div></div>
+  </div>
+</section>
+<div class="container">
+  <div class="cta-section">
+    <h2>Turn Your Reputation Into<br><span class="grad">Your #1 Sales Asset</span></h2>
+    <p>Book a free call and we'll audit your current reputation and show you exactly how many reviews it takes to outrank your competitors.</p>
+    <a href="index.html#contact" class="btn btn-primary" style="font-size:16px;padding:16px 32px;"><span>🚀 Get My Free Reputation Audit</span></a>
+  </div>
+</div>
+<footer>
+  <p>© 2025 RankLocal. All rights reserved. &nbsp;|&nbsp;
+    <a href="index.html">Home</a>
+    <a href="index.html#services">Services</a>
+    <a href="tel:+18337799997">(833) 779-9997</a>
+    <a href="mailto:admin@ranklocall.com">admin@ranklocall.com</a>
+  </p>
+</footer>
+<script>
+document.querySelectorAll('.faq-btn').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));if(!isOpen)item.classList.add('open');});});
+</script>
+</body>
+</html>
