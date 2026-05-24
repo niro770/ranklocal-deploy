@@ -237,7 +237,7 @@ nav.scrolled {
 }
 .nav-links a:hover { color: #fff; }
 .nav-ctas { display: flex; align-items: center; gap: 10px; }
-.nav-hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; padding: 10px; min-width: 44px; min-height: 44px; }
+.nav-hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; padding: 10px; min-width: 44px; min-height: 44px; touch-action: manipulation; -webkit-tap-highlight-color: transparent; cursor: pointer; }
 .nav-hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
 
 /* ---- Services Dropdown ---- */
@@ -899,7 +899,7 @@ nav.scrolled {
   .hero-grid { grid-template-columns: 1fr; gap: 48px; }
   .hero-visual { display: none; }
   .hero-title { font-size: clamp(30px, 8vw, 46px); }
-  .nav-links, .nav-ctas .btn-outline { display: none; }
+  .nav-links, .nav-ctas { display: none; }
   .services-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .results-grid { grid-template-columns: 1fr; }
@@ -1715,5 +1715,4 @@ window.addEventListener('scroll', () => {
 // --- Mobile hamburger menu ---
 (function() {
   const hamburger = document.getElementById('hamburger');
-  const navLinks = document.querySelector('.nav-links');
-  if (!hamburger || !n
+  con
