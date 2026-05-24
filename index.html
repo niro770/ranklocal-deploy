@@ -1790,4 +1790,9 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
 
   function init() { setCardWidths(); goTo(0); startAuto(); }
   init();
-  window.addEven
+  window.addEventListener('resize', () => { setCardWidths(); goTo(0); });
+})();
+
+</script>
+</body>
+</html>
