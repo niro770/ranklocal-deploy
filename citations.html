@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Citation Building | RankLocal</title>
+<meta name="description" content="Dominate local search with RankLocal's manually built business citations. High-authority directory listings that boost your Google Maps rankings and local visibility.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #07070a; color: #fff; overflow-x: hidden; line-height: 1.6; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+
+:root {
+  --blue: #00AAFF;
+  --blue-dark: #0066CC;
+  --blue-glow: rgba(0,170,255,0.25);
+  --green: #00FF87;
+  --bg-0: #07070a;
+  --bg-1: #0d0d14;
+  --bg-2: #12121c;
+  --bg-3: #18182a;
+  --border: rgba(255,255,255,0.07);
+  --border-blue: rgba(0,170,255,0.2);
+  --text-muted: #7a7a9a;
+  --radius: 14px;
+  --radius-lg: 20px;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0d0d14; }
+::-webkit-scrollbar-thumb { background: linear-gradient(#00AAFF, #0055CC); border-radius: 2px; }
+
+/* NAV */
+nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(7,7,10,0.85); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+.nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+.nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; letter-spacing: -0.02em; }
+.nav-logo-icon { width: 34px; height: 34px; background: linear-gradient(135deg, #00AAFF, #0044BB); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 14px; color: #fff; }
+.grad { background: linear-gradient(90deg, #00AAFF, #0066FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+.nav-links a { font-size: 14px; font-weight: 500; color: var(--text-muted); transition: color .2s; }
+.nav-links a:hover { color: #fff; }
+.btn { display: inline-flex; align-items: center; gap: 8px; border-radius: 10px; font-weight: 700; transition: all .2s; cursor: pointer; }
+.btn-primary { background: linear-gradient(135deg, #00AAFF, #0055CC); color: #fff; }
+.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 30px rgba(0,170,255,0.4); }
+.btn-outline { border: 1px solid var(--border-blue); color: var(--blue); }
+.btn-outline:hover { background: rgba(0,170,255,0.08); }
+.glow { box-shadow: 0 0 30px rgba(0,170,255,0.3); }
+
+/* HERO */
+.hero { padding: 140px 24px 80px; text-align: center; position: relative; overflow: hidden; }
+.orb { position: absolute; border-radius: 50%; pointer-events: none; }
+.hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(0,170,255,0.1); border: 1px solid rgba(0,170,255,0.25); border-radius: 50px; padding: 6px 16px; font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 28px; }
+.hero-title { font-size: clamp(36px, 4.5vw, 60px); font-weight: 900; line-height: 1.08; letter-spacing: -0.03em; margin-bottom: 20px; }
+.hero-sub { font-size: 18px; color: var(--text-muted); max-width: 600px; margin: 0 auto 36px; }
+.hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+/* SECTIONS */
+.section { padding: 96px 24px; }
+.container { max-width: 1200px; margin: 0 auto; }
+.section-label { font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--blue); margin-bottom: 12px; }
+.section-title { font-size: clamp(28px, 3vw, 42px); font-weight: 900; letter-spacing: -0.02em; margin-bottom: 16px; }
+.section-sub { font-size: 17px; color: var(--text-muted); max-width: 580px; }
+
+/* WHY CITATIONS */
+.why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 56px; }
+.why-card { background: var(--bg-1); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 32px; }
+.why-icon { font-size: 32px; margin-bottom: 16px; }
+.why-card h3 { font-size: 18px; font-weight: 800; margin-bottom: 10px; }
+.why-card p { font-size: 14px; color: var(--text-muted); line-height: 1.7; }
+
+/* PRICING */
+.pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 56px; }
+.pricing-card { background: var(--bg-1); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 36px; position: relative; transition: transform .2s, border-color .2s; }
+.pricing-card:hover { transform: translateY(-4px); border-color: var(--border-blue); }
+.pricing-card.featured { background: linear-gradient(160deg, #0d1a2e, #0a1020); border: 1px solid rgba(0,170,255,0.35); }
+.featured-badge { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: linear-gradient(90deg, #00AAFF, #0055CC); border-radius: 50px; padding: 4px 18px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+.plan-name { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
+.plan-desc { font-size: 14px; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6; }
+.plan-price { font-size: 48px; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 4px; }
+.plan-price span { font-size: 22px; font-weight: 500; color: var(--text-muted); vertical-align: super; }
+.plan-period { font-size: 13px; color: var(--text-muted); margin-bottom: 28px; }
+.plan-features { list-style: none; margin-bottom: 32px; display: flex; flex-direction: column; gap: 12px; }
+.plan-features li { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #ccc; }
+.plan-features li::before { content: '✓'; color: var(--blue); font-weight: 900; flex-shrink: 0; margin-top: 1px; }
+.plan-btn { display: block; text-align: center; padding: 14px; border-radius: 10px; font-weight: 700; font-size: 15px; background: linear-gradient(135deg, #00AAFF, #0055CC); color: #fff; transition: all .2s; }
+.plan-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 30px rgba(0,170,255,0.4); }
+.plan-btn.outline { background: transparent; border: 1px solid var(--border-blue); color: var(--blue); }
+.plan-btn.outline:hover { background: rgba(0,170,255,0.08); box-shadow: none; }
+
+/* WHATS INCLUDED */
+.included-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; margin-top: 56px; }
+.included-list { display: flex; flex-direction: column; gap: 20px; }
+.included-item { display: flex; gap: 16px; align-items: flex-start; }
+.included-item-icon { width: 44px; height: 44px; background: rgba(0,170,255,0.1); border: 1px solid rgba(0,170,255,0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+.included-item h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+.included-item p { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+.included-visual { background: var(--bg-1); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 32px; }
+.dir-list { display: flex; flex-direction: column; gap: 12px; }
+.dir-item { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; background: var(--bg-2); border-radius: 10px; font-size: 14px; }
+.dir-name { font-weight: 600; }
+.dir-dr { font-size: 12px; color: var(--text-muted); }
+.dir-status { font-size: 12px; color: var(--green); font-weight: 700; }
+
+/* FAQ */
+.faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 12px; }
+.faq-item { background: var(--bg-1); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.faq-q { width: 100%; text-align: left; padding: 20px 24px; font-size: 15px; font-weight: 700; color: #fff; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.faq-q .arrow { font-size: 18px; color: var(--blue); transition: transform .3s; flex-shrink: 0; }
+.faq-item.open .arrow { transform: rotate(45deg); }
+.faq-a { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+.faq-a-inner { padding: 0 24px 20px; font-size: 14px; color: var(--text-muted); line-height: 1.8; }
+
+/* CTA SECTION */
+.cta-section { padding: 80px 24px; text-align: center; }
+.cta-box { background: linear-gradient(135deg, rgba(0,100,220,0.15), rgba(0,50,130,0.1)); border: 1px solid rgba(0,170,255,0.2); border-radius: 24px; padding: 64px 40px; max-width: 720px; margin: 0 auto; }
+
+/* FOOTER */
+footer { background: var(--bg-1); border-top: 1px solid var(--border); padding: 40px 24px; text-align: center; }
+.footer-logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; margin-bottom: 12px; }
+.footer-copy { font-size: 13px; color: var(--text-muted); }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .why-grid, .pricing-grid { grid-template-columns: 1fr; }
+  .included-grid { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+}
+@media (max-width: 600px) {
+  .hero-ctas { flex-direction: column; align-items: center; }
+}
+
+/* REVEAL */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">R</div>
+      Rank<span class="grad">Local</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="citations.html" style="color:#00AAFF;">Citations</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+    </ul>
+    <div style="display:flex;gap:12px;">
+      <a href="index.html#audit" class="btn btn-outline" style="padding:10px 18px;font-size:13px;">Free SEO Audit</a>
+      <a href="tel:+13058982005" class="btn btn-primary" style="padding:10px 18px;font-size:13px;"><span>📞 Book Free Call</span></a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="orb" style="width:600px;height:600px;top:-200px;left:-150px;background:radial-gradient(circle,rgba(0,80,220,0.14),transparent 70%);"></div>
+  <div class="orb" style="width:500px;height:500px;top:10%;right:-150px;background:radial-gradient(circle,rgba(0,150,255,0.08),transparent 70%);"></div>
+  <div class="container">
+    <div class="hero-badge">📍 Manually Built · High Authority · NAP Verified</div>
+    <h1 class="hero-title">Business Citations That<br><span class="grad">Lock In Your Rankings</span></h1>
+    <p class="hero-sub">We place your business on the high-authority directories that Google trusts most — building the citation foundation that turns map views into phone calls.</p>
+    <div class="hero-ctas">
+      <a href="#pricing" class="btn btn-primary glow" style="font-size:16px;padding:15px 34px;"><span>View Packages</span></a>
+      <a href="tel:+13058982005" class="btn btn-outline" style="font-size:16px;padding:15px 34px;">📞 (305) 898-2005</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CITATIONS -->
+<section class="section" style="background:var(--bg-1);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="section-label">Why It Matters</div>
+    <h2 class="section-title">Citations = Local SEO <span class="grad">Foundation</span></h2>
+    <p class="section-sub">Before you can dominate Google Maps, Google needs to trust your business exists. Citations are how that trust gets built.</p>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">🗂️</div>
+        <h3>NAP Consistency</h3>
+        <p>Your Name, Address, and Phone number appear identically across every major directory — the #1 signal Google uses to verify your business is legitimate.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">📈</div>
+        <h3>Maps Ranking Boost</h3>
+        <p>Businesses with strong citation profiles consistently outrank those without in the Google Maps 3-Pack. More citations = more trust = higher placement.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">🔗</div>
+        <h3>Authority Backlinks</h3>
+        <p>Top directories like Yelp, BBB, and Bing Places carry high domain authority. Each listing passes link equity to your website and strengthens your overall SEO.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="section-label">Citation Packages</div>
+    <h2 class="section-title">Choose Your <span class="grad">Citation Plan</span></h2>
+    <p class="section-sub">Every package is 100% manually built — no automated tools, no spam directories. Just real, high-quality listings that stick.</p>
+
+    <div class="pricing-grid">
+
+      <!-- Starter -->
+      <div class="pricing-card reveal">
+        <div class="plan-name">Starter</div>
+        <div class="plan-desc">Ideal for new businesses or those with minimal online presence who need a solid citation foundation fast.</div>
+        <div class="plan-price"><span>$</span>49</div>
+        <div class="plan-period">one-time · 50 citations</div>
+        <ul class="plan-features">
+          <li>50 High-Authority Directory Listings</li>
+          <li>Manual Submission — No Bots</li>
+          <li>Triple-Checked NAP Accuracy</li>
+          <li>Duplicate Check & Removal</li>
+          <li>Full Completion Report</li>
+          <li>USA, Canada, UK & Australia</li>
+        </ul>
+        <a href="tel:+13058982005" class="plan-btn outline">Get Started →</a>
+      </div>
+
+      <!-- Essential (Featured) -->
+      <div class="pricing-card featured reveal">
+        <div class="featured-badge">⭐ Most Popular</div>
+        <div class="plan-name">Essential</div>
+        <div class="plan-desc">Our most popular package — includes primary citations plus GPS map listings for maximum local visibility.</div>
+        <div class="plan-price"><span>$</span>89</div>
+        <div class="plan-period">one-time · 60 citations + GPS</div>
+        <ul class="plan-features">
+          <li>60 Premium Business Citations</li>
+          <li>6 GPS / Map App Listings</li>
+          <li>Manual Submission — No Bots</li>
+          <li>Triple-Checked NAP Accuracy</li>
+          <li>Duplicate Check & Removal</li>
+          <li>Optimized Business Profiles</li>
+          <li>Full Completion Report</li>
+        </ul>
+        <a href="tel:+13058982005" class="plan-btn">Get Started →</a>
+      </div>
+
+      <!-- Power Pack -->
+      <div class="pricing-card reveal">
+        <div class="plan-name">Power Pack</div>
+        <div class="plan-desc">Maximum authority. Combines premium citations, GPS listings, and tiered link building for aggressive ranking results.</div>
+        <div class="plan-price"><span>$</span>207</div>
+        <div class="plan-period">one-time · 110 citations + extras</div>
+        <ul class="plan-features">
+          <li>110 High-DR Business Citations</li>
+          <li>GPS & Map App Listings</li>
+          <li>Tiered Local Link Building</li>
+          <li>Citation Power-Up Boost</li>
+          <li>Triple-Checked NAP Accuracy</li>
+          <li>Duplicate Check & Removal</li>
+          <li>Up to 200 Secondary Citations</li>
+          <li>Full Detailed Report + Spreadsheet</li>
+        </ul>
+        <a href="tel:+13058982005" class="plan-btn outline">Get Started →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHAT'S INCLUDED -->
+<section class="section" style="background:var(--bg-1);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="section-label">What You Get</div>
+    <h2 class="section-title">Everything Done <span class="grad">For You</span></h2>
+    <p class="section-sub">We handle every step — from research to submission to verification. You just send us your business info and we do the rest.</p>
+    <div class="included-grid">
+      <div class="included-list">
+        <div class="included-item reveal">
+          <div class="included-item-icon">🔍</div>
+          <div>
+            <h4>Duplicate Audit First</h4>
+            <p>Before we build anything, we scan for existing listings and duplicates to avoid NAP conflicts that can hurt your rankings.</p>
+          </div>
+        </div>
+        <div class="included-item reveal">
+          <div class="included-item-icon">✋</div>
+          <div>
+            <h4>100% Manual Submissions</h4>
+            <p>Every listing is hand-built by our team — no automated tools that create low-quality, easily-removed citations.</p>
+          </div>
+        </div>
+        <div class="included-item reveal">
+          <div class="included-item-icon">📋</div>
+          <div>
+            <h4>Fully Optimized Profiles</h4>
+            <p>Business description, categories, photos, hours, website, and social links — every profile filled out completely for maximum impact.</p>
+          </div>
+        </div>
+        <div class="included-item reveal">
+          <div class="included-item-icon">📊</div>
+          <div>
+            <h4>Detailed Completion Report</h4>
+            <p>You get a full spreadsheet of every directory we listed you on, with live links so you can verify each listing yourself.</p>
+          </div>
+        </div>
+      </div>
+      <div class="included-visual reveal">
+        <div style="font-size:13px;font-weight:700;color:var(--blue);margin-bottom:20px;text-transform:uppercase;letter-spacing:1px;">Sample Directories We List You On</div>
+        <div class="dir-list">
+          <div class="dir-item">
+            <span class="dir-name">Google Business Profile</span>
+            <span class="dir-dr">DR 99</span>
+            <span class="dir-status">✓ Listed</span>
+          </div>
+          <div class="dir-item">
+            <span class="dir-name">Yelp</span>
+            <span class="dir-dr">DR 94</span>
+            <span class="dir-status">✓ Listed</span>
+          </div>
+          <div class="dir-item">
+            <span class="dir-name">Bing Places</span>
+            <span class="dir-dr">DR 93</span>
+            <span class="dir-status">✓ Listed</span>
+          </div>
+          <div class="dir-item">
+            <span class="dir-name">Apple Maps</span>
+            <span class="dir-dr">DR 95</span>
+            <span class="dir-status">✓ Listed</span>
+          </div>
+          <div class="dir-item">
+            <span class="dir-name">BBB (Better Business Bureau)</span>
+            <span class="dir-dr">DR 88</span>
+            <span class="dir-status">✓ Listed</span>
+          </div>
+          <div class="dir-item">
+            <span class="dir-name">Angi (Angie's List)</span>
+            <span class="dir-dr">DR 85</span>
+            <span class="dir-status">✓ Listed</span>
+          </div>
+          <div class="dir-item">
+            <span class="dir-name">Foursquare</span>
+            <span class="dir-dr">DR 82</span>
+            <span class="dir-status">✓ Listed</span>
+          </div>
+          <div class="dir-item">
+            <span class="dir-name">+ 50–200 more directories</span>
+            <span class="dir-dr"></span>
+            <span class="dir-status">by package</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <div class="container" style="max-width:760px;">
+    <div class="section-label">FAQ</div>
+    <h2 class="section-title">Common <span class="grad">Questions</span></h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q">How long does it take to build citations? <span class="arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Most citation packages are completed within 7–14 business days. Larger Power Pack orders may take up to 21 days. You'll receive your full report as soon as everything is live and verified.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Will you work in my country? <span class="arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes — we build citations for businesses in the USA, Canada, the UK, Australia, and most other countries. The specific directory list may vary slightly by region to ensure you're listed on the most relevant local platforms.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What information do you need from me? <span class="arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">We need your business name, address, phone number, website URL, business categories, hours of operation, and a short description. Optionally, photos and social media links help us create fully optimized profiles.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How are citations different from backlinks? <span class="arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Citations are directory listings (NAP mentions) that establish your business's legitimacy in Google's eyes — critical for local/Maps rankings. Backlinks are links from other websites that build domain authority. Both matter for SEO, and many citations also include a backlink to your website.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do I need citations if I already have a Google Business Profile? <span class="arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Absolutely. Your GBP is just one signal. Google cross-references your business information across hundreds of directories to confirm it's accurate. The more consistent mentions of your business across the web, the more confident Google is to rank you higher in Maps results.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is this a one-time service or monthly? <span class="arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Citations are a one-time foundational build. Once your listings are live, they stay live. We also offer ongoing local SEO campaigns that include citation monitoring and maintenance — ask us about our monthly packages.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-box reveal">
+    <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--blue);margin-bottom:12px;">Ready to Build Your Foundation?</div>
+    <h2 style="font-size:clamp(28px,3vw,42px);font-weight:900;letter-spacing:-0.02em;margin-bottom:16px;">Start Building Your<br><span class="grad">Citation Authority Today</span></h2>
+    <p style="font-size:16px;color:var(--text-muted);max-width:480px;margin:0 auto 32px;">Every day without citations is a day your competitors are building theirs. Let's get your business listed everywhere that matters.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="#pricing" class="btn btn-primary glow" style="font-size:16px;padding:15px 32px;"><span>View Packages</span></a>
+      <a href="tel:+13058982005" class="btn btn-outline" style="font-size:16px;padding:15px 32px;">📞 (305) 898-2005</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <div class="nav-logo-icon">R</div>
+    Rank<span class="grad">Local</span>
+  </div>
+  <p class="footer-copy">© 2025 RankLocal. All rights reserved. · <a href="index.html" style="color:var(--blue);">Back to Home</a></p>
+</footer>
+
+<script>
+// Reveal on scroll
+const reveals = document.querySelectorAll('.reveal');
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+}, { threshold: 0.1 });
+reveals.forEach(r => obs.observe(r));
+
+// FAQ accordion
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.faq-a').style.maxHeight = null;
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      item.querySelector('.faq-a').style.maxHeight = item.querySelector('.faq-a').scrollHeight + 'px';
+    }
+  });
+});
+</script>
+</body>
+</html>
