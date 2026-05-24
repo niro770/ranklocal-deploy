@@ -1624,6 +1624,17 @@ window.addEventListener('scroll', () => {
 
 // --- Reveal on scroll ---
 const reveals = document.querySelectorAll('.reveal');
+
+function revealInView() {
+  reveals.forEach((r, i) => {
+    if (r.classList.contains('on')) return;
+    const rect = r.getBoundingClientRect();
+    if (rect.top < window.innerHeight + 60) {
+      setTimeout(() => r.classList.add('on'), i * 60);
+    }
+  });
+}
+
 const revealObs = new IntersectionObserver((entries) => {
   entries.forEach((e, i) => {
     if (e.isIntersecting) {
@@ -1631,8 +1642,19 @@ const revealObs = new IntersectionObserver((entries) => {
       revealObs.unobserve(e.target);
     }
   });
-}, { threshold: 0.08 });
+}, { threshold: 0.05 });
 reveals.forEach(r => revealObs.observe(r));
+
+// Fallback: catch anything already in view on load or after anchor navigation
+window.addEventListener('load', () => revealInView());
+setTimeout(() => revealInView(), 300);
+setTimeout(() => revealInView(), 800);
+
+// Reveal after hash navigation (e.g. clicking "Services" in nav)
+window.addEventListener('hashchange', () => {
+  setTimeout(() => revealInView(), 200);
+  setTimeout(() => revealInView(), 600);
+});
 
 // --- Counter animation ---
 function animateNum(el) {
@@ -1707,23 +1729,4 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
   function goTo(idx) {
     cur = Math.max(0, Math.min(idx, total() - 1));
     const w = cardW();
-    track.style.transform = `translateX(-${cur * (w + 22)}px)`;
-    buildDots();
-  }
-  function startAuto() {
-    clearInterval(auto);
-    auto = setInterval(() => goTo(cur >= total() - 1 ? 0 : cur + 1), 5000);
-  }
-  document.getElementById('tPrev').onclick = () => { goTo(cur - 1); startAuto(); };
-  document.getElementById('tNext').onclick = () => { goTo(cur + 1); startAuto(); };
-
-  function init() { setCardWidths(); goTo(0); startAuto(); }
-  init();
-  window.addEventListener('resize', () => { setCardWidths(); goTo(0); });
-})();
-
-// --- Form ---
-function formSubmit(e) {
-  e.preventDefault();
-  document.getElementById('auditForm').style.display = 'none';
-  const s = do
+   
