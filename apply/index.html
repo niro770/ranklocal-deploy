@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<base href="/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply to Become a RankLocal Partner</title>
+<meta name="description" content="Apply to join the RankLocal Pay Per Call Marketplace. Get exclusive inbound calls from customers ready to hire in your area.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #07070a;
+  color: #fff;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+a { text-decoration: none; color: inherit; }
+
+:root {
+  --blue: #00AAFF;
+  --green: #00FF87;
+  --bg-1: #0d0d14;
+  --border: rgba(255,255,255,0.08);
+  --border-blue: rgba(0,170,255,0.25);
+  --text-muted: #7a7a9a;
+}
+
+/* NAV */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+  background: #0d0d14;
+  border-bottom: 1px solid var(--border);
+  height: 64px;
+}
+.nav-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 64px; max-width: 1100px; margin: 0 auto; padding: 0 24px;
+}
+.nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 900; font-size: 18px; }
+.nav-logo-icon {
+  width: 32px; height: 32px;
+  background: linear-gradient(135deg, #00AAFF, #0044BB);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900; font-size: 13px; color: #fff;
+}
+.grad { background: linear-gradient(135deg,#00AAFF,#00CCFF); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+.nav-back { font-size: 13px; color: var(--text-muted); }
+.nav-back:hover { color: #fff; }
+
+/* PAGE */
+.page {
+  padding: 96px 20px 60px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* FORM CARD */
+.form-card {
+  background: #0d0d14;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 40px;
+}
+@media (max-width: 600px) {
+  .form-card { padding: 28px 20px; }
+}
+
+/* PROGRESS */
+.progress-wrap { display: flex; align-items: center; margin-bottom: 36px; }
+.progress-step { display: flex; align-items: center; gap: 8px; }
+.progress-num {
+  width: 30px; height: 30px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 700; flex-shrink: 0;
+  border: 2px solid var(--border); color: var(--text-muted);
+}
+.progress-num.active { border-color: var(--blue); background: var(--blue); color: #fff; }
+.progress-num.done { border-color: var(--green); background: var(--green); color: #07070a; }
+.progress-label { font-size: 12px; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
+.progress-label.active { color: #fff; }
+.progress-line { flex: 1; height: 1px; background: var(--border); margin: 0 10px; }
+.progress-line.done { background: var(--green); }
+
+/* TITLES */
+.form-title { font-size: clamp(20px, 4vw, 28px); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 6px; }
+.form-sub { font-size: 14px; color: var(--text-muted); margin-bottom: 28px; }
+
+/* STEPS */
+.step { display: none; }
+.step.active { display: block; }
+
+/* FIELDS */
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 18px; }
+@media (max-width: 600px) { .field-row { grid-template-columns: 1fr; } }
+.field-group { margin-bottom: 18px; }
+.field-label { font-size: 13px; font-weight: 600; color: #ccc; margin-bottom: 6px; display: block; }
+.req { color: var(--blue); }
+.field-input {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 14px; color: #fff;
+  font-family: inherit; outline: none;
+  -webkit-appearance: none; appearance: none;
+}
+.field-input:focus { border-color: rgba(0,170,255,0.5); box-shadow: 0 0 0 3px rgba(0,170,255,0.1); }
+.field-input.error { border-color: rgba(255,80,80,0.5); }
+.field-input::placeholder { color: #444; }
+select.field-input { cursor: pointer; }
+select.field-input option { background: #12121c; }
+textarea.field-input { resize: vertical; min-height: 90px; }
+
+/* PHONE */
+.phone-row { display: grid; grid-template-columns: 110px 1fr; gap: 10px; }
+
+/* CHECKBOXES */
+.checkbox-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+@media (max-width: 600px) { .checkbox-grid { grid-template-columns: 1fr; } }
+.checkbox-item {
+  display: flex; align-items: center; gap: 10px;
+  cursor: pointer; padding: 10px 12px;
+  border-radius: 8px; border: 1px solid var(--border);
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+.checkbox-item:active { background: rgba(0,170,255,0.06); }
+.checkbox-item input[type="checkbox"] { display: none; }
+.checkbox-box {
+  width: 18px; height: 18px; border-radius: 4px; flex-shrink: 0;
+  border: 2px solid #444;
+  display: flex; align-items: center; justify-content: center;
+}
+.checkbox-box svg { display: none; }
+.checkbox-item input:checked + .checkbox-box { background: var(--blue); border-color: var(--blue); }
+.checkbox-item input:checked + .checkbox-box svg { display: block; }
+.checkbox-item:has(input:checked) { border-color: var(--border-blue); background: rgba(0,170,255,0.07); }
+.checkbox-text { font-size: 13px; color: #aaa; }
+.checkbox-item input:checked ~ .checkbox-text { color: #fff; }
+
+/* ERRORS */
+.err-msg { font-size: 12px; color: #ff7070; margin-top: 4px; display: none; }
+.err-msg.show { display: block; }
+.err-banner {
+  background: rgba(255,60,60,0.1);
+  border: 1px solid rgba(255,60,60,0.3);
+  border-radius: 8px; padding: 10px 14px;
+  font-size: 13px; color: #ff8080;
+  margin-bottom: 18px; display: none;
+}
+.err-banner.show { display: block; }
+
+/* BUTTONS */
+.btn-row { display: flex; gap: 12px; margin-top: 28px; }
+@media (max-width: 600px) { .btn-row { flex-direction: column-reverse; } }
+.btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 15px 28px; border-radius: 10px;
+  font-weight: 700; font-size: 15px; font-family: inherit;
+  cursor: pointer; border: none;
+  min-height: 52px;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.btn-primary {
+  flex: 1;
+  background: linear-gradient(135deg, #0077DD, #00AAFF);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,170,255,0.3);
+}
+.btn-primary:active { opacity: 0.85; }
+.btn-ghost {
+  background: rgba(255,255,255,0.06);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 15px 20px;
+}
+.btn-ghost:active { opacity: 0.7; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* TRUST */
+.trust-strip { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-top: 24px; }
+.trust-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-muted); }
+.trust-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+
+/* THANK YOU */
+.thankyou { display: none; text-align: center; padding: 10px 0; }
+.thankyou.active { display: block; }
+.ty-icon { font-size: 60px; margin-bottom: 16px; }
+.ty-title { font-size: 28px; font-weight: 900; letter-spacing: -0.02em; margin-bottom: 10px; }
+.ty-sub { font-size: 15px; color: var(--text-muted); margin-bottom: 24px; }
+.ty-details { background: rgba(0,170,255,0.06); border: 1px solid var(--border-blue); border-radius: 12px; padding: 20px; margin-bottom: 24px; text-align: left; }
+.ty-row { display: flex; gap: 10px; font-size: 14px; margin-bottom: 10px; }
+.ty-row:last-child { margin-bottom: 0; }
+.ty-back {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(0,170,255,0.1); border: 1px solid var(--border-blue);
+  border-radius: 10px; padding: 12px 24px;
+  font-weight: 600; font-size: 14px; color: var(--blue);
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="nav-logo-icon">R</div>
+      Rank<span class="grad">Local</span>
+    </a>
+    <a href="/pay-per-call-marketplace/" class="nav-back">← Back to Marketplace</a>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="form-card">
+
+    <!-- PROGRESS -->
+    <div class="progress-wrap" id="progressWrap">
+      <div class="progress-step">
+        <div class="progress-num active" id="num1">1</div>
+        <div class="progress-label active" id="lbl1">Your Info</div>
+      </div>
+      <div class="progress-line" id="line1"></div>
+      <div class="progress-step">
+        <div class="progress-num" id="num2">2</div>
+        <div class="progress-label" id="lbl2">Business Details</div>
+      </div>
+      <div class="progress-line" id="line2"></div>
+      <div class="progress-step">
+        <div class="progress-num" id="num3">3</div>
+        <div class="progress-label" id="lbl3">Done!</div>
+      </div>
+    </div>
+
+    <!-- STEP 1 -->
+    <div class="step active" id="step1">
+      <div class="form-title">Apply to Become a <span class="grad">RankLocal Partner</span></div>
+      <div class="form-sub">Join 500+ local businesses growing with our Pay Per Call Marketplace. Takes under 2 minutes.</div>
+
+      <div class="err-banner" id="err1">Please fill in all required fields before continuing.</div>
+
+      <div class="field-row">
+        <div>
+          <label class="field-label">First Name <span class="req">*</span></label>
+          <input class="field-input" type="text" id="firstName" placeholder="John" autocomplete="given-name">
+          <div class="err-msg" id="firstNameErr">Required</div>
+        </div>
+        <div>
+          <label class="field-label">Last Name <span class="req">*</span></label>
+          <input class="field-input" type="text" id="lastName" placeholder="Smith" autocomplete="family-name">
+          <div class="err-msg" id="lastNameErr">Required</div>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Company Name <span class="req">*</span></label>
+        <input class="field-input" type="text" id="company" placeholder="Smith Plumbing LLC" autocomplete="organization">
+        <div class="err-msg" id="companyErr">Required</div>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Email Address <span class="req">*</span></label>
+        <input class="field-input" type="email" id="email" placeholder="john@yourcompany.com" autocomplete="email">
+        <div class="err-msg" id="emailErr">Please enter a valid email address</div>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">What services does your business provide? <span class="req">*</span></label>
+        <div class="err-msg show" id="servicesErr" style="display:none;margin-bottom:8px;">Please select at least one service</div>
+        <div class="checkbox-grid">
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Appliance Repair">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Appliance Repair</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Electrical">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Electrical</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="HVAC">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">HVAC</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Locksmith">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Locksmith</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Mold Remediation">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Mold Remediation</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Pest Control">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Pest Control</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Plumbing">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Plumbing</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Roofing">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Roofing</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Towing">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Towing</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Water Damage Restoration">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Water Damage</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="General Contractor">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">General Contractor</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" name="service" value="Other">
+            <div class="checkbox-box"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4L3.5 6.5L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <span class="checkbox-text">Other</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-primary" onclick="goStep2()">Continue → Step 2</button>
+      </div>
+
+      <div class="trust-strip">
+        <div class="trust-item"><div class="trust-dot"></div> No credit card required</div>
+        <div class="trust-item"><div class="trust-dot"></div> Free to apply</div>
+        <div class="trust-item"><div class="trust-dot"></div> Response within 24 hours</div>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step" id="step2">
+      <div class="form-title">Business <span class="grad">Details</span></div>
+      <div class="form-sub">Tell us about your business so we can match you with the right program.</div>
+
+      <div class="err-banner" id="err2">Please fill in all required fields before submitting.</div>
+
+      <div class="field-group">
+        <label class="field-label">Phone Number <span class="req">*</span></label>
+        <div class="phone-row">
+          <select class="field-input" id="countryCode">
+            <option value="+1">🇺🇸 +1</option>
+            <option value="+1-CA">🇨🇦 +1</option>
+            <option value="+44">🇬🇧 +44</option>
+            <option value="+972">🇮🇱 +972</option>
+            <option value="+61">🇦🇺 +61</option>
+          </select>
+          <input class="field-input" type="tel" id="phone" placeholder="(555) 000-0000" autocomplete="tel">
+        </div>
+        <div class="err-msg" id="phoneErr">Please enter a valid phone number</div>
+      </div>
+
+      <div class="field-row">
+        <div>
+          <label class="field-label">Located in the US? <span class="req">*</span></label>
+          <select class="field-input" id="inUS">
+            <option value="">Select...</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+          <div class="err-msg" id="inUSErr">Required</div>
+        </div>
+        <div>
+          <label class="field-label">Zip Code <span class="req">*</span></label>
+          <input class="field-input" type="text" id="zip" placeholder="90210" maxlength="10">
+          <div class="err-msg" id="zipErr">Required</div>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Number of Employees <span class="req">*</span></label>
+        <select class="field-input" id="employees">
+          <option value="">Select...</option>
+          <option value="1">Just me (solo)</option>
+          <option value="2-5">2 – 5 employees</option>
+          <option value="6-15">6 – 15 employees</option>
+          <option value="16-50">16 – 50 employees</option>
+          <option value="51+">51+ employees</option>
+        </select>
+        <div class="err-msg" id="employeesErr">Required</div>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Website URL <span style="color:var(--text-muted);font-weight:400;">(optional)</span></label>
+        <input class="field-input" type="text" id="website" placeholder="https://yourcompany.com">
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Monthly Marketing Budget <span class="req">*</span></label>
+        <select class="field-input" id="budget">
+          <option value="">Select...</option>
+          <option value="under500">Under $500/month</option>
+          <option value="500-1000">$500 – $1,000/month</option>
+          <option value="1000-2500">$1,000 – $2,500/month</option>
+          <option value="2500-5000">$2,500 – $5,000/month</option>
+          <option value="5000+">$5,000+/month</option>
+        </select>
+        <div class="err-msg" id="budgetErr">Required</div>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Anything else you'd like us to know?</label>
+        <textarea class="field-input" id="notes" rows="3" placeholder="Tell us about your business, service area, or goals..."></textarea>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-ghost" onclick="goStep1()">← Previous</button>
+        <button type="button" class="btn btn-primary" id="btnSubmit" onclick="submitForm()">Submit Application →</button>
+      </div>
+    </div>
+
+    <!-- THANK YOU -->
+    <div class="thankyou" id="thankyou">
+      <div class="ty-icon">🎉</div>
+      <div class="ty-title">Application <span class="grad">Received!</span></div>
+      <div class="ty-sub">Our team will review your application and reach out within 24 hours.</div>
+      <div class="ty-details">
+        <div class="ty-row"><span>📞</span><span>We'll call the number you provided to discuss your program options.</span></div>
+        <div class="ty-row"><span>📧</span><span>Confirmation sent to <strong id="confirmEmail"></strong></span></div>
+        <div class="ty-row"><span>⚡</span><span>If approved, your campaign can go live within <strong>72 hours</strong>.</span></div>
+      </div>
+      <a href="/pay-per-call-marketplace/" class="ty-back">← Back to Marketplace</a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function setProgress(step) {
+  var nums = [document.getElementById('num1'), document.getElementById('num2'), document.getElementById('num3')];
+  var lbls = [document.getElementById('lbl1'), document.getElementById('lbl2'), document.getElementById('lbl3')];
+  var lines = [document.getElementById('line1'), document.getElementById('line2')];
+  nums.forEach(function(n, i) {
+    n.classList.remove('active','done');
+    lbls[i].classList.remove('active');
+    if (i + 1 < step) { n.classList.add('done'); n.textContent = '✓'; }
+    else if (i + 1 === step) { n.classList.add('active'); n.textContent = i + 1; }
+    else { n.textContent = i + 1; }
+    if (i + 1 === step) lbls[i].classList.add('active');
+  });
+  lines.forEach(function(l, i) { l.classList.toggle('done', i + 1 < step); });
+}
+
+function validateEmail(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+
+function showErr(id) { var el = document.getElementById(id); if (el) el.style.display = 'block'; }
+function hideErr(id) { var el = document.getElementById(id); if (el) el.style.display = 'none'; }
+function markField(id, ok) { var el = document.getElementById(id); if (el) el.classList.toggle('error', !ok); }
+
+function validateStep1() {
+  var ok = true;
+  var first = document.getElementById('firstName').value.trim();
+  var last = document.getElementById('lastName').value.trim();
+  var co = document.getElementById('company').value.trim();
+  var em = document.getElementById('email').value.trim();
+  var svc = document.querySelectorAll('input[name="service"]:checked');
+
+  ['firstNameErr','lastNameErr','companyErr','emailErr','servicesErr'].forEach(hideErr);
+  ['firstName','lastName','company','email'].forEach(function(id) { markField(id, true); });
+  hideErr('err1');
+
+  if (!first) { showErr('firstNameErr'); markField('firstName', false); ok = false; }
+  if (!last)  { showErr('lastNameErr');  markField('lastName', false);  ok = false; }
+  if (!co)    { showErr('companyErr');   markField('company', false);   ok = false; }
+  if (!em || !validateEmail(em)) { showErr('emailErr'); markField('email', false); ok = false; }
+  if (svc.length === 0) { showErr('servicesErr'); ok = false; }
+  if (!ok) showErr('err1');
+  return ok;
+}
+
+function validateStep2() {
+  var ok = true;
+  var ph = document.getElementById('phone').value.trim();
+  var us = document.getElementById('inUS').value;
+  var zp = document.getElementById('zip').value.trim();
+  var emp = document.getElementById('employees').value;
+  var bud = document.getElementById('budget').value;
+
+  ['phoneErr','inUSErr','zipErr','employeesErr','budgetErr'].forEach(hideErr);
+  ['phone','inUS','zip','employees','budget'].forEach(function(id) { markField(id, true); });
+  hideErr('err2');
+
+  if (!ph || ph.replace(/\D/g,'').length < 7) { showErr('phoneErr'); markField('phone', false); ok = false; }
+  if (!us)  { showErr('inUSErr');       markField('inUS', false);      ok = false; }
+  if (!zp)  { showErr('zipErr');        markField('zip', false);        ok = false; }
+  if (!emp) { showErr('employeesErr'); markField('employees', false);  ok = false; }
+  if (!bud) { showErr('budgetErr');    markField('budget', false);     ok = false; }
+  if (!ok) showErr('err2');
+  return ok;
+}
+
+function goStep1() {
+  document.getElementById('step2').classList.remove('active');
+  document.getElementById('step1').classList.add('active');
+  setProgress(1);
+  window.scrollTo(0, 0);
+}
+
+function goStep2() {
+  if (!validateStep1()) {
+    document.getElementById('err1').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    return;
+  }
+  document.getElementById('step1').classList.remove('active');
+  document.getElementById('step2').classList.add('active');
+  setProgress(2);
+  window.scrollTo(0, 0);
+}
+
+function submitForm() {
+  if (!validateStep2()) {
+    document.getElementById('err2').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    return;
+  }
+
+  var btn = document.getElementById('btnSubmit');
+  btn.textContent = 'Submitting…';
+  btn.disabled = true;
+
+  var svc = Array.from(document.querySelectorAll('input[name="service"]:checked')).map(function(c){ return c.value; }).join(', ');
+
+  var payload = {
+    access_key: 'ff0994c5-d15d-4ba5-a191-6c1e5df272c1',
+    subject: 'New Partner Application — ' + document.getElementById('company').value.trim(),
+    from_name: 'RankLocal Apply Form',
+    name: document.getElementById('firstName').value.trim() + ' ' + document.getElementById('lastName').value.trim(),
+    email: document.getElementById('email').value.trim(),
+    company: document.getElementById('company').value.trim(),
+    services: svc,
+    phone: document.getElementById('countryCode').value + ' ' + document.getElementById('phone').value.trim(),
+    located_in_us: document.getElementById('inUS').value,
+    zip_code: document.getElementById('zip').value.trim(),
+    employees: document.getElementById('employees').value,
+    website: document.getElementById('website').value.trim() || 'Not provided',
+    monthly_budget: document.getElementById('budget').value,
+    notes: document.getElementById('notes').value.trim()
+  };
+
+  fetch('https://api.web3forms.com/submit', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(d) {
+    if (!d.success) throw new Error('failed');
+    document.getElementById('step2').classList.remove('active');
+    document.getElementById('progressWrap').style.display = 'none';
+    document.getElementById('thankyou').classList.add('active');
+    document.getElementById('confirmEmail').textContent = document.getElementById('email').value.trim();
+    setProgress(3);
+    window.scrollTo(0, 0);
+  })
+  .catch(function() {
+    btn.textContent = 'Submit Application →';
+    btn.disabled = false;
+    document.getElementById('err2').textContent = 'Something went wrong. Please try again or email admin@ranklocall.com';
+    showErr('err2');
+  });
+}
+
+setProgress(1);
+</script>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
