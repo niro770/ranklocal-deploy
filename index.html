@@ -1747,4 +1747,51 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
   let cur = 0;
   let auto;
 
-  function per
+  function perView() {
+    const w = outer.offsetWidth;
+    if (w >= 960) return 3;
+    if (w >= 600) return 2;
+    return 1;
+  }
+  function cardW() {
+    const pv = perView();
+    const gap = 22;
+    return (outer.offsetWidth - gap * (pv - 1)) / pv;
+  }
+  function total() { return Math.ceil(cards.length / perView()); }
+
+  function setCardWidths() {
+    const w = cardW();
+    cards.forEach(c => { c.style.width = w + 'px'; c.style.minWidth = w + 'px'; });
+  }
+  function buildDots() {
+    dotsEl.innerHTML = '';
+    for (let i = 0; i < total(); i++) {
+      const d = document.createElement('button');
+      d.className = 'dot' + (i === cur ? ' active' : '');
+      d.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+      d.onclick = () => goTo(i);
+      dotsEl.appendChild(d);
+    }
+  }
+  function goTo(idx) {
+    cur = Math.max(0, Math.min(idx, total() - 1));
+    const w = cardW();
+    track.style.transform = `translateX(-${cur * (w + 22)}px)`;
+    buildDots();
+  }
+  function startAuto() {
+    clearInterval(auto);
+    auto = setInterval(() => goTo(cur >= total() - 1 ? 0 : cur + 1), 5000);
+  }
+  document.getElementById('tPrev').onclick = () => { goTo(cur - 1); startAuto(); };
+  document.getElementById('tNext').onclick = () => { goTo(cur + 1); startAuto(); };
+
+  function init() { setCardWidths(); goTo(0); startAuto(); }
+  init();
+  window.addEventListener('resize', () => { setCardWidths(); goTo(0); });
+})();
+
+</script>
+</body>
+</html>
