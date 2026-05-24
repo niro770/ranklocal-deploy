@@ -521,20 +521,16 @@ function goStep2() {
   window.scrollTo(0, 0);
 }
 
-function submitForm() {
+async function submitForm() {
   if (!validateStep2()) return;
-  // Hide form steps, show thank you
-  document.getElementById('step2').classList.remove('active');
-  document.getElementById('progressWrap').style.display = 'none';
-  const ty = document.getElementById('thankyou');
-  ty.classList.add('active');
-  document.getElementById('confirmEmail').textContent = document.getElementById('email').value.trim();
-  setProgress(3);
-  window.scrollTo(0, 0);
-}
 
-// Init
-setProgress(1);
-</script>
-</body>
-</html>
+  const submitBtn = document.querySelector('#step2 .btn-primary');
+  submitBtn.textContent = 'Submitting…';
+  submitBtn.disabled = true;
+
+  const services = [...document.querySelectorAll('input[name="service"]:checked')].map(c => c.value).join(', ');
+
+  const payload = {
+    access_key: 'ff0994c5-d15d-4ba5-a191-6c1e5df272c1',
+    subject: 'New Partner Application — ' + document.getElementById('company').value.trim(),
+    from_name
