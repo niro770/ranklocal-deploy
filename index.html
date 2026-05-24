@@ -194,9 +194,7 @@ nav {
   overflow: visible;
 }
 nav.scrolled {
-  background: rgba(7,7,10,0.88);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(7,7,10,0.97);
   border-bottom-color: var(--border);
 }
 .nav-inner {
@@ -956,7 +954,7 @@ nav.scrolled {
       <a href="#audit" class="btn btn-outline" style="padding:10px 18px;font-size:13px;">Free SEO Audit</a>
       <a href="#contact" class="btn btn-primary" style="padding:10px 18px;font-size:13px;"><span>📞 Book Free Call</span></a>
     </div>
-    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+    <button type="button" class="nav-hamburger" id="hamburger" aria-label="Menu" onclick="navToggle()">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -1713,6 +1711,7 @@ window.addEventListener('scroll', () => {
 })();
 
 // --- Mobile hamburger menu ---
-(function() {
-  const hamburger = document.getElementById('hamburger');
-  con
+var _navOpen = false;
+function navToggle() {
+  var hamburger = document.getElementById('hamburger');
+  var navL
