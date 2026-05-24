@@ -53,7 +53,6 @@ nav {
   justify-content: center;
   padding: 100px 24px 60px;
   position: relative;
-  overflow: hidden;
 }
 .orb { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; }
 
@@ -136,7 +135,7 @@ select.field-input option { background: #12121c; color: #fff; }
 
 /* ===== BUTTONS ===== */
 .btn-row { display: flex; align-items: center; justify-content: space-between; margin-top: 36px; gap: 12px; }
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 28px; border-radius: 10px; font-weight: 700; font-size: 15px; cursor: pointer; border: none; font-family: inherit; transition: all 0.2s; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 28px; border-radius: 10px; font-weight: 700; font-size: 15px; cursor: pointer; border: none; font-family: inherit; transition: all 0.2s; pointer-events: auto; position: relative; z-index: 5; }
 .btn-primary { background: linear-gradient(135deg, #0077DD, #00AAFF); color: #fff; box-shadow: 0 4px 20px rgba(0,170,255,0.3); flex: 1; }
 .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 30px rgba(0,170,255,0.45); }
 .btn-ghost { background: rgba(255,255,255,0.05); color: var(--text-muted); border: 1px solid var(--border); padding: 14px 22px; }
@@ -313,7 +312,7 @@ select.field-input option { background: #12121c; color: #fff; }
       </div>
 
       <div class="btn-row">
-        <button class="btn btn-primary" onclick="goStep2()">Continue → Step 2</button>
+        <button type="button" class="btn btn-primary" onclick="goStep2()">Continue → Step 2</button>
       </div>
 
       <div class="trust-strip">
@@ -402,8 +401,8 @@ select.field-input option { background: #12121c; color: #fff; }
       </div>
 
       <div class="btn-row">
-        <button class="btn btn-ghost" onclick="goStep1()">← Previous</button>
-        <button class="btn btn-primary" onclick="submitForm()">Submit Application →</button>
+        <button type="button" class="btn btn-ghost" onclick="goStep1()">← Previous</button>
+        <button type="button" class="btn btn-primary" onclick="submitForm()">Submit Application →</button>
       </div>
     </div>
 
@@ -528,6 +527,4 @@ function goStep2() {
 async function submitForm() {
   if (!validateStep2()) return;
 
-  const submitBtn = document.querySelector('#step2 .btn-primary');
-  submitBtn.textContent = 'Submitting…';
-  submitBtn.disabled = true;
+  const submitBtn = document.querySelector('#step2 .btn-primary
