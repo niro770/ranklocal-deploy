@@ -1625,36 +1625,30 @@ window.addEventListener('scroll', () => {
 // --- Reveal on scroll ---
 const reveals = document.querySelectorAll('.reveal');
 
-function revealInView() {
-  reveals.forEach((r, i) => {
+function checkInView() {
+  reveals.forEach(r => {
     if (r.classList.contains('on')) return;
     const rect = r.getBoundingClientRect();
-    if (rect.top < window.innerHeight + 60) {
-      setTimeout(() => r.classList.add('on'), i * 60);
-    }
+    if (rect.top < window.innerHeight + 50) r.classList.add('on');
   });
 }
 
 const revealObs = new IntersectionObserver((entries) => {
-  entries.forEach((e, i) => {
+  entries.forEach(e => {
     if (e.isIntersecting) {
-      setTimeout(() => e.target.classList.add('on'), i * 70);
+      e.target.classList.add('on');
       revealObs.unobserve(e.target);
     }
   });
 }, { threshold: 0.05 });
 reveals.forEach(r => revealObs.observe(r));
 
-// Fallback: catch anything already in view on load or after anchor navigation
-window.addEventListener('load', () => revealInView());
-setTimeout(() => revealInView(), 300);
-setTimeout(() => revealInView(), 800);
-
-// Reveal after hash navigation (e.g. clicking "Services" in nav)
-window.addEventListener('hashchange', () => {
-  setTimeout(() => revealInView(), 200);
-  setTimeout(() => revealInView(), 600);
-});
+// Fallback on load
+window.addEventListener('load', checkInView);
+// Fallback on anchor nav (clicking Services, Results, etc.)
+window.addEventListener('hashchange', () => setTimeout(checkInView, 80));
+// Nuclear: after 600ms everything must be visible no matter what
+window.addEventListener('load', () => setTimeout(() => reveals.forEach(r => r.classList.add('on')), 600));
 
 // --- Counter animation ---
 function animateNum(el) {
@@ -1729,4 +1723,8 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
   function goTo(idx) {
     cur = Math.max(0, Math.min(idx, total() - 1));
     const w = cardW();
-   
+    track.style.transform = `translateX(-${cur * (w + 22)}px)`;
+    buildDots();
+  }
+  function startAuto() {
+    cle
