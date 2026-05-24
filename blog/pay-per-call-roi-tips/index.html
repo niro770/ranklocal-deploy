@@ -80,6 +80,7 @@
   ]
 }
 </script>
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 </head>
 <body>
 <base href="/">
@@ -140,7 +141,7 @@
 <div class="cta-box">
   <h3>Ready to Start Getting Calls?</h3>
   <p>Apply to RankLocal's pay per call marketplace. We'll review your market and tell you exactly what call volume and pricing to expect.</p>
-  <a href="/apply/" class="btn-primary">📞 Apply Now</a>
+  <a href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/admin-ranklocall/30min'});return false;" class="btn-primary" >📞 Apply Now</a>
 </div>
 
 <h2>Industry-Specific ROI Benchmarks</h2>
@@ -181,5 +182,6 @@ window.addEventListener('scroll',()=>nb.classList.toggle('scrolled',scrollY>40),
   document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>{nl.removeAttribute('style');h.innerHTML='☰';o=false;}));
 })();
 </script>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body>
 </html>
