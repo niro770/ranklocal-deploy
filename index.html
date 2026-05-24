@@ -174,9 +174,8 @@ img { max-width: 100%; }
 .stars { color: #FFD700; font-size: 15px; letter-spacing: 1px; }
 
 /* Reveal animation */
-.reveal { opacity: 1; transform: translateY(0); transition: opacity 0.6s ease, transform 0.6s ease; }
-.reveal.will-anim { opacity: 0; transform: translateY(20px); }
-.reveal.will-anim.on { opacity: 1; transform: translateY(0); }
+.reveal { opacity: 1; transform: none; transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal.on { opacity: 1; transform: none; }
 
 /* Orb background blobs */
 .orb { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
@@ -1623,37 +1622,9 @@ window.addEventListener('scroll', () => {
   });
 })();
 
-// --- Reveal on scroll ---
+// --- Reveal on scroll (decorative only — content always visible) ---
 const reveals = document.querySelectorAll('.reveal');
-
-// Only animate elements that start below the fold
-reveals.forEach(r => {
-  if (r.getBoundingClientRect().top > window.innerHeight) {
-    r.classList.add('will-anim');
-  }
-});
-
-const revealObs = new IntersectionObserver((entries) => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      e.target.classList.add('on');
-      revealObs.unobserve(e.target);
-    }
-  });
-}, { threshold: 0.05 });
-reveals.forEach(r => {
-  if (r.classList.contains('will-anim')) revealObs.observe(r);
-});
-
-// Reveal on anchor nav
-window.addEventListener('hashchange', () => {
-  setTimeout(() => {
-    reveals.forEach(r => {
-      const rect = r.getBoundingClientRect();
-      if (rect.top < window.innerHeight + 50) r.classList.add('on');
-    });
-  }, 80);
-});
+reveals.forEach(r => r.classList.add('on'));
 
 // --- Counter animation ---
 function animateNum(el) {
@@ -1733,4 +1704,25 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
   }
   function startAuto() {
     clearInterval(auto);
-    auto = setInterval((
+    auto = setInterval(() => goTo(cur >= total() - 1 ? 0 : cur + 1), 5000);
+  }
+  document.getElementById('tPrev').onclick = () => { goTo(cur - 1); startAuto(); };
+  document.getElementById('tNext').onclick = () => { goTo(cur + 1); startAuto(); };
+
+  function init() { setCardWidths(); goTo(0); startAuto(); }
+  init();
+  window.addEventListener('resize', () => { setCardWidths(); goTo(0); });
+})();
+
+// --- Form ---
+function formSubmit(e) {
+  e.preventDefault();
+  document.getElementById('auditForm').style.display = 'none';
+  const s = document.getElementById('formSuccess');
+  s.style.display = 'block';
+}
+
+// --- Live chat bubble ---
+setTimeout(() => {
+  const el = document.createElement('div');
+  el.style.cssText = 'position:fixed;bottom:80px;right:20px;z-index:
