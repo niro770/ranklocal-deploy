@@ -237,7 +237,7 @@ nav.scrolled {
 }
 .nav-links a:hover { color: #fff; }
 .nav-ctas { display: flex; align-items: center; gap: 10px; }
-.nav-hamburger { display: none; flex-direction: column; gap: 5px; padding: 4px; }
+.nav-hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; padding: 10px; min-width: 44px; min-height: 44px; }
 .nav-hamburger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
 
 /* ---- Services Dropdown ---- */
@@ -1130,11 +1130,11 @@ nav.scrolled {
     </div>
     <div class="stats-grid reveal">
       <div class="stat-card">
-        <div class="stat-num grad" data-count="300">0%</div>
+        <div class="stat-num grad" data-count="300" data-orig-text="300%">0%</div>
         <div class="stat-label">Average call growth</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num grad" data-count="100">0</div>
+        <div class="stat-num grad" data-count="100" data-orig-text="100+">0</div>
         <div class="stat-label">Businesses ranked #1</div>
       </div>
       <div class="stat-card">
@@ -1716,9 +1716,4 @@ window.addEventListener('scroll', () => {
 (function() {
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.querySelector('.nav-links');
-  if (!hamburger || !navLinks) return;
-  let isOpen = false;
-
-  function openNav() {
-    isOpen = true;
-    navLinks.style.cssT
+  if (!hamburger || !n
