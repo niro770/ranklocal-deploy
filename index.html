@@ -139,6 +139,7 @@ img { max-width: 100%; }
   background: linear-gradient(135deg, #00AAFF, #00D4FF);
   opacity: 0;
   transition: opacity 0.25s;
+  pointer-events: none;
 }
 .btn-primary:hover::after { opacity: 1; }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 35px rgba(0,170,255,0.45); }
@@ -166,6 +167,7 @@ img { max-width: 100%; }
   background: linear-gradient(135deg, rgba(0,170,255,0.04), transparent);
   opacity: 0;
   transition: opacity 0.3s;
+  pointer-events: none;
 }
 .card:hover { transform: translateY(-6px); border-color: rgba(0,170,255,0.25); box-shadow: 0 20px 50px rgba(0,170,255,0.12); }
 .card:hover::before { opacity: 1; }
@@ -1725,4 +1727,4 @@ function formSubmit(e) {
 // --- Live chat bubble ---
 setTimeout(() => {
   const el = document.createElement('div');
-  el.style.cssText = 'position:fixed;bottom:80px;right:20px;z-index:
+  el.style.cssText =
