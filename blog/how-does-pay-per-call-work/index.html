@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How Does Pay Per Call Work? A Step-by-Step Breakdown | RankLocal</title>
+<meta name="description" content="Exactly how pay per call advertising works — from the ad to your phone ringing. A step-by-step breakdown for local service businesses.">
+<link rel="canonical" href="https://ranklocall.com/blog/how-does-pay-per-call-work/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{--blue:#00aaff;--dark:#07070a;--card:#0f0f14;--border:rgba(0,170,255,0.12);--muted:#8a8a9a;--light:#f0f0f8;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--dark);color:var(--light);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.7;}
+  a{color:var(--blue);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .grad{background:linear-gradient(135deg,#00aaff,#7b4fff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+  #navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 24px;transition:background .3s;}
+  #navbar.scrolled{background:rgba(7,7,10,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+  .nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:68px;}
+  .nav-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;color:var(--light);text-decoration:none;}
+  .nav-logo-icon{width:32px;height:32px;background:linear-gradient(135deg,#00aaff,#7b4fff);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:16px;color:#fff;}
+  .nav-links{display:flex;align-items:center;gap:28px;}
+  .nav-links a{color:var(--muted);font-size:14px;font-weight:500;text-decoration:none;transition:color .2s;}
+  .nav-links a:hover,.nav-links a.active{color:var(--light);}
+  .btn-outline{border:1px solid var(--border);border-radius:8px;color:var(--light)!important;transition:border-color .2s,background .2s;}
+  .btn-outline:hover{border-color:var(--blue);background:rgba(0,170,255,0.08);text-decoration:none!important;}
+  .hamburger{display:none;background:none;border:none;color:var(--light);font-size:22px;cursor:pointer;}
+  @media(max-width:768px){.nav-links{display:none;}.hamburger{display:block;}}
+  .container{max-width:800px;margin:0 auto;padding:0 24px;}
+  .hero{padding:120px 0 60px;text-align:center;}
+  .hero h1{font-size:clamp(28px,5vw,48px);font-weight:800;line-height:1.15;margin-bottom:16px;}
+  .hero .meta{color:var(--muted);font-size:14px;margin-bottom:32px;}
+  .hero .excerpt{font-size:18px;color:var(--muted);max-width:600px;margin:0 auto;}
+  .article-body{padding:0 0 80px;}
+  .article-body h2{font-size:clamp(20px,3vw,28px);font-weight:700;margin:48px 0 16px;color:var(--light);}
+  .article-body h3{font-size:18px;font-weight:700;margin:32px 0 12px;color:var(--light);}
+  .article-body p{margin-bottom:20px;color:#c8c8d8;font-size:16px;}
+  .article-body ul,.article-body ol{padding-left:24px;margin-bottom:20px;}
+  .article-body li{color:#c8c8d8;font-size:16px;margin-bottom:8px;}
+  .article-body strong{color:var(--light);}
+  .callout{background:rgba(0,170,255,0.06);border-left:3px solid var(--blue);padding:20px 24px;border-radius:0 10px 10px 0;margin:32px 0;}
+  .callout p{margin:0;color:var(--light);}
+  .comparison-table{width:100%;border-collapse:collapse;margin:32px 0;font-size:14px;}
+  .comparison-table th{background:rgba(0,170,255,0.1);color:var(--light);padding:12px 16px;text-align:left;border-bottom:1px solid var(--border);}
+  .comparison-table td{padding:12px 16px;border-bottom:1px solid rgba(255,255,255,0.05);color:#c8c8d8;}
+  .comparison-table tr:last-child td{border-bottom:none;}
+  .cta-box{background:linear-gradient(135deg,rgba(0,170,255,0.08),rgba(123,79,255,0.08));border:1px solid rgba(0,170,255,0.2);border-radius:16px;padding:40px;text-align:center;margin:48px 0;}
+  .cta-box h3{font-size:24px;font-weight:800;margin-bottom:12px;}
+  .cta-box p{color:var(--muted);margin-bottom:24px;}
+  .btn-primary{display:inline-block;background:linear-gradient(135deg,#00aaff,#7b4fff);color:#fff;font-weight:700;padding:14px 28px;border-radius:10px;text-decoration:none;font-size:15px;}
+  .btn-primary:hover{opacity:.9;text-decoration:none;}
+  footer{background:rgba(255,255,255,0.02);border-top:1px solid var(--border);padding:32px 24px;text-align:center;}
+  footer p{color:var(--muted);font-size:13px;}
+  footer a{color:var(--blue);font-size:13px;}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How Does Pay Per Call Work? A Step-by-Step Breakdown",
+  "description": "Exactly how pay per call advertising works — from the ad to your phone ringing. A step-by-step breakdown for local service businesses.",
+  "datePublished": "2025-05-08",
+  "dateModified": "2025-05-08",
+  "author": {"@type": "Organization", "name": "RankLocal"},
+  "publisher": {"@type": "Organization", "name": "RankLocal", "url": "https://ranklocall.com"},
+  "url": "https://ranklocall.com/blog/how-does-pay-per-call-work/",
+  "mainEntityOfPage": "https://ranklocall.com/blog/how-does-pay-per-call-work/"
+}
+</script>
+</head>
+<body>
+<base href="/">
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="nav-logo-icon">R</div>
+      Rank<span class="grad">Local</span>
+    </a>
+    <div class="nav-links">
+      <a href="/#services">Services</a>
+      <a href="/pay-per-call-marketplace/">Marketplace</a>
+      <a href="/blog/" class="active">Blog</a>
+      <a href="/#contact" class="btn btn-outline" style="padding:8px 18px;">Get Started</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+  </div>
+</nav>
+<div class="hero">
+  <div class="container">
+    <div style="display:inline-block;background:rgba(0,170,255,0.1);color:var(--blue);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:20px;margin-bottom:20px;">Pay Per Call</div>
+    <h1>How Does Pay Per Call Work? A Step-by-Step Breakdown</h1>
+    <div class="meta">By RankLocal &nbsp;·&nbsp; 2025-05-08 &nbsp;·&nbsp; 8 min read</div>
+    <p class="excerpt">From the moment someone searches to the moment your phone rings — here's the full pay per call process explained in plain language.</p>
+  </div>
+</div>
+<div class="article-body">
+  <div class="container">
+
+<p>You've heard that pay per call delivers high-quality leads. But how does the whole system actually work — from ad impression to your phone ringing? This step-by-step breakdown explains the full process.</p>
+
+<h2>Step 1: The Network Runs Ads on Your Behalf</h2>
+<p>A pay per call network like <a href="/pay-per-call-marketplace/">RankLocal</a> runs targeted ads across Google Search, Google Maps, Facebook, Instagram, and other platforms. These ads target high-intent keywords: "emergency plumber near me," "AC repair same day," "personal injury attorney free consultation."</p>
+<p>The ads prominently feature a phone number — either in a call extension or as the primary CTA. On mobile, the entire ad is often just a tap-to-call button.</p>
+
+<h2>Step 2: A Unique Tracking Number Is Assigned</h2>
+<p>Every campaign uses a unique local or toll-free tracking number. This number is displayed in the ads rather than your real business number. This lets the network track every call, record key metrics, and verify call quality before billing you.</p>
+<p>The prospect sees a real local number (e.g., a Miami number for a Miami plumber), which builds trust and increases the likelihood they'll call.</p>
+
+<h2>Step 3: The Prospect Calls</h2>
+<p>A potential customer sees your ad while searching for help. They call the number. This is the highest-intent action a customer can take — they've already decided they want to talk to someone. They're not browsing, they're ready.</p>
+
+<h2>Step 4: Real-Time Call Verification</h2>
+<p>The moment a call comes in, the network's system verifies it against your campaign criteria in milliseconds:</p>
+<ul>
+  <li>Is the caller in your geographic target area?</li>
+  <li>Is this a new caller (not an existing customer)?</li>
+  <li>Is it during your set business hours?</li>
+  <li>Is it a human caller (not a robot or spam)?</li>
+</ul>
+<p>If the call passes all checks, it's routed to your phone.</p>
+
+<h2>Step 5: The Call Routes to Your Business</h2>
+<p>The call is forwarded to your business line in 2–3 seconds. From your end, it's indistinguishable from any other inbound call — except that it's from a pre-qualified prospect who actively sought you out.</p>
+<p>Some networks play a brief whisper message ("Incoming RankLocal lead — press 1 to accept") so you know it's a tracked call and can prepare accordingly.</p>
+
+<h2>Step 6: Duration Tracking</h2>
+<p>The call system tracks how long the call lasts. Most networks only bill for calls that exceed a minimum duration — typically 60 to 90 seconds. A call that lasts 10 seconds is likely a wrong number and won't be charged.</p>
+
+<h2>Step 7: You're Billed for Valid Calls Only</h2>
+<p>At the end of your billing cycle (or in real-time, depending on the network), you're charged only for calls that met all your criteria. You can typically log in to your dashboard and see every call: duration, caller location, time of day, and recording (if enabled).</p>
+
+<div class="callout"><p><strong>Pro tip:</strong> Review call recordings regularly. They reveal common objections, questions prospects have before booking, and how your team handles calls — all useful for improving close rates.</p></div>
+
+<h2>Step 8: Scaling Up or Down</h2>
+<p>Unlike a long-term ad contract, pay per call lets you adjust at any time. Set a daily cap of 5 calls while you test quality. Increase to 20/day once you're confident in the ROI. Pause for a week if you're at capacity. The system is designed to flex around your business.</p>
+
+<h2>What Technology Powers Pay Per Call?</h2>
+<p>Behind the scenes, pay per call networks use call tracking platforms (like Invoca, CallRail, or proprietary systems), real-time bidding technology to win ad placements, IVR and whisper systems for routing, and fraud detection AI to filter spam and bots.</p>
+
+<div class="cta-box">
+  <h3>See It Working for Your Industry</h3>
+  <p>Browse RankLocal's marketplace to see call volume and pricing for your specific trade or service area.</p>
+  <a href="/pay-per-call-marketplace/" class="btn-primary">📞 Browse the Marketplace</a>
+</div>
+
+<h2>Related Reading</h2>
+<ul>
+  <li><a href="/blog/what-is-pay-per-call-advertising/">What Is Pay Per Call Advertising? The Complete Guide</a></li>
+  <li><a href="/blog/pay-per-call-roi-tips/">7 Tips to Maximize Your Pay Per Call ROI</a></li>
+  <li><a href="/pay-per-call/">RankLocal Pay Per Call Service Overview</a></li>
+</ul>
+
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <a href="/" style="display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:18px;color:var(--light);text-decoration:none;margin-bottom:12px;">
+      <div class="nav-logo-icon">R</div>Rank<span class="grad">Local</span>
+    </a>
+    <p style="margin-top:8px;">© 2025 RankLocal. All rights reserved. | <a href="/">Home</a> | <a href="/blog/">Blog</a> | <a href="/pay-per-call-marketplace/">Marketplace</a></p>
+  </div>
+</footer>
+<script>
+const nb=document.getElementById('navbar');
+window.addEventListener('scroll',()=>nb.classList.toggle('scrolled',scrollY>40),{passive:true});
+(function(){
+  const h=document.getElementById('hamburger'),nl=document.querySelector('.nav-links');
+  if(!h||!nl)return;
+  let o=false;
+  h.addEventListener('click',()=>{o=!o;if(o){nl.style.cssText='display:flex!important;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:rgba(7,7,10,0.98);backdrop-filter:blur(20px);padding:20px 28px 28px;border-bottom:1px solid rgba(0,170,255,0.15);gap:8px;z-index:999;';h.innerHTML='✕';}else{nl.removeAttribute('style');h.innerHTML='☰';}});
+  document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>{nl.removeAttribute('style');h.innerHTML='☰';o=false;}));
+})();
+</script>
+</body>
+</html>
