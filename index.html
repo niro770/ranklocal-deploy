@@ -1685,36 +1685,36 @@ window.addEventListener('scroll', () => {
   const toggle = document.getElementById('servicesToggle');
   const dropdown = toggle ? toggle.closest('.nav-dropdown') : null;
   if (!toggle || !dropdown) return;
-  let justToggled = false;
 
-  function openDropdown() {
-    dropdown.classList.add('open');
-    toggle.setAttribute('aria-expanded', 'true');
-  }
   function closeDropdown() {
     dropdown.classList.remove('open');
     toggle.setAttribute('aria-expanded', 'false');
   }
 
+  // Toggle open/close when clicking the button
   toggle.addEventListener('click', function() {
-    justToggled = true;
-    dropdown.classList.contains('open') ? closeDropdown() : openDropdown();
+    const isOpen = dropdown.classList.contains('open');
+    dropdown.classList.toggle('open', !isOpen);
+    toggle.setAttribute('aria-expanded', String(!isOpen));
   });
 
-  // Close when clicking outside — skip the click that just opened it
-  document.addEventListener('click', function(e) {
-    if (justToggled) { justToggled = false; return; }
-    if (!dropdown.contains(e.target)) closeDropdown();
-  });
-
-  // Close when a dropdown link is clicked (navigating away)
-  dropdown.querySelectorAll('.nav-dropdown-menu a').forEach(a => {
-    a.addEventListener('click', function() { closeDropdown(); });
-  });
+  // Close on mousedown/touchstart OUTSIDE the dropdown (fires before click, no conflict)
+  function outsideClose(e) {
+    if (dropdown.classList.contains('open') && !dropdown.contains(e.target)) {
+      closeDropdown();
+    }
+  }
+  document.addEventListener('mousedown', outsideClose);
+  document.addEventListener('touchstart', outsideClose, { passive: true });
 })();
 
 // --- Mobile hamburger menu ---
 (function() {
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.querySelector('.nav-links');
-  if (
+  if (!hamburger || !navLinks) return;
+  let isOpen = false;
+
+  function openNav() {
+    isOpen = true;
+    navLinks
