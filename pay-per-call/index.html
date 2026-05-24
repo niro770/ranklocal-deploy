@@ -97,6 +97,7 @@ footer a{color:var(--blue);margin:0 12px;}
   ]
 }
 </script>
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 </head>
 <body>
 <nav>
@@ -204,5 +205,6 @@ footer a{color:var(--blue);margin:0 12px;}
 <script>
 document.querySelectorAll('.faq-btn').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));if(!isOpen)item.classList.add('open');});});
 </script>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body>
 </html>
