@@ -191,6 +191,7 @@ nav {
   z-index: 1000;
   transition: background 0.3s, border-color 0.3s;
   border-bottom: 1px solid transparent;
+  overflow: visible;
 }
 nav.scrolled {
   background: rgba(7,7,10,0.88);
@@ -1683,29 +1684,31 @@ window.addEventListener('scroll', () => {
 // --- Services dropdown ---
 (function() {
   const toggle = document.getElementById('servicesToggle');
-  const dropdown = toggle ? toggle.closest('.nav-dropdown') : null;
-  if (!toggle || !dropdown) return;
+  const menu   = document.getElementById('servicesMenu');
+  if (!toggle || !menu) return;
+  let open = false;
 
-  function closeDropdown() {
-    dropdown.classList.remove('open');
+  function show() {
+    open = true;
+    menu.style.cssText = 'display:block!important;';
+    toggle.setAttribute('aria-expanded', 'true');
+  }
+  function hide() {
+    open = false;
+    menu.style.cssText = '';
     toggle.setAttribute('aria-expanded', 'false');
   }
 
-  // Toggle open/close when clicking the button
-  toggle.addEventListener('click', function() {
-    const isOpen = dropdown.classList.contains('open');
-    dropdown.classList.toggle('open', !isOpen);
-    toggle.setAttribute('aria-expanded', String(!isOpen));
+  toggle.addEventListener('click', function(e) {
+    e.stopPropagation();
+    open ? hide() : show();
   });
 
-  // Close on mousedown/touchstart OUTSIDE the dropdown (fires before click, no conflict)
-  function outsideClose(e) {
-    if (dropdown.classList.contains('open') && !dropdown.contains(e.target)) {
-      closeDropdown();
-    }
-  }
-  document.addEventListener('mousedown', outsideClose);
-  document.addEventListener('touchstart', outsideClose, { passive: true });
+  // Clicks inside the menu don't close it
+  menu.addEventListener('click', function(e) { e.stopPropagation(); });
+
+  // Anything outside closes it
+  document.addEventListener('click', function() { if (open) hide(); });
 })();
 
 // --- Mobile hamburger menu ---
@@ -1717,4 +1720,4 @@ window.addEventListener('scroll', () => {
 
   function openNav() {
     isOpen = true;
-    navLinks
+    navLinks.style.cssText = 'display:flex!important;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:rgba(7,7,10,0.
