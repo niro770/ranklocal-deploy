@@ -135,11 +135,24 @@ select.field-input option { background: #12121c; color: #fff; }
 
 /* ===== BUTTONS ===== */
 .btn-row { display: flex; align-items: center; justify-content: space-between; margin-top: 36px; gap: 12px; }
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 28px; border-radius: 10px; font-weight: 700; font-size: 15px; cursor: pointer; border: none; font-family: inherit; transition: all 0.2s; pointer-events: auto; position: relative; z-index: 5; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 14px 28px; border-radius: 10px; font-weight: 700; font-size: 15px;
+  cursor: pointer; border: none; font-family: inherit; transition: all 0.2s;
+  pointer-events: auto; position: relative; z-index: 10;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  -webkit-appearance: none; appearance: none;
+  user-select: none; -webkit-user-select: none;
+  min-height: 50px;
+}
 .btn-primary { background: linear-gradient(135deg, #0077DD, #00AAFF); color: #fff; box-shadow: 0 4px 20px rgba(0,170,255,0.3); flex: 1; }
 .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 30px rgba(0,170,255,0.45); }
+.btn-primary:active { transform: scale(0.98); }
 .btn-ghost { background: rgba(255,255,255,0.05); color: var(--text-muted); border: 1px solid var(--border); padding: 14px 22px; }
 .btn-ghost:hover { background: rgba(255,255,255,0.08); color: #fff; }
+.btn-ghost:active { transform: scale(0.98); }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none !important; }
 
 /* ===== ERROR MSG ===== */
 .error-msg { font-size: 12px; color: #ff6060; margin-top: 5px; display: none; }
@@ -312,7 +325,7 @@ select.field-input option { background: #12121c; color: #fff; }
       </div>
 
       <div class="btn-row">
-        <button type="button" class="btn btn-primary" onclick="goStep2()">Continue → Step 2</button>
+        <button type="button" class="btn btn-primary" id="btnStep2">Continue → Step 2</button>
       </div>
 
       <div class="trust-strip">
@@ -377,8 +390,8 @@ select.field-input option { background: #12121c; color: #fff; }
       </div>
 
       <div class="field-group">
-        <label class="field-label">Website URL <span class="req">*</span></label>
-        <input class="field-input" type="url" id="website" placeholder="https://yourcompany.com" autocomplete="url">
+        <label class="field-label">Website URL <span style="color:var(--text-muted);font-weight:400;">(optional)</span></label>
+        <input class="field-input" type="text" id="website" placeholder="https://yourcompany.com" autocomplete="url">
         <div class="error-msg" id="websiteErr">Please enter a valid URL</div>
       </div>
 
@@ -401,8 +414,8 @@ select.field-input option { background: #12121c; color: #fff; }
       </div>
 
       <div class="btn-row">
-        <button type="button" class="btn btn-ghost" onclick="goStep1()">← Previous</button>
-        <button type="button" class="btn btn-primary" onclick="submitForm()">Submit Application →</button>
+        <button type="button" class="btn btn-ghost" id="btnBack">← Previous</button>
+        <button type="button" class="btn btn-primary" id="btnSubmit">Submit Application →</button>
       </div>
     </div>
 
@@ -424,49 +437,55 @@ select.field-input option { background: #12121c; color: #fff; }
 </div>
 
 <script>
-// ===== PROGRESS HELPERS =====
+// ===== PROGRESS =====
 function setProgress(step) {
-  const nums = [document.getElementById('num1'), document.getElementById('num2'), document.getElementById('num3')];
-  const lbls = [document.getElementById('lbl1'), document.getElementById('lbl2'), document.getElementById('lbl3')];
-  const lines = [document.getElementById('line1'), document.getElementById('line2')];
-  nums.forEach((n, i) => {
-    n.classList.remove('active', 'done');
+  var nums = ['num1','num2','num3'].map(id => document.getElementById(id));
+  var lbls = ['lbl1','lbl2','lbl3'].map(id => document.getElementById(id));
+  var lines = ['line1','line2'].map(id => document.getElementById(id));
+  nums.forEach(function(n, i) {
+    n.classList.remove('active','done');
     lbls[i].classList.remove('active');
     if (i + 1 < step) { n.classList.add('done'); n.innerHTML = '✓'; }
     else if (i + 1 === step) { n.classList.add('active'); n.innerHTML = i + 1; }
     else { n.innerHTML = i + 1; }
     if (i + 1 === step) lbls[i].classList.add('active');
   });
-  lines.forEach((l, i) => {
-    l.classList.remove('done');
-    if (i + 1 < step) l.classList.add('done');
-  });
+  lines.forEach(function(l, i) { l.classList.toggle('done', i + 1 < step); });
 }
 
-// ===== VALIDATION =====
+// ===== HELPERS =====
 function validateEmail(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
 function showErr(id, msg) {
-  const el = document.getElementById(id);
-  el.textContent = msg || el.textContent;
+  var el = document.getElementById(id);
+  if (!el) return;
+  if (msg) el.textContent = msg;
   el.classList.add('show');
 }
-function hideErr(id) { document.getElementById(id).classList.remove('show'); }
+function hideErr(id) {
+  var el = document.getElementById(id);
+  if (el) el.classList.remove('show');
+}
 function markField(id, ok) {
-  const el = document.getElementById(id);
-  if (el) { el.classList.toggle('error', !ok); }
+  var el = document.getElementById(id);
+  if (el) el.classList.toggle('error', !ok);
+}
+function scrollToForm() {
+  var card = document.querySelector('.form-card');
+  if (card) card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  else window.scrollTo(0, 0);
 }
 
 // ===== STEP 1 VALIDATION =====
 function validateStep1() {
-  let ok = true;
-  const first = document.getElementById('firstName').value.trim();
-  const last = document.getElementById('lastName').value.trim();
-  const company = document.getElementById('company').value.trim();
-  const email = document.getElementById('email').value.trim();
-  const services = document.querySelectorAll('input[name="service"]:checked');
+  var ok = true;
+  var first = document.getElementById('firstName').value.trim();
+  var last = document.getElementById('lastName').value.trim();
+  var company = document.getElementById('company').value.trim();
+  var email = document.getElementById('email').value.trim();
+  var services = document.querySelectorAll('input[name="service"]:checked');
 
-  hideErr('firstNameErr'); hideErr('lastNameErr'); hideErr('companyErr'); hideErr('emailErr'); hideErr('servicesErr');
-  markField('firstName', true); markField('lastName', true); markField('company', true); markField('email', true);
+  ['firstNameErr','lastNameErr','companyErr','emailErr','servicesErr'].forEach(hideErr);
+  ['firstName','lastName','company','email'].forEach(function(id) { markField(id, true); });
   document.getElementById('err1').classList.remove('show');
 
   if (!first) { showErr('firstNameErr'); markField('firstName', false); ok = false; }
@@ -474,57 +493,51 @@ function validateStep1() {
   if (!company) { showErr('companyErr'); markField('company', false); ok = false; }
   if (!email || !validateEmail(email)) { showErr('emailErr'); markField('email', false); ok = false; }
   if (services.length === 0) { showErr('servicesErr'); ok = false; }
-
   if (!ok) document.getElementById('err1').classList.add('show');
   return ok;
 }
 
 // ===== STEP 2 VALIDATION =====
 function validateStep2() {
-  let ok = true;
-  const phone = document.getElementById('phone').value.trim();
-  const inUS = document.getElementById('inUS').value;
-  const zip = document.getElementById('zip').value.trim();
-  const employees = document.getElementById('employees').value;
-  const website = document.getElementById('website').value.trim();
-  const budget = document.getElementById('budget').value;
+  var ok = true;
+  var phone = document.getElementById('phone').value.trim();
+  var inUS = document.getElementById('inUS').value;
+  var zip = document.getElementById('zip').value.trim();
+  var employees = document.getElementById('employees').value;
+  var budget = document.getElementById('budget').value;
 
-  ['phoneErr','inUSErr','zipErr','employeesErr','websiteErr','budgetErr'].forEach(id => hideErr(id));
-  ['phone','inUS','zip','employees','website','budget'].forEach(id => markField(id, true));
+  ['phoneErr','inUSErr','zipErr','employeesErr','budgetErr'].forEach(hideErr);
+  ['phone','inUS','zip','employees','budget'].forEach(function(id) { markField(id, true); });
   document.getElementById('err2').classList.remove('show');
 
-  if (!phone || phone.length < 7) { showErr('phoneErr'); markField('phone', false); ok = false; }
+  if (!phone || phone.replace(/\D/g,'').length < 7) { showErr('phoneErr'); markField('phone', false); ok = false; }
   if (!inUS) { showErr('inUSErr'); markField('inUS', false); ok = false; }
   if (!zip) { showErr('zipErr'); markField('zip', false); ok = false; }
   if (!employees) { showErr('employeesErr'); markField('employees', false); ok = false; }
-  if (!website) { showErr('websiteErr'); markField('website', false); ok = false; }
   if (!budget) { showErr('budgetErr'); markField('budget', false); ok = false; }
-
   if (!ok) document.getElementById('err2').classList.add('show');
   return ok;
 }
 
-// ===== NAVIGATION =====
+// ===== NAV =====
 function goStep1() {
   document.getElementById('step1').classList.add('active');
   document.getElementById('step2').classList.remove('active');
   setProgress(1);
-  document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  scrollToForm();
 }
 
 function goStep2() {
-  if (!validateStep1()) {
-    // Scroll to top of form so user sees the error
-    document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    return;
-  }
+  if (!validateStep1()) { scrollToForm(); return; }
   document.getElementById('step1').classList.remove('active');
   document.getElementById('step2').classList.add('active');
   setProgress(2);
-  document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  scrollToForm();
 }
 
+// ===== SUBMIT =====
 async function submitForm() {
-  if (!validateStep2()) return;
+  if (!validateStep2()) { scrollToForm(); return; }
 
-  const submitBtn = document.querySelector('#step2 .btn-primary
+  var btn = document.getElementById('btnSubmit');
+  btn.textContent = 'Submit
