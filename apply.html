@@ -510,15 +510,19 @@ function goStep1() {
   document.getElementById('step1').classList.add('active');
   document.getElementById('step2').classList.remove('active');
   setProgress(1);
-  window.scrollTo(0, 0);
+  document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function goStep2() {
-  if (!validateStep1()) return;
+  if (!validateStep1()) {
+    // Scroll to top of form so user sees the error
+    document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
   document.getElementById('step1').classList.remove('active');
   document.getElementById('step2').classList.add('active');
   setProgress(2);
-  window.scrollTo(0, 0);
+  document.querySelector('.form-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 async function submitForm() {
@@ -527,10 +531,3 @@ async function submitForm() {
   const submitBtn = document.querySelector('#step2 .btn-primary');
   submitBtn.textContent = 'Submitting…';
   submitBtn.disabled = true;
-
-  const services = [...document.querySelectorAll('input[name="service"]:checked')].map(c => c.value).join(', ');
-
-  const payload = {
-    access_key: 'ff0994c5-d15d-4ba5-a191-6c1e5df272c1',
-    subject: 'New Partner Application — ' + document.getElementById('company').value.trim(),
-    from_name
