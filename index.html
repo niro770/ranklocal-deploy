@@ -1686,12 +1686,12 @@ reveals.forEach(r => r.classList.add('on'));
 function animateNum(el) {
   if (el._animated) return;
   el._animated = true;
-  var end = parseInt(el.dataset.count, 10);
-  var origText = el.dataset.origText || el.textContent;
+  var end = parseInt(el.getAttribute('data-count'), 10);
+  var origText = el.getAttribute('data-orig-text') || '';
   var isPercent = origText.indexOf('%') !== -1;
   var hasPlus = origText.indexOf('+') !== -1 && !isPercent;
   var start = 0;
-  var step = end / (1800 / 16);
+  var step = end / (1500 / 16);
   var t = setInterval(function() {
     start = Math.min(start + step, end);
     var val = Math.round(start);
@@ -1702,17 +1702,31 @@ function animateNum(el) {
   }, 16);
 }
 function checkCounters() {
-  document.querySelectorAll('[data-count]').forEach(function(el) {
+  var els = document.querySelectorAll('[data-count]');
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
     var rect = el.getBoundingClientRect();
-    if (rect.top < window.innerHeight + 50 && rect.bottom > 0) {
+    if (rect.top < window.innerHeight && rect.bottom >= 0) {
       animateNum(el);
+    }
+  }
+}
+// Hard fallback — show final values even if scroll never triggers
+function forceCounterValues() {
+  document.querySelectorAll('[data-count]').forEach(function(el) {
+    if (!el._animated) {
+      el._animated = true;
+      var origText = el.getAttribute('data-orig-text') || el.getAttribute('data-count');
+      if (origText) el.textContent = origText;
     }
   });
 }
 window.addEventListener('scroll', checkCounters, { passive: true });
-window.addEventListener('resize', checkCounters, { passive: true });
-setTimeout(checkCounters, 200);
-setTimeout(checkCounters, 800);
+window.addEventListener('touchmove', checkCounters, { passive: true });
+setTimeout(checkCounters, 100);
+setTimeout(checkCounters, 600);
+setTimeout(checkCounters, 1500);
+setTimeout(forceCounterValues, 5000);
 
 // --- FAQ accordion ---
 document.querySelectorAll('.faq-btn').forEach(btn => {
@@ -1733,23 +1747,4 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
   let cur = 0;
   let auto;
 
-  function perView() {
-    const w = outer.offsetWidth;
-    if (w >= 960) return 3;
-    if (w >= 600) return 2;
-    return 1;
-  }
-  function cardW() {
-    const pv = perView();
-    const gap = 22;
-    return (outer.offsetWidth - gap * (pv - 1)) / pv;
-  }
-  function total() { return Math.ceil(cards.length / perView()); }
-
-  function setCardWidths() {
-    const w = cardW();
-    cards.forEach(c => { c.style.width = w + 'px'; c.style.minWidth = w + 'px'; });
-  }
-  function buildDots() {
-    dotsEl.innerHTML = '';
-  
+  function per
