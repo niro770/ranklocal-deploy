@@ -1684,31 +1684,35 @@ reveals.forEach(r => r.classList.add('on'));
 
 // --- Counter animation ---
 function animateNum(el) {
-  const end = parseInt(el.dataset.count, 10);
-  const origText = el.dataset.origText || el.getAttribute('data-orig-text') || el.textContent;
-  const isPercent = origText.includes('%');
-  const hasPlus = origText.includes('+') && !isPercent;
-  let start = 0;
-  const dur = 1800;
-  const step = end / (dur / 16);
-  const t = setInterval(() => {
+  if (el._animated) return;
+  el._animated = true;
+  var end = parseInt(el.dataset.count, 10);
+  var origText = el.dataset.origText || el.textContent;
+  var isPercent = origText.indexOf('%') !== -1;
+  var hasPlus = origText.indexOf('+') !== -1 && !isPercent;
+  var start = 0;
+  var step = end / (1800 / 16);
+  var t = setInterval(function() {
     start = Math.min(start + step, end);
-    const val = Math.round(start);
+    var val = Math.round(start);
     if (isPercent) el.textContent = val + '%';
     else if (hasPlus) el.textContent = val + '+';
     else el.textContent = val;
     if (start >= end) clearInterval(t);
   }, 16);
 }
-const countObs = new IntersectionObserver((entries) => {
-  entries.forEach(e => {
-    if (e.isIntersecting && e.target.dataset.count) {
-      animateNum(e.target);
-      countObs.unobserve(e.target);
+function checkCounters() {
+  document.querySelectorAll('[data-count]').forEach(function(el) {
+    var rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight + 50 && rect.bottom > 0) {
+      animateNum(el);
     }
   });
-}, { threshold: 0.1 });
-document.querySelectorAll('[data-count]').forEach(el => countObs.observe(el));
+}
+window.addEventListener('scroll', checkCounters, { passive: true });
+window.addEventListener('resize', checkCounters, { passive: true });
+setTimeout(checkCounters, 200);
+setTimeout(checkCounters, 800);
 
 // --- FAQ accordion ---
 document.querySelectorAll('.faq-btn').forEach(btn => {
@@ -1748,6 +1752,4 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
   }
   function buildDots() {
     dotsEl.innerHTML = '';
-    for (let i = 0; i < total(); i++) {
-      const d = document.createElement('button');
-      d.className = 'dot' + (i === 
+  
