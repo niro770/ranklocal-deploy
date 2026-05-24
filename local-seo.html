@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Local SEO Services | RankLocal — Dominate Your Market</title>
+<meta name="description" content="Full-service local SEO that puts your business at the top of Google search results. Keyword research, on-page optimization, local landing pages, and NAP consistency.">
+<style>
+:root{--blue:#00AAFF;--bg-0:#07070a;--bg-1:#0d0d14;--bg-2:#12121e;--border:rgba(255,255,255,0.07);--border-blue:rgba(0,170,255,0.2);--text:#e8e8f0;--muted:#7a7a9a;--radius:16px;--radius-sm:10px;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg-0);color:var(--text);line-height:1.6;}
+a{text-decoration:none;color:inherit;}
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 24px;height:68px;display:flex;align-items:center;background:rgba(7,7,10,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+.nav-inner{max-width:1200px;margin:0 auto;width:100%;display:flex;align-items:center;justify-content:space-between;}
+.nav-logo{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:900;}
+.nav-logo .logo-icon{background:linear-gradient(135deg,#00AAFF,#0044BB);border-radius:8px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900;color:#fff;}
+.nav-logo .logo-text{color:#fff;}.nav-logo .logo-text span{color:var(--blue);}
+.nav-links{display:flex;gap:28px;list-style:none;}
+.nav-links a{font-size:14px;font-weight:500;color:var(--muted);transition:color 0.2s;}
+.nav-links a:hover{color:#fff;}
+.nav-cta{background:linear-gradient(135deg,#0088DD,#00AAFF);color:#fff;border:none;padding:10px 20px;border-radius:var(--radius-sm);font-size:13px;font-weight:700;cursor:pointer;}
+/* HERO */
+.hero{padding:140px 24px 80px;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(0,100,220,0.18),transparent 65%);pointer-events:none;}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,170,255,0.08);border:1px solid rgba(0,170,255,0.2);border-radius:999px;padding:7px 16px;font-size:12px;font-weight:600;color:#60C8FF;margin-bottom:28px;}
+.badge-dot{width:7px;height:7px;border-radius:50%;background:var(--blue);animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.5;transform:scale(1.4);}}
+h1{font-size:clamp(36px,5vw,64px);font-weight:900;line-height:1.1;margin-bottom:20px;}
+.grad{background:linear-gradient(135deg,#00AAFF,#60D8FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{font-size:clamp(16px,2vw,20px);color:var(--muted);max-width:640px;margin:0 auto 40px;}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;padding:14px 28px;border-radius:var(--radius-sm);transition:all 0.25s;cursor:pointer;border:none;}
+.btn-primary{background:linear-gradient(135deg,#0088DD,#00AAFF);color:#fff;position:relative;overflow:hidden;}
+.btn-primary::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,#00AAFF,#00D4FF);opacity:0;transition:opacity 0.25s;pointer-events:none;}
+.btn-primary:hover::after{opacity:1;}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 35px rgba(0,170,255,.4);}
+.btn-primary span{position:relative;z-index:1;}
+.btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.2);}
+.btn-outline:hover{border-color:var(--blue);background:rgba(0,170,255,0.06);}
+.hero-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;}
+/* STATS */
+.stats{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;padding:48px 24px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg-1);}
+.stat-num{font-size:36px;font-weight:900;color:var(--blue);}
+.stat-label{font-size:13px;color:var(--muted);margin-top:4px;}
+/* SECTIONS */
+.section{padding:80px 24px;}
+.container{max-width:1100px;margin:0 auto;}
+.section-label{font-size:12px;font-weight:700;letter-spacing:2px;color:var(--blue);text-transform:uppercase;margin-bottom:12px;}
+.section-heading{font-size:clamp(28px,4vw,44px);font-weight:900;line-height:1.15;margin-bottom:16px;}
+.section-sub{font-size:16px;color:var(--muted);max-width:580px;margin-bottom:48px;}
+.section-alt{background:var(--bg-1);}
+/* FEATURES GRID */
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.feature-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:all 0.3s;position:relative;overflow:hidden;}
+.feature-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,170,255,0.04),transparent);opacity:0;transition:opacity 0.3s;pointer-events:none;}
+.feature-card:hover{border-color:rgba(0,170,255,0.25);transform:translateY(-4px);}
+.feature-card:hover::before{opacity:1;}
+.feature-icon{font-size:28px;margin-bottom:16px;}
+.feature-title{font-size:17px;font-weight:700;margin-bottom:10px;}
+.feature-text{font-size:14px;color:var(--muted);line-height:1.7;}
+/* PROCESS */
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;position:relative;}
+.process-steps::before{content:'';position:absolute;top:32px;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,var(--blue),transparent);opacity:0.3;}
+.process-step{text-align:center;}
+.step-num{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,rgba(0,100,220,0.2),rgba(0,170,255,0.1));border:1px solid rgba(0,170,255,0.3);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:900;color:var(--blue);margin:0 auto 20px;}
+.step-title{font-size:16px;font-weight:700;margin-bottom:8px;}
+.step-text{font-size:13px;color:var(--muted);line-height:1.6;}
+/* FAQ */
+.faq-list{max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:12px;}
+.faq-item{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;}
+.faq-btn{width:100%;display:flex;justify-content:space-between;align-items:center;padding:20px 24px;background:none;border:none;color:#fff;font-size:16px;font-weight:600;cursor:pointer;text-align:left;gap:16px;}
+.faq-icon{font-size:20px;color:var(--blue);flex-shrink:0;transition:transform 0.3s;}
+.faq-item.open .faq-icon{transform:rotate(45deg);}
+.faq-body{max-height:0;overflow:hidden;transition:max-height 0.35s ease;}
+.faq-item.open .faq-body{max-height:400px;}
+.faq-body p{padding:0 24px 20px;color:var(--muted);font-size:15px;line-height:1.7;}
+/* CTA */
+.cta-section{background:linear-gradient(135deg,rgba(0,68,187,0.15),rgba(0,170,255,0.08));border:1px solid rgba(0,170,255,0.15);border-radius:24px;padding:64px 40px;text-align:center;margin:0 24px 80px;}
+.cta-section h2{font-size:clamp(28px,4vw,42px);font-weight:900;margin-bottom:16px;}
+.cta-section p{font-size:16px;color:var(--muted);max-width:500px;margin:0 auto 36px;}
+/* FOOTER */
+footer{background:var(--bg-1);border-top:1px solid var(--border);padding:32px 24px;text-align:center;color:var(--muted);font-size:13px;}
+footer a{color:var(--blue);margin:0 12px;}
+/* RESPONSIVE */
+@media(max-width:900px){
+  .features-grid{grid-template-columns:1fr;}
+  .process-steps{grid-template-columns:1fr 1fr;}
+  .process-steps::before{display:none;}
+  .nav-links{display:none;}
+}
+@media(max-width:500px){
+  .process-steps{grid-template-columns:1fr;}
+  .stats{gap:28px;}
+  .cta-section{padding:40px 24px;margin:0 16px 60px;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">R</div>
+      <div class="logo-text">Rank<span>Local</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="index.html#process">Process</a></li>
+      <li><a href="index.html#testimonials">Reviews</a></li>
+      <li><a href="citations.html">Citations</a></li>
+    </ul>
+    <a href="index.html#contact" class="btn btn-primary"><span>📞 Book Free Call</span></a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="badge"><div class="badge-dot"></div>Local SEO Service</div>
+  <h1>Rank Higher.<br><span class="grad">Get Found Locally.</span></h1>
+  <p class="hero-sub">A complete local SEO strategy built to put your business at the top of Google search results and keep your phone ringing with high-intent customers.</p>
+  <div class="hero-btns">
+    <a href="index.html#contact" class="btn btn-primary"><span>🚀 Get a Free SEO Audit</span></a>
+    <a href="index.html#contact" class="btn btn-outline">Talk to an Expert →</a>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat-item"><div class="stat-num">3x</div><div class="stat-label">Average Traffic Increase</div></div>
+  <div class="stat-item"><div class="stat-num">90%</div><div class="stat-label">Clients Reach Page 1</div></div>
+  <div class="stat-item"><div class="stat-num">60 Days</div><div class="stat-label">Avg. Time to Results</div></div>
+  <div class="stat-item"><div class="stat-num">200+</div><div class="stat-label">Local Businesses Ranked</div></div>
+</div>
+
+<!-- WHAT'S INCLUDED -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">What's Included</div>
+    <h2 class="section-heading">Everything Your Business Needs<br>to <span class="grad">Dominate Local Search</span></h2>
+    <p class="section-sub">We handle every layer of your local SEO — from technical foundations to content strategy — so you can focus on serving customers.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <div class="feature-title">Local Keyword Research</div>
+        <p class="feature-text">We identify the exact search terms your ideal customers use — from "plumber near me" to city-specific service queries — then build a ranking strategy around them.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📄</div>
+        <div class="feature-title">On-Page Optimization</div>
+        <p class="feature-text">Title tags, meta descriptions, H1s, schema markup, and internal linking — every page is fully optimized to signal relevance and authority to Google.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📍</div>
+        <div class="feature-title">Local Landing Pages</div>
+        <p class="feature-text">We build geo-targeted service pages for every city and neighborhood you serve, capturing search traffic across your entire service area.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔗</div>
+        <div class="feature-title">NAP Consistency</div>
+        <p class="feature-text">Your Name, Address, and Phone number are standardized and consistent across every directory and platform Google checks — a critical local ranking factor.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <div class="feature-title">Monthly Reporting</div>
+        <p class="feature-text">Clear, transparent reports showing keyword rankings, organic traffic growth, call volume trends, and the ROI you're getting every single month.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <div class="feature-title">Competitor Gap Analysis</div>
+        <p class="feature-text">We audit what your top competitors are doing right — then build a strategy that targets their weaknesses and captures the rankings they're sitting on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section section-alt">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;">
+      <div class="section-label">Our Process</div>
+      <h2 class="section-heading">From Audit to <span class="grad">Top Rankings</span></h2>
+      <p class="section-sub" style="margin:0 auto;">A proven 4-step system that delivers measurable results within 60–90 days.</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num">1</div>
+        <div class="step-title">Deep SEO Audit</div>
+        <p class="step-text">We analyze your current rankings, site health, competitors, and local search landscape to identify every opportunity and gap.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">2</div>
+        <div class="step-title">Strategy Build</div>
+        <p class="step-text">We create a custom keyword map, content plan, and technical roadmap specifically designed for your market and business type.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">3</div>
+        <div class="step-title">Full Implementation</div>
+        <p class="step-text">Our team executes every element — on-page optimization, local pages, citation cleanup, and technical fixes — all done for you.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">4</div>
+        <div class="step-title">Optimize & Scale</div>
+        <p class="step-text">We monitor rankings monthly, adapt to algorithm changes, and continuously improve your strategy as your market evolves.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:48px;">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-heading">Common <span class="grad">Questions</span></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-btn">How long does it take to see results from local SEO?<span class="faq-icon">+</span></button>
+        <div class="faq-body"><p>Most clients start seeing measurable ranking improvements within 60–90 days. Competitive markets may take 4–6 months for top-3 rankings. We track progress monthly and keep you informed every step of the way.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">What makes local SEO different from regular SEO?<span class="faq-icon">+</span></button>
+        <div class="faq-body"><p>Local SEO focuses on ranking in your geographic area — targeting "near me" searches, Google Maps results, and city-specific queries. It requires NAP consistency, Google Business Profile optimization, and local citation building that standard SEO doesn't address.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">Do I need a website to benefit from local SEO?<span class="faq-icon">+</span></button>
+        <div class="faq-body"><p>A website significantly amplifies your local SEO results, but we can start with your Google Business Profile. If you need a website, we can build one optimized for local search from day one.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">How do you measure local SEO success?<span class="faq-icon">+</span></button>
+        <div class="faq-body"><p>We track keyword rankings, organic traffic, Google Business Profile views, call clicks, direction requests, and ultimately — how many new customers are finding you through search. You get a full report every month.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn">Do you offer contracts or month-to-month?<span class="faq-icon">+</span></button>
+        <div class="faq-body"><p>We offer flexible month-to-month agreements as well as discounted 6 and 12-month plans. We believe our results speak for themselves — we don't lock you in because we don't need to.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="container">
+  <div class="cta-section">
+    <h2>Ready to Rank #1<br><span class="grad">in Your City?</span></h2>
+    <p>Book a free 30-minute strategy call. We'll audit your current local presence and show you exactly what it takes to reach the top.</p>
+    <a href="index.html#contact" class="btn btn-primary" style="font-size:16px;padding:16px 32px;"><span>🚀 Get My Free Audit</span></a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 RankLocal. All rights reserved. &nbsp;|&nbsp;
+    <a href="index.html">Home</a>
+    <a href="index.html#services">Services</a>
+    <a href="tel:+18337799997">(833) 779-9997</a>
+    <a href="mailto:admin@ranklocall.com">admin@ranklocall.com</a>
+  </p>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+</script>
+</body>
+</html>
