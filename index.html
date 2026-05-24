@@ -174,8 +174,9 @@ img { max-width: 100%; }
 .stars { color: #FFD700; font-size: 15px; letter-spacing: 1px; }
 
 /* Reveal animation */
-.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.65s ease, transform 0.65s ease; }
-.reveal.on { opacity: 1; transform: translateY(0); }
+.reveal { opacity: 1; transform: translateY(0); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal.will-anim { opacity: 0; transform: translateY(20px); }
+.reveal.will-anim.on { opacity: 1; transform: translateY(0); }
 
 /* Orb background blobs */
 .orb { position: absolute; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
@@ -1625,13 +1626,12 @@ window.addEventListener('scroll', () => {
 // --- Reveal on scroll ---
 const reveals = document.querySelectorAll('.reveal');
 
-function checkInView() {
-  reveals.forEach(r => {
-    if (r.classList.contains('on')) return;
-    const rect = r.getBoundingClientRect();
-    if (rect.top < window.innerHeight + 50) r.classList.add('on');
-  });
-}
+// Only animate elements that start below the fold
+reveals.forEach(r => {
+  if (r.getBoundingClientRect().top > window.innerHeight) {
+    r.classList.add('will-anim');
+  }
+});
 
 const revealObs = new IntersectionObserver((entries) => {
   entries.forEach(e => {
@@ -1641,14 +1641,19 @@ const revealObs = new IntersectionObserver((entries) => {
     }
   });
 }, { threshold: 0.05 });
-reveals.forEach(r => revealObs.observe(r));
+reveals.forEach(r => {
+  if (r.classList.contains('will-anim')) revealObs.observe(r);
+});
 
-// Fallback on load
-window.addEventListener('load', checkInView);
-// Fallback on anchor nav (clicking Services, Results, etc.)
-window.addEventListener('hashchange', () => setTimeout(checkInView, 80));
-// Nuclear: after 600ms everything must be visible no matter what
-window.addEventListener('load', () => setTimeout(() => reveals.forEach(r => r.classList.add('on')), 600));
+// Reveal on anchor nav
+window.addEventListener('hashchange', () => {
+  setTimeout(() => {
+    reveals.forEach(r => {
+      const rect = r.getBoundingClientRect();
+      if (rect.top < window.innerHeight + 50) r.classList.add('on');
+    });
+  }, 80);
+});
 
 // --- Counter animation ---
 function animateNum(el) {
@@ -1727,4 +1732,5 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
     buildDots();
   }
   function startAuto() {
-    cle
+    clearInterval(auto);
+    auto = setInterval((
