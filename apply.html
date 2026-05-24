@@ -325,7 +325,7 @@ select.field-input option { background: #12121c; color: #fff; }
       </div>
 
       <div class="btn-row">
-        <button type="button" class="btn btn-primary" id="btnStep2">Continue → Step 2</button>
+        <button type="button" class="btn btn-primary" id="btnStep2" onclick="goStep2()">Continue → Step 2</button>
       </div>
 
       <div class="trust-strip">
@@ -414,8 +414,8 @@ select.field-input option { background: #12121c; color: #fff; }
       </div>
 
       <div class="btn-row">
-        <button type="button" class="btn btn-ghost" id="btnBack">← Previous</button>
-        <button type="button" class="btn btn-primary" id="btnSubmit">Submit Application →</button>
+        <button type="button" class="btn btn-ghost" id="btnBack" onclick="goStep1()">← Previous</button>
+        <button type="button" class="btn btn-primary" id="btnSubmit" onclick="submitForm()">Submit Application →</button>
       </div>
     </div>
 
@@ -528,16 +528,11 @@ function goStep1() {
 }
 
 function goStep2() {
-  if (!validateStep1()) { scrollToForm(); return; }
+  if (!validateStep1()) {
+    // scroll to the error banner so user sees what's wrong
+    var banner = document.getElementById('err1');
+    if (banner) banner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    return;
+  }
   document.getElementById('step1').classList.remove('active');
-  document.getElementById('step2').classList.add('active');
-  setProgress(2);
-  scrollToForm();
-}
-
-// ===== SUBMIT =====
-async function submitForm() {
-  if (!validateStep2()) { scrollToForm(); return; }
-
-  var btn = document.getElementById('btnSubmit');
-  btn.textContent = 'Submit
+  document.getElementById('step2').cla
