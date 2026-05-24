@@ -1685,6 +1685,7 @@ window.addEventListener('scroll', () => {
   const toggle = document.getElementById('servicesToggle');
   const dropdown = toggle ? toggle.closest('.nav-dropdown') : null;
   if (!toggle || !dropdown) return;
+  let justToggled = false;
 
   function openDropdown() {
     dropdown.classList.add('open');
@@ -1695,19 +1696,20 @@ window.addEventListener('scroll', () => {
     toggle.setAttribute('aria-expanded', 'false');
   }
 
-  toggle.addEventListener('click', (e) => {
-    e.stopPropagation();
+  toggle.addEventListener('click', function() {
+    justToggled = true;
     dropdown.classList.contains('open') ? closeDropdown() : openDropdown();
   });
 
-  // Close when clicking outside
-  document.addEventListener('click', (e) => {
+  // Close when clicking outside — skip the click that just opened it
+  document.addEventListener('click', function(e) {
+    if (justToggled) { justToggled = false; return; }
     if (!dropdown.contains(e.target)) closeDropdown();
   });
 
   // Close when a dropdown link is clicked (navigating away)
   dropdown.querySelectorAll('.nav-dropdown-menu a').forEach(a => {
-    a.addEventListener('click', () => closeDropdown());
+    a.addEventListener('click', function() { closeDropdown(); });
   });
 })();
 
@@ -1715,9 +1717,4 @@ window.addEventListener('scroll', () => {
 (function() {
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.querySelector('.nav-links');
-  if (!hamburger || !navLinks) return;
-  let isOpen = false;
-
-  function openNav() {
-    isOpen = true;
-    navLinks.style.cssText = 'display:fl
+  if (
