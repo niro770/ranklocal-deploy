@@ -920,6 +920,61 @@ nav.scrolled {
   .stats-grid { grid-template-columns: 1fr 1fr; }
 }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ranklocall.com/#organization",
+      "name": "RankLocal",
+      "url": "https://ranklocall.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ranklocall.com/logo.png"
+      },
+      "description": "RankLocal helps local service businesses dominate search rankings and generate exclusive inbound calls through Local SEO, Google Maps optimization, and pay per call advertising.",
+      "telephone": "+18337799997",
+      "email": "admin@ranklocall.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+18337799997",
+        "contactType": "sales",
+        "availableLanguage": "English"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Local Marketing Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Local SEO"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Google Maps Ranking"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Pay Per Call Lead Generation"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Google Business Profile Optimization"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reputation Management"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Citation Building"}}
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ranklocall.com/#website",
+      "url": "https://ranklocall.com",
+      "name": "RankLocal",
+      "description": "Local SEO and Pay Per Call Lead Generation for Local Service Businesses",
+      "publisher": {"@id": "https://ranklocall.com/#organization"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ranklocall.com/#webpage",
+      "url": "https://ranklocall.com",
+      "name": "RankLocal — Local SEO & Pay Per Call for Local Businesses",
+      "isPartOf": {"@id": "https://ranklocall.com/#website"},
+      "about": {"@id": "https://ranklocall.com/#organization"}
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
