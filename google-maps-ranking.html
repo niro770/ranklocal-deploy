@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Maps Ranking Service | RankLocal — Land in the 3-Pack</title>
+<meta name="description" content="We engineer your Maps presence with geo-targeted signals, review velocity, and authority links so you land in the Google Maps 3-Pack and stay there.">
+<style>
+:root{--blue:#00AAFF;--bg-0:#07070a;--bg-1:#0d0d14;--bg-2:#12121e;--border:rgba(255,255,255,0.07);--text:#e8e8f0;--muted:#7a7a9a;--radius:16px;--radius-sm:10px;}
+*{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg-0);color:var(--text);line-height:1.6;}
+a{text-decoration:none;color:inherit;}
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 24px;height:68px;display:flex;align-items:center;background:rgba(7,7,10,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+.nav-inner{max-width:1200px;margin:0 auto;width:100%;display:flex;align-items:center;justify-content:space-between;}
+.nav-logo{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:900;}
+.nav-logo .logo-icon{background:linear-gradient(135deg,#00AAFF,#0044BB);border-radius:8px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900;color:#fff;}
+.nav-logo .logo-text{color:#fff;}.nav-logo .logo-text span{color:var(--blue);}
+.nav-links{display:flex;gap:28px;list-style:none;}
+.nav-links a{font-size:14px;font-weight:500;color:var(--muted);transition:color 0.2s;}.nav-links a:hover{color:#fff;}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;padding:14px 28px;border-radius:var(--radius-sm);transition:all 0.25s;cursor:pointer;border:none;}
+.btn-primary{background:linear-gradient(135deg,#0088DD,#00AAFF);color:#fff;position:relative;overflow:hidden;}
+.btn-primary::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,#00AAFF,#00D4FF);opacity:0;transition:opacity 0.25s;pointer-events:none;}
+.btn-primary:hover::after{opacity:1;}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 35px rgba(0,170,255,.4);}
+.btn-primary span{position:relative;z-index:1;}
+.btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.2);}.btn-outline:hover{border-color:var(--blue);background:rgba(0,170,255,0.06);}
+.hero{padding:140px 24px 80px;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(0,100,220,0.18),transparent 65%);pointer-events:none;}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,170,255,0.08);border:1px solid rgba(0,170,255,0.2);border-radius:999px;padding:7px 16px;font-size:12px;font-weight:600;color:#60C8FF;margin-bottom:28px;}
+.badge-dot{width:7px;height:7px;border-radius:50%;background:var(--blue);animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.5;transform:scale(1.4);}}
+h1{font-size:clamp(36px,5vw,64px);font-weight:900;line-height:1.1;margin-bottom:20px;}
+.grad{background:linear-gradient(135deg,#00AAFF,#60D8FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{font-size:clamp(16px,2vw,20px);color:var(--muted);max-width:640px;margin:0 auto 40px;}
+.hero-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;}
+.stats{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;padding:48px 24px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--bg-1);}
+.stat-num{font-size:36px;font-weight:900;color:var(--blue);}.stat-label{font-size:13px;color:var(--muted);margin-top:4px;}
+.section{padding:80px 24px;}.container{max-width:1100px;margin:0 auto;}
+.section-label{font-size:12px;font-weight:700;letter-spacing:2px;color:var(--blue);text-transform:uppercase;margin-bottom:12px;}
+.section-heading{font-size:clamp(28px,4vw,44px);font-weight:900;line-height:1.15;margin-bottom:16px;}
+.section-sub{font-size:16px;color:var(--muted);max-width:580px;margin-bottom:48px;}
+.section-alt{background:var(--bg-1);}
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.feature-card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:all 0.3s;position:relative;overflow:hidden;}
+.feature-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,170,255,0.04),transparent);opacity:0;transition:opacity 0.3s;pointer-events:none;}
+.feature-card:hover{border-color:rgba(0,170,255,0.25);transform:translateY(-4px);}.feature-card:hover::before{opacity:1;}
+.feature-icon{font-size:28px;margin-bottom:16px;}.feature-title{font-size:17px;font-weight:700;margin-bottom:10px;}
+.feature-text{font-size:14px;color:var(--muted);line-height:1.7;}
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;}
+.process-step{text-align:center;}
+.step-num{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,rgba(0,100,220,0.2),rgba(0,170,255,0.1));border:1px solid rgba(0,170,255,0.3);display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:900;color:var(--blue);margin:0 auto 20px;}
+.step-title{font-size:16px;font-weight:700;margin-bottom:8px;}.step-text{font-size:13px;color:var(--muted);line-height:1.6;}
+.faq-list{max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:12px;}
+.faq-item{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;}
+.faq-btn{width:100%;display:flex;justify-content:space-between;align-items:center;padding:20px 24px;background:none;border:none;color:#fff;font-size:16px;font-weight:600;cursor:pointer;text-align:left;gap:16px;}
+.faq-icon{font-size:20px;color:var(--blue);flex-shrink:0;transition:transform 0.3s;}.faq-item.open .faq-icon{transform:rotate(45deg);}
+.faq-body{max-height:0;overflow:hidden;transition:max-height 0.35s ease;}.faq-item.open .faq-body{max-height:400px;}
+.faq-body p{padding:0 24px 20px;color:var(--muted);font-size:15px;line-height:1.7;}
+.cta-section{background:linear-gradient(135deg,rgba(0,68,187,0.15),rgba(0,170,255,0.08));border:1px solid rgba(0,170,255,0.15);border-radius:24px;padding:64px 40px;text-align:center;margin:0 24px 80px;}
+.cta-section h2{font-size:clamp(28px,4vw,42px);font-weight:900;margin-bottom:16px;}
+.cta-section p{font-size:16px;color:var(--muted);max-width:500px;margin:0 auto 36px;}
+footer{background:var(--bg-1);border-top:1px solid var(--border);padding:32px 24px;text-align:center;color:var(--muted);font-size:13px;}
+footer a{color:var(--blue);margin:0 12px;}
+@media(max-width:900px){.features-grid{grid-template-columns:1fr;}.process-steps{grid-template-columns:1fr 1fr;}.nav-links{display:none;}}
+@media(max-width:500px){.process-steps{grid-template-columns:1fr;}.stats{gap:28px;}.cta-section{padding:40px 24px;margin:0 16px 60px;}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><div class="logo-icon">R</div><div class="logo-text">Rank<span>Local</span></div></a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="index.html#process">Process</a></li>
+      <li><a href="index.html#testimonials">Reviews</a></li>
+      <li><a href="citations.html">Citations</a></li>
+    </ul>
+    <a href="index.html#contact" class="btn btn-primary"><span>📞 Book Free Call</span></a>
+  </div>
+</nav>
+<section class="hero">
+  <div class="badge"><div class="badge-dot"></div>Google Maps Ranking</div>
+  <h1>Land in the <span class="grad">Maps 3-Pack.</span><br>Stay There.</h1>
+  <p class="hero-sub">Most local customers never scroll past the Maps 3-Pack. We use proven geo-targeting, authority signals, and review velocity strategies to put your business in those top 3 spots — and keep you there.</p>
+  <div class="hero-btns">
+    <a href="index.html#contact" class="btn btn-primary"><span>🚀 Book a Free Call</span></a>
+    <a href="index.html#contact" class="btn btn-outline">See Our Results →</a>
+  </div>
+</section>
+<div class="stats"><div class="stat-item"><div class="stat-num">3-Pack</div><div class="stat-label">Avg. Client Placement</div></div>
+<div class="stat-item"><div class="stat-num">85%</div><div class="stat-label">of Clicks Go to Top 3</div></div>
+<div class="stat-item"><div class="stat-num">60 Days</div><div class="stat-label">Avg. Time to Results</div></div>
+<div class="stat-item"><div class="stat-num">4x</div><div class="stat-label">More Calls from Maps</div></div></div>
+<section class="section">
+  <div class="container">
+    <div class="section-label">What's Included</div>
+    <h2 class="section-heading">Everything Included<br><span class="grad">Done For You</span></h2>
+    <p class="section-sub">We handle every detail so you can focus on running your business. No guesswork. No DIY. Just results.</p>
+    <div class="features-grid"><div class="feature-card"><div class="feature-icon">🗺️</div><div class="feature-title">Geo-Targeted Signal Building</div><p class="feature-text">We build location-specific signals — keyword-optimized content, geo-tagged images, and local landing pages — that tell Google exactly where you serve and what you do.</p></div>
+<div class="feature-card"><div class="feature-icon">📍</div><div class="feature-title">Proximity Optimization</div><p class="feature-text">Google Maps ranks businesses based on proximity, relevance, and prominence. We optimize all three — including service area settings and embedding tactics that expand your reach beyond your physical address.</p></div>
+<div class="feature-card"><div class="feature-icon">⭐</div><div class="feature-title">Review Velocity System</div><p class="feature-text">Reviews are the #1 Maps ranking factor. We build a systematic, compliant review generation process that grows your star rating consistently and signals trust to Google's algorithm.</p></div>
+<div class="feature-card"><div class="feature-icon">🔗</div><div class="feature-title">Authority Link Building</div><p class="feature-text">Local backlinks from city directories, chambers of commerce, local news sites, and industry publications send powerful authority signals that lift your Maps ranking.</p></div>
+<div class="feature-card"><div class="feature-icon">🏢</div><div class="feature-title">GBP Signal Optimization</div><p class="feature-text">We synchronize your Google Business Profile with local landing pages, citation data, and website signals — creating a consistent web presence that Google rewards with higher Maps placement.</p></div>
+<div class="feature-card"><div class="feature-icon">📊</div><div class="feature-title">Rank Tracking & Reporting</div><p class="feature-text">We track your Maps ranking at multiple geo-grid points across your service area — not just one location — so you see exactly how visible you are throughout your market.</p></div></div>
+  </div>
+</section>
+<section class="section section-alt">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;">
+      <div class="section-label">Our Process</div>
+      <h2 class="section-heading">How We Deliver <span class="grad">Results</span></h2>
+    </div>
+    <div class="process-steps"><div class="process-step"><div class="step-num">1</div><div class="step-title">Market Analysis</div><p class="step-text">We map your competitive landscape — who's in the 3-Pack, what signals they have, and where the gaps are that we can exploit for faster ranking.</p></div>
+<div class="process-step"><div class="step-num">2</div><div class="step-title">Signal Architecture</div><p class="step-text">We design a geo-signal strategy tailored to your location and service type, combining GBP optimization, landing pages, and citation building.</p></div>
+<div class="process-step"><div class="step-num">3</div><div class="step-title">Authority Building</div><p class="step-text">Reviews, citations, and local backlinks are built systematically over time — compounding your ranking strength month after month.</p></div>
+<div class="process-step"><div class="step-num">4</div><div class="step-title">Track & Dominate</div><p class="step-text">We monitor your ranking across your full service area with geo-grid tracking and adjust our strategy to keep you at the top as competitors try to displace you.</p></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:48px;">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-heading">Common <span class="grad">Questions</span></h2>
+    </div>
+    <div class="faq-list"><div class="faq-item"><button class="faq-btn">How is Maps ranking different from regular Google ranking?<span class="faq-icon">+</span></button><div class="faq-body"><p>Maps ranking (the local pack) is driven by different signals than organic search — primarily your Google Business Profile, reviews, citations, and proximity. We specialize specifically in Maps ranking, not just general SEO.</p></div></div>
+<div class="faq-item"><button class="faq-btn">I'm in a competitive market — can you still get me into the 3-Pack?<span class="faq-icon">+</span></button><div class="faq-body"><p>Yes. Competitive markets take longer (typically 90–120 days) but our geo-targeting and authority-building strategies are designed for exactly these situations. We'll give you an honest assessment during your free audit.</p></div></div>
+<div class="faq-item"><button class="faq-btn">Do I need to be physically located in the city I want to rank in?<span class="faq-icon">+</span></button><div class="faq-body"><p>Not necessarily. With service-area businesses, we can rank you in cities across your service area using geo-targeted landing pages and GBP service area settings — even without a physical address there.</p></div></div>
+<div class="faq-item"><button class="faq-btn">What happens if a competitor tries to sabotage my listing?<span class="faq-icon">+</span></button><div class="faq-body"><p>We monitor your GBP continuously. If we detect any malicious edits, fake reviews, or spam reports, we respond immediately to protect your listing and your ranking.</p></div></div></div>
+  </div>
+</section>
+<div class="container">
+  <div class="cta-section">
+    <h2>Claim Your Spot in the<br><span class="grad">Maps 3-Pack</span></h2>
+    <p>Book a free call and we'll show you the exact steps to rank in the top 3 for your most valuable local keywords.</p>
+    <a href="index.html#contact" class="btn btn-primary" style="font-size:16px;padding:16px 32px;"><span>🚀 Get My Free Maps Audit</span></a>
+  </div>
+</div>
+<footer>
+  <p>© 2025 RankLocal. All rights reserved. &nbsp;|&nbsp;
+    <a href="index.html">Home</a>
+    <a href="index.html#services">Services</a>
+    <a href="tel:+18337799997">(833) 779-9997</a>
+    <a href="mailto:admin@ranklocall.com">admin@ranklocall.com</a>
+  </p>
+</footer>
+<script>
+document.querySelectorAll('.faq-btn').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.closest('.faq-item');const isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));if(!isOpen)item.classList.add('open');});});
+</script>
+</body>
+</html>
