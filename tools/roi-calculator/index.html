@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Local SEO ROI Calculator | RankLocAll</title>
+<meta name="description" content="Free Local SEO ROI Calculator — enter your industry, markets, job value, and close rate to see your projected monthly calls, leads, and revenue from Google Maps rankings.">
+<link rel="canonical" href="https://ranklocall.com/tools/roi-calculator/">
+<base href="/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Local SEO ROI Calculator","description":"Calculate your expected return on investment from local SEO and Google Maps rankings.","url":"https://ranklocall.com/tools/roi-calculator/","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ranklocall.com"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://ranklocall.com/tools/"},{"@type":"ListItem","position":3,"name":"ROI Calculator","item":"https://ranklocall.com/tools/roi-calculator/"}]}}
+</script>
+<style>
+:root{--blue:#00aaff;--dark:#07070a;--card:#0f0f14;--card2:#0b0b10;--border:rgba(0,170,255,0.10);--muted:#8a8a9a;--light:#f0f0f8;--body:#c0c0d0;--green:#00cc88;--purple:#7b4fff;--grad:linear-gradient(135deg,#00aaff,#7b4fff);}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--dark);color:var(--light);font-family:'Inter',-apple-system,sans-serif;line-height:1.6;}
+#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 40px;display:flex;align-items:center;justify-content:space-between;transition:.3s;}
+#navbar.scrolled{background:rgba(7,7,10,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+.logo{font-size:1.3rem;font-weight:900;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-decoration:none;}
+.nav-links{display:flex;gap:32px;list-style:none;}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:.9rem;font-weight:500;transition:.2s;}
+.nav-links a:hover,.nav-links a.active{color:var(--light);}
+.nav-cta{background:var(--grad);color:#fff!important;padding:8px 20px;border-radius:8px;font-weight:600!important;}
+.breadcrumb{padding:100px 40px 0;max-width:820px;margin:0 auto;font-size:.82rem;color:var(--muted);}
+.breadcrumb a{color:var(--muted);text-decoration:none;}
+.breadcrumb a:hover{color:var(--blue);}
+.breadcrumb span{color:var(--blue);}
+.hero{padding:24px 40px 48px;max-width:820px;margin:0 auto;}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:.85rem;text-decoration:none;margin-bottom:20px;transition:.2s;}
+.back:hover{color:var(--blue);}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,170,255,.08);border:1px solid rgba(0,170,255,.2);border-radius:100px;padding:5px 14px;font-size:.78rem;color:var(--blue);font-weight:600;margin-bottom:16px;}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900;line-height:1.15;margin-bottom:12px;}
+h1 span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.sub{color:var(--body);font-size:1rem;max-width:580px;}
+.tool-wrap{max-width:820px;margin:0 auto;padding:0 40px 80px;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:36px;}
+.fields{display:grid;gap:18px;margin-bottom:24px;}
+.cols-2{grid-template-columns:1fr 1fr;}
+.cols-3{grid-template-columns:1fr 1fr 1fr;}
+label{display:block;font-size:.78rem;font-weight:600;color:var(--muted);margin-bottom:7px;text-transform:uppercase;letter-spacing:.05em;}
+select,input[type=number]{width:100%;background:var(--card2);border:1px solid var(--border);border-radius:9px;padding:12px 14px;color:var(--light);font-family:inherit;font-size:.95rem;transition:.2s;outline:none;}
+select:focus,input:focus{border-color:rgba(0,170,255,.4);box-shadow:0 0 0 3px rgba(0,170,255,.07);}
+input[type=range]{width:100%;accent-color:var(--blue);cursor:pointer;margin-top:4px;}
+.range-val{text-align:right;font-size:.85rem;color:var(--blue);font-weight:700;margin-top:6px;}
+.hint{font-size:.78rem;color:var(--muted);margin-top:5px;}
+.calc-btn{width:100%;padding:15px;background:var(--grad);border:none;border-radius:11px;color:#fff;font-size:1rem;font-weight:700;cursor:pointer;transition:.2s;font-family:inherit;letter-spacing:.01em;}
+.calc-btn:hover{opacity:.88;transform:translateY(-2px);}
+.result{margin-top:28px;background:var(--card2);border:1px solid var(--border);border-radius:14px;padding:28px;display:none;}
+.result.show{display:block;}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px;}
+.stat{text-align:center;padding:20px 10px;background:var(--dark);border-radius:10px;border:1px solid var(--border);}
+.stat .val{font-size:1.8rem;font-weight:800;line-height:1;}
+.stat .lbl{font-size:.72rem;color:var(--muted);margin-top:6px;font-weight:500;}
+.note{font-size:.9rem;color:var(--body);line-height:1.7;padding:16px;background:rgba(0,170,255,.04);border-radius:10px;border:1px solid rgba(0,170,255,.08);}
+.note strong{color:var(--light);}
+.divider{height:1px;background:var(--border);margin:28px 0;}
+.other-tools{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.other-tool{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:16px;text-decoration:none;color:inherit;transition:.2s;}
+.other-tool:hover{border-color:rgba(0,170,255,.3);transform:translateY(-2px);}
+.other-tool .icon{font-size:1.3rem;margin-bottom:8px;}
+.other-tool h3{font-size:.88rem;font-weight:700;margin-bottom:4px;}
+.other-tool p{font-size:.78rem;color:var(--muted);}
+.cta{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:40px;text-align:center;margin:0 40px 80px;max-width:740px;margin-left:auto;margin-right:auto;}
+.cta h2{font-size:1.5rem;font-weight:800;margin-bottom:10px;}
+.cta p{color:var(--body);margin-bottom:22px;font-size:.95rem;}
+.cta a{display:inline-block;padding:13px 32px;background:var(--grad);border-radius:10px;color:#fff;font-weight:700;text-decoration:none;}
+footer{border-top:1px solid var(--border);padding:36px;text-align:center;color:var(--muted);font-size:.83rem;}
+footer a{color:var(--blue);text-decoration:none;}
+@media(max-width:700px){#navbar{padding:14px 20px;}.nav-links{display:none;}.breadcrumb,.hero,.tool-wrap{padding-left:20px;padding-right:20px;}.cols-2,.cols-3{grid-template-columns:1fr;}.stats{grid-template-columns:repeat(2,1fr);}.other-tools{grid-template-columns:1fr 1fr;}.cta{margin:0 20px 60px;}}
+</style>
+</head>
+<body>
+<nav id="navbar">
+  <a class="logo" href="/">RankLocAll™</a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/pay-per-call-marketplace/">Marketplace</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/tools/" class="active">Tools</a></li>
+    <li><a href="/apply/" class="nav-cta">Get Started</a></li>
+  </ul>
+</nav>
+
+<div class="breadcrumb"><a href="/">Home</a> › <a href="/tools/">Tools</a> › <span>ROI Calculator</span></div>
+
+<section class="hero">
+  <a class="back" href="/tools/">← All Tools</a>
+  <div class="badge">📈 Free Calculator</div>
+  <h1>Local SEO <span>ROI Calculator</span></h1>
+  <p class="sub">See your projected monthly calls, leads, and revenue from ranking in Google Maps — before you invest a dollar.</p>
+</section>
+
+<div class="tool-wrap">
+  <div class="card">
+    <div class="fields cols-3">
+      <div>
+        <label>Industry</label>
+        <select id="industry">
+          <option value="pest">Pest Control</option>
+          <option value="hvac">HVAC</option>
+          <option value="plumbing">Plumbing</option>
+          <option value="roofing">Roofing</option>
+          <option value="legal">Legal / Attorney</option>
+          <option value="dental">Dental</option>
+          <option value="remodeling">Home Remodeling</option>
+          <option value="moving">Moving</option>
+        </select>
+      </div>
+      <div>
+        <label>Number of Markets</label>
+        <input type="number" id="markets" value="3" min="1" max="100">
+        <div class="hint">Cities or service areas you target</div>
+      </div>
+      <div>
+        <label>Average Job Value ($)</label>
+        <input type="number" id="job-value" value="350" min="50">
+        <div class="hint">Revenue per completed job</div>
+      </div>
+    </div>
+    <div class="fields cols-2">
+      <div>
+        <label>Close Rate — <span id="close-val" style="color:var(--blue)">25%</span></label>
+        <input type="range" id="close-rate" min="5" max="70" value="25" oninput="document.getElementById('close-val').textContent=this.value+'%'">
+        <div class="hint">% of calls that become customers</div>
+      </div>
+      <div>
+        <label>Monthly SEO Budget ($)</label>
+        <input type="number" id="budget" value="2500" min="500">
+        <div class="hint">Your planned monthly investment</div>
+      </div>
+    </div>
+    <button class="calc-btn" onclick="calc()">Calculate My ROI →</button>
+
+    <div class="result" id="result">
+      <div class="stats">
+        <div class="stat"><div class="val" id="r-calls" style="color:var(--blue)">—</div><div class="lbl">Est. Monthly Calls</div></div>
+        <div class="stat"><div class="val" id="r-leads" style="color:var(--purple)">—</div><div class="lbl">New Customers / Mo</div></div>
+        <div class="stat"><div class="val" id="r-revenue" style="color:var(--green)">—</div><div class="lbl">Added Monthly Revenue</div></div>
+        <div class="stat"><div class="val" id="r-roi" style="color:var(--blue)">—</div><div class="lbl">ROI Multiple</div></div>
+      </div>
+      <p class="note" id="r-note"></p>
+    </div>
+
+    <div class="divider"></div>
+
+    <p style="font-size:.82rem;color:var(--muted);">Estimates based on industry average call volume per Google Maps 3-Pack ranking. Actual results vary by competition, location density, and campaign execution. Typically takes 60–90 days to reach full ranking potential.</p>
+  </div>
+
+  <div style="margin-top:32px;">
+    <p style="font-size:.85rem;color:var(--muted);margin-bottom:14px;font-weight:600;">OTHER FREE TOOLS</p>
+    <div class="other-tools">
+      <a class="other-tool" href="/tools/call-value-calculator/"><div class="icon">📞</div><h3>Call Value Calculator</h3><p>What's each call worth?</p></a>
+      <a class="other-tool" href="/tools/local-seo-audit/"><div class="icon">🔍</div><h3>Local SEO Audit</h3><p>Score your local presence</p></a>
+      <a class="other-tool" href="/tools/pay-per-call-estimator/"><div class="icon">💰</div><h3>PPC Rate Estimator</h3><p>Estimate cost per call</p></a>
+    </div>
+  </div>
+</div>
+
+<div class="cta">
+  <h2>Want These Numbers in Real Life?</h2>
+  <p>Our team will build a custom local SEO strategy for your markets and industry.</p>
+  <a href="/apply/">Get a Free Strategy Call →</a>
+</div>
+
+<footer><p>© 2025 RankLocAll™ · <a href="/tools/">All Tools</a> · <a href="/">Home</a> · <a href="/apply/">Apply</a></p></footer>
+
+<script>
+const IND={pest:{name:'Pest Control',cpm:28},hvac:{name:'HVAC',cpm:22},plumbing:{name:'Plumbing',cpm:30},roofing:{name:'Roofing',cpm:18},legal:{name:'Legal',cpm:12},dental:{name:'Dental',cpm:20},remodeling:{name:'Remodeling',cpm:10},moving:{name:'Moving',cpm:35}};
+function fmt(n){if(n>=1e6)return'$'+(n/1e6).toFixed(1)+'M';if(n>=1000)return'$'+(n/1000).toFixed(0)+'K';return'$'+Math.round(n).toLocaleString();}
+function calc(){
+  const ind=document.getElementById('industry').value;
+  const mkts=+document.getElementById('markets').value||1;
+  const job=+document.getElementById('job-value').value||200;
+  const close=+document.getElementById('close-rate').value/100;
+  const budget=+document.getElementById('budget').value||1000;
+  const calls=IND[ind].cpm*mkts;
+  const leads=Math.round(calls*close);
+  const rev=leads*job;
+  const roi=(rev/budget).toFixed(1);
+  document.getElementById('r-calls').textContent=calls;
+  document.getElementById('r-leads').textContent=leads;
+  document.getElementById('r-revenue').textContent=fmt(rev);
+  document.getElementById('r-roi').textContent=roi+'x';
+  document.getElementById('r-note').innerHTML=`Based on <strong>${mkts} market${mkts>1?'s':''}</strong> in ${IND[ind].name}, your $${budget.toLocaleString()}/mo investment is projected to generate <strong>~${calls} inbound calls</strong> and <strong>~${leads} new customers</strong> per month — producing <strong>${fmt(rev)} in added monthly revenue</strong> at a <strong>${roi}x return</strong>.`;
+  document.getElementById('result').classList.add('show');
+}
+window.addEventListener('scroll',()=>document.getElementById('navbar').classList.toggle('scrolled',scrollY>20));
+</script>
+</body>
+</html>
