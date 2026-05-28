@@ -8,7 +8,8 @@
 <meta name="description" content="We help local businesses rank higher on Google Maps and generate more phone calls. Local SEO, GBP optimization, and pay-per-call lead generation.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet"></noscript>
 <style>
 /* =========================================
    RESET & BASE
@@ -45,7 +46,7 @@ img { max-width: 100%; }
   --border: rgba(255,255,255,0.07);
   --border-blue: rgba(0,170,255,0.2);
   --text-muted: #7a7a9a;
-  --text-dim: #555570;
+  --text-dim: #7070a0;
   --radius: 14px;
   --radius-sm: 8px;
   --radius-lg: 20px;
@@ -1762,32 +1763,20 @@ function animateNum(el) {
     if (start >= end) clearInterval(t);
   }, 16);
 }
-function checkCounters() {
-  var els = document.querySelectorAll('[data-count]');
-  for (var i = 0; i < els.length; i++) {
-    var el = els[i];
-    var rect = el.getBoundingClientRect();
-    if (rect.top < window.innerHeight && rect.bottom >= 0) {
-      animateNum(el);
-    }
-  }
-}
-// Hard fallback — show final values even if scroll never triggers
-function forceCounterValues() {
+// Counter animation via IntersectionObserver (no forced reflow)
+(function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        animateNum(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
   document.querySelectorAll('[data-count]').forEach(function(el) {
-    if (!el._animated) {
-      el._animated = true;
-      var origText = el.getAttribute('data-orig-text') || el.getAttribute('data-count');
-      if (origText) el.textContent = origText;
-    }
+    observer.observe(el);
   });
-}
-window.addEventListener('scroll', checkCounters, { passive: true });
-window.addEventListener('touchmove', checkCounters, { passive: true });
-setTimeout(checkCounters, 100);
-setTimeout(checkCounters, 600);
-setTimeout(checkCounters, 1500);
-setTimeout(forceCounterValues, 5000);
+})();
 
 // --- FAQ accordion ---
 document.querySelectorAll('.faq-btn').forEach(btn => {
