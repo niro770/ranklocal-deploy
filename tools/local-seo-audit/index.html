@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free Local SEO Audit Tool — Instant Score | RankLocAll</title>
+<meta name="description" content="Free Local SEO Audit — answer 10 questions and get an instant score, color-coded results, and a prioritized action list to improve your Google Maps rankings.">
+<link rel="canonical" href="https://ranklocall.com/tools/local-seo-audit/">
+<base href="/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Local SEO Audit Tool","description":"Answer 10 questions and get an instant local SEO score with prioritized action items.","url":"https://ranklocall.com/tools/local-seo-audit/","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ranklocall.com"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://ranklocall.com/tools/"},{"@type":"ListItem","position":3,"name":"Local SEO Audit","item":"https://ranklocall.com/tools/local-seo-audit/"}]}}
+</script>
+<style>
+:root{--blue:#00aaff;--dark:#07070a;--card:#0f0f14;--card2:#0b0b10;--border:rgba(0,170,255,0.10);--muted:#8a8a9a;--light:#f0f0f8;--body:#c0c0d0;--green:#00cc88;--purple:#7b4fff;--red:#ff5a5a;--warn:#ffaa00;--grad:linear-gradient(135deg,#00cc88,#00aaff);}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--dark);color:var(--light);font-family:'Inter',-apple-system,sans-serif;line-height:1.6;}
+#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 40px;display:flex;align-items:center;justify-content:space-between;transition:.3s;}
+#navbar.scrolled{background:rgba(7,7,10,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+.logo{font-size:1.3rem;font-weight:900;background:linear-gradient(135deg,#00aaff,#7b4fff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-decoration:none;}
+.nav-links{display:flex;gap:32px;list-style:none;}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:.9rem;font-weight:500;transition:.2s;}
+.nav-links a:hover,.nav-links a.active{color:var(--light);}
+.nav-cta{background:linear-gradient(135deg,#00aaff,#7b4fff);color:#fff!important;padding:8px 20px;border-radius:8px;font-weight:600!important;}
+.breadcrumb{padding:100px 40px 0;max-width:820px;margin:0 auto;font-size:.82rem;color:var(--muted);}
+.breadcrumb a{color:var(--muted);text-decoration:none;}
+.breadcrumb a:hover{color:var(--green);}
+.breadcrumb span{color:var(--green);}
+.hero{padding:24px 40px 48px;max-width:820px;margin:0 auto;}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:.85rem;text-decoration:none;margin-bottom:20px;transition:.2s;}
+.back:hover{color:var(--green);}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,204,136,.1);border:1px solid rgba(0,204,136,.25);border-radius:100px;padding:5px 14px;font-size:.78rem;color:var(--green);font-weight:600;margin-bottom:16px;}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900;line-height:1.15;margin-bottom:12px;}
+h1 span{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.sub{color:var(--body);font-size:1rem;max-width:580px;}
+.tool-wrap{max-width:820px;margin:0 auto;padding:0 40px 80px;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:36px;}
+.q-list{display:grid;gap:14px;margin-bottom:24px;}
+.q-row{display:grid;grid-template-columns:1fr auto;align-items:center;gap:16px;background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:14px 16px;}
+.q-text{font-size:.9rem;color:var(--body);line-height:1.5;}
+.q-text strong{color:var(--light);display:block;font-size:.88rem;margin-bottom:2px;}
+.q-sel{background:var(--dark);border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--light);font-family:inherit;font-size:.85rem;outline:none;cursor:pointer;transition:.2s;min-width:130px;}
+.q-sel:focus{border-color:rgba(0,204,136,.4);}
+.calc-btn{width:100%;padding:15px;background:var(--grad);border:none;border-radius:11px;color:#fff;font-size:1rem;font-weight:700;cursor:pointer;transition:.2s;font-family:inherit;}
+.calc-btn:hover{opacity:.88;transform:translateY(-2px);}
+/* RESULT */
+.result{display:none;margin-top:4px;}
+.result.show{display:block;}
+.score-wrap{text-align:center;padding:32px 0 20px;}
+.score-ring{position:relative;width:140px;height:140px;margin:0 auto 12px;}
+.score-ring svg{transform:rotate(-90deg);}
+.score-num{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.score-num .n{font-size:2.2rem;font-weight:900;line-height:1;}
+.score-num .pct{font-size:.75rem;color:var(--muted);font-weight:600;}
+.score-label{font-size:1rem;font-weight:700;margin-bottom:4px;}
+.score-sub{font-size:.85rem;color:var(--muted);}
+.checks{display:grid;gap:10px;margin-top:24px;}
+.check-item{display:flex;align-items:flex-start;gap:12px;padding:13px 16px;background:var(--card2);border-radius:10px;border:1px solid var(--border);}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:5px;}
+.dot.good{background:var(--green);}
+.dot.warn{background:var(--warn);}
+.dot.bad{background:var(--red);}
+.check-content strong{font-size:.88rem;color:var(--light);display:block;margin-bottom:2px;}
+.check-content span{font-size:.82rem;color:var(--muted);}
+.retry-btn{width:100%;padding:13px;background:transparent;border:1px solid var(--border);border-radius:10px;color:var(--muted);font-size:.9rem;font-weight:600;cursor:pointer;margin-top:20px;font-family:inherit;transition:.2s;}
+.retry-btn:hover{border-color:var(--green);color:var(--green);}
+.divider{height:1px;background:var(--border);margin:28px 0;}
+.other-tools{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.other-tool{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:16px;text-decoration:none;color:inherit;transition:.2s;}
+.other-tool:hover{border-color:rgba(0,204,136,.3);transform:translateY(-2px);}
+.other-tool .icon{font-size:1.3rem;margin-bottom:8px;}
+.other-tool h3{font-size:.88rem;font-weight:700;margin-bottom:4px;}
+.other-tool p{font-size:.78rem;color:var(--muted);}
+.cta{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:40px;text-align:center;margin:0 40px 80px;max-width:740px;margin-left:auto;margin-right:auto;}
+.cta h2{font-size:1.5rem;font-weight:800;margin-bottom:10px;}
+.cta p{color:var(--body);margin-bottom:22px;font-size:.95rem;}
+.cta a{display:inline-block;padding:13px 32px;background:linear-gradient(135deg,#00aaff,#7b4fff);border-radius:10px;color:#fff;font-weight:700;text-decoration:none;}
+footer{border-top:1px solid var(--border);padding:36px;text-align:center;color:var(--muted);font-size:.83rem;}
+footer a{color:var(--green);text-decoration:none;}
+@media(max-width:700px){#navbar{padding:14px 20px;}.nav-links{display:none;}.breadcrumb,.hero,.tool-wrap{padding-left:20px;padding-right:20px;}.q-row{grid-template-columns:1fr;}.q-sel{width:100%;}.other-tools{grid-template-columns:1fr 1fr;}.cta{margin:0 20px 60px;}}
+</style>
+</head>
+<body>
+<nav id="navbar">
+  <a class="logo" href="/">RankLocAll™</a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/pay-per-call-marketplace/">Marketplace</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/tools/" class="active">Tools</a></li>
+    <li><a href="/apply/" class="nav-cta">Get Started</a></li>
+  </ul>
+</nav>
+
+<div class="breadcrumb"><a href="/">Home</a> › <a href="/tools/">Tools</a> › <span>Local SEO Audit</span></div>
+
+<section class="hero">
+  <a class="back" href="/tools/">← All Tools</a>
+  <div class="badge">🔍 Free Audit</div>
+  <h1>Local SEO <span>Audit Scorer</span></h1>
+  <p class="sub">Answer 10 quick questions about your business and get an instant score with a prioritized list of exactly what to fix.</p>
+</section>
+
+<div class="tool-wrap">
+  <div class="card" id="quiz-card">
+    <div class="q-list" id="q-list"></div>
+    <button class="calc-btn" onclick="runAudit()">Get My Score →</button>
+  </div>
+
+  <div class="card result" id="result-card">
+    <div class="score-wrap">
+      <div class="score-ring">
+        <svg width="140" height="140" viewBox="0 0 140 140">
+          <circle cx="70" cy="70" r="58" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="12"/>
+          <circle id="arc" cx="70" cy="70" r="58" fill="none" stroke="#00cc88" stroke-width="12" stroke-linecap="round" stroke-dasharray="364.4" stroke-dashoffset="364.4" style="transition:stroke-dashoffset 1s ease,stroke 1s ease"/>
+        </svg>
+        <div class="score-num"><div class="n" id="score-n">0</div><div class="pct">/ 100</div></div>
+      </div>
+      <div class="score-label" id="score-label">Calculating…</div>
+      <div class="score-sub" id="score-sub"></div>
+    </div>
+    <div class="checks" id="checks"></div>
+    <button class="retry-btn" onclick="resetAudit()">← Retake Audit</button>
+  </div>
+
+  <div style="margin-top:32px;">
+    <p style="font-size:.85rem;color:var(--muted);margin-bottom:14px;font-weight:600;">OTHER FREE TOOLS</p>
+    <div class="other-tools">
+      <a class="other-tool" href="/tools/roi-calculator/"><div class="icon">📈</div><h3>ROI Calculator</h3><p>Project your SEO return</p></a>
+      <a class="other-tool" href="/tools/call-value-calculator/"><div class="icon">📞</div><h3>Call Value Calculator</h3><p>What's each call worth?</p></a>
+      <a class="other-tool" href="/tools/pay-per-call-estimator/"><div class="icon">💰</div><h3>PPC Rate Estimator</h3><p>Estimate cost per call</p></a>
+    </div>
+  </div>
+</div>
+
+<div class="cta">
+  <h2>Want a Real SEO Expert to Review Your Listing?</h2>
+  <p>Get a hands-on audit and custom local SEO strategy from the RankLocAll team.</p>
+  <a href="/apply/">Get a Free Strategy Call →</a>
+</div>
+
+<footer><p>© 2025 RankLocAll™ · <a href="/tools/">All Tools</a> · <a href="/">Home</a> · <a href="/apply/">Apply</a></p></footer>
+
+<script>
+const QS=[
+  {q:'Do you have a verified Google Business Profile?',       yes:'GBP verified ✓',                bad:'No verified Google Business Profile — highest priority fix',    warn:'GBP created but not verified'},
+  {q:'Is your GBP fully complete (hours, services, photos)?', yes:'GBP fully optimized ✓',          bad:'GBP incomplete — missing key info that affects rankings',        warn:'GBP partially filled out'},
+  {q:'Do you have 25+ Google reviews with responses?',        yes:'Strong review count ✓',           bad:'Under 25 reviews — review velocity is a top ranking factor',    warn:'Some reviews but no responses'},
+  {q:'Are your NAP details consistent across directories?',   yes:'NAP consistency confirmed ✓',     bad:'Inconsistent listings confuse Google and hurt local trust',      warn:'Some inconsistencies found'},
+  {q:'Do you have city/location landing pages?',              yes:'Location pages in place ✓',       bad:'No local landing pages — missing critical keyword targeting',   warn:'Generic pages, not location-specific'},
+  {q:'Does your site load under 3 seconds on mobile?',        yes:'Fast mobile load speed ✓',        bad:'Slow mobile site hurts both rankings and conversions',           warn:'Borderline load time on mobile'},
+  {q:'Do you use LocalBusiness schema markup?',               yes:'Schema markup present ✓',         bad:'No schema — you\'re missing rich result opportunities',          warn:'Basic schema only, incomplete'},
+  {q:'Are you ranking in the 3-Pack for your main keyword?',  yes:'Currently ranking in 3-Pack ✓',   bad:'Not in 3-Pack yet — this is where 70%+ of local clicks go',     warn:'Ranking but outside top 3'},
+  {q:'Do you have 100+ citations across directories?',        yes:'Strong citation footprint ✓',     bad:'Low citation count — competitors likely have a big lead here',  warn:'Some citations, not enough coverage'},
+  {q:'Do you track calls and leads from local listings?',     yes:'Call tracking active ✓',          bad:'No tracking — you can\'t optimize what you can\'t measure',      warn:'Basic tracking only'},
+];
+
+function buildQ(){
+  document.getElementById('q-list').innerHTML=QS.map((q,i)=>`
+    <div class="q-row">
+      <div class="q-text"><strong>${i+1}. ${q.q}</strong></div>
+      <select class="q-sel" id="q${i}">
+        <option value="yes">✅ Yes</option>
+        <option value="partial">⚠️ Partial</option>
+        <option value="no">❌ No</option>
+      </select>
+    </div>
+  `).join('');
+}
+
+function runAudit(){
+  let score=0;
+  const items=[];
+  QS.forEach((q,i)=>{
+    const v=document.getElementById('q'+i).value;
+    const pts=v==='yes'?10:v==='partial'?5:0;
+    score+=pts;
+    items.push({status:v==='yes'?'good':v==='partial'?'warn':'bad', text:v==='yes'?q.yes:v==='partial'?q.warn:q.bad});
+  });
+
+  const circ=2*Math.PI*58;
+  const offset=circ-(score/100)*circ;
+  const color=score>=80?'#00cc88':score>=50?'#ffaa00':'#ff5a5a';
+  const arc=document.getElementById('arc');
+  setTimeout(()=>{arc.style.stroke=color;arc.style.strokeDashoffset=offset;},50);
+  document.getElementById('score-n').textContent=score;
+  document.getElementById('score-n').style.color=color;
+  document.getElementById('score-label').textContent=score>=80?'Strong Local Presence 🚀':score>=50?'Needs Improvement ⚠️':'Significant Gaps Found 🔴';
+  document.getElementById('score-sub').textContent=score>=80?'You\'re well-positioned — focus on maintaining and expanding.':score>=50?`${Math.round((100-score)/10)} key areas need attention before competitors pass you.`:`${Math.round((100-score)/10)} critical gaps are holding back your Google Maps rankings.`;
+
+  // Sort: bad first, warn second, good last
+  items.sort((a,b)=>{const o={bad:0,warn:1,good:2};return o[a.status]-o[b.status];});
+  document.getElementById('checks').innerHTML=items.map(it=>`
+    <div class="check-item">
+      <div class="dot ${it.status}"></div>
+      <div class="check-content"><span>${it.text}</span></div>
+    </div>
+  `).join('');
+
+  document.getElementById('quiz-card').style.display='none';
+  document.getElementById('result-card').classList.add('show');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function resetAudit(){
+  document.getElementById('quiz-card').style.display='block';
+  document.getElementById('result-card').classList.remove('show');
+  document.getElementById('arc').style.strokeDashoffset='364.4';
+}
+
+buildQ();
+window.addEventListener('scroll',()=>document.getElementById('navbar').classList.toggle('scrolled',scrollY>20));
+</script>
+</body>
+</html>
