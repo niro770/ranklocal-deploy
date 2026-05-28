@@ -7,7 +7,8 @@
 <title>RankLocal | Google Maps SEO & Local Lead Generation</title>
 <meta name="description" content="We help local businesses rank higher on Google Maps and generate more phone calls. Local SEO, GBP optimization, and pay-per-call lead generation.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
 /* =========================================
    RESET & BASE
@@ -975,7 +976,8 @@ nav.scrolled {
   ]
 }
 </script>
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"></noscript>
 </head>
 <body>
 
@@ -1531,42 +1533,42 @@ nav.scrolled {
     </div>
     <div class="faq-list reveal">
       <div class="faq-item">
-        <button class="faq-btn">
+        <button class="faq-btn" aria-expanded="false">
           How long does it take to rank on Google Maps?
           <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="faq-body"><p>Most clients see meaningful ranking movement in 30–45 days and reach the top 3 within 60–90 days in moderate competition markets. Highly competitive cities may take 3–4 months. We track your progress weekly so you always know exactly where you stand.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-btn">
+        <button class="faq-btn" aria-expanded="false">
           What types of businesses do you work with?
           <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="faq-body"><p>We specialize exclusively in local service businesses — plumbers, roofers, HVAC companies, electricians, dentists, lawyers, med spas, general contractors, and home service companies. If your business relies on local customers finding you on Google, we can help.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-btn">
+        <button class="faq-btn" aria-expanded="false">
           Do you guarantee #1 rankings?
           <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="faq-body"><p>No ethical SEO company can guarantee specific rankings — Google controls that. What we guarantee is a proven process, full transparency, and demonstrated results. Over 90% of our clients reach the top 3 within 90 days. We'll show you our full track record before you commit to anything.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-btn">
+        <button class="faq-btn" aria-expanded="false">
           How does the pay-per-call model work?
           <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="faq-body"><p>We build and rank lead-gen websites that drive calls directly to your business. You pay a flat fee per qualified call — no retainer, no monthly fee. It's pure performance marketing: you only pay when your phone rings with a real, vetted lead.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-btn">
+        <button class="faq-btn" aria-expanded="false">
           What's included in the free strategy call?
           <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="faq-body"><p>Your free strategy call includes a full GBP analysis, Maps 3-Pack ranking assessment, citation audit, competitor comparison, and a custom roadmap showing exactly what it will take to rank you #1 in your specific market.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-btn">
+        <button class="faq-btn" aria-expanded="false">
           Do you work in any city?
           <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
         </button>
@@ -1612,10 +1614,10 @@ nav.scrolled {
         </a>
         <p class="footer-desc">Helping local service businesses dominate Google Maps and generate more inbound calls — since 2019.</p>
         <div class="footer-socials">
-          <a href="#" class="footer-social">in</a>
-          <a href="#" class="footer-social">𝕏</a>
-          <a href="#" class="footer-social">f</a>
-          <a href="#" class="footer-social">▶</a>
+          <a href="#" class="footer-social" aria-label="LinkedIn">in</a>
+          <a href="#" class="footer-social" aria-label="X (Twitter)">𝕏</a>
+          <a href="#" class="footer-social" aria-label="Facebook">f</a>
+          <a href="#" class="footer-social" aria-label="YouTube">▶</a>
         </div>
       </div>
       <div>
@@ -1792,8 +1794,14 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const item = btn.closest('.faq-item');
     const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
-    if (!isOpen) item.classList.add('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.faq-btn').setAttribute('aria-expanded', 'false');
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    }
   });
 });
 
