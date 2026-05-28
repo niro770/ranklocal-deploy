@@ -6,10 +6,6 @@
 <script>if(location.pathname==='/index.html')location.replace('/'+location.hash);</script>
 <title>RankLocal | Google Maps SEO & Local Lead Generation</title>
 <meta name="description" content="We help local businesses rank higher on Google Maps and generate more phone calls. Local SEO, GBP optimization, and pay-per-call lead generation.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet"></noscript>
 <style>
 /* =========================================
    RESET & BASE
@@ -17,7 +13,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; font-size: 16px; }
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
   background: #07070a;
   color: #fff;
   overflow-x: hidden;
@@ -977,8 +973,7 @@ nav.scrolled {
   ]
 }
 </script>
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet"></noscript>
+
 </head>
 <body>
 
@@ -1012,7 +1007,7 @@ nav.scrolled {
       <li><a href="/blog/" style="color:#00AAFF;font-weight:600;">Blog</a></li>
     </ul>
     <div class="nav-ctas">
-      <a href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/admin-ranklocall/30min'});return false;" class="btn btn-primary" style="padding:10px 18px;font-size:13px;"><span>📅 Book Free Call</span></a>
+      <a href="" onclick="loadCalendly(this);return false;" class="btn btn-primary" style="padding:10px 18px;font-size:13px;"><span>📅 Book Free Call</span></a>
     </div>
     <button type="button" class="nav-hamburger" id="hamburger" aria-label="Menu" onclick="navToggle()">
       <span></span><span></span><span></span>
@@ -1591,7 +1586,7 @@ nav.scrolled {
       <h2 class="cta-title">Ready To Dominate<br><span class="grad">Google Maps?</span></h2>
       <p class="cta-sub">Book a free 30-minute strategy call. We'll show you exactly where you're losing calls to competitors and hand you a custom ranking roadmap.</p>
       <div class="cta-ctas">
-        <a href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/admin-ranklocall/30min'});return false;" class="btn btn-primary glow" style="font-size:17px;padding:16px 36px;"><span>📅 Book a Free Strategy Call</span></a>
+        <a href="" onclick="loadCalendly(this);return false;" class="btn btn-primary glow" style="font-size:17px;padding:16px 36px;"><span>📅 Book a Free Strategy Call</span></a>
         <a href="tel:+18337799997" class="btn btn-outline" style="font-size:15px;padding:14px 28px;margin-top:12px;"><span>📞 (833) 779-9997</span></a>
       </div>
       <div class="cta-reassurance">
@@ -1779,6 +1774,19 @@ function animateNum(el) {
 })();
 
 // --- FAQ accordion ---
+// Lazy-load Calendly only on first click
+var _calLoaded = false;
+function loadCalendly(el) {
+  if (_calLoaded) { Calendly.initPopupWidget({url:'https://calendly.com/admin-ranklocall/30min'}); return; }
+  var css = document.createElement('link');
+  css.rel = 'stylesheet'; css.href = 'https://assets.calendly.com/assets/external/widget.css';
+  document.head.appendChild(css);
+  var js = document.createElement('script');
+  js.src = 'https://assets.calendly.com/assets/external/widget.js';
+  js.onload = function() { _calLoaded = true; Calendly.initPopupWidget({url:'https://calendly.com/admin-ranklocall/30min'}); };
+  document.head.appendChild(js);
+}
+
 document.querySelectorAll('.faq-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const item = btn.closest('.faq-item');
@@ -1803,26 +1811,29 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
   let cur = 0;
   let auto;
 
-  function perView() {
-    const w = outer.offsetWidth;
-    if (w >= 960) return 3;
-    if (w >= 600) return 2;
+  function perView(outerW) {
+    if (outerW >= 960) return 3;
+    if (outerW >= 600) return 2;
     return 1;
   }
-  function cardW() {
-    const pv = perView();
-    const gap = 22;
-    return (outer.offsetWidth - gap * (pv - 1)) / pv;
-  }
-  function total() { return Math.ceil(cards.length / perView()); }
+  function total(outerW) { return Math.ceil(cards.length / perView(outerW)); }
 
   function setCardWidths() {
-    const w = cardW();
+    // Single read of offsetWidth, then all writes — no forced reflow
+    const outerW = outer.offsetWidth;
+    const pv = perView(outerW);
+    const w = (outerW - 22 * (pv - 1)) / pv;
     cards.forEach(c => { c.style.width = w + 'px'; c.style.minWidth = w + 'px'; });
+  }
+  function cardW() {
+    const outerW = outer.offsetWidth;
+    const pv = perView(outerW);
+    return (outerW - 22 * (pv - 1)) / pv;
   }
   function buildDots() {
     dotsEl.innerHTML = '';
-    for (let i = 0; i < total(); i++) {
+    const _t = total(outer.offsetWidth);
+    for (let i = 0; i < _t; i++) {
       const d = document.createElement('button');
       d.className = 'dot' + (i === cur ? ' active' : '');
       d.setAttribute('aria-label', 'Go to slide ' + (i + 1));
@@ -1831,14 +1842,14 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
     }
   }
   function goTo(idx) {
-    cur = Math.max(0, Math.min(idx, total() - 1));
+    cur = Math.max(0, Math.min(idx, total(outer.offsetWidth) - 1));
     const w = cardW();
     track.style.transform = `translateX(-${cur * (w + 22)}px)`;
     buildDots();
   }
   function startAuto() {
     clearInterval(auto);
-    auto = setInterval(() => goTo(cur >= total() - 1 ? 0 : cur + 1), 5000);
+    auto = setInterval(() => goTo(cur >= total(outer.offsetWidth) - 1 ? 0 : cur + 1), 5000);
   }
   document.getElementById('tPrev').onclick = () => { goTo(cur - 1); startAuto(); };
   document.getElementById('tNext').onclick = () => { goTo(cur + 1); startAuto(); };
@@ -1849,6 +1860,6 @@ document.querySelectorAll('.faq-btn').forEach(btn => {
 })();
 
 </script>
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
 </body>
 </html>
