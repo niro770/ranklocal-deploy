@@ -742,8 +742,9 @@ nav.scrolled {
 }
 .carousel-btn:hover { border-color: rgba(0,170,255,0.4); background: rgba(0,170,255,0.08); }
 .carousel-dots { display: flex; gap: 7px; }
-.dot { width: 7px; height: 7px; border-radius: 999px; background: #333; cursor: pointer; transition: all 0.25s; border: none; }
-.dot.active { background: var(--blue); width: 22px; }
+.dot { width: 24px; height: 24px; padding: 0; border-radius: 999px; background: transparent; cursor: pointer; transition: all 0.25s; border: none; position: relative; display: inline-flex; }
+.dot::before { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 7px; height: 7px; border-radius: 999px; background: #555; transition: all 0.25s; }
+.dot.active::before { background: var(--blue); width: 22px; }
 
 /* =========================================
    FAQ
@@ -1360,11 +1361,11 @@ nav.scrolled {
       <table class="compare-table">
         <thead>
           <tr>
-            <th style="width:40%;text-align:left;padding:16px 24px;"></th>
+            <th style="width:40%;text-align:left;padding:16px 24px;"><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">Feature</span></th>
             <th style="width:30%;text-align:center;">
               <div class="th-us">
                 <div style="color:var(--blue);font-size:16px;font-weight:900;">RankLocal</div>
-                <div style="color:rgba(0,170,255,0.55);font-size:11px;margin-top:2px;">Local SEO Specialists</div>
+                <div style="color:#80BEE6;font-size:11px;margin-top:2px;">Local SEO Specialists</div>
               </div>
             </th>
             <th style="width:30%;text-align:center;" class="th-them">
