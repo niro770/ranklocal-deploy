@@ -9,15 +9,14 @@ jobs:
   index:
     runs-on: ubuntu-latest
     steps:
-      - name: Notify Google Indexing API
+      - name: Submit URLs via IndexNow
         run: |
-          pip install google-auth requests --quiet
-
           python3 - <<'EOF'
-import json, requests
-from google.oauth2 import service_account
+import urllib.request, json
 
-# All URLs to ping on every deploy
+KEY = "a5a0b3891600a163f735e3fb81c872be"
+HOST = "ranklocall.com"
+
 URLS = [
   "https://ranklocall.com/",
   "https://ranklocall.com/local-seo/",
@@ -46,29 +45,38 @@ URLS = [
   "https://ranklocall.com/tools/rank-simulator/",
 ]
 
-key_data = json.loads(r"""${{ secrets.GOOGLE_INDEXING_KEY }}""")
-creds = service_account.Credentials.from_service_account_info(
-    key_data,
-    scopes=["https://www.googleapis.com/auth/indexing"]
+payload = json.dumps({
+  "host": HOST,
+  "key": KEY,
+  "keyLocation": f"https://{HOST}/{KEY}.txt",
+  "urlList": URLS
+}).encode()
+
+# Submit to Bing/IndexNow (Bing shares with other engines including Google)
+req = urllib.request.Request(
+  "https://api.indexnow.org/indexnow",
+  data=payload,
+  headers={"Content-Type": "application/json; charset=utf-8"},
+  method="POST"
 )
-creds.refresh(requests.Request())
-token = creds.token
+try:
+  with urllib.request.urlopen(req) as resp:
+    print(f"IndexNow: {resp.status} — {len(URLS)} URLs submitted")
+except Exception as e:
+  print(f"IndexNow error: {e}")
 
-ok, fail = 0, 0
-for url in URLS:
-    resp = requests.post(
-        "https://indexing.googleapis.com/v3/urlNotifications:publish",
-        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-        json={"url": url, "type": "URL_UPDATED"}
-    )
-    if resp.status_code == 200:
-        print(f"OK  {url}")
-        ok += 1
-    else:
-        print(f"ERR {url} — {resp.status_code}: {resp.text[:80]}")
-        fail += 1
+# Also submit to Bing directly
+req2 = urllib.request.Request(
+  "https://www.bing.com/indexnow",
+  data=payload,
+  headers={"Content-Type": "application/json; charset=utf-8"},
+  method="POST"
+)
+try:
+  with urllib.request.urlopen(req2) as resp:
+    print(f"Bing: {resp.status} — submitted")
+except Exception as e:
+  print(f"Bing error: {e}")
 
-print(f"\nDone: {ok} OK, {fail} failed")
+print("Done.")
 EOF
-        env:
-          PYTHONUNBUFFERED: "1"
