@@ -1,215 +1,299 @@
 {
-  "last_updated": "pending",
+  "last_updated": "2026-06-04T19:11:26Z",
   "urls": {
     "https://ranklocall.com/": {
-      "verdict": "PENDING",
-      "last_crawled": null,
-      "coverage": "Not yet checked"
+      "verdict": "PASS",
+      "last_crawled": "2026-05-31T21:43:21Z",
+      "coverage": "Submitted and indexed",
+      "robots_txt": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/local-seo/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/google-maps-ranking/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/google-business-profile/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/website-seo/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/reputation-management/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/citations/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/apply/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/ranklocall-vs-servicedirect/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-marketplace/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-plumbers/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-hvac/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-roofing/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-lawyers/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-dentists/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-contractors/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-electricians/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-pest-control/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-locksmiths/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-insurance/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-water-damage/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-garage-door/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-tree-service/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "URL is unknown to Google",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-landscaping/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/": {
-      "verdict": "PENDING",
-      "last_crawled": null,
-      "coverage": "Not yet checked"
+      "verdict": "PASS",
+      "last_crawled": "2026-06-04T11:46:57Z",
+      "coverage": "Submitted and indexed",
+      "robots_txt": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/tools/roi-calculator/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/call-value-calculator/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "URL is unknown to Google",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/local-seo-audit/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "URL is unknown to Google",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/market-domination-planner/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/geo-grid-scanner/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/map-pack-anatomy/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/rank-simulator/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/blog/": {
-      "verdict": "PENDING",
-      "last_crawled": null,
-      "coverage": "Not yet checked"
+      "verdict": "PASS",
+      "last_crawled": "2026-06-04T11:46:57Z",
+      "coverage": "Submitted and indexed",
+      "robots_txt": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/best-pay-per-call-networks/": {
-      "verdict": "PENDING",
-      "last_crawled": null,
-      "coverage": "Not yet checked"
+      "verdict": "PASS",
+      "last_crawled": "2026-06-04T11:51:15Z",
+      "coverage": "Submitted and indexed",
+      "robots_txt": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/best-local-seo-companies/": {
-      "verdict": "PENDING",
-      "last_crawled": null,
-      "coverage": "Not yet checked"
+      "verdict": "PASS",
+      "last_crawled": "2026-06-04T11:51:15Z",
+      "coverage": "Submitted and indexed",
+      "robots_txt": "ALLOWED",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/what-is-pay-per-call-advertising/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/blog/pay-per-call-vs-pay-per-lead/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/blog/how-does-pay-per-call-work/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/blog/pay-per-call-vs-google-ads/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/blog/pay-per-call-roi-tips/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/blog/best-industries-for-pay-per-call/": {
-      "verdict": "PENDING",
+      "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Not yet checked"
+      "coverage": "Discovered - currently not indexed",
+      "robots_txt": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     }
   }
 }
