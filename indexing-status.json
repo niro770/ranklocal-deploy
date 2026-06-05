@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T19:19:33Z",
+  "last_updated": "2026-06-05T10:56:34Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -82,7 +82,7 @@
     "https://ranklocall.com/pay-per-call-roofing/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-lawyers/": {
@@ -94,7 +94,7 @@
     "https://ranklocall.com/pay-per-call-dentists/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-contractors/": {
@@ -118,13 +118,13 @@
     "https://ranklocall.com/pay-per-call-locksmiths/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-insurance/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-water-damage/": {
@@ -136,7 +136,7 @@
     "https://ranklocall.com/pay-per-call-garage-door/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-tree-service/": {
@@ -190,7 +190,7 @@
     "https://ranklocall.com/tools/map-pack-anatomy/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/rank-simulator/": {
@@ -250,7 +250,7 @@
     "https://ranklocall.com/blog/best-industries-for-pay-per-call/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     }
   }
