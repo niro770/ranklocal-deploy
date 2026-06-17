@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T12:19:17Z",
+  "last_updated": "2026-06-17T11:58:59Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -28,7 +28,7 @@
     "https://ranklocall.com/website-seo/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/reputation-management/": {
@@ -40,7 +40,7 @@
     "https://ranklocall.com/citations/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/apply/": {
@@ -58,13 +58,13 @@
     "https://ranklocall.com/pay-per-call/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-marketplace/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-plumbers/": {
@@ -76,13 +76,13 @@
     "https://ranklocall.com/pay-per-call-hvac/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-roofing/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-lawyers/": {
@@ -130,7 +130,7 @@
     "https://ranklocall.com/pay-per-call-water-damage/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-garage-door/": {
@@ -160,13 +160,13 @@
     "https://ranklocall.com/tools/roi-calculator/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/call-value-calculator/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/local-seo-audit/": {
@@ -184,7 +184,7 @@
     "https://ranklocall.com/tools/geo-grid-scanner/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/map-pack-anatomy/": {
