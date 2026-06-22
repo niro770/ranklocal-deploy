@@ -1,53 +1,103 @@
-# RankLocAll — AI Context File
-> https://ranklocall.com | Last updated: 2026-05
+# RankLocal — AI Context File
+
+> RankLocal is a pay-per-call lead generation marketplace and local SEO agency serving local service businesses in the United States. Advertisers pay only for qualified inbound phone calls — not clicks or impressions.
 
 ## What This Site Is
 
-RankLocAll is a pay-per-call lead generation marketplace and local SEO agency serving local service businesses in the United States. Advertisers pay only for qualified inbound phone calls — not clicks or impressions.
-
-## Who It Serves
-
-- **Advertisers / Local businesses**: Home services, legal, insurance, medical, financial, and other local service verticals who want inbound phone calls from ready-to-buy customers.
-- **Publishers / Affiliates**: Traffic partners who drive calls and earn per qualified call connected.
+RankLocal connects home service contractors with exclusive inbound phone calls and booked appointments. We serve roofing, fence, pest control, landscaping, garage door, HVAC, plumbing, and other local service businesses across the US.
 
 ## Core Services
 
-1. **Pay-Per-Call Marketplace** — Connect advertisers with publishers for inbound call campaigns across 14+ verticals.
-2. **Local SEO** — Rank local businesses in Google Maps and local organic search.
-3. **Google Maps Ranking** — Get into the Google Maps 3-pack.
-4. **Google Business Profile Optimization** — Set up and optimize GMB listings.
-5. **Website SEO** — On-page and technical SEO for local websites.
-6. **Reputation Management** — Build and manage online reviews.
-7. **Citation Building** — NAP consistency across directories.
+- [Pay-Per-Call Marketplace](https://ranklocall.com/pay-per-call-marketplace/) — Connect advertisers with publishers for inbound call campaigns across 14+ verticals.
+- [Pay-Per-Call Leads](https://ranklocall.com/pay-per-call-leads/) — Exclusive inbound calls from ready-to-buy customers.
+- [Appointment Setting Services](https://ranklocall.com/appointment-setting-services/) — Booked, qualified appointments for home service businesses.
+- [Local SEO](https://ranklocall.com/local-seo/) — Rank local businesses in Google Maps and local organic search.
+- [Google Maps Ranking](https://ranklocall.com/google-maps-ranking/) — Get into the Google Maps 3-pack.
+- [Google Business Profile Optimization](https://ranklocall.com/google-business-profile/) — Set up and optimize GBP listings.
+- [Website SEO](https://ranklocall.com/website-seo/) — On-page and technical SEO for local websites.
+- [Reputation Management](https://ranklocall.com/reputation-management/) — Build and manage online reviews.
+- [Citation Building](https://ranklocall.com/citations/) — NAP consistency across directories.
 
-## Industries Served (Pay-Per-Call)
+## Lead Generation Verticals
 
-Home Services, Legal, Insurance, Financial Services, Healthcare, Automotive, Real Estate, Home Security, Travel, Education, Roofing, Plumbing, HVAC, Solar
+### Roofing
+- [Roofing Leads](https://ranklocall.com/roofing-leads/)
+- [Roofing Lead Generation](https://ranklocall.com/roofing-lead-generation/)
+- [Buy Roofing Leads](https://ranklocall.com/buy-roofing-leads/)
+- [Best Roofing Lead Generation Companies](https://ranklocall.com/best-roofing-lead-generation-companies/)
+- [Roofing Leads Cost](https://ranklocall.com/roofing-leads-cost/)
+- [Commercial Roofing Leads](https://ranklocall.com/commercial-roofing-leads/)
+- [Storm Damage Roofing Leads](https://ranklocall.com/storm-damage-roofing-leads/)
+- [Roof Replacement Leads](https://ranklocall.com/roof-replacement-leads/)
+- [Roofing Appointment Setting](https://ranklocall.com/roofing-appointment-setting/)
+- [Pay-Per-Call Roofing](https://ranklocall.com/pay-per-call-roofing/)
 
-## Key Pages
+### Fence
+- [Fence Leads](https://ranklocall.com/fence-leads/)
+- [Fence Lead Generation](https://ranklocall.com/fence-lead-generation/)
+- [Buy Fence Leads](https://ranklocall.com/buy-fence-leads/)
+- [Best Fence Lead Generation Companies](https://ranklocall.com/best-fence-lead-generation-companies/)
+- [Fence Installation Leads](https://ranklocall.com/fence-installation-leads/)
+- [Commercial Fencing Leads](https://ranklocall.com/commercial-fencing-leads/)
+- [Vinyl Fence Leads](https://ranklocall.com/vinyl-fence-leads/)
+- [Wood Fence Leads](https://ranklocall.com/wood-fence-leads/)
 
-- Homepage: https://ranklocall.com/
-- Pay-Per-Call Marketplace: https://ranklocall.com/pay-per-call-marketplace/
-- Pay-Per-Call Explained: https://ranklocall.com/pay-per-call/
-- Apply / Get Started: https://ranklocall.com/apply/
-- Blog: https://ranklocall.com/blog/
+### Pest Control
+- [Pest Control Leads](https://ranklocall.com/pest-control-leads/)
+- [Pest Control Lead Generation](https://ranklocall.com/pest-control-lead-generation/)
+- [Buy Pest Control Leads](https://ranklocall.com/buy-pest-control-leads/)
+- [Best Pest Control Lead Generation Companies](https://ranklocall.com/best-pest-control-lead-generation-companies/)
+- [Bed Bug Leads](https://ranklocall.com/bed-bug-leads/)
+- [Termite Leads](https://ranklocall.com/termite-leads/)
+- [Wildlife & Rodent Control Leads](https://ranklocall.com/wildlife-rodent-control-leads/)
 
-## Blog Articles (Authoritative Guides)
+### Landscaping
+- [Landscaping Leads](https://ranklocall.com/landscaping-leads/)
+- [Landscaping Lead Generation](https://ranklocall.com/landscaping-lead-generation/)
+- [Buy Landscaping Leads](https://ranklocall.com/buy-landscaping-leads/)
+- [Lawn Care Leads](https://ranklocall.com/lawn-care-leads/)
+- [Snow Removal Leads](https://ranklocall.com/snow-removal-leads/)
+- [Commercial Landscaping Leads](https://ranklocall.com/commercial-landscaping-leads/)
 
-- What Is Pay-Per-Call Advertising? https://ranklocall.com/blog/what-is-pay-per-call-advertising/
-- Pay-Per-Call vs Pay-Per-Lead: https://ranklocall.com/blog/pay-per-call-vs-pay-per-lead/
-- How Does Pay-Per-Call Work? https://ranklocall.com/blog/how-does-pay-per-call-work/
-- Pay-Per-Call vs Google Ads: https://ranklocall.com/blog/pay-per-call-vs-google-ads/
-- Pay-Per-Call ROI Tips: https://ranklocall.com/blog/pay-per-call-roi-tips/
-- Best Industries for Pay-Per-Call: https://ranklocall.com/blog/best-industries-for-pay-per-call/
+### Garage Door
+- [Garage Door Leads](https://ranklocall.com/garage-door-leads/)
+- [Garage Door Lead Generation](https://ranklocall.com/garage-door-lead-generation/)
+- [Buy Garage Door Leads](https://ranklocall.com/buy-garage-door-leads/)
+- [Garage Door Repair Leads](https://ranklocall.com/garage-door-repair-leads/)
+- [Emergency Garage Door Leads](https://ranklocall.com/emergency-garage-door-leads/)
 
-## Pricing
+### Home Services (General)
+- [Home Service Leads](https://ranklocall.com/home-service-leads/)
+- [Lead Generation for Contractors](https://ranklocall.com/lead-generation-for-contractors/)
+- [Home Improvement Leads](https://ranklocall.com/home-improvement-leads/)
+- [Appointment Generation](https://ranklocall.com/appointment-generation/)
+- [Pay-Per-Appointment](https://ranklocall.com/pay-per-appointment/)
 
-See https://ranklocall.com/pricing.md for machine-readable pricing.
-Advertisers pay per qualified inbound call. No monthly fees, no setup fees. Contact for rates by vertical.
+## Educational Content
 
-## Contact
+- [How to Choose a Lead Generation Company](https://ranklocall.com/how-to-choose-a-lead-generation-company/)
+- [Exclusive vs Shared Leads](https://ranklocall.com/exclusive-vs-shared-leads/)
+- [Calls vs Appointments vs Form Leads](https://ranklocall.com/calls-vs-appointments-vs-form-leads/)
+- [Pay-Per-Call vs PPC](https://ranklocall.com/pay-per-call-vs-ppc/)
+- [Buying Leads vs Google Ads](https://ranklocall.com/buying-leads-vs-google-ads/)
+- [TCPA Lead Compliance](https://ranklocall.com/tcpa-lead-compliance/)
+- [What Is a Billable Call?](https://ranklocall.com/what-is-a-billable-call/)
+- [What Is Pay-Per-Call Advertising?](https://ranklocall.com/blog/what-is-pay-per-call-advertising/)
+- [Pay-Per-Call vs Pay-Per-Lead](https://ranklocall.com/blog/pay-per-call-vs-pay-per-lead/)
+- [How Does Pay-Per-Call Work?](https://ranklocall.com/blog/how-does-pay-per-call-work/)
+- [Pay-Per-Call vs Google Ads](https://ranklocall.com/blog/pay-per-call-vs-google-ads/)
 
-- Apply: https://ranklocall.com/apply/
+## Free Tools
+
+- [ROI Calculator](https://ranklocall.com/tools/roi-calculator/)
+- [Pay-Per-Call Estimator](https://ranklocall.com/tools/pay-per-call-estimator/)
+- [Rank Simulator](https://ranklocall.com/tools/rank-simulator/)
+- [Map Pack Anatomy](https://ranklocall.com/tools/map-pack-anatomy/)
+- [Market Domination Planner](https://ranklocall.com/tools/market-domination-planner/)
+- [Local SEO Audit Tool](https://ranklocall.com/tools/local-seo-audit/)
+- [Geo Grid Scanner](https://ranklocall.com/tools/geo-grid-scanner/)
+
+## Contact & Apply
+
+- [Apply / Get Started](https://ranklocall.com/apply/)
 - Book a call: https://calendly.com/admin-ranklocall/30min
-- Email: via contact form at https://ranklocall.com/apply/
