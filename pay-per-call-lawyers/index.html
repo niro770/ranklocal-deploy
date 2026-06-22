@@ -18,18 +18,18 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:#07070a;color:#fff;overflow-x:hidden;line-height:1.6}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:#0a0f1e;color:#fff;overflow-x:hidden;line-height:1.6}
 a{text-decoration:none;color:inherit}
-:root{--blue:#00AAFF;--green:#00FF87;--bg-1:#0d0d14;--border:rgba(255,255,255,0.07);--border-blue:rgba(0,170,255,0.2);--text-muted:#7a7a9a;--radius:14px}
-.grad{background:linear-gradient(135deg,#00AAFF,#00FF87);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+:root{--blue:#00AAFF;--blue2:#0044BB;--bg-1:#0d1a35;--border:rgba(255,255,255,0.07);--border-blue:rgba(0,170,255,0.2);--text-muted:#7a7a9a;--radius:14px}
+.grad{background:linear-gradient(135deg,#00AAFF 0%,#00CCFF 60%,#80E8FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 28px;height:68px;display:flex;align-items:center;justify-content:space-between;background:rgba(7,7,10,0.97);border-bottom:1px solid var(--border)}
 .nav-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px}
-.logo-icon{width:32px;height:32px;background:linear-gradient(135deg,#00AAFF,#0055CC);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:14px}
+.logo-icon{width:32px;height:32px;background:linear-gradient(135deg,#00AAFF,#0044BB);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:14px}
 .logo-text span{color:var(--blue)}
 .nav-links{display:flex;gap:28px;list-style:none}
 .nav-links a{font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);transition:color .2s}
 .nav-links a:hover{color:#fff}
-.btn-primary{background:linear-gradient(135deg,#00AAFF,#0055CC);color:#fff;border:none;padding:10px 20px;border-radius:10px;font-weight:700;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.btn-primary{background:linear-gradient(135deg,#00AAFF,#0044BB);color:#fff;border:none;padding:10px 20px;border-radius:10px;font-weight:700;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
 .hero{padding:140px 28px 80px;text-align:center;max-width:800px;margin:0 auto}
 .badge{display:inline-flex;align-items:center;background:rgba(0,170,255,0.1);border:1px solid rgba(0,170,255,0.25);border-radius:100px;padding:6px 16px;font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--blue);margin-bottom:28px}
 .hero h1{font-size:clamp(36px,5vw,64px);font-weight:900;line-height:1.1;margin-bottom:20px}
@@ -115,7 +115,7 @@ footer a{color:var(--blue)}
 
 <div class="stats-row">
   <div class="stat-item"><div class="stat-n grad">73%</div><div class="stat-l">Legal callers hire within 48 hours</div></div>
-  <div class="stat-item"><div class="stat-n" style="color:var(--green)">10x</div><div class="stat-l">Case value vs marketing cost</div></div>
+  <div class="stat-item"><div class="stat-n" style="color:#0044BB">10x</div><div class="stat-l">Case value vs marketing cost</div></div>
   <div class="stat-item"><div class="stat-n">$0</div><div class="stat-l">Wasted spend on bad leads</div></div>
 </div>
 

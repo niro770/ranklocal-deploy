@@ -333,7 +333,7 @@ footer a{color:var(--blue);text-decoration:none;}
     <!-- SUMMARY STATS -->
     <div class="summary-stats">
       <div class="stat-box"><div class="val" id="r-markets" style="color:var(--blue)">—</div><div class="lbl">Markets Analyzed</div></div>
-      <div class="stat-box"><div class="val" id="r-revenue" style="color:var(--green)">—</div><div class="lbl">Total Monthly Revenue Potential</div></div>
+      <div class="stat-box"><div class="val" id="r-revenue" style="color:#0044BB">—</div><div class="lbl">Total Monthly Revenue Potential</div></div>
       <div class="stat-box"><div class="val" id="r-calls" style="color:var(--purple)">—</div><div class="lbl">Est. Monthly Calls</div></div>
       <div class="stat-box"><div class="val" id="r-timeframe" style="color:var(--warn)">—</div><div class="lbl">Avg. Months to 3-Pack</div></div>
     </div>
@@ -373,7 +373,7 @@ footer a{color:var(--blue);text-decoration:none;}
         <input type="email" id="gate-email" placeholder="Your business email">
         <button onclick="sendReport()">Send My Report →</button>
       </div>
-      <p id="gate-msg" style="font-size:.8rem;color:var(--green);margin-top:10px;display:none;">✅ Report on its way! Check your inbox.</p>
+      <p id="gate-msg" style="font-size:.8rem;color:#0044BB;margin-top:10px;display:none;">✅ Report on its way! Check your inbox.</p>
     </div>
 
     <!-- CTA -->
@@ -574,10 +574,10 @@ function generateResults() {
   tbody.innerHTML = scored.map((m, i) => {
     const rank = i+1;
     const rankBadge = rank===1?'rank-1':rank===2?'rank-2':rank===3?'rank-3':'rank-n';
-    const compColor = m.comp<=3?'var(--green)':m.comp<=6?'var(--warn)':'var(--red)';
+    const compColor = m.comp<=3?'#0044BB':m.comp<=6?'var(--warn)':'var(--red)';
     const compLabel = m.comp<=3?'Low':m.comp<=6?'Medium':'High';
     const fillW = Math.round((m.comp/10)*80);
-    const monthColor = m.months<=4?'var(--green)':m.months<=7?'var(--warn)':'var(--red)';
+    const monthColor = m.months<=4?'#0044BB':m.months<=7?'var(--warn)':'var(--red)';
     const monthBg = m.months<=4?'rgba(0,204,136,.12)':m.months<=7?'rgba(255,170,0,.12)':'rgba(255,90,90,.12)';
     const oppColor = i<3?'var(--blue)':i<scored.length/2?'var(--muted)':'rgba(255,255,255,.3)';
     const delay = i*0.06;
@@ -591,7 +591,7 @@ function generateResults() {
           <span class="comp-label" style="color:${compColor}">${compLabel} (${m.comp}/10)</span>
         </div>
       </td>
-      <td style="color:var(--green);font-weight:700">${fmtMoney(m.revenue)}</td>
+      <td style="color:#0044BB;font-weight:700">${fmtMoney(m.revenue)}</td>
       <td><span class="timeline-pill" style="background:${monthBg};color:${monthColor}">${m.months} mo</span></td>
       <td style="color:${oppColor};font-weight:700">${fmtMoney(m.oppScore)}</td>
     </tr>`;
@@ -602,7 +602,7 @@ function generateResults() {
   const phase2 = scored.slice(Math.ceil(scored.length/3), Math.ceil(scored.length*2/3));
   const phase3 = scored.slice(Math.ceil(scored.length*2/3));
   const phaseColors = [
-    {bg:'rgba(0,204,136,.15)',accent:'var(--green)',num:'#003322'},
+    {bg:'rgba(0,204,136,.15)',accent:'#0044BB',num:'#003322'},
     {bg:'rgba(0,170,255,.12)',accent:'var(--blue)',num:'#002233'},
     {bg:'rgba(123,79,255,.12)',accent:'var(--purple)',num:'#1a0533'},
   ];
@@ -632,7 +632,7 @@ function generateResults() {
   document.getElementById('insights').innerHTML = `
     <div class="insight"><div class="insight-icon">🏆</div><h4>Best Overall Opportunity</h4><p><strong style="color:var(--light)">${topMarket.city}</strong> tops your list with a ${fmtMoney(topMarket.oppScore)} opportunity score — high revenue potential relative to competition.</p></div>
     <div class="insight"><div class="insight-icon">⚡</div><h4>Fastest Win</h4><p><strong style="color:var(--light)">${fastest.city}</strong> has the shortest path to 3-Pack ranking (~${fastest.months} months) — ideal for getting quick early momentum.</p></div>
-    <div class="insight"><div class="insight-icon">💰</div><h4>Highest Revenue Market</h4><p><strong style="color:var(--light)">${highest.city}</strong> offers the highest monthly revenue ceiling at <strong style="color:var(--green)">${fmtMoney(highest.revenue)}/mo</strong> once ranked.</p></div>
+    <div class="insight"><div class="insight-icon">💰</div><h4>Highest Revenue Market</h4><p><strong style="color:var(--light)">${highest.city}</strong> offers the highest monthly revenue ceiling at <strong style="color:#0044BB">${fmtMoney(highest.revenue)}/mo</strong> once ranked.</p></div>
     <div class="insight"><div class="insight-icon">🛡️</div><h4>Lowest Competition</h4><p><strong style="color:var(--light)">${easiest.city}</strong> has the weakest competitor presence (${easiest.comp}/10) — easiest to break into and own the 3-Pack.</p></div>
   `;
 }
