@@ -1,10 +1,12 @@
-Site architecture: nav overhaul, contractor-leads hub, internal linking
+SEO: sitemap + IndexNow + internal linking for 30 new pages
 
-- Updated header nav on all 138 subpages (Services/Results/Marketplace to 4-link nav)
-- New nav links: Appointment Setting, Pay-Per-Call, Contractor Leads, Blog
-- Homepage nav: Contractor Leads and Appointment Setting added as highlighted links
-- Homepage nav Services dropdown: added Contractor Leads and Appointment Setting
-- Homepage: added Contractor Lead Generation service card linking to /contractor-leads/
-- Homepage footer: added highlighted /contractor-leads/ hub link to both grid sections
-- All 5 vertical lead pages: added /contractor-leads/ hub card to cross-vertical section
-- Fixed 3 internal linking gaps: ranklocall-vs-servicedirect, proplumb case study
+- sitemap.xml: +30 new page URLs (2026-07-05)
+- google-indexing.yml: +30 URLs to IndexNow/Bing submission
+- Internal links injected into 17 existing pages:
+  roofing-leads, contractor-leads, appointment-setting,
+  pay-per-call, pay-per-call-leads, home-service-leads,
+  pest-control-leads, best-lead-gen-companies, roofing-lead-generation,
+  roofing-cost-per-lead-benchmarks, buy-roofing-leads,
+  exclusive-vs-shared-leads, how-to-grow-a-roofing-business (blog),
+  how-to-get-roofing-customers (blog), lead-generation-for-contractors,
+  roofing-leads-cost, how-to-choose-a-lead-generation-company
