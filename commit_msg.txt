@@ -1,0 +1,10 @@
+Site architecture: nav overhaul, contractor-leads hub, internal linking
+
+- Updated header nav on all 138 subpages (Services/Results/Marketplace to 4-link nav)
+- New nav links: Appointment Setting, Pay-Per-Call, Contractor Leads, Blog
+- Homepage nav: Contractor Leads and Appointment Setting added as highlighted links
+- Homepage nav Services dropdown: added Contractor Leads and Appointment Setting
+- Homepage: added Contractor Lead Generation service card linking to /contractor-leads/
+- Homepage footer: added highlighted /contractor-leads/ hub link to both grid sections
+- All 5 vertical lead pages: added /contractor-leads/ hub card to cross-vertical section
+- Fixed 3 internal linking gaps: ranklocall-vs-servicedirect, proplumb case study
