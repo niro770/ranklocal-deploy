@@ -24,24 +24,42 @@
       "name": "RankLocal",
       "url": "https://ranklocall.com/",
       "description": "Exclusive pay-per-call leads, booked appointments, and qualified jobs for US home service companies.",
-      "areaServed": { "@type": "Country", "name": "United States" }
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
     },
     {
       "@type": "Service",
       "@id": "https://ranklocall.com/appointment-setting/#service",
       "name": "Appointment Setting for Contractors",
       "serviceType": "Appointment Setting",
-      "description": "Pay-per-appointment service for home service contractors. Qualified, exclusive, booked jobs — you only pay when a real appointment hits your calendar.",
+      "description": "Pay-per-appointment service for home service contractors. Qualified, exclusive, booked jobs \u2014 you only pay when a real appointment hits your calendar.",
       "url": "https://ranklocall.com/appointment-setting/",
-      "provider": { "@id": "https://ranklocall.com/#organization" },
-      "areaServed": { "@type": "Country", "name": "United States" }
+      "provider": {
+        "@id": "https://ranklocall.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://ranklocall.com/appointment-setting/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ranklocall.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Appointment Setting", "item": "https://ranklocall.com/appointment-setting/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ranklocall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Appointment Setting",
+          "item": "https://ranklocall.com/appointment-setting/"
+        }
       ]
     },
     {
@@ -51,18 +69,40 @@
         {
           "@type": "Question",
           "name": "What is appointment setting for contractors?",
-          "acceptedAnswer": { "@type": "Answer", "text": "A service where a provider generates demand, responds to prospects, qualifies them, and books confirmed jobs directly onto your calendar. You pay per booked appointment, not per click or lead." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A service where a provider generates demand, responds to prospects, qualifies them, and books confirmed jobs directly onto your calendar. You pay per booked appointment, not per click or lead."
+          }
         },
         {
           "@type": "Question",
           "name": "How much does appointment setting cost?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Typically $50–$200 per booked, qualified appointment depending on the trade and job value. Roofing and remodeling sit at the top; lawn care and pest control sit lower. See pay-per-appointment pricing for a full breakdown by vertical." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically $50\u2013$200 per booked, qualified appointment depending on the trade and job value. Roofing and remodeling sit at the top; lawn care and pest control sit lower. See pay-per-appointment pricing for a full breakdown by vertical."
+          }
         },
         {
           "@type": "Question",
           "name": "Which trades do you cover?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Roofing, fencing, landscaping, pest control, garage door, HVAC, and other home service trades across the US." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roofing, fencing, landscaping, pest control, garage door, HVAC, and other home service trades across the US."
+          }
         }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ranklocall.com/#founder",
+      "name": "Nir Barlev",
+      "jobTitle": "Founder & CEO",
+      "worksFor": {
+        "@id": "https://ranklocall.com/#organization"
+      },
+      "url": "https://ranklocall.com/about/",
+      "sameAs": [
+        "https://ranklocall.com/about/"
       ]
     }
   ]
@@ -227,6 +267,18 @@ footer{background:var(--bg-1);border-top:1px solid var(--border);padding:48px 28
   </div>
 </div>
 
+
+<div class="section" style="padding-top:0">
+  <div class="section-label">In Practice</div>
+  <h2>What the numbers look like with a real contractor</h2>
+  <p class="lead">The math section above is the model. Here's what we actually saw running it — and what qualification standard produced it.</p>
+  <div style="background:rgba(0,170,255,0.05);border:1px solid rgba(0,170,255,0.18);border-radius:14px;padding:1.5rem 1.75rem;margin-bottom:1.5rem">
+    <p style="font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#00AAFF;margin:0 0 .6rem">From the founder — Nir Barlev</p>
+    <p style="color:rgba(255,255,255,0.82);font-size:.97rem;line-height:1.68;margin:0 0 .75rem">The hardest thing I had to learn building this model is that fewer leads isn't a bug, it's the feature. When we first ran appointment-only programs, contractors pushed back on volume. They wanted 30 leads a week. We said: take 10 appointments, all filtered, all confirmed. Inside 45 days, they stopped asking for volume. Conversion went from 8% on raw leads to 31% on booked appointments — same market, same trade, same homeowners. The difference was qualification, not territory.</p>
+    <p style="color:rgba(255,255,255,0.82);font-size:.97rem;line-height:1.68;margin:0">We document this rigorously because it's the only way to improve it. Every appointment we deliver is logged against the four-filter standard. Every credit — no-show, out-of-area, wrong service — feeds back into how we tune demand generation for that trade and market. That's the loop that makes the model get better over time instead of degrading. <a href="/case-studies/proplumb/" style="color:#00AAFF">See the ProPlumb case study →</a></p>
+  </div>
+  <p style="font-size:.88rem;color:#7a8aaa">Want to understand the full qualification framework? <a href="/contractor-appointments/" style="color:#00AAFF">Read the contractor appointments qualification standard →</a></p>
+</div>
 <div class="section" style="padding-top:0">
   <div class="section-label">FAQ</div>
   <h2>Common questions</h2>
