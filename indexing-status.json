@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-07-08T09:33:14Z",
+  "last_updated": "2026-07-09T10:32:19Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-01T18:04:32Z",
+      "last_crawled": "2026-07-09T08:34:59Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/local-seo/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/google-maps-ranking/": {
@@ -58,7 +58,7 @@
     "https://ranklocall.com/pay-per-call/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-marketplace/": {
