@@ -511,3 +511,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 766
 
+=== weekly_seo_batch.py === 2026-07-13 22:35
+Queue: 766 pending topics. Processing 50.
+[OK] roofing-leads-arkansas
+[OK] hvac-leads-arkansas
+[OK] plumbing-leads-arkansas
+[OK] pest-control-leads-arkansas
+[OK] landscaping-leads-arkansas
+[OK] fencing-leads-arkansas
+[OK] garage-door-leads-arkansas
+[OK] electrical-leads-arkansas
+[OK] painting-leads-arkansas
+[OK] window-replacement-leads-arkansas
+[OK] siding-leads-arkansas
+[OK] gutter-leads-arkansas
+[OK] pressure-washing-leads-arkansas
+[OK] tree-service-leads-arkansas
+[OK] insulation-leads-arkansas
+[OK] roofing-leads-mississippi
+[OK] hvac-leads-mississippi
+[OK] plumbing-leads-mississippi
+[OK] pest-control-leads-mississippi
+[OK] landscaping-leads-mississippi
+[OK] fencing-leads-mississippi
+[OK] garage-door-leads-mississippi
+[OK] electrical-leads-mississippi
+[OK] painting-leads-mississippi
+[OK] window-replacement-leads-mississippi
+[OK] siding-leads-mississippi
+[OK] gutter-leads-mississippi
+[OK] pressure-washing-leads-mississippi
+[OK] tree-service-leads-mississippi
+[OK] insulation-leads-mississippi
+[OK] roofing-leads-new-mexico
+[OK] hvac-leads-new-mexico
+[OK] plumbing-leads-new-mexico
+[OK] pest-control-leads-new-mexico
+[OK] landscaping-leads-new-mexico
+[OK] fencing-leads-new-mexico
+[OK] garage-door-leads-new-mexico
+[OK] electrical-leads-new-mexico
+[OK] painting-leads-new-mexico
+[OK] window-replacement-leads-new-mexico
+[OK] siding-leads-new-mexico
+[OK] gutter-leads-new-mexico
+[OK] pressure-washing-leads-new-mexico
+[OK] tree-service-leads-new-mexico
+[OK] insulation-leads-new-mexico
+[OK] roofing-leads-idaho
+[OK] hvac-leads-idaho
+[OK] plumbing-leads-idaho
+[OK] pest-control-leads-idaho
+[OK] landscaping-leads-idaho
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 716
+

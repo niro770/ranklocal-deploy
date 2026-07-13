@@ -3504,350 +3504,350 @@
     "type": "service",
     "trade": "Fencing",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-leads-idaho",
     "type": "service",
     "trade": "Garage Door",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-idaho",
     "type": "service",
     "trade": "Electrical",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-idaho",
     "type": "service",
     "trade": "Painting",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-idaho",
     "type": "service",
     "trade": "Window Replacement",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-idaho",
     "type": "service",
     "trade": "Siding",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-leads-idaho",
     "type": "service",
     "trade": "Gutters",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-idaho",
     "type": "service",
     "trade": "Pressure Washing",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-idaho",
     "type": "service",
     "trade": "Tree Service",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-idaho",
     "type": "service",
     "trade": "Insulation",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-nebraska",
     "type": "service",
     "trade": "Roofing",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-nebraska",
     "type": "service",
     "trade": "HVAC",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-nebraska",
     "type": "service",
     "trade": "Plumbing",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-nebraska",
     "type": "service",
     "trade": "Pest Control",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-nebraska",
     "type": "service",
     "trade": "Landscaping",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-nebraska",
     "type": "service",
     "trade": "Fencing",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-leads-nebraska",
     "type": "service",
     "trade": "Garage Door",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-nebraska",
     "type": "service",
     "trade": "Electrical",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-nebraska",
     "type": "service",
     "trade": "Painting",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-nebraska",
     "type": "service",
     "trade": "Window Replacement",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-nebraska",
     "type": "service",
     "trade": "Siding",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-leads-nebraska",
     "type": "service",
     "trade": "Gutters",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-nebraska",
     "type": "service",
     "trade": "Pressure Washing",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-nebraska",
     "type": "service",
     "trade": "Tree Service",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-nebraska",
     "type": "service",
     "trade": "Insulation",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-west-virginia",
     "type": "service",
     "trade": "Roofing",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-west-virginia",
     "type": "service",
     "trade": "HVAC",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-west-virginia",
     "type": "service",
     "trade": "Plumbing",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-west-virginia",
     "type": "service",
     "trade": "Pest Control",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-west-virginia",
     "type": "service",
     "trade": "Landscaping",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-west-virginia",
     "type": "service",
     "trade": "Fencing",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-leads-west-virginia",
     "type": "service",
     "trade": "Garage Door",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-west-virginia",
     "type": "service",
     "trade": "Electrical",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-west-virginia",
     "type": "service",
     "trade": "Painting",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-west-virginia",
     "type": "service",
     "trade": "Window Replacement",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-west-virginia",
     "type": "service",
     "trade": "Siding",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-leads-west-virginia",
     "type": "service",
     "trade": "Gutters",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-west-virginia",
     "type": "service",
     "trade": "Pressure Washing",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-west-virginia",
     "type": "service",
     "trade": "Tree Service",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-west-virginia",
     "type": "service",
     "trade": "Insulation",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-maine",
     "type": "service",
     "trade": "Roofing",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-maine",
     "type": "service",
     "trade": "HVAC",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-maine",
     "type": "service",
     "trade": "Plumbing",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-maine",
     "type": "service",
     "trade": "Pest Control",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-maine",
     "type": "service",
     "trade": "Landscaping",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-maine",
     "type": "service",
     "trade": "Fencing",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-leads-maine",
     "type": "service",
     "trade": "Garage Door",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-maine",
     "type": "service",
     "trade": "Electrical",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-maine",
     "type": "service",
     "trade": "Painting",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-maine",
     "type": "service",
     "trade": "Window Replacement",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-maine",
