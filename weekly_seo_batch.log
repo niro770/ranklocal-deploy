@@ -397,3 +397,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 866
 
+=== weekly_seo_batch.py === 2026-07-13 22:34
+Queue: 866 pending topics. Processing 50.
+[OK] fencing-leads-kentucky
+[OK] garage-door-leads-kentucky
+[OK] electrical-leads-kentucky
+[OK] painting-leads-kentucky
+[OK] window-replacement-leads-kentucky
+[OK] siding-leads-kentucky
+[OK] gutter-leads-kentucky
+[OK] pressure-washing-leads-kentucky
+[OK] tree-service-leads-kentucky
+[OK] insulation-leads-kentucky
+[OK] roofing-leads-iowa
+[OK] hvac-leads-iowa
+[OK] plumbing-leads-iowa
+[OK] pest-control-leads-iowa
+[OK] landscaping-leads-iowa
+[OK] fencing-leads-iowa
+[OK] garage-door-leads-iowa
+[OK] electrical-leads-iowa
+[OK] painting-leads-iowa
+[OK] window-replacement-leads-iowa
+[OK] siding-leads-iowa
+[OK] gutter-leads-iowa
+[OK] pressure-washing-leads-iowa
+[OK] tree-service-leads-iowa
+[OK] insulation-leads-iowa
+[OK] roofing-leads-kansas
+[OK] hvac-leads-kansas
+[OK] plumbing-leads-kansas
+[OK] pest-control-leads-kansas
+[OK] landscaping-leads-kansas
+[OK] fencing-leads-kansas
+[OK] garage-door-leads-kansas
+[OK] electrical-leads-kansas
+[OK] painting-leads-kansas
+[OK] window-replacement-leads-kansas
+[OK] siding-leads-kansas
+[OK] gutter-leads-kansas
+[OK] pressure-washing-leads-kansas
+[OK] tree-service-leads-kansas
+[OK] insulation-leads-kansas
+[OK] roofing-leads-oklahoma
+[OK] hvac-leads-oklahoma
+[OK] plumbing-leads-oklahoma
+[OK] pest-control-leads-oklahoma
+[OK] landscaping-leads-oklahoma
+[OK] fencing-leads-oklahoma
+[OK] garage-door-leads-oklahoma
+[OK] electrical-leads-oklahoma
+[OK] painting-leads-oklahoma
+[OK] window-replacement-leads-oklahoma
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 816
+
