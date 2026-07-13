@@ -226,3 +226,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1016
 
+=== weekly_seo_batch.py === 2026-07-13 22:34
+Queue: 1016 pending topics. Processing 50.
+[OK] fencing-leads-massachusetts
+[OK] garage-door-leads-massachusetts
+[OK] electrical-leads-massachusetts
+[OK] painting-leads-massachusetts
+[OK] window-replacement-leads-massachusetts
+[OK] siding-leads-massachusetts
+[OK] gutter-leads-massachusetts
+[OK] pressure-washing-leads-massachusetts
+[OK] tree-service-leads-massachusetts
+[OK] insulation-leads-massachusetts
+[OK] roofing-leads-minnesota
+[OK] hvac-leads-minnesota
+[OK] plumbing-leads-minnesota
+[OK] pest-control-leads-minnesota
+[OK] landscaping-leads-minnesota
+[OK] fencing-leads-minnesota
+[OK] garage-door-leads-minnesota
+[OK] electrical-leads-minnesota
+[OK] painting-leads-minnesota
+[OK] window-replacement-leads-minnesota
+[OK] siding-leads-minnesota
+[OK] gutter-leads-minnesota
+[OK] pressure-washing-leads-minnesota
+[OK] tree-service-leads-minnesota
+[OK] insulation-leads-minnesota
+[OK] roofing-leads-missouri
+[OK] hvac-leads-missouri
+[OK] plumbing-leads-missouri
+[OK] pest-control-leads-missouri
+[OK] landscaping-leads-missouri
+[OK] fencing-leads-missouri
+[OK] garage-door-leads-missouri
+[OK] electrical-leads-missouri
+[OK] painting-leads-missouri
+[OK] window-replacement-leads-missouri
+[OK] siding-leads-missouri
+[OK] gutter-leads-missouri
+[OK] pressure-washing-leads-missouri
+[OK] tree-service-leads-missouri
+[OK] insulation-leads-missouri
+[SKIP] roofing-leads-ohio (already exists)
+[OK] hvac-leads-ohio
+[OK] plumbing-leads-ohio
+[OK] pest-control-leads-ohio
+[OK] landscaping-leads-ohio
+[OK] fencing-leads-ohio
+[OK] garage-door-leads-ohio
+[OK] electrical-leads-ohio
+[OK] painting-leads-ohio
+[OK] window-replacement-leads-ohio
+Sitemap: 49 URLs added. YML: 49 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 49 | Skipped: 1 | Queue remaining: 966
+
