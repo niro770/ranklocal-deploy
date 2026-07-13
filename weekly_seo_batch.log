@@ -3327,3 +3327,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1820
 
+=== weekly_seo_batch.py === 2026-07-13 23:01
+Queue: 1820 pending topics. Processing 50.
+[OK] exclusive-window-replacement-leads-nebraska
+[OK] window-replacement-pay-per-call-nebraska
+[OK] window-replacement-appointment-setting-nebraska
+[OK] window-replacement-contractor-leads-nebraska
+[OK] window-replacement-phone-leads-nebraska
+[OK] exclusive-window-replacement-leads-mississippi
+[OK] window-replacement-pay-per-call-mississippi
+[OK] window-replacement-appointment-setting-mississippi
+[OK] window-replacement-contractor-leads-mississippi
+[OK] window-replacement-phone-leads-mississippi
+[OK] exclusive-siding-leads-alabama
+[OK] siding-pay-per-call-alabama
+[OK] siding-appointment-setting-alabama
+[OK] siding-contractor-leads-alabama
+[OK] siding-phone-leads-alabama
+[OK] exclusive-siding-leads-arizona
+[OK] siding-pay-per-call-arizona
+[OK] siding-appointment-setting-arizona
+[OK] siding-contractor-leads-arizona
+[OK] siding-phone-leads-arizona
+[OK] exclusive-siding-leads-arkansas
+[OK] siding-pay-per-call-arkansas
+[OK] siding-appointment-setting-arkansas
+[OK] siding-contractor-leads-arkansas
+[OK] siding-phone-leads-arkansas
+[OK] exclusive-siding-leads-california
+[OK] siding-pay-per-call-california
+[OK] siding-appointment-setting-california
+[OK] siding-contractor-leads-california
+[OK] siding-phone-leads-california
+[OK] exclusive-siding-leads-colorado
+[OK] siding-pay-per-call-colorado
+[OK] siding-appointment-setting-colorado
+[OK] siding-contractor-leads-colorado
+[OK] siding-phone-leads-colorado
+[OK] exclusive-siding-leads-connecticut
+[OK] siding-pay-per-call-connecticut
+[OK] siding-appointment-setting-connecticut
+[OK] siding-contractor-leads-connecticut
+[OK] siding-phone-leads-connecticut
+[OK] exclusive-siding-leads-florida
+[OK] siding-pay-per-call-florida
+[OK] siding-appointment-setting-florida
+[OK] siding-contractor-leads-florida
+[OK] siding-phone-leads-florida
+[OK] exclusive-siding-leads-georgia
+[OK] siding-pay-per-call-georgia
+[OK] siding-appointment-setting-georgia
+[OK] siding-contractor-leads-georgia
+[OK] siding-phone-leads-georgia
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1770
+
