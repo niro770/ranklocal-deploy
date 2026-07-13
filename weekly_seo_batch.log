@@ -283,3 +283,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 49 | Skipped: 1 | Queue remaining: 966
 
+=== weekly_seo_batch.py === 2026-07-13 22:34
+Queue: 966 pending topics. Processing 50.
+[OK] siding-leads-ohio
+[SKIP] gutter-leads-ohio (already exists)
+[OK] pressure-washing-leads-ohio
+[OK] tree-service-leads-ohio
+[OK] insulation-leads-ohio
+[OK] roofing-leads-michigan
+[OK] hvac-leads-michigan
+[OK] plumbing-leads-michigan
+[OK] pest-control-leads-michigan
+[OK] landscaping-leads-michigan
+[OK] fencing-leads-michigan
+[OK] garage-door-leads-michigan
+[OK] electrical-leads-michigan
+[OK] painting-leads-michigan
+[OK] window-replacement-leads-michigan
+[OK] siding-leads-michigan
+[OK] gutter-leads-michigan
+[OK] pressure-washing-leads-michigan
+[OK] tree-service-leads-michigan
+[OK] insulation-leads-michigan
+[OK] roofing-leads-oregon
+[OK] hvac-leads-oregon
+[OK] plumbing-leads-oregon
+[OK] pest-control-leads-oregon
+[OK] landscaping-leads-oregon
+[OK] fencing-leads-oregon
+[OK] garage-door-leads-oregon
+[OK] electrical-leads-oregon
+[OK] painting-leads-oregon
+[OK] window-replacement-leads-oregon
+[OK] siding-leads-oregon
+[OK] gutter-leads-oregon
+[OK] pressure-washing-leads-oregon
+[OK] tree-service-leads-oregon
+[OK] insulation-leads-oregon
+[OK] roofing-leads-indiana
+[OK] hvac-leads-indiana
+[OK] plumbing-leads-indiana
+[OK] pest-control-leads-indiana
+[OK] landscaping-leads-indiana
+[OK] fencing-leads-indiana
+[OK] garage-door-leads-indiana
+[OK] electrical-leads-indiana
+[OK] painting-leads-indiana
+[OK] window-replacement-leads-indiana
+[OK] siding-leads-indiana
+[OK] gutter-leads-indiana
+[OK] pressure-washing-leads-indiana
+[OK] tree-service-leads-indiana
+[OK] insulation-leads-indiana
+Sitemap: 49 URLs added. YML: 49 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 49 | Skipped: 1 | Queue remaining: 916
+
