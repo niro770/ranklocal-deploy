@@ -454,3 +454,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 816
 
+=== weekly_seo_batch.py === 2026-07-13 22:34
+Queue: 816 pending topics. Processing 50.
+[OK] siding-leads-oklahoma
+[OK] gutter-leads-oklahoma
+[OK] pressure-washing-leads-oklahoma
+[OK] tree-service-leads-oklahoma
+[OK] insulation-leads-oklahoma
+[OK] roofing-leads-utah
+[OK] hvac-leads-utah
+[OK] plumbing-leads-utah
+[OK] pest-control-leads-utah
+[OK] landscaping-leads-utah
+[OK] fencing-leads-utah
+[OK] garage-door-leads-utah
+[OK] electrical-leads-utah
+[OK] painting-leads-utah
+[OK] window-replacement-leads-utah
+[OK] siding-leads-utah
+[OK] gutter-leads-utah
+[OK] pressure-washing-leads-utah
+[OK] tree-service-leads-utah
+[OK] insulation-leads-utah
+[OK] roofing-leads-connecticut
+[OK] hvac-leads-connecticut
+[OK] plumbing-leads-connecticut
+[OK] pest-control-leads-connecticut
+[OK] landscaping-leads-connecticut
+[OK] fencing-leads-connecticut
+[OK] garage-door-leads-connecticut
+[OK] electrical-leads-connecticut
+[OK] painting-leads-connecticut
+[OK] window-replacement-leads-connecticut
+[OK] siding-leads-connecticut
+[OK] gutter-leads-connecticut
+[OK] pressure-washing-leads-connecticut
+[OK] tree-service-leads-connecticut
+[OK] insulation-leads-connecticut
+[OK] roofing-leads-new-jersey
+[OK] hvac-leads-new-jersey
+[OK] plumbing-leads-new-jersey
+[OK] pest-control-leads-new-jersey
+[OK] landscaping-leads-new-jersey
+[OK] fencing-leads-new-jersey
+[OK] garage-door-leads-new-jersey
+[OK] electrical-leads-new-jersey
+[OK] painting-leads-new-jersey
+[OK] window-replacement-leads-new-jersey
+[OK] siding-leads-new-jersey
+[OK] gutter-leads-new-jersey
+[OK] pressure-washing-leads-new-jersey
+[OK] tree-service-leads-new-jersey
+[OK] insulation-leads-new-jersey
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 766
+
