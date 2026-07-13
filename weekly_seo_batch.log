@@ -4980,3 +4980,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 370
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 370 pending topics. Processing 50.
+[OK] pest-control-leads-new-orleans
+[OK] pest-control-leads-birmingham
+[OK] pest-control-leads-louisville
+[OK] pest-control-leads-oklahoma-city
+[OK] pest-control-leads-salt-lake-city
+[OK] pest-control-leads-hartford
+[OK] pest-control-leads-newark
+[OK] pest-control-leads-richmond
+[OK] pest-control-leads-wichita
+[OK] pest-control-leads-columbia
+[OK] garage-door-repair-leads-phoenix
+[OK] garage-door-repair-leads-atlanta
+[OK] garage-door-repair-leads-charlotte
+[OK] garage-door-repair-leads-raleigh
+[OK] garage-door-repair-leads-denver
+[OK] garage-door-repair-leads-chicago
+[OK] garage-door-repair-leads-seattle
+[OK] garage-door-repair-leads-las-vegas
+[OK] garage-door-repair-leads-new-york-city
+[OK] garage-door-repair-leads-philadelphia
+[OK] garage-door-repair-leads-nashville
+[OK] garage-door-repair-leads-baltimore
+[OK] garage-door-repair-leads-boston
+[OK] garage-door-repair-leads-minneapolis
+[OK] garage-door-repair-leads-kansas-city
+[OK] garage-door-repair-leads-columbus
+[OK] garage-door-repair-leads-detroit
+[OK] garage-door-repair-leads-portland
+[OK] garage-door-repair-leads-indianapolis
+[OK] garage-door-repair-leads-milwaukee
+[OK] garage-door-repair-leads-new-orleans
+[OK] garage-door-repair-leads-birmingham
+[OK] garage-door-repair-leads-louisville
+[OK] garage-door-repair-leads-oklahoma-city
+[OK] garage-door-repair-leads-salt-lake-city
+[OK] garage-door-repair-leads-hartford
+[OK] garage-door-repair-leads-newark
+[OK] garage-door-repair-leads-richmond
+[OK] garage-door-repair-leads-wichita
+[OK] garage-door-repair-leads-columbia
+[OK] hvac-leads-phoenix
+[OK] hvac-leads-atlanta
+[OK] hvac-leads-charlotte
+[OK] hvac-leads-raleigh
+[OK] hvac-leads-denver
+[OK] hvac-leads-chicago
+[OK] hvac-leads-seattle
+[OK] hvac-leads-las-vegas
+[OK] hvac-leads-new-york-city
+[OK] hvac-leads-philadelphia
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 320
+

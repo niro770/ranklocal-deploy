@@ -31077,7 +31077,7 @@
     "trade": "HVAC",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-baltimore",
@@ -31085,7 +31085,7 @@
     "trade": "HVAC",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-boston",
@@ -31093,7 +31093,7 @@
     "trade": "HVAC",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-minneapolis",
@@ -31101,7 +31101,7 @@
     "trade": "HVAC",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-kansas-city",
@@ -31109,7 +31109,7 @@
     "trade": "HVAC",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-columbus",
@@ -31117,7 +31117,7 @@
     "trade": "HVAC",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-detroit",
@@ -31125,7 +31125,7 @@
     "trade": "HVAC",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-portland",
@@ -31133,7 +31133,7 @@
     "trade": "HVAC",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-indianapolis",
@@ -31141,7 +31141,7 @@
     "trade": "HVAC",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-milwaukee",
@@ -31149,7 +31149,7 @@
     "trade": "HVAC",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-new-orleans",
@@ -31157,7 +31157,7 @@
     "trade": "HVAC",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-birmingham",
@@ -31165,7 +31165,7 @@
     "trade": "HVAC",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-louisville",
@@ -31173,7 +31173,7 @@
     "trade": "HVAC",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-oklahoma-city",
@@ -31181,7 +31181,7 @@
     "trade": "HVAC",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-salt-lake-city",
@@ -31189,7 +31189,7 @@
     "trade": "HVAC",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-hartford",
@@ -31197,7 +31197,7 @@
     "trade": "HVAC",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-newark",
@@ -31205,7 +31205,7 @@
     "trade": "HVAC",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-richmond",
@@ -31213,7 +31213,7 @@
     "trade": "HVAC",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-wichita",
@@ -31221,7 +31221,7 @@
     "trade": "HVAC",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-columbia",
@@ -31229,7 +31229,7 @@
     "trade": "HVAC",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-phoenix",
@@ -31237,7 +31237,7 @@
     "trade": "Plumbing",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-atlanta",
@@ -31245,7 +31245,7 @@
     "trade": "Plumbing",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-charlotte",
@@ -31253,7 +31253,7 @@
     "trade": "Plumbing",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-raleigh",
@@ -31261,7 +31261,7 @@
     "trade": "Plumbing",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-denver",
@@ -31269,7 +31269,7 @@
     "trade": "Plumbing",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-chicago",
@@ -31277,7 +31277,7 @@
     "trade": "Plumbing",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-seattle",
@@ -31285,7 +31285,7 @@
     "trade": "Plumbing",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-las-vegas",
@@ -31293,7 +31293,7 @@
     "trade": "Plumbing",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-new-york-city",
@@ -31301,7 +31301,7 @@
     "trade": "Plumbing",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-philadelphia",
@@ -31309,7 +31309,7 @@
     "trade": "Plumbing",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-nashville",
@@ -31317,7 +31317,7 @@
     "trade": "Plumbing",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-baltimore",
@@ -31325,7 +31325,7 @@
     "trade": "Plumbing",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-boston",
@@ -31333,7 +31333,7 @@
     "trade": "Plumbing",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-minneapolis",
@@ -31341,7 +31341,7 @@
     "trade": "Plumbing",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-kansas-city",
@@ -31349,7 +31349,7 @@
     "trade": "Plumbing",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-columbus",
@@ -31357,7 +31357,7 @@
     "trade": "Plumbing",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-detroit",
@@ -31365,7 +31365,7 @@
     "trade": "Plumbing",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-portland",
@@ -31373,7 +31373,7 @@
     "trade": "Plumbing",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-indianapolis",
@@ -31381,7 +31381,7 @@
     "trade": "Plumbing",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-milwaukee",
@@ -31389,7 +31389,7 @@
     "trade": "Plumbing",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-new-orleans",
@@ -31397,7 +31397,7 @@
     "trade": "Plumbing",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-birmingham",
@@ -31405,7 +31405,7 @@
     "trade": "Plumbing",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-louisville",
@@ -31413,7 +31413,7 @@
     "trade": "Plumbing",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-oklahoma-city",
@@ -31421,7 +31421,7 @@
     "trade": "Plumbing",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-salt-lake-city",
@@ -31429,7 +31429,7 @@
     "trade": "Plumbing",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-hartford",
@@ -31437,7 +31437,7 @@
     "trade": "Plumbing",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-newark",
@@ -31445,7 +31445,7 @@
     "trade": "Plumbing",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-richmond",
@@ -31453,7 +31453,7 @@
     "trade": "Plumbing",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-wichita",
@@ -31461,7 +31461,7 @@
     "trade": "Plumbing",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-columbia",
@@ -31469,7 +31469,7 @@
     "trade": "Plumbing",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-phoenix",
