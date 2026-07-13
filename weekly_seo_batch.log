@@ -2871,3 +2871,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 2220
 
+=== weekly_seo_batch.py === 2026-07-13 23:00
+Queue: 2220 pending topics. Processing 50.
+[OK] exclusive-plumbing-leads-virginia
+[OK] plumbing-pay-per-call-virginia
+[OK] plumbing-appointment-setting-virginia
+[OK] plumbing-contractor-leads-virginia
+[OK] plumbing-phone-leads-virginia
+[OK] exclusive-plumbing-leads-washington
+[OK] plumbing-pay-per-call-washington
+[OK] plumbing-appointment-setting-washington
+[OK] plumbing-contractor-leads-washington
+[OK] plumbing-phone-leads-washington
+[OK] exclusive-plumbing-leads-wisconsin
+[OK] plumbing-pay-per-call-wisconsin
+[OK] plumbing-appointment-setting-wisconsin
+[OK] plumbing-contractor-leads-wisconsin
+[OK] plumbing-phone-leads-wisconsin
+[OK] exclusive-plumbing-leads-new-mexico
+[OK] plumbing-pay-per-call-new-mexico
+[OK] plumbing-appointment-setting-new-mexico
+[OK] plumbing-contractor-leads-new-mexico
+[OK] plumbing-phone-leads-new-mexico
+[OK] exclusive-plumbing-leads-nebraska
+[OK] plumbing-pay-per-call-nebraska
+[OK] plumbing-appointment-setting-nebraska
+[OK] plumbing-contractor-leads-nebraska
+[OK] plumbing-phone-leads-nebraska
+[OK] exclusive-plumbing-leads-mississippi
+[OK] plumbing-pay-per-call-mississippi
+[OK] plumbing-appointment-setting-mississippi
+[OK] plumbing-contractor-leads-mississippi
+[OK] plumbing-phone-leads-mississippi
+[OK] exclusive-electrical-leads-alabama
+[OK] electrical-pay-per-call-alabama
+[OK] electrical-appointment-setting-alabama
+[OK] electrical-contractor-leads-alabama
+[OK] electrical-phone-leads-alabama
+[OK] exclusive-electrical-leads-arizona
+[OK] electrical-pay-per-call-arizona
+[OK] electrical-appointment-setting-arizona
+[OK] electrical-contractor-leads-arizona
+[OK] electrical-phone-leads-arizona
+[OK] exclusive-electrical-leads-arkansas
+[OK] electrical-pay-per-call-arkansas
+[OK] electrical-appointment-setting-arkansas
+[OK] electrical-contractor-leads-arkansas
+[OK] electrical-phone-leads-arkansas
+[OK] exclusive-electrical-leads-california
+[OK] electrical-pay-per-call-california
+[OK] electrical-appointment-setting-california
+[OK] electrical-contractor-leads-california
+[OK] electrical-phone-leads-california
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 2170
+
