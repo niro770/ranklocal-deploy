@@ -1674,3 +1674,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 3270
 
+=== weekly_seo_batch.py === 2026-07-13 22:59
+Queue: 3270 pending topics. Processing 50.
+[OK] exclusive-fencing-leads-kansas
+[OK] fencing-pay-per-call-kansas
+[OK] fencing-appointment-setting-kansas
+[OK] fencing-contractor-leads-kansas
+[OK] fencing-phone-leads-kansas
+[OK] exclusive-fencing-leads-kentucky
+[OK] fencing-pay-per-call-kentucky
+[OK] fencing-appointment-setting-kentucky
+[OK] fencing-contractor-leads-kentucky
+[OK] fencing-phone-leads-kentucky
+[OK] exclusive-fencing-leads-louisiana
+[OK] fencing-pay-per-call-louisiana
+[OK] fencing-appointment-setting-louisiana
+[OK] fencing-contractor-leads-louisiana
+[OK] fencing-phone-leads-louisiana
+[OK] exclusive-fencing-leads-maryland
+[OK] fencing-pay-per-call-maryland
+[OK] fencing-appointment-setting-maryland
+[OK] fencing-contractor-leads-maryland
+[OK] fencing-phone-leads-maryland
+[OK] exclusive-fencing-leads-massachusetts
+[OK] fencing-pay-per-call-massachusetts
+[OK] fencing-appointment-setting-massachusetts
+[OK] fencing-contractor-leads-massachusetts
+[OK] fencing-phone-leads-massachusetts
+[OK] exclusive-fencing-leads-michigan
+[OK] fencing-pay-per-call-michigan
+[OK] fencing-appointment-setting-michigan
+[OK] fencing-contractor-leads-michigan
+[OK] fencing-phone-leads-michigan
+[OK] exclusive-fencing-leads-minnesota
+[OK] fencing-pay-per-call-minnesota
+[OK] fencing-appointment-setting-minnesota
+[OK] fencing-contractor-leads-minnesota
+[OK] fencing-phone-leads-minnesota
+[OK] exclusive-fencing-leads-missouri
+[OK] fencing-pay-per-call-missouri
+[OK] fencing-appointment-setting-missouri
+[OK] fencing-contractor-leads-missouri
+[OK] fencing-phone-leads-missouri
+[OK] exclusive-fencing-leads-nevada
+[OK] fencing-pay-per-call-nevada
+[OK] fencing-appointment-setting-nevada
+[OK] fencing-contractor-leads-nevada
+[OK] fencing-phone-leads-nevada
+[OK] exclusive-fencing-leads-new-jersey
+[OK] fencing-pay-per-call-new-jersey
+[OK] fencing-appointment-setting-new-jersey
+[OK] fencing-contractor-leads-new-jersey
+[OK] fencing-phone-leads-new-jersey
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 3220
+
