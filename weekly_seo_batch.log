@@ -739,3 +739,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 566
 
+=== weekly_seo_batch.py === 2026-07-13 22:35
+Queue: 566 pending topics. Processing 50.
+[OK] buy-hvac-calls-illinois
+[OK] buy-hvac-calls-virginia
+[OK] buy-hvac-calls-washington
+[OK] buy-hvac-calls-nevada
+[OK] buy-hvac-calls-new-york
+[OK] buy-hvac-calls-pennsylvania
+[OK] buy-hvac-calls-tennessee
+[OK] buy-hvac-calls-south-carolina
+[OK] buy-hvac-calls-maryland
+[OK] buy-hvac-calls-massachusetts
+[OK] buy-hvac-calls-minnesota
+[OK] buy-hvac-calls-missouri
+[OK] buy-hvac-calls-ohio
+[OK] buy-hvac-calls-michigan
+[OK] buy-hvac-calls-oregon
+[OK] buy-hvac-calls-indiana
+[OK] buy-hvac-calls-wisconsin
+[OK] buy-hvac-calls-louisiana
+[OK] buy-hvac-calls-alabama
+[OK] buy-hvac-calls-kentucky
+[OK] buy-hvac-calls-iowa
+[OK] buy-hvac-calls-kansas
+[OK] buy-hvac-calls-oklahoma
+[OK] buy-hvac-calls-utah
+[OK] buy-hvac-calls-connecticut
+[OK] buy-hvac-calls-new-jersey
+[OK] buy-hvac-calls-arkansas
+[OK] buy-hvac-calls-mississippi
+[OK] buy-hvac-calls-new-mexico
+[OK] buy-hvac-calls-idaho
+[OK] buy-hvac-calls-nebraska
+[OK] buy-hvac-calls-west-virginia
+[OK] buy-hvac-calls-maine
+[OK] buy-hvac-calls-hawaii
+[OK] buy-plumbing-calls-arizona
+[OK] buy-plumbing-calls-georgia
+[OK] buy-plumbing-calls-north-carolina
+[OK] buy-plumbing-calls-colorado
+[OK] buy-plumbing-calls-illinois
+[OK] buy-plumbing-calls-virginia
+[OK] buy-plumbing-calls-washington
+[OK] buy-plumbing-calls-nevada
+[OK] buy-plumbing-calls-new-york
+[OK] buy-plumbing-calls-pennsylvania
+[OK] buy-plumbing-calls-tennessee
+[OK] buy-plumbing-calls-south-carolina
+[OK] buy-plumbing-calls-maryland
+[OK] buy-plumbing-calls-massachusetts
+[OK] buy-plumbing-calls-minnesota
+[OK] buy-plumbing-calls-missouri
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 516
+
