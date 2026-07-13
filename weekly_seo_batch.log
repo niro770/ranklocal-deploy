@@ -1560,3 +1560,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 3370
 
+=== weekly_seo_batch.py === 2026-07-13 22:59
+Queue: 3370 pending topics. Processing 50.
+[OK] exclusive-roofing-leads-texas
+[OK] roofing-pay-per-call-texas
+[OK] roofing-appointment-setting-texas
+[OK] roofing-contractor-leads-texas
+[OK] roofing-phone-leads-texas
+[OK] exclusive-roofing-leads-utah
+[OK] roofing-pay-per-call-utah
+[OK] roofing-appointment-setting-utah
+[OK] roofing-contractor-leads-utah
+[OK] roofing-phone-leads-utah
+[OK] exclusive-roofing-leads-virginia
+[OK] roofing-pay-per-call-virginia
+[OK] roofing-appointment-setting-virginia
+[OK] roofing-contractor-leads-virginia
+[OK] roofing-phone-leads-virginia
+[OK] exclusive-roofing-leads-washington
+[OK] roofing-pay-per-call-washington
+[OK] roofing-appointment-setting-washington
+[OK] roofing-contractor-leads-washington
+[OK] roofing-phone-leads-washington
+[OK] exclusive-roofing-leads-wisconsin
+[OK] roofing-pay-per-call-wisconsin
+[OK] roofing-appointment-setting-wisconsin
+[OK] roofing-contractor-leads-wisconsin
+[OK] roofing-phone-leads-wisconsin
+[OK] exclusive-roofing-leads-new-mexico
+[OK] roofing-pay-per-call-new-mexico
+[OK] roofing-appointment-setting-new-mexico
+[OK] roofing-contractor-leads-new-mexico
+[OK] roofing-phone-leads-new-mexico
+[OK] exclusive-roofing-leads-nebraska
+[OK] roofing-pay-per-call-nebraska
+[OK] roofing-appointment-setting-nebraska
+[OK] roofing-contractor-leads-nebraska
+[OK] roofing-phone-leads-nebraska
+[OK] exclusive-roofing-leads-mississippi
+[OK] roofing-pay-per-call-mississippi
+[OK] roofing-appointment-setting-mississippi
+[OK] roofing-contractor-leads-mississippi
+[OK] roofing-phone-leads-mississippi
+[OK] exclusive-fencing-leads-alabama
+[OK] fencing-pay-per-call-alabama
+[OK] fencing-appointment-setting-alabama
+[OK] fencing-contractor-leads-alabama
+[OK] fencing-phone-leads-alabama
+[OK] exclusive-fencing-leads-arizona
+[OK] fencing-pay-per-call-arizona
+[OK] fencing-appointment-setting-arizona
+[OK] fencing-contractor-leads-arizona
+[OK] fencing-phone-leads-arizona
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 3320
+
