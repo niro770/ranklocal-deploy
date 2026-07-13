@@ -4809,3 +4809,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 520
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 520 pending topics. Processing 50.
+[OK] exclusive-tree-service-leads-texas
+[OK] tree-service-pay-per-call-texas
+[OK] tree-service-appointment-setting-texas
+[OK] tree-service-contractor-leads-texas
+[OK] tree-service-phone-leads-texas
+[OK] exclusive-tree-service-leads-utah
+[OK] tree-service-pay-per-call-utah
+[OK] tree-service-appointment-setting-utah
+[OK] tree-service-contractor-leads-utah
+[OK] tree-service-phone-leads-utah
+[OK] exclusive-tree-service-leads-virginia
+[OK] tree-service-pay-per-call-virginia
+[OK] tree-service-appointment-setting-virginia
+[OK] tree-service-contractor-leads-virginia
+[OK] tree-service-phone-leads-virginia
+[OK] exclusive-tree-service-leads-washington
+[OK] tree-service-pay-per-call-washington
+[OK] tree-service-appointment-setting-washington
+[OK] tree-service-contractor-leads-washington
+[OK] tree-service-phone-leads-washington
+[OK] exclusive-tree-service-leads-wisconsin
+[OK] tree-service-pay-per-call-wisconsin
+[OK] tree-service-appointment-setting-wisconsin
+[OK] tree-service-contractor-leads-wisconsin
+[OK] tree-service-phone-leads-wisconsin
+[OK] exclusive-tree-service-leads-new-mexico
+[OK] tree-service-pay-per-call-new-mexico
+[OK] tree-service-appointment-setting-new-mexico
+[OK] tree-service-contractor-leads-new-mexico
+[OK] tree-service-phone-leads-new-mexico
+[OK] exclusive-tree-service-leads-nebraska
+[OK] tree-service-pay-per-call-nebraska
+[OK] tree-service-appointment-setting-nebraska
+[OK] tree-service-contractor-leads-nebraska
+[OK] tree-service-phone-leads-nebraska
+[OK] exclusive-tree-service-leads-mississippi
+[OK] tree-service-pay-per-call-mississippi
+[OK] tree-service-appointment-setting-mississippi
+[OK] tree-service-contractor-leads-mississippi
+[OK] tree-service-phone-leads-mississippi
+[OK] roofing-leads-phoenix
+[OK] roofing-leads-atlanta
+[OK] roofing-leads-charlotte
+[OK] roofing-leads-raleigh
+[OK] roofing-leads-denver
+[OK] roofing-leads-chicago
+[OK] roofing-leads-seattle
+[OK] roofing-leads-las-vegas
+[OK] roofing-leads-new-york-city
+[OK] roofing-leads-philadelphia
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 470
+

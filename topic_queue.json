@@ -29877,7 +29877,7 @@
     "trade": "Roofing",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-baltimore",
@@ -29885,7 +29885,7 @@
     "trade": "Roofing",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-boston",
@@ -29893,7 +29893,7 @@
     "trade": "Roofing",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-minneapolis",
@@ -29901,7 +29901,7 @@
     "trade": "Roofing",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-kansas-city",
@@ -29909,7 +29909,7 @@
     "trade": "Roofing",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-columbus",
@@ -29917,7 +29917,7 @@
     "trade": "Roofing",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-detroit",
@@ -29925,7 +29925,7 @@
     "trade": "Roofing",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-portland",
@@ -29933,7 +29933,7 @@
     "trade": "Roofing",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-indianapolis",
@@ -29941,7 +29941,7 @@
     "trade": "Roofing",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-milwaukee",
@@ -29949,7 +29949,7 @@
     "trade": "Roofing",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-new-orleans",
@@ -29957,7 +29957,7 @@
     "trade": "Roofing",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-birmingham",
@@ -29965,7 +29965,7 @@
     "trade": "Roofing",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-louisville",
@@ -29973,7 +29973,7 @@
     "trade": "Roofing",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-oklahoma-city",
@@ -29981,7 +29981,7 @@
     "trade": "Roofing",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-salt-lake-city",
@@ -29989,7 +29989,7 @@
     "trade": "Roofing",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-hartford",
@@ -29997,7 +29997,7 @@
     "trade": "Roofing",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-newark",
@@ -30005,7 +30005,7 @@
     "trade": "Roofing",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-richmond",
@@ -30013,7 +30013,7 @@
     "trade": "Roofing",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-wichita",
@@ -30021,7 +30021,7 @@
     "trade": "Roofing",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-columbia",
@@ -30029,7 +30029,7 @@
     "trade": "Roofing",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-phoenix",
@@ -30037,7 +30037,7 @@
     "trade": "Fencing",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-atlanta",
@@ -30045,7 +30045,7 @@
     "trade": "Fencing",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-charlotte",
@@ -30053,7 +30053,7 @@
     "trade": "Fencing",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-raleigh",
@@ -30061,7 +30061,7 @@
     "trade": "Fencing",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-denver",
@@ -30069,7 +30069,7 @@
     "trade": "Fencing",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-chicago",
@@ -30077,7 +30077,7 @@
     "trade": "Fencing",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-seattle",
@@ -30085,7 +30085,7 @@
     "trade": "Fencing",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-las-vegas",
@@ -30093,7 +30093,7 @@
     "trade": "Fencing",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-new-york-city",
@@ -30101,7 +30101,7 @@
     "trade": "Fencing",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-philadelphia",
@@ -30109,7 +30109,7 @@
     "trade": "Fencing",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-nashville",
@@ -30117,7 +30117,7 @@
     "trade": "Fencing",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-baltimore",
@@ -30125,7 +30125,7 @@
     "trade": "Fencing",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-boston",
@@ -30133,7 +30133,7 @@
     "trade": "Fencing",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-minneapolis",
@@ -30141,7 +30141,7 @@
     "trade": "Fencing",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-kansas-city",
@@ -30149,7 +30149,7 @@
     "trade": "Fencing",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-columbus",
@@ -30157,7 +30157,7 @@
     "trade": "Fencing",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-detroit",
@@ -30165,7 +30165,7 @@
     "trade": "Fencing",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-portland",
@@ -30173,7 +30173,7 @@
     "trade": "Fencing",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-indianapolis",
@@ -30181,7 +30181,7 @@
     "trade": "Fencing",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-milwaukee",
@@ -30189,7 +30189,7 @@
     "trade": "Fencing",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-new-orleans",
@@ -30197,7 +30197,7 @@
     "trade": "Fencing",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-birmingham",
@@ -30205,7 +30205,7 @@
     "trade": "Fencing",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-louisville",
@@ -30213,7 +30213,7 @@
     "trade": "Fencing",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-oklahoma-city",
@@ -30221,7 +30221,7 @@
     "trade": "Fencing",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-salt-lake-city",
@@ -30229,7 +30229,7 @@
     "trade": "Fencing",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-hartford",
@@ -30237,7 +30237,7 @@
     "trade": "Fencing",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-newark",
@@ -30245,7 +30245,7 @@
     "trade": "Fencing",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-richmond",
@@ -30253,7 +30253,7 @@
     "trade": "Fencing",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-wichita",
@@ -30261,7 +30261,7 @@
     "trade": "Fencing",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-columbia",
@@ -30269,7 +30269,7 @@
     "trade": "Fencing",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-phoenix",
