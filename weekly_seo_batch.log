@@ -1731,3 +1731,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 3220
 
+=== weekly_seo_batch.py === 2026-07-13 22:59
+Queue: 3220 pending topics. Processing 50.
+[OK] exclusive-fencing-leads-new-york
+[OK] fencing-pay-per-call-new-york
+[OK] fencing-appointment-setting-new-york
+[OK] fencing-contractor-leads-new-york
+[OK] fencing-phone-leads-new-york
+[OK] exclusive-fencing-leads-north-carolina
+[OK] fencing-pay-per-call-north-carolina
+[OK] fencing-appointment-setting-north-carolina
+[OK] fencing-contractor-leads-north-carolina
+[OK] fencing-phone-leads-north-carolina
+[OK] exclusive-fencing-leads-ohio
+[OK] fencing-pay-per-call-ohio
+[OK] fencing-appointment-setting-ohio
+[OK] fencing-contractor-leads-ohio
+[OK] fencing-phone-leads-ohio
+[OK] exclusive-fencing-leads-oklahoma
+[OK] fencing-pay-per-call-oklahoma
+[OK] fencing-appointment-setting-oklahoma
+[OK] fencing-contractor-leads-oklahoma
+[OK] fencing-phone-leads-oklahoma
+[OK] exclusive-fencing-leads-oregon
+[OK] fencing-pay-per-call-oregon
+[OK] fencing-appointment-setting-oregon
+[OK] fencing-contractor-leads-oregon
+[OK] fencing-phone-leads-oregon
+[OK] exclusive-fencing-leads-pennsylvania
+[OK] fencing-pay-per-call-pennsylvania
+[OK] fencing-appointment-setting-pennsylvania
+[OK] fencing-contractor-leads-pennsylvania
+[OK] fencing-phone-leads-pennsylvania
+[OK] exclusive-fencing-leads-south-carolina
+[OK] fencing-pay-per-call-south-carolina
+[OK] fencing-appointment-setting-south-carolina
+[OK] fencing-contractor-leads-south-carolina
+[OK] fencing-phone-leads-south-carolina
+[OK] exclusive-fencing-leads-tennessee
+[OK] fencing-pay-per-call-tennessee
+[OK] fencing-appointment-setting-tennessee
+[OK] fencing-contractor-leads-tennessee
+[OK] fencing-phone-leads-tennessee
+[OK] exclusive-fencing-leads-texas
+[OK] fencing-pay-per-call-texas
+[OK] fencing-appointment-setting-texas
+[OK] fencing-contractor-leads-texas
+[OK] fencing-phone-leads-texas
+[OK] exclusive-fencing-leads-utah
+[OK] fencing-pay-per-call-utah
+[OK] fencing-appointment-setting-utah
+[OK] fencing-contractor-leads-utah
+[OK] fencing-phone-leads-utah
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 3170
+
