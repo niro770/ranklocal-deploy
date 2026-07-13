@@ -5151,3 +5151,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 220
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 220 pending topics. Processing 50.
+[OK] window-replacement-leads-new-orleans
+[OK] window-replacement-leads-birmingham
+[OK] window-replacement-leads-louisville
+[OK] window-replacement-leads-oklahoma-city
+[OK] window-replacement-leads-salt-lake-city
+[OK] window-replacement-leads-hartford
+[OK] window-replacement-leads-newark
+[OK] window-replacement-leads-richmond
+[OK] window-replacement-leads-wichita
+[OK] window-replacement-leads-columbia
+[OK] siding-leads-phoenix
+[OK] siding-leads-atlanta
+[OK] siding-leads-charlotte
+[OK] siding-leads-raleigh
+[OK] siding-leads-denver
+[OK] siding-leads-chicago
+[OK] siding-leads-seattle
+[OK] siding-leads-las-vegas
+[OK] siding-leads-new-york-city
+[OK] siding-leads-philadelphia
+[OK] siding-leads-nashville
+[OK] siding-leads-baltimore
+[OK] siding-leads-boston
+[OK] siding-leads-minneapolis
+[OK] siding-leads-kansas-city
+[OK] siding-leads-columbus
+[OK] siding-leads-detroit
+[OK] siding-leads-portland
+[OK] siding-leads-indianapolis
+[OK] siding-leads-milwaukee
+[OK] siding-leads-new-orleans
+[OK] siding-leads-birmingham
+[OK] siding-leads-louisville
+[OK] siding-leads-oklahoma-city
+[OK] siding-leads-salt-lake-city
+[OK] siding-leads-hartford
+[OK] siding-leads-newark
+[OK] siding-leads-richmond
+[OK] siding-leads-wichita
+[OK] siding-leads-columbia
+[OK] gutter-installation-leads-phoenix
+[OK] gutter-installation-leads-atlanta
+[OK] gutter-installation-leads-charlotte
+[OK] gutter-installation-leads-raleigh
+[OK] gutter-installation-leads-denver
+[OK] gutter-installation-leads-chicago
+[OK] gutter-installation-leads-seattle
+[OK] gutter-installation-leads-las-vegas
+[OK] gutter-installation-leads-new-york-city
+[OK] gutter-installation-leads-philadelphia
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 170
+
