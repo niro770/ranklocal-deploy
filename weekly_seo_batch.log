@@ -55,3 +55,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 46 | Skipped: 4 | Queue remaining: 520
 
+=== weekly_seo_batch.py === 2026-07-13 22:34
+Queue: 1166 pending topics. Processing 50.
+[OK] fencing-leads-colorado
+[OK] garage-door-leads-colorado
+[OK] electrical-leads-colorado
+[OK] painting-leads-colorado
+[OK] window-replacement-leads-colorado
+[OK] siding-leads-colorado
+[OK] gutter-leads-colorado
+[OK] pressure-washing-leads-colorado
+[OK] tree-service-leads-colorado
+[OK] insulation-leads-colorado
+[SKIP] roofing-leads-illinois (already exists)
+[OK] hvac-leads-illinois
+[OK] plumbing-leads-illinois
+[OK] pest-control-leads-illinois
+[OK] landscaping-leads-illinois
+[OK] fencing-leads-illinois
+[OK] garage-door-leads-illinois
+[OK] electrical-leads-illinois
+[OK] painting-leads-illinois
+[OK] window-replacement-leads-illinois
+[OK] siding-leads-illinois
+[OK] gutter-leads-illinois
+[OK] pressure-washing-leads-illinois
+[OK] tree-service-leads-illinois
+[OK] insulation-leads-illinois
+[OK] roofing-leads-virginia
+[OK] hvac-leads-virginia
+[OK] plumbing-leads-virginia
+[OK] pest-control-leads-virginia
+[OK] landscaping-leads-virginia
+[OK] fencing-leads-virginia
+[OK] garage-door-leads-virginia
+[OK] electrical-leads-virginia
+[OK] painting-leads-virginia
+[OK] window-replacement-leads-virginia
+[OK] siding-leads-virginia
+[OK] gutter-leads-virginia
+[OK] pressure-washing-leads-virginia
+[OK] tree-service-leads-virginia
+[OK] insulation-leads-virginia
+[OK] roofing-leads-washington
+[OK] hvac-leads-washington
+[OK] plumbing-leads-washington
+[OK] pest-control-leads-washington
+[OK] landscaping-leads-washington
+[OK] fencing-leads-washington
+[OK] garage-door-leads-washington
+[OK] electrical-leads-washington
+[OK] painting-leads-washington
+[OK] window-replacement-leads-washington
+Sitemap: 49 URLs added. YML: 49 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 49 | Skipped: 1 | Queue remaining: 1116
+

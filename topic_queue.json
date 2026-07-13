@@ -704,350 +704,350 @@
     "type": "service",
     "trade": "Siding",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-leads-washington",
     "type": "service",
     "trade": "Gutters",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-washington",
     "type": "service",
     "trade": "Pressure Washing",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-washington",
     "type": "service",
     "trade": "Tree Service",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-washington",
     "type": "service",
     "trade": "Insulation",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-nevada",
     "type": "service",
     "trade": "Roofing",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-nevada",
     "type": "service",
     "trade": "HVAC",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-nevada",
     "type": "service",
     "trade": "Plumbing",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-nevada",
     "type": "service",
     "trade": "Pest Control",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-nevada",
     "type": "service",
     "trade": "Landscaping",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-nevada",
     "type": "service",
     "trade": "Fencing",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-leads-nevada",
     "type": "service",
     "trade": "Garage Door",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-nevada",
     "type": "service",
     "trade": "Electrical",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-nevada",
     "type": "service",
     "trade": "Painting",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-nevada",
     "type": "service",
     "trade": "Window Replacement",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-nevada",
     "type": "service",
     "trade": "Siding",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-leads-nevada",
     "type": "service",
     "trade": "Gutters",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-nevada",
     "type": "service",
     "trade": "Pressure Washing",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-nevada",
     "type": "service",
     "trade": "Tree Service",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-nevada",
     "type": "service",
     "trade": "Insulation",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-new-york",
     "type": "service",
     "trade": "Roofing",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-new-york",
     "type": "service",
     "trade": "HVAC",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-new-york",
     "type": "service",
     "trade": "Plumbing",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-new-york",
     "type": "service",
     "trade": "Pest Control",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-new-york",
     "type": "service",
     "trade": "Landscaping",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-new-york",
     "type": "service",
     "trade": "Fencing",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-leads-new-york",
     "type": "service",
     "trade": "Garage Door",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-new-york",
     "type": "service",
     "trade": "Electrical",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-new-york",
     "type": "service",
     "trade": "Painting",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-new-york",
     "type": "service",
     "trade": "Window Replacement",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-new-york",
     "type": "service",
     "trade": "Siding",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-leads-new-york",
     "type": "service",
     "trade": "Gutters",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-new-york",
     "type": "service",
     "trade": "Pressure Washing",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-new-york",
     "type": "service",
     "trade": "Tree Service",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-new-york",
     "type": "service",
     "trade": "Insulation",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-pennsylvania",
     "type": "service",
     "trade": "Roofing",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-pennsylvania",
     "type": "service",
     "trade": "HVAC",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "plumbing-leads-pennsylvania",
     "type": "service",
     "trade": "Plumbing",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-pennsylvania",
     "type": "service",
     "trade": "Pest Control",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-pennsylvania",
     "type": "service",
     "trade": "Landscaping",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-leads-pennsylvania",
     "type": "service",
     "trade": "Fencing",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-leads-pennsylvania",
     "type": "service",
     "trade": "Garage Door",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-pennsylvania",
     "type": "service",
     "trade": "Electrical",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-pennsylvania",
     "type": "service",
     "trade": "Painting",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-pennsylvania",
     "type": "service",
     "trade": "Window Replacement",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-pennsylvania",
     "type": "service",
     "trade": "Siding",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-leads-pennsylvania",
     "type": "service",
     "trade": "Gutters",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-pennsylvania",
     "type": "service",
     "trade": "Pressure Washing",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-pennsylvania",
     "type": "service",
     "trade": "Tree Service",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-pennsylvania",
     "type": "service",
     "trade": "Insulation",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-leads-tennessee",
