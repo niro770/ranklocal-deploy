@@ -417,6 +417,30 @@ TRADE_DATA = {
                   ("/exclusive-vs-shared-leads/", "Exclusive vs Shared Leads"),
                   ("/contractor-lead-roi-guide/", "Contractor Lead ROI Guide")],
     },
+    "Locksmith": {
+        "lead_page": "/locksmith-leads/",
+        "marketing_page": "/buy-locksmith-calls/",
+        "avg_job": "$150-800",
+        "cpl": "$35-65",
+        "close_rate": "35-50%",
+        "services": "residential lockout service, commercial lock installation, rekeying, key duplication, lock upgrade, and emergency locksmith service",
+        "bodies": [
+            ("Locksmith services are one of the few home service categories where the homeowner decision is already made before they ever dial: they are locked out, a lock is broken, or they need a key cut right now. That zero-hesitation purchase dynamic produces close rates of 35-50% on exclusive inbound calls -- and emergency lockout calls close at 70-80% because the homeowner has no meaningful alternative. Speed of answer is the primary close factor in this category, not price.",
+             "Beyond emergency lockout service, the locksmith category has strong secondary demand for lock rekeying after a move, lock upgrades for residential security improvement, and commercial access control and master key systems. Contractors who handle both residential and commercial work build natural diversification -- commercial accounts generate larger recurring tickets, while residential volume provides consistent day-to-day call flow. Exclusive inbound locksmith calls in both segments deliver motivated contacts who have already decided to hire a professional."),
+        ],
+        "faqs": [
+            ("How do exclusive locksmith leads work?",
+             "Exclusive locksmith leads are inbound phone calls from homeowners or businesses needing locksmith services. You pay per qualified call over 60 seconds -- no other locksmiths receive the same contact."),
+            ("What locksmith services generate the most calls?",
+             "Emergency residential lockout, lock rekeying after a move, lock replacement and upgrade, commercial lock installation, master key systems, and key duplication generate the highest call volumes."),
+            ("What is the close rate on exclusive locksmith calls?",
+             "Exclusive inbound locksmith calls close at 35-50% overall. Emergency lockout calls close at 70-80% when same-hour response is available, making speed of answer the primary conversion factor."),
+        ],
+        "links": [("/contractor-leads/", "Contractor Lead Generation"),
+                  ("/pay-per-call/", "Pay-Per-Call Lead Generation"),
+                  ("/exclusive-vs-shared-leads/", "Exclusive vs Shared Leads"),
+                  ("/appointment-setting/", "Appointment Setting for Contractors")],
+    },
 }
 
 # ── STATE DATA ───────────────────────────────────────────────────────────────
@@ -726,6 +750,79 @@ def make_service_page(topic):
     }
 
 
+def make_buy_calls_page(topic):
+    """Generate a 'buy [trade] calls' page targeting contractors who search buy-calls intent."""
+    trade  = topic["trade"]
+    state  = topic["state"]
+    slug   = topic["slug"]
+
+    td = TRADE_DATA.get(trade, {})
+    sd = STATE_DATA.get(state, {})
+
+    cities   = sd.get("cities", state)
+    climate  = sd.get("climate", "active home services market")
+    market   = sd.get("market", "strong residential demand")
+    seasonal = sd.get("seasonal", "year-round demand")
+    avg_job  = td.get("avg_job", "$500-5,000")
+    cpl      = td.get("cpl", "$50-90")
+    close    = td.get("close_rate", "25-35%")
+    services = td.get("services", trade.lower() + " services")
+
+    bodies = td.get("bodies", [("",)])
+    body_idx = _variant(slug, len(bodies))
+    body_main = bodies[body_idx][_variant(slug + "bc", len(bodies[body_idx]))]
+
+    state_para = (
+        "Contractors buying " + trade.lower() + " calls in " + state
+        + " benefit from " + market + ". " + climate.capitalize() + ". "
+        + "High-demand " + trade.lower() + " markets in " + state
+        + " include " + cities + ". Seasonal demand pattern: " + seasonal + ". "
+        + "RankLocal delivers exclusive " + trade.lower() + " phone calls in " + state
+        + " as live inbound transfers -- the homeowner is on the line when you answer."
+        + " Cost per call: " + cpl + ". Average job value: " + avg_job + "."
+        + " Typical close rate: " + close + " on exclusive calls."
+    )
+
+    full_body = "<p>" + body_main + "</p><p>" + state_para + "</p>"
+
+    base_faqs = td.get("faqs", [])
+    faqs = [{"q": q, "a": a} for q, a in base_faqs]
+    faqs.append({
+        "q": "How do I buy " + trade.lower() + " calls in " + state + "?",
+        "a": ("Apply at RankLocal to start receiving exclusive " + trade.lower()
+              + " calls in " + state + ". You set your service area and schedule; "
+              + "we deliver live inbound calls from " + state + " homeowners needing "
+              + trade.lower() + " services. Pay per qualified call over 60 seconds.")
+    })
+    faqs.append({
+        "q": "What " + trade.lower() + " services generate the most calls in " + state + "?",
+        "a": (state + " homeowners most frequently call for " + services + ". "
+              + "Demand is " + seasonal + ".")
+    })
+
+    title = ("Buy " + trade + " Calls in " + state
+             + " | Exclusive " + trade + " Phone Leads")
+    h1    = "Buy Exclusive " + trade + " Calls in " + state
+    meta  = ("Buy exclusive " + trade.lower() + " calls in " + state
+             + ". Live inbound phone transfers from " + state
+             + " homeowners ready to hire. Pay per qualified call -- no shared leads.")
+    hero_sub = ("Live inbound " + trade.lower() + " calls from " + state
+                + " homeowners. You pay only for calls over 60 seconds.")
+
+    related = td.get("links", [])
+    links = [{"href": h, "text": t} for h, t in related]
+    links.append({"href": "/pay-per-call/", "text": "Pay-Per-Call Lead Generation"})
+    links.append({"href": "/contractor-leads/", "text": "Contractor Lead Generation"})
+    links.append({"href": "/apply/", "text": "Apply Now"})
+
+    return {
+        "slug": slug, "type": "buy-calls",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": trade,
+        "body": full_body, "faq": faqs, "links": links,
+    }
+
+
 # ── SCHEMA BUILDERS ──────────────────────────────────────────────────────────
 
 def make_service_schema(p):
@@ -1009,8 +1106,10 @@ def main():
         # Generate page object
         if topic.get("type") == "service":
             page = make_service_page(topic)
+        elif topic.get("type") == "buy-calls":
+            page = make_buy_calls_page(topic)
         else:
-            log("[SKIP] " + slug + " (article type - add to pages_batch4.json)")
+            log("[SKIP] " + slug + " (unknown type - skipping)")
             topic["status"] = "pending"
             continue
 
