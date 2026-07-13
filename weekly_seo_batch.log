@@ -5265,3 +5265,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 120
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 120 pending topics. Processing 50.
+[OK] painting-leads-phoenix
+[OK] painting-leads-atlanta
+[OK] painting-leads-charlotte
+[OK] painting-leads-raleigh
+[OK] painting-leads-denver
+[OK] painting-leads-chicago
+[OK] painting-leads-seattle
+[OK] painting-leads-las-vegas
+[OK] painting-leads-new-york-city
+[OK] painting-leads-philadelphia
+[OK] painting-leads-nashville
+[OK] painting-leads-baltimore
+[OK] painting-leads-boston
+[OK] painting-leads-minneapolis
+[OK] painting-leads-kansas-city
+[OK] painting-leads-columbus
+[OK] painting-leads-detroit
+[OK] painting-leads-portland
+[OK] painting-leads-indianapolis
+[OK] painting-leads-milwaukee
+[OK] painting-leads-new-orleans
+[OK] painting-leads-birmingham
+[OK] painting-leads-louisville
+[OK] painting-leads-oklahoma-city
+[OK] painting-leads-salt-lake-city
+[OK] painting-leads-hartford
+[OK] painting-leads-newark
+[OK] painting-leads-richmond
+[OK] painting-leads-wichita
+[OK] painting-leads-columbia
+[OK] insulation-leads-phoenix
+[OK] insulation-leads-atlanta
+[OK] insulation-leads-charlotte
+[OK] insulation-leads-raleigh
+[OK] insulation-leads-denver
+[OK] insulation-leads-chicago
+[OK] insulation-leads-seattle
+[OK] insulation-leads-las-vegas
+[OK] insulation-leads-new-york-city
+[OK] insulation-leads-philadelphia
+[OK] insulation-leads-nashville
+[OK] insulation-leads-baltimore
+[OK] insulation-leads-boston
+[OK] insulation-leads-minneapolis
+[OK] insulation-leads-kansas-city
+[OK] insulation-leads-columbus
+[OK] insulation-leads-detroit
+[OK] insulation-leads-portland
+[OK] insulation-leads-indianapolis
+[OK] insulation-leads-milwaukee
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 70
+

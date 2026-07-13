@@ -33077,7 +33077,7 @@
     "trade": "Insulation",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-birmingham",
@@ -33085,7 +33085,7 @@
     "trade": "Insulation",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-louisville",
@@ -33093,7 +33093,7 @@
     "trade": "Insulation",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-oklahoma-city",
@@ -33101,7 +33101,7 @@
     "trade": "Insulation",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-salt-lake-city",
@@ -33109,7 +33109,7 @@
     "trade": "Insulation",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-hartford",
@@ -33117,7 +33117,7 @@
     "trade": "Insulation",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-newark",
@@ -33125,7 +33125,7 @@
     "trade": "Insulation",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-richmond",
@@ -33133,7 +33133,7 @@
     "trade": "Insulation",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-wichita",
@@ -33141,7 +33141,7 @@
     "trade": "Insulation",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-columbia",
@@ -33149,7 +33149,7 @@
     "trade": "Insulation",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-phoenix",
@@ -33157,7 +33157,7 @@
     "trade": "Pressure Washing",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-atlanta",
@@ -33165,7 +33165,7 @@
     "trade": "Pressure Washing",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-charlotte",
@@ -33173,7 +33173,7 @@
     "trade": "Pressure Washing",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-raleigh",
@@ -33181,7 +33181,7 @@
     "trade": "Pressure Washing",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-denver",
@@ -33189,7 +33189,7 @@
     "trade": "Pressure Washing",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-chicago",
@@ -33197,7 +33197,7 @@
     "trade": "Pressure Washing",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-seattle",
@@ -33205,7 +33205,7 @@
     "trade": "Pressure Washing",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-las-vegas",
@@ -33213,7 +33213,7 @@
     "trade": "Pressure Washing",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-new-york-city",
@@ -33221,7 +33221,7 @@
     "trade": "Pressure Washing",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-philadelphia",
@@ -33229,7 +33229,7 @@
     "trade": "Pressure Washing",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-nashville",
@@ -33237,7 +33237,7 @@
     "trade": "Pressure Washing",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-baltimore",
@@ -33245,7 +33245,7 @@
     "trade": "Pressure Washing",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-boston",
@@ -33253,7 +33253,7 @@
     "trade": "Pressure Washing",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-minneapolis",
@@ -33261,7 +33261,7 @@
     "trade": "Pressure Washing",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-kansas-city",
@@ -33269,7 +33269,7 @@
     "trade": "Pressure Washing",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-columbus",
@@ -33277,7 +33277,7 @@
     "trade": "Pressure Washing",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-detroit",
@@ -33285,7 +33285,7 @@
     "trade": "Pressure Washing",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-portland",
@@ -33293,7 +33293,7 @@
     "trade": "Pressure Washing",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-indianapolis",
@@ -33301,7 +33301,7 @@
     "trade": "Pressure Washing",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-milwaukee",
@@ -33309,7 +33309,7 @@
     "trade": "Pressure Washing",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-new-orleans",
@@ -33317,7 +33317,7 @@
     "trade": "Pressure Washing",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-birmingham",
@@ -33325,7 +33325,7 @@
     "trade": "Pressure Washing",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-louisville",
@@ -33333,7 +33333,7 @@
     "trade": "Pressure Washing",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-oklahoma-city",
@@ -33341,7 +33341,7 @@
     "trade": "Pressure Washing",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-salt-lake-city",
@@ -33349,7 +33349,7 @@
     "trade": "Pressure Washing",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-hartford",
@@ -33357,7 +33357,7 @@
     "trade": "Pressure Washing",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-newark",
@@ -33365,7 +33365,7 @@
     "trade": "Pressure Washing",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-richmond",
@@ -33373,7 +33373,7 @@
     "trade": "Pressure Washing",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-wichita",
@@ -33381,7 +33381,7 @@
     "trade": "Pressure Washing",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pressure-washing-leads-columbia",
@@ -33389,7 +33389,7 @@
     "trade": "Pressure Washing",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-phoenix",
@@ -33397,7 +33397,7 @@
     "trade": "Tree Service",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-atlanta",
@@ -33405,7 +33405,7 @@
     "trade": "Tree Service",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-charlotte",
@@ -33413,7 +33413,7 @@
     "trade": "Tree Service",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-raleigh",
@@ -33421,7 +33421,7 @@
     "trade": "Tree Service",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-denver",
@@ -33429,7 +33429,7 @@
     "trade": "Tree Service",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-chicago",
@@ -33437,7 +33437,7 @@
     "trade": "Tree Service",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-seattle",
@@ -33445,7 +33445,7 @@
     "trade": "Tree Service",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-las-vegas",
@@ -33453,7 +33453,7 @@
     "trade": "Tree Service",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-new-york-city",
@@ -33461,7 +33461,7 @@
     "trade": "Tree Service",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-philadelphia",
@@ -33469,7 +33469,7 @@
     "trade": "Tree Service",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-nashville",
