@@ -30277,7 +30277,7 @@
     "trade": "Landscaping",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-atlanta",
@@ -30285,7 +30285,7 @@
     "trade": "Landscaping",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-charlotte",
@@ -30293,7 +30293,7 @@
     "trade": "Landscaping",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-raleigh",
@@ -30301,7 +30301,7 @@
     "trade": "Landscaping",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-denver",
@@ -30309,7 +30309,7 @@
     "trade": "Landscaping",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-chicago",
@@ -30317,7 +30317,7 @@
     "trade": "Landscaping",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-seattle",
@@ -30325,7 +30325,7 @@
     "trade": "Landscaping",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-las-vegas",
@@ -30333,7 +30333,7 @@
     "trade": "Landscaping",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-new-york-city",
@@ -30341,7 +30341,7 @@
     "trade": "Landscaping",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-philadelphia",
@@ -30349,7 +30349,7 @@
     "trade": "Landscaping",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-nashville",
@@ -30357,7 +30357,7 @@
     "trade": "Landscaping",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-baltimore",
@@ -30365,7 +30365,7 @@
     "trade": "Landscaping",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-boston",
@@ -30373,7 +30373,7 @@
     "trade": "Landscaping",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-minneapolis",
@@ -30381,7 +30381,7 @@
     "trade": "Landscaping",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-kansas-city",
@@ -30389,7 +30389,7 @@
     "trade": "Landscaping",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-columbus",
@@ -30397,7 +30397,7 @@
     "trade": "Landscaping",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-detroit",
@@ -30405,7 +30405,7 @@
     "trade": "Landscaping",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-portland",
@@ -30413,7 +30413,7 @@
     "trade": "Landscaping",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-indianapolis",
@@ -30421,7 +30421,7 @@
     "trade": "Landscaping",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-milwaukee",
@@ -30429,7 +30429,7 @@
     "trade": "Landscaping",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-new-orleans",
@@ -30437,7 +30437,7 @@
     "trade": "Landscaping",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-birmingham",
@@ -30445,7 +30445,7 @@
     "trade": "Landscaping",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-louisville",
@@ -30453,7 +30453,7 @@
     "trade": "Landscaping",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-oklahoma-city",
@@ -30461,7 +30461,7 @@
     "trade": "Landscaping",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-salt-lake-city",
@@ -30469,7 +30469,7 @@
     "trade": "Landscaping",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-hartford",
@@ -30477,7 +30477,7 @@
     "trade": "Landscaping",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-newark",
@@ -30485,7 +30485,7 @@
     "trade": "Landscaping",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-richmond",
@@ -30493,7 +30493,7 @@
     "trade": "Landscaping",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-wichita",
@@ -30501,7 +30501,7 @@
     "trade": "Landscaping",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-columbia",
@@ -30509,7 +30509,7 @@
     "trade": "Landscaping",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-phoenix",
@@ -30517,7 +30517,7 @@
     "trade": "Pest Control",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-atlanta",
@@ -30525,7 +30525,7 @@
     "trade": "Pest Control",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-charlotte",
@@ -30533,7 +30533,7 @@
     "trade": "Pest Control",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-raleigh",
@@ -30541,7 +30541,7 @@
     "trade": "Pest Control",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-denver",
@@ -30549,7 +30549,7 @@
     "trade": "Pest Control",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-chicago",
@@ -30557,7 +30557,7 @@
     "trade": "Pest Control",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-seattle",
@@ -30565,7 +30565,7 @@
     "trade": "Pest Control",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-las-vegas",
@@ -30573,7 +30573,7 @@
     "trade": "Pest Control",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-new-york-city",
@@ -30581,7 +30581,7 @@
     "trade": "Pest Control",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-philadelphia",
@@ -30589,7 +30589,7 @@
     "trade": "Pest Control",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-nashville",
@@ -30597,7 +30597,7 @@
     "trade": "Pest Control",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-baltimore",
@@ -30605,7 +30605,7 @@
     "trade": "Pest Control",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-boston",
@@ -30613,7 +30613,7 @@
     "trade": "Pest Control",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-minneapolis",
@@ -30621,7 +30621,7 @@
     "trade": "Pest Control",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-kansas-city",
@@ -30629,7 +30629,7 @@
     "trade": "Pest Control",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-columbus",
@@ -30637,7 +30637,7 @@
     "trade": "Pest Control",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-detroit",
@@ -30645,7 +30645,7 @@
     "trade": "Pest Control",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-portland",
@@ -30653,7 +30653,7 @@
     "trade": "Pest Control",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-indianapolis",
@@ -30661,7 +30661,7 @@
     "trade": "Pest Control",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-milwaukee",
@@ -30669,7 +30669,7 @@
     "trade": "Pest Control",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-new-orleans",

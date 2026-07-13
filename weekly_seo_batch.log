@@ -4866,3 +4866,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 470
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 470 pending topics. Processing 50.
+[OK] roofing-leads-nashville
+[OK] roofing-leads-baltimore
+[OK] roofing-leads-boston
+[OK] roofing-leads-minneapolis
+[OK] roofing-leads-kansas-city
+[OK] roofing-leads-columbus
+[OK] roofing-leads-detroit
+[OK] roofing-leads-portland
+[OK] roofing-leads-indianapolis
+[OK] roofing-leads-milwaukee
+[OK] roofing-leads-new-orleans
+[OK] roofing-leads-birmingham
+[OK] roofing-leads-louisville
+[OK] roofing-leads-oklahoma-city
+[OK] roofing-leads-salt-lake-city
+[OK] roofing-leads-hartford
+[OK] roofing-leads-newark
+[OK] roofing-leads-richmond
+[OK] roofing-leads-wichita
+[OK] roofing-leads-columbia
+[OK] fencing-leads-phoenix
+[OK] fencing-leads-atlanta
+[OK] fencing-leads-charlotte
+[OK] fencing-leads-raleigh
+[OK] fencing-leads-denver
+[OK] fencing-leads-chicago
+[OK] fencing-leads-seattle
+[OK] fencing-leads-las-vegas
+[OK] fencing-leads-new-york-city
+[OK] fencing-leads-philadelphia
+[OK] fencing-leads-nashville
+[OK] fencing-leads-baltimore
+[OK] fencing-leads-boston
+[OK] fencing-leads-minneapolis
+[OK] fencing-leads-kansas-city
+[OK] fencing-leads-columbus
+[OK] fencing-leads-detroit
+[OK] fencing-leads-portland
+[OK] fencing-leads-indianapolis
+[OK] fencing-leads-milwaukee
+[OK] fencing-leads-new-orleans
+[OK] fencing-leads-birmingham
+[OK] fencing-leads-louisville
+[OK] fencing-leads-oklahoma-city
+[OK] fencing-leads-salt-lake-city
+[OK] fencing-leads-hartford
+[OK] fencing-leads-newark
+[OK] fencing-leads-richmond
+[OK] fencing-leads-wichita
+[OK] fencing-leads-columbia
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 420
+
