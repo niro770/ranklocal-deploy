@@ -2643,3 +2643,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 2420
 
+=== weekly_seo_batch.py === 2026-07-13 23:00
+Queue: 2420 pending topics. Processing 50.
+[OK] exclusive-hvac-leads-texas
+[OK] hvac-pay-per-call-texas
+[OK] hvac-appointment-setting-texas
+[OK] hvac-contractor-leads-texas
+[OK] hvac-phone-leads-texas
+[OK] exclusive-hvac-leads-utah
+[OK] hvac-pay-per-call-utah
+[OK] hvac-appointment-setting-utah
+[OK] hvac-contractor-leads-utah
+[OK] hvac-phone-leads-utah
+[OK] exclusive-hvac-leads-virginia
+[OK] hvac-pay-per-call-virginia
+[OK] hvac-appointment-setting-virginia
+[OK] hvac-contractor-leads-virginia
+[OK] hvac-phone-leads-virginia
+[OK] exclusive-hvac-leads-washington
+[OK] hvac-pay-per-call-washington
+[OK] hvac-appointment-setting-washington
+[OK] hvac-contractor-leads-washington
+[OK] hvac-phone-leads-washington
+[OK] exclusive-hvac-leads-wisconsin
+[OK] hvac-pay-per-call-wisconsin
+[OK] hvac-appointment-setting-wisconsin
+[OK] hvac-contractor-leads-wisconsin
+[OK] hvac-phone-leads-wisconsin
+[OK] exclusive-hvac-leads-new-mexico
+[OK] hvac-pay-per-call-new-mexico
+[OK] hvac-appointment-setting-new-mexico
+[OK] hvac-contractor-leads-new-mexico
+[OK] hvac-phone-leads-new-mexico
+[OK] exclusive-hvac-leads-nebraska
+[OK] hvac-pay-per-call-nebraska
+[OK] hvac-appointment-setting-nebraska
+[OK] hvac-contractor-leads-nebraska
+[OK] hvac-phone-leads-nebraska
+[OK] exclusive-hvac-leads-mississippi
+[OK] hvac-pay-per-call-mississippi
+[OK] hvac-appointment-setting-mississippi
+[OK] hvac-contractor-leads-mississippi
+[OK] hvac-phone-leads-mississippi
+[OK] exclusive-plumbing-leads-alabama
+[OK] plumbing-pay-per-call-alabama
+[OK] plumbing-appointment-setting-alabama
+[OK] plumbing-contractor-leads-alabama
+[OK] plumbing-phone-leads-alabama
+[OK] exclusive-plumbing-leads-arizona
+[OK] plumbing-pay-per-call-arizona
+[OK] plumbing-appointment-setting-arizona
+[OK] plumbing-contractor-leads-arizona
+[OK] plumbing-phone-leads-arizona
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 2370
+
