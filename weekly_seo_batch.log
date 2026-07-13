@@ -5037,3 +5037,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 320
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 320 pending topics. Processing 50.
+[OK] hvac-leads-nashville
+[OK] hvac-leads-baltimore
+[OK] hvac-leads-boston
+[OK] hvac-leads-minneapolis
+[OK] hvac-leads-kansas-city
+[OK] hvac-leads-columbus
+[OK] hvac-leads-detroit
+[OK] hvac-leads-portland
+[OK] hvac-leads-indianapolis
+[OK] hvac-leads-milwaukee
+[OK] hvac-leads-new-orleans
+[OK] hvac-leads-birmingham
+[OK] hvac-leads-louisville
+[OK] hvac-leads-oklahoma-city
+[OK] hvac-leads-salt-lake-city
+[OK] hvac-leads-hartford
+[OK] hvac-leads-newark
+[OK] hvac-leads-richmond
+[OK] hvac-leads-wichita
+[OK] hvac-leads-columbia
+[OK] plumbing-leads-phoenix
+[OK] plumbing-leads-atlanta
+[OK] plumbing-leads-charlotte
+[OK] plumbing-leads-raleigh
+[OK] plumbing-leads-denver
+[OK] plumbing-leads-chicago
+[OK] plumbing-leads-seattle
+[OK] plumbing-leads-las-vegas
+[OK] plumbing-leads-new-york-city
+[OK] plumbing-leads-philadelphia
+[OK] plumbing-leads-nashville
+[OK] plumbing-leads-baltimore
+[OK] plumbing-leads-boston
+[OK] plumbing-leads-minneapolis
+[OK] plumbing-leads-kansas-city
+[OK] plumbing-leads-columbus
+[OK] plumbing-leads-detroit
+[OK] plumbing-leads-portland
+[OK] plumbing-leads-indianapolis
+[OK] plumbing-leads-milwaukee
+[OK] plumbing-leads-new-orleans
+[OK] plumbing-leads-birmingham
+[OK] plumbing-leads-louisville
+[OK] plumbing-leads-oklahoma-city
+[OK] plumbing-leads-salt-lake-city
+[OK] plumbing-leads-hartford
+[OK] plumbing-leads-newark
+[OK] plumbing-leads-richmond
+[OK] plumbing-leads-wichita
+[OK] plumbing-leads-columbia
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 270
+

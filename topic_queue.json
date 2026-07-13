@@ -31477,7 +31477,7 @@
     "trade": "Electrical",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-atlanta",
@@ -31485,7 +31485,7 @@
     "trade": "Electrical",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-charlotte",
@@ -31493,7 +31493,7 @@
     "trade": "Electrical",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-raleigh",
@@ -31501,7 +31501,7 @@
     "trade": "Electrical",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-denver",
@@ -31509,7 +31509,7 @@
     "trade": "Electrical",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-chicago",
@@ -31517,7 +31517,7 @@
     "trade": "Electrical",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-seattle",
@@ -31525,7 +31525,7 @@
     "trade": "Electrical",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-las-vegas",
@@ -31533,7 +31533,7 @@
     "trade": "Electrical",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-new-york-city",
@@ -31541,7 +31541,7 @@
     "trade": "Electrical",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-philadelphia",
@@ -31549,7 +31549,7 @@
     "trade": "Electrical",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-nashville",
@@ -31557,7 +31557,7 @@
     "trade": "Electrical",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-baltimore",
@@ -31565,7 +31565,7 @@
     "trade": "Electrical",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-boston",
@@ -31573,7 +31573,7 @@
     "trade": "Electrical",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-minneapolis",
@@ -31581,7 +31581,7 @@
     "trade": "Electrical",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-kansas-city",
@@ -31589,7 +31589,7 @@
     "trade": "Electrical",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-columbus",
@@ -31597,7 +31597,7 @@
     "trade": "Electrical",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-detroit",
@@ -31605,7 +31605,7 @@
     "trade": "Electrical",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-portland",
@@ -31613,7 +31613,7 @@
     "trade": "Electrical",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-indianapolis",
@@ -31621,7 +31621,7 @@
     "trade": "Electrical",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-milwaukee",
@@ -31629,7 +31629,7 @@
     "trade": "Electrical",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-new-orleans",
@@ -31637,7 +31637,7 @@
     "trade": "Electrical",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-birmingham",
@@ -31645,7 +31645,7 @@
     "trade": "Electrical",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-louisville",
@@ -31653,7 +31653,7 @@
     "trade": "Electrical",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-oklahoma-city",
@@ -31661,7 +31661,7 @@
     "trade": "Electrical",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-salt-lake-city",
@@ -31669,7 +31669,7 @@
     "trade": "Electrical",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-hartford",
@@ -31677,7 +31677,7 @@
     "trade": "Electrical",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-newark",
@@ -31685,7 +31685,7 @@
     "trade": "Electrical",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-richmond",
@@ -31693,7 +31693,7 @@
     "trade": "Electrical",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-wichita",
@@ -31701,7 +31701,7 @@
     "trade": "Electrical",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-leads-columbia",
@@ -31709,7 +31709,7 @@
     "trade": "Electrical",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-phoenix",
@@ -31717,7 +31717,7 @@
     "trade": "Window Replacement",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-atlanta",
@@ -31725,7 +31725,7 @@
     "trade": "Window Replacement",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-charlotte",
@@ -31733,7 +31733,7 @@
     "trade": "Window Replacement",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-raleigh",
@@ -31741,7 +31741,7 @@
     "trade": "Window Replacement",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-denver",
@@ -31749,7 +31749,7 @@
     "trade": "Window Replacement",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-chicago",
@@ -31757,7 +31757,7 @@
     "trade": "Window Replacement",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-seattle",
@@ -31765,7 +31765,7 @@
     "trade": "Window Replacement",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-las-vegas",
@@ -31773,7 +31773,7 @@
     "trade": "Window Replacement",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-new-york-city",
@@ -31781,7 +31781,7 @@
     "trade": "Window Replacement",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-philadelphia",
@@ -31789,7 +31789,7 @@
     "trade": "Window Replacement",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-nashville",
@@ -31797,7 +31797,7 @@
     "trade": "Window Replacement",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-baltimore",
@@ -31805,7 +31805,7 @@
     "trade": "Window Replacement",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-boston",
@@ -31813,7 +31813,7 @@
     "trade": "Window Replacement",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-minneapolis",
@@ -31821,7 +31821,7 @@
     "trade": "Window Replacement",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-kansas-city",
@@ -31829,7 +31829,7 @@
     "trade": "Window Replacement",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-columbus",
@@ -31837,7 +31837,7 @@
     "trade": "Window Replacement",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-detroit",
@@ -31845,7 +31845,7 @@
     "trade": "Window Replacement",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-portland",
@@ -31853,7 +31853,7 @@
     "trade": "Window Replacement",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-indianapolis",
@@ -31861,7 +31861,7 @@
     "trade": "Window Replacement",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-milwaukee",
@@ -31869,7 +31869,7 @@
     "trade": "Window Replacement",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-new-orleans",
