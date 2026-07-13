@@ -1,0 +1,57 @@
+=== weekly_seo_batch.py === 2026-07-05 11:56
+Queue: 570 pending topics. Processing 50.
+[SKIP] roofing-leads-arizona (already exists)
+[OK] hvac-leads-arizona
+[OK] plumbing-leads-arizona
+[OK] pest-control-leads-arizona
+[OK] landscaping-leads-arizona
+[OK] fencing-leads-arizona
+[OK] garage-door-leads-arizona
+[OK] electrical-leads-arizona
+[OK] painting-leads-arizona
+[OK] window-replacement-leads-arizona
+[OK] siding-leads-arizona
+[OK] gutter-leads-arizona
+[OK] pressure-washing-leads-arizona
+[OK] tree-service-leads-arizona
+[OK] insulation-leads-arizona
+[SKIP] roofing-leads-georgia (already exists)
+[OK] hvac-leads-georgia
+[OK] plumbing-leads-georgia
+[OK] pest-control-leads-georgia
+[OK] landscaping-leads-georgia
+[OK] fencing-leads-georgia
+[OK] garage-door-leads-georgia
+[OK] electrical-leads-georgia
+[OK] painting-leads-georgia
+[OK] window-replacement-leads-georgia
+[OK] siding-leads-georgia
+[OK] gutter-leads-georgia
+[OK] pressure-washing-leads-georgia
+[OK] tree-service-leads-georgia
+[OK] insulation-leads-georgia
+[SKIP] roofing-leads-north-carolina (already exists)
+[OK] hvac-leads-north-carolina
+[OK] plumbing-leads-north-carolina
+[OK] pest-control-leads-north-carolina
+[OK] landscaping-leads-north-carolina
+[OK] fencing-leads-north-carolina
+[OK] garage-door-leads-north-carolina
+[OK] electrical-leads-north-carolina
+[OK] painting-leads-north-carolina
+[OK] window-replacement-leads-north-carolina
+[OK] siding-leads-north-carolina
+[OK] gutter-leads-north-carolina
+[OK] pressure-washing-leads-north-carolina
+[OK] tree-service-leads-north-carolina
+[OK] insulation-leads-north-carolina
+[SKIP] roofing-leads-colorado (already exists)
+[OK] hvac-leads-colorado
+[OK] plumbing-leads-colorado
+[OK] pest-control-leads-colorado
+[OK] landscaping-leads-colorado
+Sitemap: 46 URLs added. YML: 46 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 46 | Skipped: 4 | Queue remaining: 520
+
