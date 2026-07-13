@@ -169,3 +169,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1066
 
+=== weekly_seo_batch.py === 2026-07-13 22:34
+Queue: 1066 pending topics. Processing 50.
+[OK] roofing-leads-tennessee
+[OK] hvac-leads-tennessee
+[OK] plumbing-leads-tennessee
+[OK] pest-control-leads-tennessee
+[OK] landscaping-leads-tennessee
+[OK] fencing-leads-tennessee
+[OK] garage-door-leads-tennessee
+[OK] electrical-leads-tennessee
+[OK] painting-leads-tennessee
+[OK] window-replacement-leads-tennessee
+[OK] siding-leads-tennessee
+[OK] gutter-leads-tennessee
+[OK] pressure-washing-leads-tennessee
+[OK] tree-service-leads-tennessee
+[OK] insulation-leads-tennessee
+[OK] roofing-leads-south-carolina
+[OK] hvac-leads-south-carolina
+[OK] plumbing-leads-south-carolina
+[OK] pest-control-leads-south-carolina
+[OK] landscaping-leads-south-carolina
+[OK] fencing-leads-south-carolina
+[OK] garage-door-leads-south-carolina
+[OK] electrical-leads-south-carolina
+[OK] painting-leads-south-carolina
+[OK] window-replacement-leads-south-carolina
+[OK] siding-leads-south-carolina
+[OK] gutter-leads-south-carolina
+[OK] pressure-washing-leads-south-carolina
+[OK] tree-service-leads-south-carolina
+[OK] insulation-leads-south-carolina
+[OK] roofing-leads-maryland
+[OK] hvac-leads-maryland
+[OK] plumbing-leads-maryland
+[OK] pest-control-leads-maryland
+[OK] landscaping-leads-maryland
+[OK] fencing-leads-maryland
+[OK] garage-door-leads-maryland
+[OK] electrical-leads-maryland
+[OK] painting-leads-maryland
+[OK] window-replacement-leads-maryland
+[OK] siding-leads-maryland
+[OK] gutter-leads-maryland
+[OK] pressure-washing-leads-maryland
+[OK] tree-service-leads-maryland
+[OK] insulation-leads-maryland
+[OK] roofing-leads-massachusetts
+[OK] hvac-leads-massachusetts
+[OK] plumbing-leads-massachusetts
+[OK] pest-control-leads-massachusetts
+[OK] landscaping-leads-massachusetts
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1016
+
