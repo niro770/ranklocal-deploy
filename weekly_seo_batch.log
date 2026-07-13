@@ -1788,3 +1788,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 3170
 
+=== weekly_seo_batch.py === 2026-07-13 22:59
+Queue: 3170 pending topics. Processing 50.
+[OK] exclusive-fencing-leads-virginia
+[OK] fencing-pay-per-call-virginia
+[OK] fencing-appointment-setting-virginia
+[OK] fencing-contractor-leads-virginia
+[OK] fencing-phone-leads-virginia
+[OK] exclusive-fencing-leads-washington
+[OK] fencing-pay-per-call-washington
+[OK] fencing-appointment-setting-washington
+[OK] fencing-contractor-leads-washington
+[OK] fencing-phone-leads-washington
+[OK] exclusive-fencing-leads-wisconsin
+[OK] fencing-pay-per-call-wisconsin
+[OK] fencing-appointment-setting-wisconsin
+[OK] fencing-contractor-leads-wisconsin
+[OK] fencing-phone-leads-wisconsin
+[OK] exclusive-fencing-leads-new-mexico
+[OK] fencing-pay-per-call-new-mexico
+[OK] fencing-appointment-setting-new-mexico
+[OK] fencing-contractor-leads-new-mexico
+[OK] fencing-phone-leads-new-mexico
+[OK] exclusive-fencing-leads-nebraska
+[OK] fencing-pay-per-call-nebraska
+[OK] fencing-appointment-setting-nebraska
+[OK] fencing-contractor-leads-nebraska
+[OK] fencing-phone-leads-nebraska
+[OK] exclusive-fencing-leads-mississippi
+[OK] fencing-pay-per-call-mississippi
+[OK] fencing-appointment-setting-mississippi
+[OK] fencing-contractor-leads-mississippi
+[OK] fencing-phone-leads-mississippi
+[OK] exclusive-landscaping-leads-alabama
+[OK] landscaping-pay-per-call-alabama
+[OK] landscaping-appointment-setting-alabama
+[OK] landscaping-contractor-leads-alabama
+[OK] landscaping-phone-leads-alabama
+[OK] exclusive-landscaping-leads-arizona
+[OK] landscaping-pay-per-call-arizona
+[OK] landscaping-appointment-setting-arizona
+[OK] landscaping-contractor-leads-arizona
+[OK] landscaping-phone-leads-arizona
+[OK] exclusive-landscaping-leads-arkansas
+[OK] landscaping-pay-per-call-arkansas
+[OK] landscaping-appointment-setting-arkansas
+[OK] landscaping-contractor-leads-arkansas
+[OK] landscaping-phone-leads-arkansas
+[OK] exclusive-landscaping-leads-california
+[OK] landscaping-pay-per-call-california
+[OK] landscaping-appointment-setting-california
+[OK] landscaping-contractor-leads-california
+[OK] landscaping-phone-leads-california
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 3120
+
