@@ -2358,3 +2358,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 2670
 
+=== weekly_seo_batch.py === 2026-07-13 23:00
+Queue: 2670 pending topics. Processing 50.
+[OK] exclusive-garage-door-repair-leads-minnesota
+[OK] garage-door-repair-pay-per-call-minnesota
+[OK] garage-door-repair-appointment-setting-minnesota
+[OK] garage-door-repair-contractor-leads-minnesota
+[OK] garage-door-repair-phone-leads-minnesota
+[OK] exclusive-garage-door-repair-leads-missouri
+[OK] garage-door-repair-pay-per-call-missouri
+[OK] garage-door-repair-appointment-setting-missouri
+[OK] garage-door-repair-contractor-leads-missouri
+[OK] garage-door-repair-phone-leads-missouri
+[OK] exclusive-garage-door-repair-leads-nevada
+[OK] garage-door-repair-pay-per-call-nevada
+[OK] garage-door-repair-appointment-setting-nevada
+[OK] garage-door-repair-contractor-leads-nevada
+[OK] garage-door-repair-phone-leads-nevada
+[OK] exclusive-garage-door-repair-leads-new-jersey
+[OK] garage-door-repair-pay-per-call-new-jersey
+[OK] garage-door-repair-appointment-setting-new-jersey
+[OK] garage-door-repair-contractor-leads-new-jersey
+[OK] garage-door-repair-phone-leads-new-jersey
+[OK] exclusive-garage-door-repair-leads-new-york
+[OK] garage-door-repair-pay-per-call-new-york
+[OK] garage-door-repair-appointment-setting-new-york
+[OK] garage-door-repair-contractor-leads-new-york
+[OK] garage-door-repair-phone-leads-new-york
+[OK] exclusive-garage-door-repair-leads-north-carolina
+[OK] garage-door-repair-pay-per-call-north-carolina
+[OK] garage-door-repair-appointment-setting-north-carolina
+[OK] garage-door-repair-contractor-leads-north-carolina
+[OK] garage-door-repair-phone-leads-north-carolina
+[OK] exclusive-garage-door-repair-leads-ohio
+[OK] garage-door-repair-pay-per-call-ohio
+[OK] garage-door-repair-appointment-setting-ohio
+[OK] garage-door-repair-contractor-leads-ohio
+[OK] garage-door-repair-phone-leads-ohio
+[OK] exclusive-garage-door-repair-leads-oklahoma
+[OK] garage-door-repair-pay-per-call-oklahoma
+[OK] garage-door-repair-appointment-setting-oklahoma
+[OK] garage-door-repair-contractor-leads-oklahoma
+[OK] garage-door-repair-phone-leads-oklahoma
+[OK] exclusive-garage-door-repair-leads-oregon
+[OK] garage-door-repair-pay-per-call-oregon
+[OK] garage-door-repair-appointment-setting-oregon
+[OK] garage-door-repair-contractor-leads-oregon
+[OK] garage-door-repair-phone-leads-oregon
+[OK] exclusive-garage-door-repair-leads-pennsylvania
+[OK] garage-door-repair-pay-per-call-pennsylvania
+[OK] garage-door-repair-appointment-setting-pennsylvania
+[OK] garage-door-repair-contractor-leads-pennsylvania
+[OK] garage-door-repair-phone-leads-pennsylvania
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 2620
+
