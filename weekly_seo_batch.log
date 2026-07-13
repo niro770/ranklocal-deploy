@@ -1617,3 +1617,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 3320
 
+=== weekly_seo_batch.py === 2026-07-13 22:59
+Queue: 3320 pending topics. Processing 50.
+[OK] exclusive-fencing-leads-arkansas
+[OK] fencing-pay-per-call-arkansas
+[OK] fencing-appointment-setting-arkansas
+[OK] fencing-contractor-leads-arkansas
+[OK] fencing-phone-leads-arkansas
+[OK] exclusive-fencing-leads-california
+[OK] fencing-pay-per-call-california
+[OK] fencing-appointment-setting-california
+[OK] fencing-contractor-leads-california
+[OK] fencing-phone-leads-california
+[OK] exclusive-fencing-leads-colorado
+[OK] fencing-pay-per-call-colorado
+[OK] fencing-appointment-setting-colorado
+[OK] fencing-contractor-leads-colorado
+[OK] fencing-phone-leads-colorado
+[OK] exclusive-fencing-leads-connecticut
+[OK] fencing-pay-per-call-connecticut
+[OK] fencing-appointment-setting-connecticut
+[OK] fencing-contractor-leads-connecticut
+[OK] fencing-phone-leads-connecticut
+[OK] exclusive-fencing-leads-florida
+[OK] fencing-pay-per-call-florida
+[OK] fencing-appointment-setting-florida
+[OK] fencing-contractor-leads-florida
+[OK] fencing-phone-leads-florida
+[OK] exclusive-fencing-leads-georgia
+[OK] fencing-pay-per-call-georgia
+[OK] fencing-appointment-setting-georgia
+[OK] fencing-contractor-leads-georgia
+[OK] fencing-phone-leads-georgia
+[OK] exclusive-fencing-leads-idaho
+[OK] fencing-pay-per-call-idaho
+[OK] fencing-appointment-setting-idaho
+[OK] fencing-contractor-leads-idaho
+[OK] fencing-phone-leads-idaho
+[OK] exclusive-fencing-leads-illinois
+[OK] fencing-pay-per-call-illinois
+[OK] fencing-appointment-setting-illinois
+[OK] fencing-contractor-leads-illinois
+[OK] fencing-phone-leads-illinois
+[OK] exclusive-fencing-leads-indiana
+[OK] fencing-pay-per-call-indiana
+[OK] fencing-appointment-setting-indiana
+[OK] fencing-contractor-leads-indiana
+[OK] fencing-phone-leads-indiana
+[OK] exclusive-fencing-leads-iowa
+[OK] fencing-pay-per-call-iowa
+[OK] fencing-appointment-setting-iowa
+[OK] fencing-contractor-leads-iowa
+[OK] fencing-phone-leads-iowa
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 3270
+
