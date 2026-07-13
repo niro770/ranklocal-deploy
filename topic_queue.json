@@ -32677,7 +32677,7 @@
     "trade": "Painting",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-atlanta",
@@ -32685,7 +32685,7 @@
     "trade": "Painting",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-charlotte",
@@ -32693,7 +32693,7 @@
     "trade": "Painting",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-raleigh",
@@ -32701,7 +32701,7 @@
     "trade": "Painting",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-denver",
@@ -32709,7 +32709,7 @@
     "trade": "Painting",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-chicago",
@@ -32717,7 +32717,7 @@
     "trade": "Painting",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-seattle",
@@ -32725,7 +32725,7 @@
     "trade": "Painting",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-las-vegas",
@@ -32733,7 +32733,7 @@
     "trade": "Painting",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-new-york-city",
@@ -32741,7 +32741,7 @@
     "trade": "Painting",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-philadelphia",
@@ -32749,7 +32749,7 @@
     "trade": "Painting",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-nashville",
@@ -32757,7 +32757,7 @@
     "trade": "Painting",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-baltimore",
@@ -32765,7 +32765,7 @@
     "trade": "Painting",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-boston",
@@ -32773,7 +32773,7 @@
     "trade": "Painting",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-minneapolis",
@@ -32781,7 +32781,7 @@
     "trade": "Painting",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-kansas-city",
@@ -32789,7 +32789,7 @@
     "trade": "Painting",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-columbus",
@@ -32797,7 +32797,7 @@
     "trade": "Painting",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-detroit",
@@ -32805,7 +32805,7 @@
     "trade": "Painting",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-portland",
@@ -32813,7 +32813,7 @@
     "trade": "Painting",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-indianapolis",
@@ -32821,7 +32821,7 @@
     "trade": "Painting",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-milwaukee",
@@ -32829,7 +32829,7 @@
     "trade": "Painting",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-new-orleans",
@@ -32837,7 +32837,7 @@
     "trade": "Painting",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-birmingham",
@@ -32845,7 +32845,7 @@
     "trade": "Painting",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-louisville",
@@ -32853,7 +32853,7 @@
     "trade": "Painting",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-oklahoma-city",
@@ -32861,7 +32861,7 @@
     "trade": "Painting",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-salt-lake-city",
@@ -32869,7 +32869,7 @@
     "trade": "Painting",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-hartford",
@@ -32877,7 +32877,7 @@
     "trade": "Painting",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-newark",
@@ -32885,7 +32885,7 @@
     "trade": "Painting",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-richmond",
@@ -32893,7 +32893,7 @@
     "trade": "Painting",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-wichita",
@@ -32901,7 +32901,7 @@
     "trade": "Painting",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-columbia",
@@ -32909,7 +32909,7 @@
     "trade": "Painting",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-phoenix",
@@ -32917,7 +32917,7 @@
     "trade": "Insulation",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-atlanta",
@@ -32925,7 +32925,7 @@
     "trade": "Insulation",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-charlotte",
@@ -32933,7 +32933,7 @@
     "trade": "Insulation",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-raleigh",
@@ -32941,7 +32941,7 @@
     "trade": "Insulation",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-denver",
@@ -32949,7 +32949,7 @@
     "trade": "Insulation",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-chicago",
@@ -32957,7 +32957,7 @@
     "trade": "Insulation",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-seattle",
@@ -32965,7 +32965,7 @@
     "trade": "Insulation",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-las-vegas",
@@ -32973,7 +32973,7 @@
     "trade": "Insulation",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-new-york-city",
@@ -32981,7 +32981,7 @@
     "trade": "Insulation",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-philadelphia",
@@ -32989,7 +32989,7 @@
     "trade": "Insulation",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-nashville",
@@ -32997,7 +32997,7 @@
     "trade": "Insulation",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-baltimore",
@@ -33005,7 +33005,7 @@
     "trade": "Insulation",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-boston",
@@ -33013,7 +33013,7 @@
     "trade": "Insulation",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-minneapolis",
@@ -33021,7 +33021,7 @@
     "trade": "Insulation",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-kansas-city",
@@ -33029,7 +33029,7 @@
     "trade": "Insulation",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-columbus",
@@ -33037,7 +33037,7 @@
     "trade": "Insulation",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-detroit",
@@ -33045,7 +33045,7 @@
     "trade": "Insulation",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-portland",
@@ -33053,7 +33053,7 @@
     "trade": "Insulation",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-indianapolis",
@@ -33061,7 +33061,7 @@
     "trade": "Insulation",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-milwaukee",
@@ -33069,7 +33069,7 @@
     "trade": "Insulation",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-new-orleans",

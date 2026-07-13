@@ -5208,3 +5208,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 170
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 170 pending topics. Processing 50.
+[OK] gutter-installation-leads-nashville
+[OK] gutter-installation-leads-baltimore
+[OK] gutter-installation-leads-boston
+[OK] gutter-installation-leads-minneapolis
+[OK] gutter-installation-leads-kansas-city
+[OK] gutter-installation-leads-columbus
+[OK] gutter-installation-leads-detroit
+[OK] gutter-installation-leads-portland
+[OK] gutter-installation-leads-indianapolis
+[OK] gutter-installation-leads-milwaukee
+[OK] gutter-installation-leads-new-orleans
+[OK] gutter-installation-leads-birmingham
+[OK] gutter-installation-leads-louisville
+[OK] gutter-installation-leads-oklahoma-city
+[OK] gutter-installation-leads-salt-lake-city
+[OK] gutter-installation-leads-hartford
+[OK] gutter-installation-leads-newark
+[OK] gutter-installation-leads-richmond
+[OK] gutter-installation-leads-wichita
+[OK] gutter-installation-leads-columbia
+[OK] concrete-leads-phoenix
+[OK] concrete-leads-atlanta
+[OK] concrete-leads-charlotte
+[OK] concrete-leads-raleigh
+[OK] concrete-leads-denver
+[OK] concrete-leads-chicago
+[OK] concrete-leads-seattle
+[OK] concrete-leads-las-vegas
+[OK] concrete-leads-new-york-city
+[OK] concrete-leads-philadelphia
+[OK] concrete-leads-nashville
+[OK] concrete-leads-baltimore
+[OK] concrete-leads-boston
+[OK] concrete-leads-minneapolis
+[OK] concrete-leads-kansas-city
+[OK] concrete-leads-columbus
+[OK] concrete-leads-detroit
+[OK] concrete-leads-portland
+[OK] concrete-leads-indianapolis
+[OK] concrete-leads-milwaukee
+[OK] concrete-leads-new-orleans
+[OK] concrete-leads-birmingham
+[OK] concrete-leads-louisville
+[OK] concrete-leads-oklahoma-city
+[OK] concrete-leads-salt-lake-city
+[OK] concrete-leads-hartford
+[OK] concrete-leads-newark
+[OK] concrete-leads-richmond
+[OK] concrete-leads-wichita
+[OK] concrete-leads-columbia
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 120
+
