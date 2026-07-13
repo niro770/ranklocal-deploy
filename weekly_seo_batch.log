@@ -625,3 +625,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 666
 
+=== weekly_seo_batch.py === 2026-07-13 22:35
+Queue: 666 pending topics. Processing 50.
+[OK] siding-leads-maine
+[OK] gutter-leads-maine
+[OK] pressure-washing-leads-maine
+[OK] tree-service-leads-maine
+[OK] insulation-leads-maine
+[OK] roofing-leads-hawaii
+[OK] hvac-leads-hawaii
+[OK] plumbing-leads-hawaii
+[OK] pest-control-leads-hawaii
+[OK] landscaping-leads-hawaii
+[OK] fencing-leads-hawaii
+[OK] garage-door-leads-hawaii
+[OK] electrical-leads-hawaii
+[OK] painting-leads-hawaii
+[OK] window-replacement-leads-hawaii
+[OK] siding-leads-hawaii
+[OK] gutter-leads-hawaii
+[OK] pressure-washing-leads-hawaii
+[OK] tree-service-leads-hawaii
+[OK] insulation-leads-hawaii
+[OK] locksmith-leads-arizona
+[OK] locksmith-leads-georgia
+[OK] locksmith-leads-north-carolina
+[OK] locksmith-leads-colorado
+[OK] locksmith-leads-illinois
+[OK] locksmith-leads-virginia
+[OK] locksmith-leads-washington
+[OK] locksmith-leads-nevada
+[OK] locksmith-leads-new-york
+[OK] locksmith-leads-pennsylvania
+[OK] locksmith-leads-tennessee
+[OK] locksmith-leads-south-carolina
+[OK] locksmith-leads-maryland
+[OK] locksmith-leads-massachusetts
+[OK] locksmith-leads-minnesota
+[OK] locksmith-leads-missouri
+[OK] locksmith-leads-ohio
+[OK] locksmith-leads-michigan
+[OK] locksmith-leads-oregon
+[OK] locksmith-leads-indiana
+[OK] locksmith-leads-wisconsin
+[OK] locksmith-leads-louisiana
+[OK] locksmith-leads-alabama
+[OK] locksmith-leads-kentucky
+[OK] locksmith-leads-iowa
+[OK] locksmith-leads-kansas
+[OK] locksmith-leads-oklahoma
+[OK] locksmith-leads-utah
+[OK] locksmith-leads-connecticut
+[OK] locksmith-leads-new-jersey
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 616
+
