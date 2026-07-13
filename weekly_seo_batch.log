@@ -5322,3 +5322,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 70
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 70 pending topics. Processing 50.
+[OK] insulation-leads-new-orleans
+[OK] insulation-leads-birmingham
+[OK] insulation-leads-louisville
+[OK] insulation-leads-oklahoma-city
+[OK] insulation-leads-salt-lake-city
+[OK] insulation-leads-hartford
+[OK] insulation-leads-newark
+[OK] insulation-leads-richmond
+[OK] insulation-leads-wichita
+[OK] insulation-leads-columbia
+[OK] pressure-washing-leads-phoenix
+[OK] pressure-washing-leads-atlanta
+[OK] pressure-washing-leads-charlotte
+[OK] pressure-washing-leads-raleigh
+[OK] pressure-washing-leads-denver
+[OK] pressure-washing-leads-chicago
+[OK] pressure-washing-leads-seattle
+[OK] pressure-washing-leads-las-vegas
+[OK] pressure-washing-leads-new-york-city
+[OK] pressure-washing-leads-philadelphia
+[OK] pressure-washing-leads-nashville
+[OK] pressure-washing-leads-baltimore
+[OK] pressure-washing-leads-boston
+[OK] pressure-washing-leads-minneapolis
+[OK] pressure-washing-leads-kansas-city
+[OK] pressure-washing-leads-columbus
+[OK] pressure-washing-leads-detroit
+[OK] pressure-washing-leads-portland
+[OK] pressure-washing-leads-indianapolis
+[OK] pressure-washing-leads-milwaukee
+[OK] pressure-washing-leads-new-orleans
+[OK] pressure-washing-leads-birmingham
+[OK] pressure-washing-leads-louisville
+[OK] pressure-washing-leads-oklahoma-city
+[OK] pressure-washing-leads-salt-lake-city
+[OK] pressure-washing-leads-hartford
+[OK] pressure-washing-leads-newark
+[OK] pressure-washing-leads-richmond
+[OK] pressure-washing-leads-wichita
+[OK] pressure-washing-leads-columbia
+[OK] tree-service-leads-phoenix
+[OK] tree-service-leads-atlanta
+[OK] tree-service-leads-charlotte
+[OK] tree-service-leads-raleigh
+[OK] tree-service-leads-denver
+[OK] tree-service-leads-chicago
+[OK] tree-service-leads-seattle
+[OK] tree-service-leads-las-vegas
+[OK] tree-service-leads-new-york-city
+[OK] tree-service-leads-philadelphia
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 20
+

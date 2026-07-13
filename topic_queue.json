@@ -33477,7 +33477,7 @@
     "trade": "Tree Service",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-baltimore",
@@ -33485,7 +33485,7 @@
     "trade": "Tree Service",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-boston",
@@ -33493,7 +33493,7 @@
     "trade": "Tree Service",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-minneapolis",
@@ -33501,7 +33501,7 @@
     "trade": "Tree Service",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-kansas-city",
@@ -33509,7 +33509,7 @@
     "trade": "Tree Service",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-columbus",
@@ -33517,7 +33517,7 @@
     "trade": "Tree Service",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-detroit",
@@ -33525,7 +33525,7 @@
     "trade": "Tree Service",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-portland",
@@ -33533,7 +33533,7 @@
     "trade": "Tree Service",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-indianapolis",
@@ -33541,7 +33541,7 @@
     "trade": "Tree Service",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-milwaukee",
@@ -33549,7 +33549,7 @@
     "trade": "Tree Service",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-new-orleans",
@@ -33557,7 +33557,7 @@
     "trade": "Tree Service",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-birmingham",
@@ -33565,7 +33565,7 @@
     "trade": "Tree Service",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-louisville",
@@ -33573,7 +33573,7 @@
     "trade": "Tree Service",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-oklahoma-city",
@@ -33581,7 +33581,7 @@
     "trade": "Tree Service",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-salt-lake-city",
@@ -33589,7 +33589,7 @@
     "trade": "Tree Service",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-hartford",
@@ -33597,7 +33597,7 @@
     "trade": "Tree Service",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-newark",
@@ -33605,7 +33605,7 @@
     "trade": "Tree Service",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-richmond",
@@ -33613,7 +33613,7 @@
     "trade": "Tree Service",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-wichita",
@@ -33621,7 +33621,7 @@
     "trade": "Tree Service",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-leads-columbia",
@@ -33629,6 +33629,6 @@
     "trade": "Tree Service",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   }
 ]
