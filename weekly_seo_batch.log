@@ -568,3 +568,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 716
 
+=== weekly_seo_batch.py === 2026-07-13 22:35
+Queue: 716 pending topics. Processing 50.
+[OK] fencing-leads-idaho
+[OK] garage-door-leads-idaho
+[OK] electrical-leads-idaho
+[OK] painting-leads-idaho
+[OK] window-replacement-leads-idaho
+[OK] siding-leads-idaho
+[OK] gutter-leads-idaho
+[OK] pressure-washing-leads-idaho
+[OK] tree-service-leads-idaho
+[OK] insulation-leads-idaho
+[OK] roofing-leads-nebraska
+[OK] hvac-leads-nebraska
+[OK] plumbing-leads-nebraska
+[OK] pest-control-leads-nebraska
+[OK] landscaping-leads-nebraska
+[OK] fencing-leads-nebraska
+[OK] garage-door-leads-nebraska
+[OK] electrical-leads-nebraska
+[OK] painting-leads-nebraska
+[OK] window-replacement-leads-nebraska
+[OK] siding-leads-nebraska
+[OK] gutter-leads-nebraska
+[OK] pressure-washing-leads-nebraska
+[OK] tree-service-leads-nebraska
+[OK] insulation-leads-nebraska
+[OK] roofing-leads-west-virginia
+[OK] hvac-leads-west-virginia
+[OK] plumbing-leads-west-virginia
+[OK] pest-control-leads-west-virginia
+[OK] landscaping-leads-west-virginia
+[OK] fencing-leads-west-virginia
+[OK] garage-door-leads-west-virginia
+[OK] electrical-leads-west-virginia
+[OK] painting-leads-west-virginia
+[OK] window-replacement-leads-west-virginia
+[OK] siding-leads-west-virginia
+[OK] gutter-leads-west-virginia
+[OK] pressure-washing-leads-west-virginia
+[OK] tree-service-leads-west-virginia
+[OK] insulation-leads-west-virginia
+[OK] roofing-leads-maine
+[OK] hvac-leads-maine
+[OK] plumbing-leads-maine
+[OK] pest-control-leads-maine
+[OK] landscaping-leads-maine
+[OK] fencing-leads-maine
+[OK] garage-door-leads-maine
+[OK] electrical-leads-maine
+[OK] painting-leads-maine
+[OK] window-replacement-leads-maine
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 666
+
