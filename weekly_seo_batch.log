@@ -4923,3 +4923,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 420
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 420 pending topics. Processing 50.
+[OK] landscaping-leads-phoenix
+[OK] landscaping-leads-atlanta
+[OK] landscaping-leads-charlotte
+[OK] landscaping-leads-raleigh
+[OK] landscaping-leads-denver
+[OK] landscaping-leads-chicago
+[OK] landscaping-leads-seattle
+[OK] landscaping-leads-las-vegas
+[OK] landscaping-leads-new-york-city
+[OK] landscaping-leads-philadelphia
+[OK] landscaping-leads-nashville
+[OK] landscaping-leads-baltimore
+[OK] landscaping-leads-boston
+[OK] landscaping-leads-minneapolis
+[OK] landscaping-leads-kansas-city
+[OK] landscaping-leads-columbus
+[OK] landscaping-leads-detroit
+[OK] landscaping-leads-portland
+[OK] landscaping-leads-indianapolis
+[OK] landscaping-leads-milwaukee
+[OK] landscaping-leads-new-orleans
+[OK] landscaping-leads-birmingham
+[OK] landscaping-leads-louisville
+[OK] landscaping-leads-oklahoma-city
+[OK] landscaping-leads-salt-lake-city
+[OK] landscaping-leads-hartford
+[OK] landscaping-leads-newark
+[OK] landscaping-leads-richmond
+[OK] landscaping-leads-wichita
+[OK] landscaping-leads-columbia
+[OK] pest-control-leads-phoenix
+[OK] pest-control-leads-atlanta
+[OK] pest-control-leads-charlotte
+[OK] pest-control-leads-raleigh
+[OK] pest-control-leads-denver
+[OK] pest-control-leads-chicago
+[OK] pest-control-leads-seattle
+[OK] pest-control-leads-las-vegas
+[OK] pest-control-leads-new-york-city
+[OK] pest-control-leads-philadelphia
+[OK] pest-control-leads-nashville
+[OK] pest-control-leads-baltimore
+[OK] pest-control-leads-boston
+[OK] pest-control-leads-minneapolis
+[OK] pest-control-leads-kansas-city
+[OK] pest-control-leads-columbus
+[OK] pest-control-leads-detroit
+[OK] pest-control-leads-portland
+[OK] pest-control-leads-indianapolis
+[OK] pest-control-leads-milwaukee
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 370
+

@@ -30677,7 +30677,7 @@
     "trade": "Pest Control",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-birmingham",
@@ -30685,7 +30685,7 @@
     "trade": "Pest Control",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-louisville",
@@ -30693,7 +30693,7 @@
     "trade": "Pest Control",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-oklahoma-city",
@@ -30701,7 +30701,7 @@
     "trade": "Pest Control",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-salt-lake-city",
@@ -30709,7 +30709,7 @@
     "trade": "Pest Control",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-hartford",
@@ -30717,7 +30717,7 @@
     "trade": "Pest Control",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-newark",
@@ -30725,7 +30725,7 @@
     "trade": "Pest Control",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-richmond",
@@ -30733,7 +30733,7 @@
     "trade": "Pest Control",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-wichita",
@@ -30741,7 +30741,7 @@
     "trade": "Pest Control",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "pest-control-leads-columbia",
@@ -30749,7 +30749,7 @@
     "trade": "Pest Control",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-phoenix",
@@ -30757,7 +30757,7 @@
     "trade": "Garage Door Repair",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-atlanta",
@@ -30765,7 +30765,7 @@
     "trade": "Garage Door Repair",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-charlotte",
@@ -30773,7 +30773,7 @@
     "trade": "Garage Door Repair",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-raleigh",
@@ -30781,7 +30781,7 @@
     "trade": "Garage Door Repair",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-denver",
@@ -30789,7 +30789,7 @@
     "trade": "Garage Door Repair",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-chicago",
@@ -30797,7 +30797,7 @@
     "trade": "Garage Door Repair",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-seattle",
@@ -30805,7 +30805,7 @@
     "trade": "Garage Door Repair",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-las-vegas",
@@ -30813,7 +30813,7 @@
     "trade": "Garage Door Repair",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-new-york-city",
@@ -30821,7 +30821,7 @@
     "trade": "Garage Door Repair",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-philadelphia",
@@ -30829,7 +30829,7 @@
     "trade": "Garage Door Repair",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-nashville",
@@ -30837,7 +30837,7 @@
     "trade": "Garage Door Repair",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-baltimore",
@@ -30845,7 +30845,7 @@
     "trade": "Garage Door Repair",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-boston",
@@ -30853,7 +30853,7 @@
     "trade": "Garage Door Repair",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-minneapolis",
@@ -30861,7 +30861,7 @@
     "trade": "Garage Door Repair",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-kansas-city",
@@ -30869,7 +30869,7 @@
     "trade": "Garage Door Repair",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-columbus",
@@ -30877,7 +30877,7 @@
     "trade": "Garage Door Repair",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-detroit",
@@ -30885,7 +30885,7 @@
     "trade": "Garage Door Repair",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-portland",
@@ -30893,7 +30893,7 @@
     "trade": "Garage Door Repair",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-indianapolis",
@@ -30901,7 +30901,7 @@
     "trade": "Garage Door Repair",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-milwaukee",
@@ -30909,7 +30909,7 @@
     "trade": "Garage Door Repair",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-new-orleans",
@@ -30917,7 +30917,7 @@
     "trade": "Garage Door Repair",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-birmingham",
@@ -30925,7 +30925,7 @@
     "trade": "Garage Door Repair",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-louisville",
@@ -30933,7 +30933,7 @@
     "trade": "Garage Door Repair",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-oklahoma-city",
@@ -30941,7 +30941,7 @@
     "trade": "Garage Door Repair",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-salt-lake-city",
@@ -30949,7 +30949,7 @@
     "trade": "Garage Door Repair",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-hartford",
@@ -30957,7 +30957,7 @@
     "trade": "Garage Door Repair",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-newark",
@@ -30965,7 +30965,7 @@
     "trade": "Garage Door Repair",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-richmond",
@@ -30973,7 +30973,7 @@
     "trade": "Garage Door Repair",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-wichita",
@@ -30981,7 +30981,7 @@
     "trade": "Garage Door Repair",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-leads-columbia",
@@ -30989,7 +30989,7 @@
     "trade": "Garage Door Repair",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-phoenix",
@@ -30997,7 +30997,7 @@
     "trade": "HVAC",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-atlanta",
@@ -31005,7 +31005,7 @@
     "trade": "HVAC",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-charlotte",
@@ -31013,7 +31013,7 @@
     "trade": "HVAC",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-raleigh",
@@ -31021,7 +31021,7 @@
     "trade": "HVAC",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-denver",
@@ -31029,7 +31029,7 @@
     "trade": "HVAC",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-chicago",
@@ -31037,7 +31037,7 @@
     "trade": "HVAC",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-seattle",
@@ -31045,7 +31045,7 @@
     "trade": "HVAC",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-las-vegas",
@@ -31053,7 +31053,7 @@
     "trade": "HVAC",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-new-york-city",
@@ -31061,7 +31061,7 @@
     "trade": "HVAC",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-philadelphia",
@@ -31069,7 +31069,7 @@
     "trade": "HVAC",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-nashville",
