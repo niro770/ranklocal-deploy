@@ -112,3 +112,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 49 | Skipped: 1 | Queue remaining: 1116
 
+=== weekly_seo_batch.py === 2026-07-13 22:34
+Queue: 1116 pending topics. Processing 50.
+[OK] siding-leads-washington
+[OK] gutter-leads-washington
+[OK] pressure-washing-leads-washington
+[OK] tree-service-leads-washington
+[OK] insulation-leads-washington
+[OK] roofing-leads-nevada
+[OK] hvac-leads-nevada
+[OK] plumbing-leads-nevada
+[OK] pest-control-leads-nevada
+[OK] landscaping-leads-nevada
+[OK] fencing-leads-nevada
+[OK] garage-door-leads-nevada
+[OK] electrical-leads-nevada
+[OK] painting-leads-nevada
+[OK] window-replacement-leads-nevada
+[OK] siding-leads-nevada
+[OK] gutter-leads-nevada
+[OK] pressure-washing-leads-nevada
+[OK] tree-service-leads-nevada
+[OK] insulation-leads-nevada
+[OK] roofing-leads-new-york
+[OK] hvac-leads-new-york
+[OK] plumbing-leads-new-york
+[OK] pest-control-leads-new-york
+[OK] landscaping-leads-new-york
+[OK] fencing-leads-new-york
+[OK] garage-door-leads-new-york
+[OK] electrical-leads-new-york
+[OK] painting-leads-new-york
+[OK] window-replacement-leads-new-york
+[OK] siding-leads-new-york
+[OK] gutter-leads-new-york
+[OK] pressure-washing-leads-new-york
+[OK] tree-service-leads-new-york
+[OK] insulation-leads-new-york
+[OK] roofing-leads-pennsylvania
+[OK] hvac-leads-pennsylvania
+[OK] plumbing-leads-pennsylvania
+[OK] pest-control-leads-pennsylvania
+[OK] landscaping-leads-pennsylvania
+[OK] fencing-leads-pennsylvania
+[OK] garage-door-leads-pennsylvania
+[OK] electrical-leads-pennsylvania
+[OK] painting-leads-pennsylvania
+[OK] window-replacement-leads-pennsylvania
+[OK] siding-leads-pennsylvania
+[OK] gutter-leads-pennsylvania
+[OK] pressure-washing-leads-pennsylvania
+[OK] tree-service-leads-pennsylvania
+[OK] insulation-leads-pennsylvania
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1066
+
