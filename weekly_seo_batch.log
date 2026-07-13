@@ -3897,3 +3897,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1320
 
+=== weekly_seo_batch.py === 2026-07-13 23:02
+Queue: 1320 pending topics. Processing 50.
+[OK] exclusive-concrete-leads-new-york
+[OK] concrete-pay-per-call-new-york
+[OK] concrete-appointment-setting-new-york
+[OK] concrete-contractor-leads-new-york
+[OK] concrete-phone-leads-new-york
+[OK] exclusive-concrete-leads-north-carolina
+[OK] concrete-pay-per-call-north-carolina
+[OK] concrete-appointment-setting-north-carolina
+[OK] concrete-contractor-leads-north-carolina
+[OK] concrete-phone-leads-north-carolina
+[OK] exclusive-concrete-leads-ohio
+[OK] concrete-pay-per-call-ohio
+[OK] concrete-appointment-setting-ohio
+[OK] concrete-contractor-leads-ohio
+[OK] concrete-phone-leads-ohio
+[OK] exclusive-concrete-leads-oklahoma
+[OK] concrete-pay-per-call-oklahoma
+[OK] concrete-appointment-setting-oklahoma
+[OK] concrete-contractor-leads-oklahoma
+[OK] concrete-phone-leads-oklahoma
+[OK] exclusive-concrete-leads-oregon
+[OK] concrete-pay-per-call-oregon
+[OK] concrete-appointment-setting-oregon
+[OK] concrete-contractor-leads-oregon
+[OK] concrete-phone-leads-oregon
+[OK] exclusive-concrete-leads-pennsylvania
+[OK] concrete-pay-per-call-pennsylvania
+[OK] concrete-appointment-setting-pennsylvania
+[OK] concrete-contractor-leads-pennsylvania
+[OK] concrete-phone-leads-pennsylvania
+[OK] exclusive-concrete-leads-south-carolina
+[OK] concrete-pay-per-call-south-carolina
+[OK] concrete-appointment-setting-south-carolina
+[OK] concrete-contractor-leads-south-carolina
+[OK] concrete-phone-leads-south-carolina
+[OK] exclusive-concrete-leads-tennessee
+[OK] concrete-pay-per-call-tennessee
+[OK] concrete-appointment-setting-tennessee
+[OK] concrete-contractor-leads-tennessee
+[OK] concrete-phone-leads-tennessee
+[OK] exclusive-concrete-leads-texas
+[OK] concrete-pay-per-call-texas
+[OK] concrete-appointment-setting-texas
+[OK] concrete-contractor-leads-texas
+[OK] concrete-phone-leads-texas
+[OK] exclusive-concrete-leads-utah
+[OK] concrete-pay-per-call-utah
+[OK] concrete-appointment-setting-utah
+[OK] concrete-contractor-leads-utah
+[OK] concrete-phone-leads-utah
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1270
+
