@@ -2700,3 +2700,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 2370
 
+=== weekly_seo_batch.py === 2026-07-13 23:00
+Queue: 2370 pending topics. Processing 50.
+[OK] exclusive-plumbing-leads-arkansas
+[OK] plumbing-pay-per-call-arkansas
+[OK] plumbing-appointment-setting-arkansas
+[OK] plumbing-contractor-leads-arkansas
+[OK] plumbing-phone-leads-arkansas
+[OK] exclusive-plumbing-leads-california
+[OK] plumbing-pay-per-call-california
+[OK] plumbing-appointment-setting-california
+[OK] plumbing-contractor-leads-california
+[OK] plumbing-phone-leads-california
+[OK] exclusive-plumbing-leads-colorado
+[OK] plumbing-pay-per-call-colorado
+[OK] plumbing-appointment-setting-colorado
+[OK] plumbing-contractor-leads-colorado
+[OK] plumbing-phone-leads-colorado
+[OK] exclusive-plumbing-leads-connecticut
+[OK] plumbing-pay-per-call-connecticut
+[OK] plumbing-appointment-setting-connecticut
+[OK] plumbing-contractor-leads-connecticut
+[OK] plumbing-phone-leads-connecticut
+[OK] exclusive-plumbing-leads-florida
+[OK] plumbing-pay-per-call-florida
+[OK] plumbing-appointment-setting-florida
+[OK] plumbing-contractor-leads-florida
+[OK] plumbing-phone-leads-florida
+[OK] exclusive-plumbing-leads-georgia
+[OK] plumbing-pay-per-call-georgia
+[OK] plumbing-appointment-setting-georgia
+[OK] plumbing-contractor-leads-georgia
+[OK] plumbing-phone-leads-georgia
+[OK] exclusive-plumbing-leads-idaho
+[OK] plumbing-pay-per-call-idaho
+[OK] plumbing-appointment-setting-idaho
+[OK] plumbing-contractor-leads-idaho
+[OK] plumbing-phone-leads-idaho
+[OK] exclusive-plumbing-leads-illinois
+[OK] plumbing-pay-per-call-illinois
+[OK] plumbing-appointment-setting-illinois
+[OK] plumbing-contractor-leads-illinois
+[OK] plumbing-phone-leads-illinois
+[OK] exclusive-plumbing-leads-indiana
+[OK] plumbing-pay-per-call-indiana
+[OK] plumbing-appointment-setting-indiana
+[OK] plumbing-contractor-leads-indiana
+[OK] plumbing-phone-leads-indiana
+[OK] exclusive-plumbing-leads-iowa
+[OK] plumbing-pay-per-call-iowa
+[OK] plumbing-appointment-setting-iowa
+[OK] plumbing-contractor-leads-iowa
+[OK] plumbing-phone-leads-iowa
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 2320
+
