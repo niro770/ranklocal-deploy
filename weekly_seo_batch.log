@@ -2814,3 +2814,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 2270
 
+=== weekly_seo_batch.py === 2026-07-13 23:00
+Queue: 2270 pending topics. Processing 50.
+[OK] exclusive-plumbing-leads-new-york
+[OK] plumbing-pay-per-call-new-york
+[OK] plumbing-appointment-setting-new-york
+[OK] plumbing-contractor-leads-new-york
+[OK] plumbing-phone-leads-new-york
+[OK] exclusive-plumbing-leads-north-carolina
+[OK] plumbing-pay-per-call-north-carolina
+[OK] plumbing-appointment-setting-north-carolina
+[OK] plumbing-contractor-leads-north-carolina
+[OK] plumbing-phone-leads-north-carolina
+[OK] exclusive-plumbing-leads-ohio
+[OK] plumbing-pay-per-call-ohio
+[OK] plumbing-appointment-setting-ohio
+[OK] plumbing-contractor-leads-ohio
+[OK] plumbing-phone-leads-ohio
+[OK] exclusive-plumbing-leads-oklahoma
+[OK] plumbing-pay-per-call-oklahoma
+[OK] plumbing-appointment-setting-oklahoma
+[OK] plumbing-contractor-leads-oklahoma
+[OK] plumbing-phone-leads-oklahoma
+[OK] exclusive-plumbing-leads-oregon
+[OK] plumbing-pay-per-call-oregon
+[OK] plumbing-appointment-setting-oregon
+[OK] plumbing-contractor-leads-oregon
+[OK] plumbing-phone-leads-oregon
+[OK] exclusive-plumbing-leads-pennsylvania
+[OK] plumbing-pay-per-call-pennsylvania
+[OK] plumbing-appointment-setting-pennsylvania
+[OK] plumbing-contractor-leads-pennsylvania
+[OK] plumbing-phone-leads-pennsylvania
+[OK] exclusive-plumbing-leads-south-carolina
+[OK] plumbing-pay-per-call-south-carolina
+[OK] plumbing-appointment-setting-south-carolina
+[OK] plumbing-contractor-leads-south-carolina
+[OK] plumbing-phone-leads-south-carolina
+[OK] exclusive-plumbing-leads-tennessee
+[OK] plumbing-pay-per-call-tennessee
+[OK] plumbing-appointment-setting-tennessee
+[OK] plumbing-contractor-leads-tennessee
+[OK] plumbing-phone-leads-tennessee
+[OK] exclusive-plumbing-leads-texas
+[OK] plumbing-pay-per-call-texas
+[OK] plumbing-appointment-setting-texas
+[OK] plumbing-contractor-leads-texas
+[OK] plumbing-phone-leads-texas
+[OK] exclusive-plumbing-leads-utah
+[OK] plumbing-pay-per-call-utah
+[OK] plumbing-appointment-setting-utah
+[OK] plumbing-contractor-leads-utah
+[OK] plumbing-phone-leads-utah
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 2220
+
