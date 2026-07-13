@@ -340,3 +340,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 49 | Skipped: 1 | Queue remaining: 916
 
+=== weekly_seo_batch.py === 2026-07-13 22:34
+Queue: 916 pending topics. Processing 50.
+[OK] roofing-leads-wisconsin
+[OK] hvac-leads-wisconsin
+[OK] plumbing-leads-wisconsin
+[OK] pest-control-leads-wisconsin
+[OK] landscaping-leads-wisconsin
+[OK] fencing-leads-wisconsin
+[OK] garage-door-leads-wisconsin
+[OK] electrical-leads-wisconsin
+[OK] painting-leads-wisconsin
+[OK] window-replacement-leads-wisconsin
+[OK] siding-leads-wisconsin
+[OK] gutter-leads-wisconsin
+[OK] pressure-washing-leads-wisconsin
+[OK] tree-service-leads-wisconsin
+[OK] insulation-leads-wisconsin
+[OK] roofing-leads-louisiana
+[OK] hvac-leads-louisiana
+[OK] plumbing-leads-louisiana
+[OK] pest-control-leads-louisiana
+[OK] landscaping-leads-louisiana
+[OK] fencing-leads-louisiana
+[OK] garage-door-leads-louisiana
+[OK] electrical-leads-louisiana
+[OK] painting-leads-louisiana
+[OK] window-replacement-leads-louisiana
+[OK] siding-leads-louisiana
+[OK] gutter-leads-louisiana
+[OK] pressure-washing-leads-louisiana
+[OK] tree-service-leads-louisiana
+[OK] insulation-leads-louisiana
+[OK] roofing-leads-alabama
+[OK] hvac-leads-alabama
+[OK] plumbing-leads-alabama
+[OK] pest-control-leads-alabama
+[OK] landscaping-leads-alabama
+[OK] fencing-leads-alabama
+[OK] garage-door-leads-alabama
+[OK] electrical-leads-alabama
+[OK] painting-leads-alabama
+[OK] window-replacement-leads-alabama
+[OK] siding-leads-alabama
+[OK] gutter-leads-alabama
+[OK] pressure-washing-leads-alabama
+[OK] tree-service-leads-alabama
+[OK] insulation-leads-alabama
+[OK] roofing-leads-kentucky
+[OK] hvac-leads-kentucky
+[OK] plumbing-leads-kentucky
+[OK] pest-control-leads-kentucky
+[OK] landscaping-leads-kentucky
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 866
+
