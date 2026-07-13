@@ -1389,3 +1389,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 16 | Skipped: 0 | Queue remaining: 0
 
+=== weekly_seo_batch.py === 2026-07-13 22:59
+Queue: 3520 pending topics. Processing 50.
+[OK] exclusive-roofing-leads-alabama
+[OK] roofing-pay-per-call-alabama
+[OK] roofing-appointment-setting-alabama
+[OK] roofing-contractor-leads-alabama
+[OK] roofing-phone-leads-alabama
+[OK] exclusive-roofing-leads-arizona
+[OK] roofing-pay-per-call-arizona
+[OK] roofing-appointment-setting-arizona
+[OK] roofing-contractor-leads-arizona
+[OK] roofing-phone-leads-arizona
+[OK] exclusive-roofing-leads-arkansas
+[OK] roofing-pay-per-call-arkansas
+[OK] roofing-appointment-setting-arkansas
+[OK] roofing-contractor-leads-arkansas
+[OK] roofing-phone-leads-arkansas
+[OK] exclusive-roofing-leads-california
+[OK] roofing-pay-per-call-california
+[OK] roofing-appointment-setting-california
+[OK] roofing-contractor-leads-california
+[OK] roofing-phone-leads-california
+[OK] exclusive-roofing-leads-colorado
+[OK] roofing-pay-per-call-colorado
+[OK] roofing-appointment-setting-colorado
+[OK] roofing-contractor-leads-colorado
+[OK] roofing-phone-leads-colorado
+[OK] exclusive-roofing-leads-connecticut
+[OK] roofing-pay-per-call-connecticut
+[OK] roofing-appointment-setting-connecticut
+[OK] roofing-contractor-leads-connecticut
+[OK] roofing-phone-leads-connecticut
+[OK] exclusive-roofing-leads-florida
+[OK] roofing-pay-per-call-florida
+[OK] roofing-appointment-setting-florida
+[OK] roofing-contractor-leads-florida
+[OK] roofing-phone-leads-florida
+[OK] exclusive-roofing-leads-georgia
+[OK] roofing-pay-per-call-georgia
+[OK] roofing-appointment-setting-georgia
+[OK] roofing-contractor-leads-georgia
+[OK] roofing-phone-leads-georgia
+[OK] exclusive-roofing-leads-idaho
+[OK] roofing-pay-per-call-idaho
+[OK] roofing-appointment-setting-idaho
+[OK] roofing-contractor-leads-idaho
+[OK] roofing-phone-leads-idaho
+[OK] exclusive-roofing-leads-illinois
+[OK] roofing-pay-per-call-illinois
+[OK] roofing-appointment-setting-illinois
+[OK] roofing-contractor-leads-illinois
+[OK] roofing-phone-leads-illinois
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 3470
+
