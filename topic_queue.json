@@ -8404,111 +8404,111 @@
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-kentucky",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-iowa",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Iowa",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-kansas",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-oklahoma",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-utah",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-connecticut",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-new-jersey",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-arkansas",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Arkansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-mississippi",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Mississippi",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-new-mexico",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "New Mexico",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-idaho",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Idaho",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-nebraska",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Nebraska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-west-virginia",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-maine",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-hawaii",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   }
 ]
