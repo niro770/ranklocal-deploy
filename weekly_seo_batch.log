@@ -1366,3 +1366,26 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 16
 
+=== weekly_seo_batch.py === 2026-07-13 22:35
+Queue: 16 pending topics. Processing 16.
+[OK] buy-locksmith-calls-alabama
+[OK] buy-locksmith-calls-kentucky
+[OK] buy-locksmith-calls-iowa
+[OK] buy-locksmith-calls-kansas
+[OK] buy-locksmith-calls-oklahoma
+[OK] buy-locksmith-calls-utah
+[OK] buy-locksmith-calls-connecticut
+[OK] buy-locksmith-calls-new-jersey
+[OK] buy-locksmith-calls-arkansas
+[OK] buy-locksmith-calls-mississippi
+[OK] buy-locksmith-calls-new-mexico
+[OK] buy-locksmith-calls-idaho
+[OK] buy-locksmith-calls-nebraska
+[OK] buy-locksmith-calls-west-virginia
+[OK] buy-locksmith-calls-maine
+[OK] buy-locksmith-calls-hawaii
+Sitemap: 16 URLs added. YML: 16 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 16 | Skipped: 0 | Queue remaining: 0
+

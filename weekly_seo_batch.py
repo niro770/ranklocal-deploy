@@ -823,6 +823,670 @@ def make_buy_calls_page(topic):
     }
 
 
+# ── NEW SEMANTIC CLUSTER PAGE MAKERS ─────────────────────────────────────────
+
+def make_exclusive_leads_page(topic):
+    """exclusive-{trade}-leads-{state} cluster."""
+    trade  = topic["trade"]
+    state  = topic["state"]
+    slug   = topic["slug"]
+    td = TRADE_DATA.get(trade, {})
+    sd = STATE_DATA.get(state, {})
+    cities   = sd.get("cities", state)
+    market   = sd.get("market", "strong residential demand")
+    seasonal = sd.get("seasonal", "year-round demand")
+    avg_job  = td.get("avg_job", "$500-5,000")
+    cpl      = td.get("cpl", "$50-90")
+    close    = td.get("close_rate", "25-35%")
+    bodies = td.get("bodies", [("",)])
+    body_idx = _variant(slug, len(bodies))
+    body_main = bodies[body_idx][_variant(slug + "el", len(bodies[body_idx]))]
+    state_para = (
+        "Exclusive " + trade.lower() + " leads in " + state
+        + " mean one contractor receives the call — no competing bids, no lead sharing. "
+        + market.capitalize() + " across " + state + ". "
+        + "RankLocal delivers live inbound phone transfers from " + state
+        + " homeowners who are ready to hire. "
+        + "Top " + trade.lower() + " markets in " + state + ": " + cities + ". "
+        + "Seasonal pattern: " + seasonal + ". "
+        + "Average job value: " + avg_job + ". "
+        + "Close rate on exclusive inbound calls: " + close + "."
+    )
+    full_body = "<p>" + body_main + "</p><p>" + state_para + "</p>"
+    base_faqs = td.get("faqs", [])
+    faqs = [{"q": q, "a": a} for q, a in base_faqs]
+    faqs.append({
+        "q": "What makes " + trade.lower() + " leads exclusive in " + state + "?",
+        "a": (
+            "Exclusive " + trade.lower() + " leads in " + state
+            + " are delivered to one contractor only. The lead is never resold, "
+            + "shared with competitors, or put through a marketplace. You receive a live "
+            + "inbound phone call from a " + state
+            + " homeowner who has not spoken to any other contractor."
+        )
+    })
+    faqs.append({
+        "q": "How much do exclusive " + trade.lower() + " leads cost in " + state + "?",
+        "a": (
+            "Exclusive " + trade.lower() + " leads in " + state
+            + " are priced per qualified call, typically " + cpl + " per call over 60 seconds. "
+            + "Average job value for " + trade.lower() + " in " + state
+            + " is " + avg_job + ", making the cost per lead a small fraction of revenue."
+        )
+    })
+    title    = "Exclusive " + trade + " Leads in " + state + " | No Shared Leads"
+    h1       = "Exclusive " + trade + " Leads in " + state
+    meta     = ("Exclusive " + trade.lower() + " leads in " + state
+                + ". One contractor per territory — never shared with competitors. "
+                + "Live inbound phone calls from " + state + " homeowners ready to hire.")
+    hero_sub = ("100% exclusive " + trade.lower() + " leads in " + state
+                + ". One call, one contractor, zero competition.")
+    related  = td.get("links", [])
+    links    = [{"href": h, "text": t} for h, t in related]
+    links.append({"href": "/exclusive-vs-shared-leads/", "text": "Exclusive vs Shared Leads"})
+    links.append({"href": "/pay-per-call/", "text": "Pay-Per-Call Lead Generation"})
+    links.append({"href": "/apply/", "text": "Apply Now"})
+    return {
+        "slug": slug, "type": "exclusive-leads",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": trade,
+        "body": full_body, "faq": faqs, "links": links,
+    }
+
+
+def make_pay_per_call_page(topic):
+    """{trade}-pay-per-call-{state} cluster."""
+    trade  = topic["trade"]
+    state  = topic["state"]
+    slug   = topic["slug"]
+    td = TRADE_DATA.get(trade, {})
+    sd = STATE_DATA.get(state, {})
+    cities   = sd.get("cities", state)
+    market   = sd.get("market", "strong residential demand")
+    seasonal = sd.get("seasonal", "year-round demand")
+    avg_job  = td.get("avg_job", "$500-5,000")
+    cpl      = td.get("cpl", "$50-90")
+    close    = td.get("close_rate", "25-35%")
+    bodies = td.get("bodies", [("",)])
+    body_idx = _variant(slug, len(bodies))
+    body_main = bodies[body_idx][_variant(slug + "ppc", len(bodies[body_idx]))]
+    state_para = (
+        trade + " pay per call in " + state
+        + " means you pay only when a qualified homeowner calls you directly"
+        + " — not for impressions, clicks, or web forms. "
+        + "RankLocal generates " + trade.lower() + " calls in " + state
+        + " through targeted search campaigns and delivers them as live inbound transfers. "
+        + market.capitalize() + " across " + state + " with " + seasonal + ". "
+        + "High-volume " + trade.lower() + " call markets in " + state + ": " + cities + ". "
+        + "Cost per qualified call: " + cpl + ". Average job value: " + avg_job + "."
+    )
+    full_body = "<p>" + body_main + "</p><p>" + state_para + "</p>"
+    base_faqs = td.get("faqs", [])
+    faqs = [{"q": q, "a": a} for q, a in base_faqs]
+    faqs.append({
+        "q": "How does " + trade.lower() + " pay per call work in " + state + "?",
+        "a": (
+            "RankLocal generates inbound " + trade.lower() + " calls from " + state
+            + " homeowners through search and digital advertising. When a homeowner calls, "
+            + "the call is transferred live to your phone. You pay only for calls over 60 seconds "
+            + "from callers within your service area in " + state
+            + ". No upfront ad spend, no wasted clicks."
+        )
+    })
+    faqs.append({
+        "q": "What is the cost per call for " + trade.lower() + " leads in " + state + "?",
+        "a": (
+            "The cost per qualified " + trade.lower() + " call in " + state
+            + " is typically " + cpl + ". Since callers are already engaged, "
+            + "close rates on exclusive inbound calls average " + close
+            + " — making this one of the highest-ROI lead sources for "
+            + state + " " + trade.lower() + " contractors."
+        )
+    })
+    title    = trade + " Pay Per Call in " + state + " | Live Inbound Leads"
+    h1       = trade + " Pay Per Call " + state
+    meta     = (trade + " pay per call in " + state
+                + ". You pay only for live inbound calls from "
+                + state + " homeowners ready to hire. No shared leads, no web forms.")
+    hero_sub = ("Live inbound " + trade.lower() + " calls in " + state
+                + ". Pay per call — zero wasted spend.")
+    related  = td.get("links", [])
+    links    = [{"href": h, "text": t} for h, t in related]
+    links.append({"href": "/pay-per-call/", "text": "Pay-Per-Call Lead Generation"})
+    links.append({"href": "/contractor-leads/", "text": "Contractor Lead Generation"})
+    links.append({"href": "/apply/", "text": "Apply Now"})
+    return {
+        "slug": slug, "type": "pay-per-call",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": trade,
+        "body": full_body, "faq": faqs, "links": links,
+    }
+
+
+def make_appointment_setting_page(topic):
+    """{trade}-appointment-setting-{state} cluster."""
+    trade  = topic["trade"]
+    state  = topic["state"]
+    slug   = topic["slug"]
+    td = TRADE_DATA.get(trade, {})
+    sd = STATE_DATA.get(state, {})
+    cities   = sd.get("cities", state)
+    market   = sd.get("market", "strong residential demand")
+    avg_job  = td.get("avg_job", "$500-5,000")
+    cpl      = td.get("cpl", "$50-90")
+    close    = td.get("close_rate", "25-35%")
+    bodies = td.get("bodies", [("",)])
+    body_idx = _variant(slug, len(bodies))
+    body_main = bodies[body_idx][_variant(slug + "as", len(bodies[body_idx]))]
+    state_para = (
+        trade + " appointment setting in " + state
+        + " takes pre-qualified homeowners and schedules them directly on your calendar"
+        + " so you show up to a confirmed appointment rather than chasing cold leads. "
+        + market.capitalize() + " across " + state + ". "
+        + "RankLocal qualifies " + state + " homeowners who requested "
+        + trade.lower() + " services, confirms their project scope, and books them into your schedule. "
+        + "Key " + trade.lower() + " markets in " + state + ": " + cities + ". "
+        + "Average job value: " + avg_job + ". Appointment show rate: 75-85%."
+    )
+    full_body = "<p>" + body_main + "</p><p>" + state_para + "</p>"
+    base_faqs = td.get("faqs", [])
+    faqs = [{"q": q, "a": a} for q, a in base_faqs]
+    faqs.append({
+        "q": "How does " + trade.lower() + " appointment setting work in " + state + "?",
+        "a": (
+            "RankLocal generates " + trade.lower() + " leads in " + state
+            + " and pre-qualifies each homeowner by phone — confirming project type, timeline, "
+            + "and property ownership. Qualified prospects are scheduled directly "
+            + "onto your calendar at a time you specify. You receive a confirmed appointment, "
+            + "not a raw lead to call back."
+        )
+    })
+    faqs.append({
+        "q": "What is the show rate for " + trade.lower() + " appointments in " + state + "?",
+        "a": (
+            "Pre-set " + trade.lower() + " appointments in " + state
+            + " show at 75-85% when the homeowner confirmed within 24 hours. "
+            + "RankLocal sends SMS reminders to reduce no-shows. Close rate on attended appointments "
+            + "is typically " + close + " or higher since the homeowner has already committed time."
+        )
+    })
+    title    = trade + " Appointment Setting in " + state + " | Pre-Set Sales Calls"
+    h1       = trade + " Appointment Setting " + state
+    meta     = (trade + " appointment setting in " + state
+                + ". Pre-qualified homeowners scheduled directly onto your calendar. "
+                + "No chasing leads — confirmed " + state + " " + trade.lower() + " appointments.")
+    hero_sub = ("Pre-set " + trade.lower() + " appointments in " + state
+                + ". Confirmed homeowners booked directly onto your calendar.")
+    related  = td.get("links", [])
+    links    = [{"href": h, "text": t} for h, t in related]
+    links.append({"href": "/appointment-setting/", "text": "Appointment Setting for Contractors"})
+    links.append({"href": "/contractor-leads/", "text": "Contractor Lead Generation"})
+    links.append({"href": "/apply/", "text": "Apply Now"})
+    return {
+        "slug": slug, "type": "appointment-setting",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": trade,
+        "body": full_body, "faq": faqs, "links": links,
+    }
+
+
+def make_contractor_leads_page(topic):
+    """{trade}-contractor-leads-{state} cluster."""
+    trade  = topic["trade"]
+    state  = topic["state"]
+    slug   = topic["slug"]
+    td = TRADE_DATA.get(trade, {})
+    sd = STATE_DATA.get(state, {})
+    cities   = sd.get("cities", state)
+    market   = sd.get("market", "strong residential demand")
+    seasonal = sd.get("seasonal", "year-round demand")
+    avg_job  = td.get("avg_job", "$500-5,000")
+    cpl      = td.get("cpl", "$50-90")
+    close    = td.get("close_rate", "25-35%")
+    bodies = td.get("bodies", [("",)])
+    body_idx = _variant(slug, len(bodies))
+    body_main = bodies[body_idx][_variant(slug + "cl", len(bodies[body_idx]))]
+    state_para = (
+        "Licensed " + trade.lower() + " contractors in " + state
+        + " use RankLocal to fill their pipeline with inbound calls from homeowners ready to hire. "
+        + market.capitalize() + " across " + state + ". "
+        + "Unlike shared lead marketplaces, RankLocal delivers each " + trade.lower()
+        + " contractor lead in " + state + " exclusively — one call, one contractor. "
+        + "High-demand markets for " + trade.lower() + " contractors in " + state + ": " + cities + ". "
+        + "Seasonal demand: " + seasonal + ". "
+        + "Cost per qualified contractor lead: " + cpl + ". Average job value: " + avg_job + "."
+    )
+    full_body = "<p>" + body_main + "</p><p>" + state_para + "</p>"
+    base_faqs = td.get("faqs", [])
+    faqs = [{"q": q, "a": a} for q, a in base_faqs]
+    faqs.append({
+        "q": "How do " + trade.lower() + " contractor leads work in " + state + "?",
+        "a": (
+            "RankLocal generates inbound phone calls from " + state
+            + " homeowners needing " + trade.lower() + " work and routes each call exclusively "
+            + "to one licensed contractor in their area. There are no shared leads, no bidding wars, "
+            + "and no lead reselling. You pay per qualified call over 60 seconds."
+        )
+    })
+    faqs.append({
+        "q": "Do I need a license to receive " + trade.lower() + " contractor leads in " + state + "?",
+        "a": (
+            "Yes. RankLocal verifies that " + trade.lower() + " contractors in " + state
+            + " hold the appropriate state license before activating lead delivery. "
+            + "This protects homeowners and ensures you receive leads you are authorized to bid."
+        )
+    })
+    title    = trade + " Contractor Leads in " + state + " | Exclusive Phone Leads"
+    h1       = trade + " Contractor Leads " + state
+    meta     = ("Exclusive " + trade.lower() + " contractor leads in " + state
+                + ". Licensed contractors only. Inbound phone calls from homeowners ready to hire"
+                + " — never shared with competitors.")
+    hero_sub = ("Exclusive " + trade.lower() + " contractor leads in " + state
+                + ". One contractor per lead, zero competition.")
+    related  = td.get("links", [])
+    links    = [{"href": h, "text": t} for h, t in related]
+    links.append({"href": "/contractor-leads/", "text": "Contractor Lead Generation"})
+    links.append({"href": "/exclusive-vs-shared-leads/", "text": "Exclusive vs Shared Leads"})
+    links.append({"href": "/apply/", "text": "Apply Now"})
+    return {
+        "slug": slug, "type": "contractor-leads",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": trade,
+        "body": full_body, "faq": faqs, "links": links,
+    }
+
+
+def make_phone_leads_page(topic):
+    """{trade}-phone-leads-{state} cluster (live transfer vocabulary)."""
+    trade  = topic["trade"]
+    state  = topic["state"]
+    slug   = topic["slug"]
+    td = TRADE_DATA.get(trade, {})
+    sd = STATE_DATA.get(state, {})
+    cities   = sd.get("cities", state)
+    market   = sd.get("market", "strong residential demand")
+    seasonal = sd.get("seasonal", "year-round demand")
+    avg_job  = td.get("avg_job", "$500-5,000")
+    cpl      = td.get("cpl", "$50-90")
+    close    = td.get("close_rate", "25-35%")
+    bodies = td.get("bodies", [("",)])
+    body_idx = _variant(slug, len(bodies))
+    body_main = bodies[body_idx][_variant(slug + "pl", len(bodies[body_idx]))]
+    state_para = (
+        trade + " phone leads connect you with " + state
+        + " homeowners by phone in real time — no web forms, no email threads, no callbacks. "
+        + "The homeowner is already on the line when you answer. "
+        + market.capitalize() + " across " + state + ". "
+        + "RankLocal generates " + trade.lower() + " phone leads in " + state
+        + " through search advertising and routes each call live to one contractor. "
+        + "High-volume " + trade.lower() + " phone lead markets in " + state + ": " + cities + ". "
+        + "Demand pattern: " + seasonal + ". "
+        + "Cost per phone lead: " + cpl + ". Average revenue per job: " + avg_job + ". "
+        + "Close rate on live transfer calls: " + close + "."
+    )
+    full_body = "<p>" + body_main + "</p><p>" + state_para + "</p>"
+    base_faqs = td.get("faqs", [])
+    faqs = [{"q": q, "a": a} for q, a in base_faqs]
+    faqs.append({
+        "q": "What are " + trade.lower() + " phone leads in " + state + "?",
+        "a": (
+            trade + " phone leads in " + state
+            + " are live inbound calls from homeowners who searched for "
+            + trade.lower() + " services and clicked to call. "
+            + "RankLocal confirms the caller is a qualified " + state
+            + " homeowner with a real project, then transfers the live call to your phone. "
+            + "You pay only for calls over 60 seconds."
+        )
+    })
+    faqs.append({
+        "q": "Why are phone leads better than web form leads for " + trade.lower() + "?",
+        "a": (
+            "Phone leads convert at 3-5x the rate of web form leads because "
+            + "the homeowner is actively engaged at the moment of contact. "
+            + "For " + trade.lower() + " services in " + state
+            + " — where decisions are often urgent (storm damage, equipment failure) — "
+            + "catching the homeowner live is the highest-conversion lead format available."
+        )
+    })
+    title    = trade + " Phone Leads in " + state + " | Live Transfer Inbound Calls"
+    h1       = trade + " Phone Leads " + state
+    meta     = (trade + " phone leads in " + state
+                + ". Live transfer inbound calls from " + state
+                + " homeowners. You answer — the homeowner is already on the line.")
+    hero_sub = ("Live " + trade.lower() + " phone leads in " + state
+                + ". Homeowner is on the line when you answer.")
+    related  = td.get("links", [])
+    links    = [{"href": h, "text": t} for h, t in related]
+    links.append({"href": "/pay-per-call/", "text": "Pay-Per-Call Lead Generation"})
+    links.append({"href": "/contractor-leads/", "text": "Contractor Lead Generation"})
+    links.append({"href": "/apply/", "text": "Apply Now"})
+    return {
+        "slug": slug, "type": "phone-leads",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": trade,
+        "body": full_body, "faq": faqs, "links": links,
+    }
+
+
+# ── CITY DATA + CITY PAGE ─────────────────────────────────────────────────────
+
+CITY_DATA = {
+    "Phoenix": {
+        "state": "Arizona", "state_slug": "arizona",
+        "metro": "Phoenix-Scottsdale metro area",
+        "neighborhoods": "Scottsdale, Tempe, Mesa, Chandler, Glendale, Gilbert",
+        "climate": "hot desert climate with intense summers and monsoon season driving roofing and HVAC demand",
+        "market": "fast-growing Sun Belt metro with 5M+ residents and high new construction activity",
+        "seasonal": "year-round demand with summer HVAC surge and monsoon roofing spike",
+    },
+    "Atlanta": {
+        "state": "Georgia", "state_slug": "georgia",
+        "metro": "Atlanta-Sandy Springs metro area",
+        "neighborhoods": "Buckhead, Decatur, Marietta, Alpharetta, Roswell, Sandy Springs",
+        "climate": "humid subtropical climate creating year-round home service demand",
+        "market": "major Southeast economic hub with strong suburban growth and high homeownership",
+        "seasonal": "year-round demand with spring landscaping surge and summer pest control peak",
+    },
+    "Charlotte": {
+        "state": "North Carolina", "state_slug": "north-carolina",
+        "metro": "Charlotte-Concord-Gastonia metro area",
+        "neighborhoods": "Uptown, Ballantyne, Huntersville, Matthews, Concord, Mooresville",
+        "climate": "humid subtropical climate with mild winters and hot summers",
+        "market": "fast-growing banking and tech hub with strong residential construction",
+        "seasonal": "year-round demand with spring landscaping peak and summer HVAC surge",
+    },
+    "Raleigh": {
+        "state": "North Carolina", "state_slug": "north-carolina",
+        "metro": "Raleigh-Durham metro area",
+        "neighborhoods": "Durham, Cary, Chapel Hill, Apex, Morrisville, Wake Forest",
+        "climate": "humid subtropical climate with hot summers and mild winters",
+        "market": "fast-growing Research Triangle metro with high tech employment and new construction",
+        "seasonal": "year-round demand with spring landscaping and summer HVAC peaks",
+    },
+    "Denver": {
+        "state": "Colorado", "state_slug": "colorado",
+        "metro": "Denver-Aurora metro area",
+        "neighborhoods": "Aurora, Lakewood, Arvada, Westminster, Thornton, Littleton",
+        "climate": "semi-arid climate with hail-prone summers driving roofing demand and cold winters boosting HVAC",
+        "market": "high-income Rocky Mountain metro with strong homeownership and active new construction",
+        "seasonal": "spring and summer roofing surge after hail season, fall HVAC and insulation demand",
+    },
+    "Chicago": {
+        "state": "Illinois", "state_slug": "illinois",
+        "metro": "Chicago-Naperville-Elgin metro area",
+        "neighborhoods": "Naperville, Schaumburg, Aurora, Evanston, Oak Park, Waukegan",
+        "climate": "cold continental climate with harsh winters driving HVAC, insulation, and roofing demand",
+        "market": "third-largest US metro with large aging housing stock and strong home service demand",
+        "seasonal": "fall HVAC and insulation surge, spring roofing and landscaping peak",
+    },
+    "Seattle": {
+        "state": "Washington", "state_slug": "washington",
+        "metro": "Seattle-Bellevue-Tacoma metro area",
+        "neighborhoods": "Bellevue, Tacoma, Redmond, Kirkland, Renton, Everett",
+        "climate": "marine climate with heavy rainfall driving gutter, roofing, and pressure washing demand",
+        "market": "high-income tech hub with strong homeownership and premium home service spending",
+        "seasonal": "fall and winter gutter and roofing surge, spring landscaping and pressure washing peak",
+    },
+    "Las Vegas": {
+        "state": "Nevada", "state_slug": "nevada",
+        "metro": "Las Vegas-Henderson metro area",
+        "neighborhoods": "Henderson, Summerlin, North Las Vegas, Centennial Hills, Enterprise",
+        "climate": "hot desert climate with intense summer heat driving HVAC and roofing demand",
+        "market": "rapidly growing Southwest metro with high new construction and investment property activity",
+        "seasonal": "summer HVAC surge, year-round pest control demand, fall and spring landscaping peak",
+    },
+    "New York City": {
+        "state": "New York", "state_slug": "new-york",
+        "metro": "New York-Newark metro area",
+        "neighborhoods": "Brooklyn, Queens, Bronx, Staten Island, Yonkers, Long Island",
+        "climate": "humid continental climate with cold winters and hot summers",
+        "market": "largest US metro with massive aging housing stock and strong premium home service demand",
+        "seasonal": "fall and winter HVAC and insulation surge, spring roofing and landscaping peak",
+    },
+    "Philadelphia": {
+        "state": "Pennsylvania", "state_slug": "pennsylvania",
+        "metro": "Philadelphia-Camden-Wilmington metro area",
+        "neighborhoods": "Cherry Hill, Wilmington, Camden, Norristown, Chester, Bucks County",
+        "climate": "humid subtropical climate with cold winters and hot summers",
+        "market": "large Northeast metro with significant aging housing stock and strong contractor demand",
+        "seasonal": "fall and winter HVAC and insulation demand, spring roofing and landscaping surge",
+    },
+    "Nashville": {
+        "state": "Tennessee", "state_slug": "tennessee",
+        "metro": "Nashville-Murfreesboro metro area",
+        "neighborhoods": "Brentwood, Franklin, Murfreesboro, Hendersonville, Smyrna, Mount Juliet",
+        "climate": "humid subtropical climate with hot summers and mild winters",
+        "market": "fast-growing Southeast metro with strong residential construction and high homeownership",
+        "seasonal": "year-round demand with spring landscaping and summer HVAC peaks",
+    },
+    "Baltimore": {
+        "state": "Maryland", "state_slug": "maryland",
+        "metro": "Baltimore-Columbia-Towson metro area",
+        "neighborhoods": "Towson, Columbia, Ellicott City, Annapolis, Bel Air, Glen Burnie",
+        "climate": "humid subtropical climate with cold winters and hot summers",
+        "market": "large mid-Atlantic metro with significant aging housing stock and strong contractor demand",
+        "seasonal": "fall HVAC and roofing demand, spring landscaping and painting peak",
+    },
+    "Boston": {
+        "state": "Massachusetts", "state_slug": "massachusetts",
+        "metro": "Boston-Cambridge-Newton metro area",
+        "neighborhoods": "Cambridge, Newton, Quincy, Framingham, Lowell, Waltham",
+        "climate": "humid continental climate with cold winters and hot summers",
+        "market": "high-income Northeast metro with large aging housing stock and premium home service spending",
+        "seasonal": "fall and winter HVAC and insulation surge, spring roofing and landscaping peak",
+    },
+    "Minneapolis": {
+        "state": "Minnesota", "state_slug": "minnesota",
+        "metro": "Minneapolis-Saint Paul metro area",
+        "neighborhoods": "Saint Paul, Bloomington, Plymouth, Maple Grove, Brooklyn Park, Edina",
+        "climate": "cold continental climate with harsh winters driving HVAC, insulation, and roofing demand",
+        "market": "large Midwest metro with high homeownership rates and strong home service demand",
+        "seasonal": "fall and winter HVAC and insulation peak, spring roofing and landscaping surge",
+    },
+    "Kansas City": {
+        "state": "Missouri", "state_slug": "missouri",
+        "metro": "Kansas City metro area",
+        "neighborhoods": "Overland Park, Olathe, Independence, Lee Summit, Shawnee, Lenexa",
+        "climate": "humid continental climate with cold winters and severe spring storms driving roofing demand",
+        "market": "affordable Midwest metro with strong homeownership and active residential remodeling",
+        "seasonal": "spring storm roofing surge, summer HVAC peak, fall landscaping demand",
+    },
+    "Columbus": {
+        "state": "Ohio", "state_slug": "ohio",
+        "metro": "Columbus metro area",
+        "neighborhoods": "Dublin, Westerville, Hilliard, Gahanna, Grove City, Reynoldsburg",
+        "climate": "humid continental climate with cold winters and hot summers",
+        "market": "fast-growing Ohio capital with strong residential construction and high homeownership",
+        "seasonal": "spring roofing and landscaping peak, fall HVAC and insulation demand",
+    },
+    "Detroit": {
+        "state": "Michigan", "state_slug": "michigan",
+        "metro": "Detroit-Warren-Dearborn metro area",
+        "neighborhoods": "Troy, Sterling Heights, Warren, Dearborn, Ann Arbor, Farmington Hills",
+        "climate": "cold continental climate with harsh winters driving HVAC, insulation, and roofing demand",
+        "market": "large Midwest metro with significant aging housing stock and strong renovation activity",
+        "seasonal": "fall and winter HVAC and insulation surge, spring roofing and landscaping peak",
+    },
+    "Portland": {
+        "state": "Oregon", "state_slug": "oregon",
+        "metro": "Portland-Vancouver metro area",
+        "neighborhoods": "Beaverton, Gresham, Hillsboro, Tigard, Lake Oswego, Tualatin",
+        "climate": "marine climate with heavy rainfall driving gutter, roofing, and pressure washing demand",
+        "market": "high-income Pacific Northwest metro with strong homeownership and premium home service spending",
+        "seasonal": "fall and winter gutter and roofing surge, spring landscaping and pressure washing peak",
+    },
+    "Indianapolis": {
+        "state": "Indiana", "state_slug": "indiana",
+        "metro": "Indianapolis-Carmel metro area",
+        "neighborhoods": "Carmel, Fishers, Greenwood, Westfield, Noblesville, Avon",
+        "climate": "humid continental climate with cold winters and hot summers",
+        "market": "affordable Midwest metro with strong homeownership and active residential remodeling",
+        "seasonal": "spring roofing and landscaping peak, fall HVAC and insulation demand",
+    },
+    "Milwaukee": {
+        "state": "Wisconsin", "state_slug": "wisconsin",
+        "metro": "Milwaukee-Waukesha metro area",
+        "neighborhoods": "Waukesha, West Allis, Wauwatosa, Brookfield, Racine, Kenosha",
+        "climate": "cold continental climate with harsh winters and hot summers",
+        "market": "large Wisconsin metro with significant aging housing stock and strong home service demand",
+        "seasonal": "fall and winter HVAC and insulation peak, spring roofing and landscaping surge",
+    },
+    "New Orleans": {
+        "state": "Louisiana", "state_slug": "louisiana",
+        "metro": "New Orleans-Metairie metro area",
+        "neighborhoods": "Metairie, Kenner, Gretna, Chalmette, Slidell, Covington",
+        "climate": "humid subtropical climate with hurricane season driving roofing demand and year-round pest control",
+        "market": "active home service market with strong renovation demand and storm damage repair activity",
+        "seasonal": "year-round pest control and HVAC demand, hurricane season roofing surge",
+    },
+    "Birmingham": {
+        "state": "Alabama", "state_slug": "alabama",
+        "metro": "Birmingham-Hoover metro area",
+        "neighborhoods": "Hoover, Vestavia Hills, Homewood, Alabaster, Helena, Trussville",
+        "climate": "humid subtropical climate with hot summers and mild winters",
+        "market": "affordable Southeast metro with strong homeownership and active residential remodeling",
+        "seasonal": "year-round demand with summer HVAC and pest control peaks",
+    },
+    "Louisville": {
+        "state": "Kentucky", "state_slug": "kentucky",
+        "metro": "Louisville-Jefferson County metro area",
+        "neighborhoods": "Jeffersonville, New Albany, Shelbyville, Elizabethtown, La Grange, Bardstown",
+        "climate": "humid subtropical climate with hot summers and cold winters",
+        "market": "affordable metro with strong homeownership and active renovation market",
+        "seasonal": "spring roofing and landscaping peak, fall HVAC and window replacement demand",
+    },
+    "Oklahoma City": {
+        "state": "Oklahoma", "state_slug": "oklahoma",
+        "metro": "Oklahoma City metro area",
+        "neighborhoods": "Edmond, Norman, Moore, Midwest City, Yukon, Mustang",
+        "climate": "humid subtropical climate with hot summers and severe spring storms driving roofing demand",
+        "market": "affordable South-Central metro with strong homeownership and storm damage repair market",
+        "seasonal": "spring storm roofing and fencing surge, summer HVAC peak, fall landscaping demand",
+    },
+    "Salt Lake City": {
+        "state": "Utah", "state_slug": "utah",
+        "metro": "Salt Lake City-Provo metro area",
+        "neighborhoods": "West Valley City, Provo, Sandy, West Jordan, Orem, Ogden",
+        "climate": "semi-arid climate with cold snowy winters and hot summers",
+        "market": "fast-growing Mountain West metro with high homeownership and strong new construction",
+        "seasonal": "winter HVAC and insulation demand, spring roofing and landscaping peak",
+    },
+    "Hartford": {
+        "state": "Connecticut", "state_slug": "connecticut",
+        "metro": "Hartford metro area",
+        "neighborhoods": "West Hartford, East Hartford, Glastonbury, Wethersfield, Newington, Manchester",
+        "climate": "humid continental climate with cold winters and hot summers",
+        "market": "high-income Northeast metro with large aging housing stock and premium home service spending",
+        "seasonal": "fall and winter HVAC and insulation surge, spring roofing and landscaping peak",
+    },
+    "Newark": {
+        "state": "New Jersey", "state_slug": "new-jersey",
+        "metro": "Newark-Jersey City metro area",
+        "neighborhoods": "Jersey City, Hoboken, Paterson, Elizabeth, Trenton, Edison",
+        "climate": "humid subtropical climate with cold winters and hot summers",
+        "market": "dense Northeast metro with large aging housing stock and strong home service demand",
+        "seasonal": "fall HVAC and roofing demand, spring landscaping and painting peak",
+    },
+    "Richmond": {
+        "state": "Virginia", "state_slug": "virginia",
+        "metro": "Richmond metro area",
+        "neighborhoods": "Chesterfield, Henrico, Midlothian, Mechanicsville, Short Pump, Glen Allen",
+        "climate": "humid subtropical climate with hot summers and cold winters",
+        "market": "state capital metro with strong homeownership and active residential remodeling",
+        "seasonal": "spring roofing and landscaping peak, fall HVAC and window replacement demand",
+    },
+    "Wichita": {
+        "state": "Kansas", "state_slug": "kansas",
+        "metro": "Wichita metro area",
+        "neighborhoods": "Derby, Andover, Maize, Haysville, Valley Center, Bel Aire",
+        "climate": "humid continental climate with hot summers, cold winters, and severe storm season",
+        "market": "affordable Plains metro with strong homeownership and active storm damage repair market",
+        "seasonal": "spring storm roofing surge, summer HVAC peak, fall landscaping demand",
+    },
+    "Columbia": {
+        "state": "South Carolina", "state_slug": "south-carolina",
+        "metro": "Columbia metro area",
+        "neighborhoods": "Irmo, Lexington, Cayce, West Columbia, Forest Acres, Blythewood",
+        "climate": "humid subtropical climate with hot summers and mild winters",
+        "market": "growing Southeast market with strong residential demand and active military community",
+        "seasonal": "year-round demand with summer pest control and HVAC peaks",
+    },
+}
+
+
+def make_city_page(topic):
+    """{trade}-leads-{city} cluster (city-level pages)."""
+    trade  = topic["trade"]
+    city   = topic.get("city", "")
+    slug   = topic["slug"]
+    td = TRADE_DATA.get(trade, {})
+    cd = CITY_DATA.get(city, {})
+    state         = cd.get("state", topic.get("state", ""))
+    metro         = cd.get("metro", city + " metro area")
+    neighborhoods = cd.get("neighborhoods", "")
+    climate       = cd.get("climate", "active home services market")
+    market        = cd.get("market", "strong residential demand")
+    seasonal      = cd.get("seasonal", "year-round demand")
+    avg_job  = td.get("avg_job", "$500-5,000")
+    cpl      = td.get("cpl", "$50-90")
+    close    = td.get("close_rate", "25-35%")
+    bodies = td.get("bodies", [("",)])
+    body_idx = _variant(slug, len(bodies))
+    body_main = bodies[body_idx][_variant(slug + "cy", len(bodies[body_idx]))]
+    city_para = (
+        "The " + metro + " generates strong demand for " + trade.lower() + " services year-round. "
+        + market.capitalize() + ". "
+        + climate.capitalize() + ". "
+        + "RankLocal delivers exclusive " + trade.lower() + " leads in " + city
+        + " and the surrounding " + metro + " — including " + neighborhoods + ". "
+        + "Each lead is a live inbound phone call from a homeowner ready to hire, "
+        + "transferred directly to you — one contractor at a time. "
+        + "Seasonal demand: " + seasonal + ". "
+        + "Average job value for " + trade.lower() + " in " + city + ": " + avg_job + ". "
+        + "Cost per qualified call: " + cpl + ". "
+        + "Close rate on exclusive inbound calls: " + close + "."
+    )
+    full_body = "<p>" + body_main + "</p><p>" + city_para + "</p>"
+    base_faqs = td.get("faqs", [])
+    faqs = [{"q": q, "a": a} for q, a in base_faqs]
+    faqs.append({
+        "q": "How do " + trade.lower() + " leads in " + city + " work?",
+        "a": (
+            "RankLocal generates inbound " + trade.lower() + " calls from homeowners in "
+            + city + " and the " + metro + " through targeted digital advertising. "
+            + "Each call is delivered live to one contractor in the caller's area. "
+            + "You pay per qualified call over 60 seconds — no upfront fees, no shared leads."
+        )
+    })
+    faqs.append({
+        "q": "What areas of " + city + " do you cover for " + trade.lower() + " leads?",
+        "a": (
+            "RankLocal covers the full " + metro + ", including " + neighborhoods
+            + ". You set your service radius; we deliver calls within it."
+        )
+    })
+    title    = ("Exclusive " + trade + " Leads in " + city + ", " + state
+                + " | Inbound Phone Leads")
+    h1       = "Exclusive " + trade + " Leads in " + city
+    meta     = ("Exclusive " + trade.lower() + " leads in " + city + ", " + state
+                + ". Live inbound calls from " + city
+                + " homeowners ready to hire. One contractor per lead — never shared.")
+    hero_sub = ("Exclusive " + trade.lower() + " leads in " + city
+                + ". Live inbound calls from local homeowners.")
+    trade_slug = trade.lower().replace(" ", "-")
+    related  = td.get("links", [])
+    links    = [{"href": h, "text": t} for h, t in related]
+    links.append({"href": "/" + trade_slug + "-leads/", "text": trade + " Lead Generation"})
+    links.append({"href": "/contractor-leads/", "text": "Contractor Lead Generation"})
+    links.append({"href": "/apply/", "text": "Apply Now"})
+    return {
+        "slug": slug, "type": "city-leads",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": trade,
+        "body": full_body, "faq": faqs, "links": links,
+    }
+
+
 # ── SCHEMA BUILDERS ──────────────────────────────────────────────────────────
 
 def make_service_schema(p):
@@ -1108,6 +1772,18 @@ def main():
             page = make_service_page(topic)
         elif topic.get("type") == "buy-calls":
             page = make_buy_calls_page(topic)
+        elif topic.get("type") == "exclusive-leads":
+            page = make_exclusive_leads_page(topic)
+        elif topic.get("type") == "pay-per-call":
+            page = make_pay_per_call_page(topic)
+        elif topic.get("type") == "appointment-setting":
+            page = make_appointment_setting_page(topic)
+        elif topic.get("type") == "contractor-leads":
+            page = make_contractor_leads_page(topic)
+        elif topic.get("type") == "phone-leads":
+            page = make_phone_leads_page(topic)
+        elif topic.get("type") == "city-leads":
+            page = make_city_page(topic)
         else:
             log("[SKIP] " + slug + " (unknown type - skipping)")
             topic["status"] = "pending"
