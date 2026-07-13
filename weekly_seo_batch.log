@@ -5094,3 +5094,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 270
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 270 pending topics. Processing 50.
+[OK] electrical-leads-phoenix
+[OK] electrical-leads-atlanta
+[OK] electrical-leads-charlotte
+[OK] electrical-leads-raleigh
+[OK] electrical-leads-denver
+[OK] electrical-leads-chicago
+[OK] electrical-leads-seattle
+[OK] electrical-leads-las-vegas
+[OK] electrical-leads-new-york-city
+[OK] electrical-leads-philadelphia
+[OK] electrical-leads-nashville
+[OK] electrical-leads-baltimore
+[OK] electrical-leads-boston
+[OK] electrical-leads-minneapolis
+[OK] electrical-leads-kansas-city
+[OK] electrical-leads-columbus
+[OK] electrical-leads-detroit
+[OK] electrical-leads-portland
+[OK] electrical-leads-indianapolis
+[OK] electrical-leads-milwaukee
+[OK] electrical-leads-new-orleans
+[OK] electrical-leads-birmingham
+[OK] electrical-leads-louisville
+[OK] electrical-leads-oklahoma-city
+[OK] electrical-leads-salt-lake-city
+[OK] electrical-leads-hartford
+[OK] electrical-leads-newark
+[OK] electrical-leads-richmond
+[OK] electrical-leads-wichita
+[OK] electrical-leads-columbia
+[OK] window-replacement-leads-phoenix
+[OK] window-replacement-leads-atlanta
+[OK] window-replacement-leads-charlotte
+[OK] window-replacement-leads-raleigh
+[OK] window-replacement-leads-denver
+[OK] window-replacement-leads-chicago
+[OK] window-replacement-leads-seattle
+[OK] window-replacement-leads-las-vegas
+[OK] window-replacement-leads-new-york-city
+[OK] window-replacement-leads-philadelphia
+[OK] window-replacement-leads-nashville
+[OK] window-replacement-leads-baltimore
+[OK] window-replacement-leads-boston
+[OK] window-replacement-leads-minneapolis
+[OK] window-replacement-leads-kansas-city
+[OK] window-replacement-leads-columbus
+[OK] window-replacement-leads-detroit
+[OK] window-replacement-leads-portland
+[OK] window-replacement-leads-indianapolis
+[OK] window-replacement-leads-milwaukee
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 220
+

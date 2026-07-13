@@ -31877,7 +31877,7 @@
     "trade": "Window Replacement",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-birmingham",
@@ -31885,7 +31885,7 @@
     "trade": "Window Replacement",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-louisville",
@@ -31893,7 +31893,7 @@
     "trade": "Window Replacement",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-oklahoma-city",
@@ -31901,7 +31901,7 @@
     "trade": "Window Replacement",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-salt-lake-city",
@@ -31909,7 +31909,7 @@
     "trade": "Window Replacement",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-hartford",
@@ -31917,7 +31917,7 @@
     "trade": "Window Replacement",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-newark",
@@ -31925,7 +31925,7 @@
     "trade": "Window Replacement",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-richmond",
@@ -31933,7 +31933,7 @@
     "trade": "Window Replacement",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-wichita",
@@ -31941,7 +31941,7 @@
     "trade": "Window Replacement",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-leads-columbia",
@@ -31949,7 +31949,7 @@
     "trade": "Window Replacement",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-phoenix",
@@ -31957,7 +31957,7 @@
     "trade": "Siding",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-atlanta",
@@ -31965,7 +31965,7 @@
     "trade": "Siding",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-charlotte",
@@ -31973,7 +31973,7 @@
     "trade": "Siding",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-raleigh",
@@ -31981,7 +31981,7 @@
     "trade": "Siding",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-denver",
@@ -31989,7 +31989,7 @@
     "trade": "Siding",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-chicago",
@@ -31997,7 +31997,7 @@
     "trade": "Siding",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-seattle",
@@ -32005,7 +32005,7 @@
     "trade": "Siding",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-las-vegas",
@@ -32013,7 +32013,7 @@
     "trade": "Siding",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-new-york-city",
@@ -32021,7 +32021,7 @@
     "trade": "Siding",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-philadelphia",
@@ -32029,7 +32029,7 @@
     "trade": "Siding",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-nashville",
@@ -32037,7 +32037,7 @@
     "trade": "Siding",
     "city": "Nashville",
     "state": "Tennessee",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-baltimore",
@@ -32045,7 +32045,7 @@
     "trade": "Siding",
     "city": "Baltimore",
     "state": "Maryland",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-boston",
@@ -32053,7 +32053,7 @@
     "trade": "Siding",
     "city": "Boston",
     "state": "Massachusetts",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-minneapolis",
@@ -32061,7 +32061,7 @@
     "trade": "Siding",
     "city": "Minneapolis",
     "state": "Minnesota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-kansas-city",
@@ -32069,7 +32069,7 @@
     "trade": "Siding",
     "city": "Kansas City",
     "state": "Missouri",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-columbus",
@@ -32077,7 +32077,7 @@
     "trade": "Siding",
     "city": "Columbus",
     "state": "Ohio",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-detroit",
@@ -32085,7 +32085,7 @@
     "trade": "Siding",
     "city": "Detroit",
     "state": "Michigan",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-portland",
@@ -32093,7 +32093,7 @@
     "trade": "Siding",
     "city": "Portland",
     "state": "Oregon",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-indianapolis",
@@ -32101,7 +32101,7 @@
     "trade": "Siding",
     "city": "Indianapolis",
     "state": "Indiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-milwaukee",
@@ -32109,7 +32109,7 @@
     "trade": "Siding",
     "city": "Milwaukee",
     "state": "Wisconsin",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-new-orleans",
@@ -32117,7 +32117,7 @@
     "trade": "Siding",
     "city": "New Orleans",
     "state": "Louisiana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-birmingham",
@@ -32125,7 +32125,7 @@
     "trade": "Siding",
     "city": "Birmingham",
     "state": "Alabama",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-louisville",
@@ -32133,7 +32133,7 @@
     "trade": "Siding",
     "city": "Louisville",
     "state": "Kentucky",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-oklahoma-city",
@@ -32141,7 +32141,7 @@
     "trade": "Siding",
     "city": "Oklahoma City",
     "state": "Oklahoma",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-salt-lake-city",
@@ -32149,7 +32149,7 @@
     "trade": "Siding",
     "city": "Salt Lake City",
     "state": "Utah",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-hartford",
@@ -32157,7 +32157,7 @@
     "trade": "Siding",
     "city": "Hartford",
     "state": "Connecticut",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-newark",
@@ -32165,7 +32165,7 @@
     "trade": "Siding",
     "city": "Newark",
     "state": "New Jersey",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-richmond",
@@ -32173,7 +32173,7 @@
     "trade": "Siding",
     "city": "Richmond",
     "state": "Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-wichita",
@@ -32181,7 +32181,7 @@
     "trade": "Siding",
     "city": "Wichita",
     "state": "Kansas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-leads-columbia",
@@ -32189,7 +32189,7 @@
     "trade": "Siding",
     "city": "Columbia",
     "state": "South Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-phoenix",
@@ -32197,7 +32197,7 @@
     "trade": "Gutter Installation",
     "city": "Phoenix",
     "state": "Arizona",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-atlanta",
@@ -32205,7 +32205,7 @@
     "trade": "Gutter Installation",
     "city": "Atlanta",
     "state": "Georgia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-charlotte",
@@ -32213,7 +32213,7 @@
     "trade": "Gutter Installation",
     "city": "Charlotte",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-raleigh",
@@ -32221,7 +32221,7 @@
     "trade": "Gutter Installation",
     "city": "Raleigh",
     "state": "North Carolina",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-denver",
@@ -32229,7 +32229,7 @@
     "trade": "Gutter Installation",
     "city": "Denver",
     "state": "Colorado",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-chicago",
@@ -32237,7 +32237,7 @@
     "trade": "Gutter Installation",
     "city": "Chicago",
     "state": "Illinois",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-seattle",
@@ -32245,7 +32245,7 @@
     "trade": "Gutter Installation",
     "city": "Seattle",
     "state": "Washington",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-las-vegas",
@@ -32253,7 +32253,7 @@
     "trade": "Gutter Installation",
     "city": "Las Vegas",
     "state": "Nevada",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-new-york-city",
@@ -32261,7 +32261,7 @@
     "trade": "Gutter Installation",
     "city": "New York City",
     "state": "New York",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-philadelphia",
@@ -32269,7 +32269,7 @@
     "trade": "Gutter Installation",
     "city": "Philadelphia",
     "state": "Pennsylvania",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "gutter-installation-leads-nashville",
