@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T10:36:09Z",
+  "last_updated": "2026-07-14T09:12:38Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -14,16 +14,16 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/google-maps-ranking/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-13T18:58:33Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/google-business-profile/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-13T14:05:30Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/website-seo/": {
       "verdict": "NEUTRAL",
@@ -56,10 +56,10 @@
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-13T21:20:49Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-marketplace/": {
       "verdict": "NEUTRAL",
@@ -188,10 +188,10 @@
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/map-pack-anatomy/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-13T21:38:01Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/tools/rank-simulator/": {
       "verdict": "NEUTRAL",
