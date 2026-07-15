@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T09:12:38Z",
+  "last_updated": "2026-07-15T09:17:01Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -40,7 +40,7 @@
     "https://ranklocall.com/citations/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/apply/": {
