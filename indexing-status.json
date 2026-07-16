@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T09:17:01Z",
+  "last_updated": "2026-07-16T09:23:25Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -40,7 +40,7 @@
     "https://ranklocall.com/citations/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/apply/": {
@@ -92,10 +92,10 @@
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-dentists/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-16T08:26:56Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-contractors/": {
       "verdict": "NEUTRAL",
@@ -111,9 +111,9 @@
     },
     "https://ranklocall.com/pay-per-call-pest-control/": {
       "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "last_crawled": "2026-07-16T08:53:12Z",
+      "coverage": "Crawled - currently not indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-locksmiths/": {
       "verdict": "NEUTRAL",
@@ -224,10 +224,10 @@
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/blog/pay-per-call-vs-pay-per-lead/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-15T19:45:52Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/how-does-pay-per-call-work/": {
       "verdict": "NEUTRAL",
@@ -248,10 +248,10 @@
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/blog/best-industries-for-pay-per-call/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-16T00:38:23Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     }
   }
 }
