@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T09:17:23Z",
+  "last_updated": "2026-07-18T08:55:57Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -40,14 +40,14 @@
     "https://ranklocall.com/citations/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/apply/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-18T03:30:33Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/ranklocall-vs-servicedirect/": {
       "verdict": "PASS",
@@ -86,10 +86,10 @@
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-lawyers/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-17T14:24:25Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-dentists/": {
       "verdict": "PASS",
@@ -128,10 +128,10 @@
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-water-damage/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-18T03:31:44Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-garage-door/": {
       "verdict": "NEUTRAL",
@@ -176,10 +176,10 @@
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/tools/market-domination-planner/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-18T03:24:56Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/tools/geo-grid-scanner/": {
       "verdict": "NEUTRAL",
@@ -218,9 +218,9 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/what-is-pay-per-call-advertising/": {
-      "verdict": "NEUTRAL",
+      "verdict": "PASS",
       "last_crawled": "2026-07-17T08:38:35Z",
-      "coverage": "Crawled - currently not indexed",
+      "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/pay-per-call-vs-pay-per-lead/": {
@@ -230,10 +230,10 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/how-does-pay-per-call-work/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-17T21:17:24Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/pay-per-call-vs-google-ads/": {
       "verdict": "NEUTRAL",
