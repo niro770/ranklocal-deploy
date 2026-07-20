@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T09:12:25Z",
+  "last_updated": "2026-07-20T10:20:53Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -33,7 +33,7 @@
     },
     "https://ranklocall.com/reputation-management/": {
       "verdict": "PASS",
-      "last_crawled": "2026-06-23T08:08:10Z",
+      "last_crawled": "2026-07-19T18:36:18Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -116,10 +116,10 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-locksmiths/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-19T09:34:43Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-insurance/": {
       "verdict": "PASS",
