@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T10:20:53Z",
+  "last_updated": "2026-07-21T09:35:48Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -194,20 +194,20 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/tools/rank-simulator/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-21T00:37:10Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-04T03:37:44Z",
+      "last_crawled": "2026-07-21T07:53:50Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/best-pay-per-call-networks/": {
       "verdict": "PASS",
-      "last_crawled": "2026-06-04T11:51:15Z",
+      "last_crawled": "2026-07-21T08:02:59Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
