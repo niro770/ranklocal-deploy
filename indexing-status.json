@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T09:34:39Z",
+  "last_updated": "2026-07-23T09:32:22Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -64,7 +64,7 @@
     "https://ranklocall.com/pay-per-call-marketplace/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-plumbers/": {
@@ -134,10 +134,10 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-garage-door/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-22T13:37:52Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-tree-service/": {
       "verdict": "PASS",
@@ -182,10 +182,10 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/tools/geo-grid-scanner/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-22T22:42:53Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/tools/map-pack-anatomy/": {
       "verdict": "PASS",
@@ -242,10 +242,10 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/pay-per-call-roi-tips/": {
-      "verdict": "NEUTRAL",
-      "last_crawled": null,
-      "coverage": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED"
+      "verdict": "PASS",
+      "last_crawled": "2026-07-22T19:38:49Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/best-industries-for-pay-per-call/": {
       "verdict": "PASS",
