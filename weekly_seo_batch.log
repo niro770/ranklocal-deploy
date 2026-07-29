@@ -5379,3 +5379,30 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 20
 
+=== weekly_seo_batch.py === 2026-07-13 23:03
+Queue: 20 pending topics. Processing 20.
+[OK] tree-service-leads-nashville
+[OK] tree-service-leads-baltimore
+[OK] tree-service-leads-boston
+[OK] tree-service-leads-minneapolis
+[OK] tree-service-leads-kansas-city
+[OK] tree-service-leads-columbus
+[OK] tree-service-leads-detroit
+[OK] tree-service-leads-portland
+[OK] tree-service-leads-indianapolis
+[OK] tree-service-leads-milwaukee
+[OK] tree-service-leads-new-orleans
+[OK] tree-service-leads-birmingham
+[OK] tree-service-leads-louisville
+[OK] tree-service-leads-oklahoma-city
+[OK] tree-service-leads-salt-lake-city
+[OK] tree-service-leads-hartford
+[OK] tree-service-leads-newark
+[OK] tree-service-leads-richmond
+[OK] tree-service-leads-wichita
+[OK] tree-service-leads-columbia
+Sitemap: 20 URLs added. YML: 20 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 20 | Skipped: 0 | Queue remaining: 0
+
