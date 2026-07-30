@@ -5406,3 +5406,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 20 | Skipped: 0 | Queue remaining: 0
 
+=== weekly_seo_batch.py === 2026-07-30 00:20
+Queue: 1344 pending topics. Processing 50.
+[OK] concrete-appointment-setting-alaska
+[OK] concrete-appointment-setting-delaware
+[OK] concrete-appointment-setting-hawaii
+[OK] concrete-appointment-setting-maine
+[OK] concrete-appointment-setting-montana
+[OK] concrete-appointment-setting-new-hampshire
+[OK] concrete-appointment-setting-north-dakota
+[OK] concrete-appointment-setting-rhode-island
+[OK] concrete-appointment-setting-south-dakota
+[OK] concrete-appointment-setting-vermont
+[OK] concrete-appointment-setting-west-virginia
+[OK] concrete-appointment-setting-wyoming
+[OK] electrical-appointment-setting-alaska
+[OK] electrical-appointment-setting-delaware
+[OK] electrical-appointment-setting-hawaii
+[OK] electrical-appointment-setting-maine
+[OK] electrical-appointment-setting-montana
+[OK] electrical-appointment-setting-new-hampshire
+[OK] electrical-appointment-setting-north-dakota
+[OK] electrical-appointment-setting-rhode-island
+[OK] electrical-appointment-setting-south-dakota
+[OK] electrical-appointment-setting-vermont
+[OK] electrical-appointment-setting-west-virginia
+[OK] electrical-appointment-setting-wyoming
+[OK] fencing-appointment-setting-alaska
+[OK] fencing-appointment-setting-delaware
+[OK] fencing-appointment-setting-hawaii
+[OK] fencing-appointment-setting-maine
+[OK] fencing-appointment-setting-montana
+[OK] fencing-appointment-setting-new-hampshire
+[OK] fencing-appointment-setting-north-dakota
+[OK] fencing-appointment-setting-rhode-island
+[OK] fencing-appointment-setting-south-dakota
+[OK] fencing-appointment-setting-vermont
+[OK] fencing-appointment-setting-west-virginia
+[OK] fencing-appointment-setting-wyoming
+[OK] garage-door-repair-appointment-setting-alaska
+[OK] garage-door-repair-appointment-setting-delaware
+[OK] garage-door-repair-appointment-setting-hawaii
+[OK] garage-door-repair-appointment-setting-maine
+[OK] garage-door-repair-appointment-setting-montana
+[OK] garage-door-repair-appointment-setting-new-hampshire
+[OK] garage-door-repair-appointment-setting-north-dakota
+[OK] garage-door-repair-appointment-setting-rhode-island
+[OK] garage-door-repair-appointment-setting-south-dakota
+[OK] garage-door-repair-appointment-setting-vermont
+[OK] garage-door-repair-appointment-setting-west-virginia
+[OK] garage-door-repair-appointment-setting-wyoming
+[OK] gutter-installation-appointment-setting-alaska
+[OK] gutter-installation-appointment-setting-delaware
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1294
+
