@@ -5463,3 +5463,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1294
 
+=== weekly_seo_batch.py === 2026-07-30 08:09
+Queue: 1294 pending topics. Processing 50.
+[OK] gutter-installation-appointment-setting-hawaii
+[OK] gutter-installation-appointment-setting-maine
+[OK] gutter-installation-appointment-setting-montana
+[OK] gutter-installation-appointment-setting-new-hampshire
+[OK] gutter-installation-appointment-setting-north-dakota
+[OK] gutter-installation-appointment-setting-rhode-island
+[OK] gutter-installation-appointment-setting-south-dakota
+[OK] gutter-installation-appointment-setting-vermont
+[OK] gutter-installation-appointment-setting-west-virginia
+[OK] gutter-installation-appointment-setting-wyoming
+[OK] hvac-appointment-setting-alaska
+[OK] hvac-appointment-setting-delaware
+[OK] hvac-appointment-setting-hawaii
+[OK] hvac-appointment-setting-maine
+[OK] hvac-appointment-setting-montana
+[OK] hvac-appointment-setting-new-hampshire
+[OK] hvac-appointment-setting-north-dakota
+[OK] hvac-appointment-setting-rhode-island
+[OK] hvac-appointment-setting-south-dakota
+[OK] hvac-appointment-setting-vermont
+[OK] hvac-appointment-setting-west-virginia
+[OK] hvac-appointment-setting-wyoming
+[OK] insulation-appointment-setting-alaska
+[OK] insulation-appointment-setting-delaware
+[OK] insulation-appointment-setting-hawaii
+[OK] insulation-appointment-setting-maine
+[OK] insulation-appointment-setting-montana
+[OK] insulation-appointment-setting-new-hampshire
+[OK] insulation-appointment-setting-north-dakota
+[OK] insulation-appointment-setting-rhode-island
+[OK] insulation-appointment-setting-south-dakota
+[OK] insulation-appointment-setting-vermont
+[OK] insulation-appointment-setting-west-virginia
+[OK] insulation-appointment-setting-wyoming
+[OK] landscaping-appointment-setting-alaska
+[OK] landscaping-appointment-setting-delaware
+[OK] landscaping-appointment-setting-hawaii
+[OK] landscaping-appointment-setting-maine
+[OK] landscaping-appointment-setting-montana
+[OK] landscaping-appointment-setting-new-hampshire
+[OK] landscaping-appointment-setting-north-dakota
+[OK] landscaping-appointment-setting-rhode-island
+[OK] landscaping-appointment-setting-south-dakota
+[OK] landscaping-appointment-setting-vermont
+[OK] landscaping-appointment-setting-west-virginia
+[OK] landscaping-appointment-setting-wyoming
+[OK] painting-appointment-setting-alaska
+[OK] painting-appointment-setting-delaware
+[OK] painting-appointment-setting-hawaii
+[OK] painting-appointment-setting-maine
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1244
+
