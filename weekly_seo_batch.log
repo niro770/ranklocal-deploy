@@ -5520,3 +5520,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1244
 
+=== weekly_seo_batch.py === 2026-07-31 08:09
+Queue: 1244 pending topics. Processing 50.
+[OK] painting-appointment-setting-montana
+[OK] painting-appointment-setting-new-hampshire
+[OK] painting-appointment-setting-north-dakota
+[OK] painting-appointment-setting-rhode-island
+[OK] painting-appointment-setting-south-dakota
+[OK] painting-appointment-setting-vermont
+[OK] painting-appointment-setting-west-virginia
+[OK] painting-appointment-setting-wyoming
+[OK] pest-control-appointment-setting-alaska
+[OK] pest-control-appointment-setting-delaware
+[OK] pest-control-appointment-setting-hawaii
+[OK] pest-control-appointment-setting-maine
+[OK] pest-control-appointment-setting-montana
+[OK] pest-control-appointment-setting-new-hampshire
+[OK] pest-control-appointment-setting-north-dakota
+[OK] pest-control-appointment-setting-rhode-island
+[OK] pest-control-appointment-setting-south-dakota
+[OK] pest-control-appointment-setting-vermont
+[OK] pest-control-appointment-setting-west-virginia
+[OK] pest-control-appointment-setting-wyoming
+[OK] plumbing-appointment-setting-alaska
+[OK] plumbing-appointment-setting-delaware
+[OK] plumbing-appointment-setting-hawaii
+[OK] plumbing-appointment-setting-maine
+[OK] plumbing-appointment-setting-montana
+[OK] plumbing-appointment-setting-new-hampshire
+[OK] plumbing-appointment-setting-north-dakota
+[OK] plumbing-appointment-setting-rhode-island
+[OK] plumbing-appointment-setting-south-dakota
+[OK] plumbing-appointment-setting-vermont
+[OK] plumbing-appointment-setting-west-virginia
+[OK] plumbing-appointment-setting-wyoming
+[OK] pressure-washing-appointment-setting-alaska
+[OK] pressure-washing-appointment-setting-delaware
+[OK] pressure-washing-appointment-setting-hawaii
+[OK] pressure-washing-appointment-setting-maine
+[OK] pressure-washing-appointment-setting-montana
+[OK] pressure-washing-appointment-setting-new-hampshire
+[OK] pressure-washing-appointment-setting-north-dakota
+[OK] pressure-washing-appointment-setting-rhode-island
+[OK] pressure-washing-appointment-setting-south-dakota
+[OK] pressure-washing-appointment-setting-vermont
+[OK] pressure-washing-appointment-setting-west-virginia
+[OK] pressure-washing-appointment-setting-wyoming
+[OK] roofing-appointment-setting-alaska
+[OK] roofing-appointment-setting-delaware
+[OK] roofing-appointment-setting-hawaii
+[OK] roofing-appointment-setting-maine
+[OK] roofing-appointment-setting-montana
+[OK] roofing-appointment-setting-new-hampshire
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1194
+

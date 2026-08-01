@@ -34686,350 +34686,350 @@
     "type": "appointment-setting",
     "trade": "Roofing",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-appointment-setting-rhode-island",
     "type": "appointment-setting",
     "trade": "Roofing",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-appointment-setting-south-dakota",
     "type": "appointment-setting",
     "trade": "Roofing",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-appointment-setting-vermont",
     "type": "appointment-setting",
     "trade": "Roofing",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-appointment-setting-west-virginia",
     "type": "appointment-setting",
     "trade": "Roofing",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "roofing-appointment-setting-wyoming",
     "type": "appointment-setting",
     "trade": "Roofing",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-alaska",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-delaware",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-hawaii",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-maine",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-montana",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-new-hampshire",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-north-dakota",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-rhode-island",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-south-dakota",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-vermont",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-west-virginia",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "siding-appointment-setting-wyoming",
     "type": "appointment-setting",
     "trade": "Siding",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-alaska",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-delaware",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-hawaii",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-maine",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-montana",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-new-hampshire",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-north-dakota",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-rhode-island",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-south-dakota",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-vermont",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-west-virginia",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "tree-service-appointment-setting-wyoming",
     "type": "appointment-setting",
     "trade": "Tree Service",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-alaska",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-delaware",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-hawaii",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-maine",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-montana",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-new-hampshire",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-north-dakota",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-rhode-island",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-south-dakota",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-vermont",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-west-virginia",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-appointment-setting-wyoming",
     "type": "appointment-setting",
     "trade": "Window Replacement",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-alaska",
     "type": "buy-calls",
     "trade": "Electrical",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-california",
     "type": "buy-calls",
     "trade": "Electrical",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-delaware",
     "type": "buy-calls",
     "trade": "Electrical",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-florida",
     "type": "buy-calls",
     "trade": "Electrical",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-montana",
     "type": "buy-calls",
     "trade": "Electrical",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-new-hampshire",
     "type": "buy-calls",
     "trade": "Electrical",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-north-dakota",
     "type": "buy-calls",
     "trade": "Electrical",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-rhode-island",
     "type": "buy-calls",
     "trade": "Electrical",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-electrical-calls-south-dakota",
