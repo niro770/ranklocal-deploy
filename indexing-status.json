@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T09:14:28Z",
+  "last_updated": "2026-08-02T09:17:10Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -28,7 +28,7 @@
     "https://ranklocall.com/website-seo/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/reputation-management/": {
