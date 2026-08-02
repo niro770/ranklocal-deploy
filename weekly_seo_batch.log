@@ -5577,3 +5577,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1194
 
+=== weekly_seo_batch.py === 2026-08-01 08:10
+Queue: 1194 pending topics. Processing 50.
+[OK] roofing-appointment-setting-north-dakota
+[OK] roofing-appointment-setting-rhode-island
+[OK] roofing-appointment-setting-south-dakota
+[OK] roofing-appointment-setting-vermont
+[OK] roofing-appointment-setting-west-virginia
+[OK] roofing-appointment-setting-wyoming
+[OK] siding-appointment-setting-alaska
+[OK] siding-appointment-setting-delaware
+[OK] siding-appointment-setting-hawaii
+[OK] siding-appointment-setting-maine
+[OK] siding-appointment-setting-montana
+[OK] siding-appointment-setting-new-hampshire
+[OK] siding-appointment-setting-north-dakota
+[OK] siding-appointment-setting-rhode-island
+[OK] siding-appointment-setting-south-dakota
+[OK] siding-appointment-setting-vermont
+[OK] siding-appointment-setting-west-virginia
+[OK] siding-appointment-setting-wyoming
+[OK] tree-service-appointment-setting-alaska
+[OK] tree-service-appointment-setting-delaware
+[OK] tree-service-appointment-setting-hawaii
+[OK] tree-service-appointment-setting-maine
+[OK] tree-service-appointment-setting-montana
+[OK] tree-service-appointment-setting-new-hampshire
+[OK] tree-service-appointment-setting-north-dakota
+[OK] tree-service-appointment-setting-rhode-island
+[OK] tree-service-appointment-setting-south-dakota
+[OK] tree-service-appointment-setting-vermont
+[OK] tree-service-appointment-setting-west-virginia
+[OK] tree-service-appointment-setting-wyoming
+[OK] window-replacement-appointment-setting-alaska
+[OK] window-replacement-appointment-setting-delaware
+[OK] window-replacement-appointment-setting-hawaii
+[OK] window-replacement-appointment-setting-maine
+[OK] window-replacement-appointment-setting-montana
+[OK] window-replacement-appointment-setting-new-hampshire
+[OK] window-replacement-appointment-setting-north-dakota
+[OK] window-replacement-appointment-setting-rhode-island
+[OK] window-replacement-appointment-setting-south-dakota
+[OK] window-replacement-appointment-setting-vermont
+[OK] window-replacement-appointment-setting-west-virginia
+[OK] window-replacement-appointment-setting-wyoming
+[OK] buy-electrical-calls-alaska
+[OK] buy-electrical-calls-california
+[OK] buy-electrical-calls-delaware
+[OK] buy-electrical-calls-florida
+[OK] buy-electrical-calls-montana
+[OK] buy-electrical-calls-new-hampshire
+[OK] buy-electrical-calls-north-dakota
+[OK] buy-electrical-calls-rhode-island
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1144
+
