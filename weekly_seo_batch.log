@@ -5634,3 +5634,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1144
 
+=== weekly_seo_batch.py === 2026-08-02 18:52
+Queue: 1144 pending topics. Processing 50.
+[OK] buy-electrical-calls-south-dakota
+[OK] buy-electrical-calls-texas
+[OK] buy-electrical-calls-vermont
+[OK] buy-electrical-calls-wyoming
+[OK] buy-fencing-calls-alaska
+[OK] buy-fencing-calls-california
+[OK] buy-fencing-calls-delaware
+[OK] buy-fencing-calls-florida
+[OK] buy-fencing-calls-montana
+[OK] buy-fencing-calls-new-hampshire
+[OK] buy-fencing-calls-north-dakota
+[OK] buy-fencing-calls-rhode-island
+[OK] buy-fencing-calls-south-dakota
+[OK] buy-fencing-calls-texas
+[OK] buy-fencing-calls-vermont
+[OK] buy-fencing-calls-wyoming
+[OK] buy-garage-door-calls-alaska
+[OK] buy-garage-door-calls-california
+[OK] buy-garage-door-calls-delaware
+[OK] buy-garage-door-calls-florida
+[OK] buy-garage-door-calls-montana
+[OK] buy-garage-door-calls-new-hampshire
+[OK] buy-garage-door-calls-north-dakota
+[OK] buy-garage-door-calls-rhode-island
+[OK] buy-garage-door-calls-south-dakota
+[OK] buy-garage-door-calls-texas
+[OK] buy-garage-door-calls-vermont
+[OK] buy-garage-door-calls-wyoming
+[OK] buy-gutter-calls-alaska
+[OK] buy-gutter-calls-california
+[OK] buy-gutter-calls-delaware
+[OK] buy-gutter-calls-florida
+[OK] buy-gutter-calls-montana
+[OK] buy-gutter-calls-new-hampshire
+[OK] buy-gutter-calls-north-dakota
+[OK] buy-gutter-calls-rhode-island
+[OK] buy-gutter-calls-south-dakota
+[OK] buy-gutter-calls-texas
+[OK] buy-gutter-calls-vermont
+[OK] buy-gutter-calls-wyoming
+[OK] buy-hvac-calls-alaska
+[OK] buy-hvac-calls-california
+[OK] buy-hvac-calls-delaware
+[OK] buy-hvac-calls-florida
+[OK] buy-hvac-calls-montana
+[OK] buy-hvac-calls-new-hampshire
+[OK] buy-hvac-calls-north-dakota
+[OK] buy-hvac-calls-rhode-island
+[OK] buy-hvac-calls-south-dakota
+[OK] buy-hvac-calls-texas
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1094
+

@@ -35386,350 +35386,350 @@
     "type": "buy-calls",
     "trade": "HVAC",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-hvac-calls-wyoming",
     "type": "buy-calls",
     "trade": "HVAC",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-alaska",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-california",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-delaware",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-florida",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-montana",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-new-hampshire",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-north-dakota",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-rhode-island",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-south-dakota",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-texas",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "Texas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-vermont",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-insulation-calls-wyoming",
     "type": "buy-calls",
     "trade": "Insulation",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-alaska",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-california",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-delaware",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-florida",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-montana",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-new-hampshire",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-north-dakota",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-rhode-island",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-south-dakota",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-texas",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "Texas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-vermont",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-landscaping-calls-wyoming",
     "type": "buy-calls",
     "trade": "Landscaping",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-alaska",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-california",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-delaware",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-florida",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-montana",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-new-hampshire",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-north-dakota",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-rhode-island",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-south-dakota",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-texas",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Texas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-vermont",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-locksmith-calls-wyoming",
     "type": "buy-calls",
     "trade": "Locksmith",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-alaska",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-california",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-delaware",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-florida",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-montana",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-new-hampshire",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-north-dakota",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-rhode-island",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-south-dakota",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-texas",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "Texas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-vermont",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-painting-calls-wyoming",
     "type": "buy-calls",
     "trade": "Painting",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "buy-pest-control-calls-alaska",
