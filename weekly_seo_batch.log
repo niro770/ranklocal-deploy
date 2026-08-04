@@ -5691,3 +5691,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1094
 
+=== weekly_seo_batch.py === 2026-08-03 08:09
+Queue: 1094 pending topics. Processing 50.
+[OK] buy-hvac-calls-vermont
+[OK] buy-hvac-calls-wyoming
+[OK] buy-insulation-calls-alaska
+[OK] buy-insulation-calls-california
+[OK] buy-insulation-calls-delaware
+[OK] buy-insulation-calls-florida
+[OK] buy-insulation-calls-montana
+[OK] buy-insulation-calls-new-hampshire
+[OK] buy-insulation-calls-north-dakota
+[OK] buy-insulation-calls-rhode-island
+[OK] buy-insulation-calls-south-dakota
+[OK] buy-insulation-calls-texas
+[OK] buy-insulation-calls-vermont
+[OK] buy-insulation-calls-wyoming
+[OK] buy-landscaping-calls-alaska
+[OK] buy-landscaping-calls-california
+[OK] buy-landscaping-calls-delaware
+[OK] buy-landscaping-calls-florida
+[OK] buy-landscaping-calls-montana
+[OK] buy-landscaping-calls-new-hampshire
+[OK] buy-landscaping-calls-north-dakota
+[OK] buy-landscaping-calls-rhode-island
+[OK] buy-landscaping-calls-south-dakota
+[OK] buy-landscaping-calls-texas
+[OK] buy-landscaping-calls-vermont
+[OK] buy-landscaping-calls-wyoming
+[OK] buy-locksmith-calls-alaska
+[OK] buy-locksmith-calls-california
+[OK] buy-locksmith-calls-delaware
+[OK] buy-locksmith-calls-florida
+[OK] buy-locksmith-calls-montana
+[OK] buy-locksmith-calls-new-hampshire
+[OK] buy-locksmith-calls-north-dakota
+[OK] buy-locksmith-calls-rhode-island
+[OK] buy-locksmith-calls-south-dakota
+[OK] buy-locksmith-calls-texas
+[OK] buy-locksmith-calls-vermont
+[OK] buy-locksmith-calls-wyoming
+[OK] buy-painting-calls-alaska
+[OK] buy-painting-calls-california
+[OK] buy-painting-calls-delaware
+[OK] buy-painting-calls-florida
+[OK] buy-painting-calls-montana
+[OK] buy-painting-calls-new-hampshire
+[OK] buy-painting-calls-north-dakota
+[OK] buy-painting-calls-rhode-island
+[OK] buy-painting-calls-south-dakota
+[OK] buy-painting-calls-texas
+[OK] buy-painting-calls-vermont
+[OK] buy-painting-calls-wyoming
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 1044
+
