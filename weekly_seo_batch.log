@@ -5748,3 +5748,60 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 1044
 
+=== weekly_seo_batch.py === 2026-08-04 08:10
+Queue: 1044 pending topics. Processing 50.
+[OK] buy-pest-control-calls-alaska
+[OK] buy-pest-control-calls-california
+[OK] buy-pest-control-calls-delaware
+[OK] buy-pest-control-calls-florida
+[OK] buy-pest-control-calls-montana
+[OK] buy-pest-control-calls-new-hampshire
+[OK] buy-pest-control-calls-north-dakota
+[OK] buy-pest-control-calls-rhode-island
+[OK] buy-pest-control-calls-south-dakota
+[OK] buy-pest-control-calls-texas
+[OK] buy-pest-control-calls-vermont
+[OK] buy-pest-control-calls-wyoming
+[OK] buy-plumbing-calls-alaska
+[OK] buy-plumbing-calls-california
+[OK] buy-plumbing-calls-delaware
+[OK] buy-plumbing-calls-florida
+[OK] buy-plumbing-calls-montana
+[OK] buy-plumbing-calls-new-hampshire
+[OK] buy-plumbing-calls-north-dakota
+[OK] buy-plumbing-calls-rhode-island
+[OK] buy-plumbing-calls-south-dakota
+[OK] buy-plumbing-calls-texas
+[OK] buy-plumbing-calls-vermont
+[OK] buy-plumbing-calls-wyoming
+[OK] buy-pressure-washing-calls-alaska
+[OK] buy-pressure-washing-calls-california
+[OK] buy-pressure-washing-calls-delaware
+[OK] buy-pressure-washing-calls-florida
+[OK] buy-pressure-washing-calls-montana
+[OK] buy-pressure-washing-calls-new-hampshire
+[OK] buy-pressure-washing-calls-north-dakota
+[OK] buy-pressure-washing-calls-rhode-island
+[OK] buy-pressure-washing-calls-south-dakota
+[OK] buy-pressure-washing-calls-texas
+[OK] buy-pressure-washing-calls-vermont
+[OK] buy-pressure-washing-calls-wyoming
+[OK] buy-roofing-calls-alaska
+[OK] buy-roofing-calls-california
+[OK] buy-roofing-calls-delaware
+[OK] buy-roofing-calls-florida
+[OK] buy-roofing-calls-montana
+[OK] buy-roofing-calls-new-hampshire
+[OK] buy-roofing-calls-north-dakota
+[OK] buy-roofing-calls-rhode-island
+[OK] buy-roofing-calls-south-dakota
+[OK] buy-roofing-calls-texas
+[OK] buy-roofing-calls-vermont
+[OK] buy-roofing-calls-wyoming
+[OK] buy-siding-calls-alaska
+[OK] buy-siding-calls-california
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 994
+
