@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T09:45:18Z",
+  "last_updated": "2026-08-05T09:44:19Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -64,7 +64,7 @@
     "https://ranklocall.com/pay-per-call-marketplace/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-plumbers/": {
