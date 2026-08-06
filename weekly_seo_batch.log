@@ -5805,3 +5805,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 994
 
+=== weekly_seo_batch.py === 2026-08-05 08:09
+Queue: 994 pending topics. Processing 50.
+[OK] buy-siding-calls-delaware
+[OK] buy-siding-calls-florida
+[OK] buy-siding-calls-montana
+[OK] buy-siding-calls-new-hampshire
+[OK] buy-siding-calls-north-dakota
+[OK] buy-siding-calls-rhode-island
+[OK] buy-siding-calls-south-dakota
+[OK] buy-siding-calls-texas
+[OK] buy-siding-calls-vermont
+[OK] buy-siding-calls-wyoming
+[OK] buy-tree-service-calls-alaska
+[OK] buy-tree-service-calls-california
+[OK] buy-tree-service-calls-delaware
+[OK] buy-tree-service-calls-florida
+[OK] buy-tree-service-calls-montana
+[OK] buy-tree-service-calls-new-hampshire
+[OK] buy-tree-service-calls-north-dakota
+[OK] buy-tree-service-calls-rhode-island
+[OK] buy-tree-service-calls-south-dakota
+[OK] buy-tree-service-calls-texas
+[OK] buy-tree-service-calls-vermont
+[OK] buy-tree-service-calls-wyoming
+[OK] buy-window-replacement-calls-alaska
+[OK] buy-window-replacement-calls-california
+[OK] buy-window-replacement-calls-delaware
+[OK] buy-window-replacement-calls-florida
+[OK] buy-window-replacement-calls-montana
+[OK] buy-window-replacement-calls-new-hampshire
+[OK] buy-window-replacement-calls-north-dakota
+[OK] buy-window-replacement-calls-rhode-island
+[OK] buy-window-replacement-calls-south-dakota
+[OK] buy-window-replacement-calls-texas
+[OK] buy-window-replacement-calls-vermont
+[OK] buy-window-replacement-calls-wyoming
+[OK] concrete-contractor-leads-alaska
+[OK] concrete-contractor-leads-delaware
+[OK] concrete-contractor-leads-hawaii
+[OK] concrete-contractor-leads-maine
+[OK] concrete-contractor-leads-montana
+[OK] concrete-contractor-leads-new-hampshire
+[OK] concrete-contractor-leads-north-dakota
+[OK] concrete-contractor-leads-rhode-island
+[OK] concrete-contractor-leads-south-dakota
+[OK] concrete-contractor-leads-vermont
+[OK] concrete-contractor-leads-west-virginia
+[OK] concrete-contractor-leads-wyoming
+[OK] electrical-contractor-leads-alaska
+[OK] electrical-contractor-leads-delaware
+[OK] electrical-contractor-leads-hawaii
+[OK] electrical-contractor-leads-maine
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 944
+
