@@ -5862,3 +5862,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 944
 
+=== weekly_seo_batch.py === 2026-08-06 08:09
+Queue: 944 pending topics. Processing 50.
+[OK] electrical-contractor-leads-montana
+[OK] electrical-contractor-leads-new-hampshire
+[OK] electrical-contractor-leads-north-dakota
+[OK] electrical-contractor-leads-rhode-island
+[OK] electrical-contractor-leads-south-dakota
+[OK] electrical-contractor-leads-vermont
+[OK] electrical-contractor-leads-west-virginia
+[OK] electrical-contractor-leads-wyoming
+[OK] fencing-contractor-leads-alaska
+[OK] fencing-contractor-leads-delaware
+[OK] fencing-contractor-leads-hawaii
+[OK] fencing-contractor-leads-maine
+[OK] fencing-contractor-leads-montana
+[OK] fencing-contractor-leads-new-hampshire
+[OK] fencing-contractor-leads-north-dakota
+[OK] fencing-contractor-leads-rhode-island
+[OK] fencing-contractor-leads-south-dakota
+[OK] fencing-contractor-leads-vermont
+[OK] fencing-contractor-leads-west-virginia
+[OK] fencing-contractor-leads-wyoming
+[OK] garage-door-repair-contractor-leads-alaska
+[OK] garage-door-repair-contractor-leads-delaware
+[OK] garage-door-repair-contractor-leads-hawaii
+[OK] garage-door-repair-contractor-leads-maine
+[OK] garage-door-repair-contractor-leads-montana
+[OK] garage-door-repair-contractor-leads-new-hampshire
+[OK] garage-door-repair-contractor-leads-north-dakota
+[OK] garage-door-repair-contractor-leads-rhode-island
+[OK] garage-door-repair-contractor-leads-south-dakota
+[OK] garage-door-repair-contractor-leads-vermont
+[OK] garage-door-repair-contractor-leads-west-virginia
+[OK] garage-door-repair-contractor-leads-wyoming
+[OK] gutter-installation-contractor-leads-alaska
+[OK] gutter-installation-contractor-leads-delaware
+[OK] gutter-installation-contractor-leads-hawaii
+[OK] gutter-installation-contractor-leads-maine
+[OK] gutter-installation-contractor-leads-montana
+[OK] gutter-installation-contractor-leads-new-hampshire
+[OK] gutter-installation-contractor-leads-north-dakota
+[OK] gutter-installation-contractor-leads-rhode-island
+[OK] gutter-installation-contractor-leads-south-dakota
+[OK] gutter-installation-contractor-leads-vermont
+[OK] gutter-installation-contractor-leads-west-virginia
+[OK] gutter-installation-contractor-leads-wyoming
+[OK] hvac-contractor-leads-alaska
+[OK] hvac-contractor-leads-delaware
+[OK] hvac-contractor-leads-hawaii
+[OK] hvac-contractor-leads-maine
+[OK] hvac-contractor-leads-montana
+[OK] hvac-contractor-leads-new-hampshire
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 894
+
