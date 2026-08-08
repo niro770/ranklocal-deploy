@@ -5919,3 +5919,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 894
 
+=== weekly_seo_batch.py === 2026-08-07 08:09
+Queue: 894 pending topics. Processing 50.
+[OK] hvac-contractor-leads-north-dakota
+[OK] hvac-contractor-leads-rhode-island
+[OK] hvac-contractor-leads-south-dakota
+[OK] hvac-contractor-leads-vermont
+[OK] hvac-contractor-leads-west-virginia
+[OK] hvac-contractor-leads-wyoming
+[OK] insulation-contractor-leads-alaska
+[OK] insulation-contractor-leads-delaware
+[OK] insulation-contractor-leads-hawaii
+[OK] insulation-contractor-leads-maine
+[OK] insulation-contractor-leads-montana
+[OK] insulation-contractor-leads-new-hampshire
+[OK] insulation-contractor-leads-north-dakota
+[OK] insulation-contractor-leads-rhode-island
+[OK] insulation-contractor-leads-south-dakota
+[OK] insulation-contractor-leads-vermont
+[OK] insulation-contractor-leads-west-virginia
+[OK] insulation-contractor-leads-wyoming
+[OK] landscaping-contractor-leads-alaska
+[OK] landscaping-contractor-leads-delaware
+[OK] landscaping-contractor-leads-hawaii
+[OK] landscaping-contractor-leads-maine
+[OK] landscaping-contractor-leads-montana
+[OK] landscaping-contractor-leads-new-hampshire
+[OK] landscaping-contractor-leads-north-dakota
+[OK] landscaping-contractor-leads-rhode-island
+[OK] landscaping-contractor-leads-south-dakota
+[OK] landscaping-contractor-leads-vermont
+[OK] landscaping-contractor-leads-west-virginia
+[OK] landscaping-contractor-leads-wyoming
+[OK] painting-contractor-leads-alaska
+[OK] painting-contractor-leads-delaware
+[OK] painting-contractor-leads-hawaii
+[OK] painting-contractor-leads-maine
+[OK] painting-contractor-leads-montana
+[OK] painting-contractor-leads-new-hampshire
+[OK] painting-contractor-leads-north-dakota
+[OK] painting-contractor-leads-rhode-island
+[OK] painting-contractor-leads-south-dakota
+[OK] painting-contractor-leads-vermont
+[OK] painting-contractor-leads-west-virginia
+[OK] painting-contractor-leads-wyoming
+[OK] pest-control-contractor-leads-alaska
+[OK] pest-control-contractor-leads-delaware
+[OK] pest-control-contractor-leads-hawaii
+[OK] pest-control-contractor-leads-maine
+[OK] pest-control-contractor-leads-montana
+[OK] pest-control-contractor-leads-new-hampshire
+[OK] pest-control-contractor-leads-north-dakota
+[OK] pest-control-contractor-leads-rhode-island
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 844
+
