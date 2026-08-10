@@ -6033,3 +6033,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 794
 
+=== weekly_seo_batch.py === 2026-08-09 08:10
+Queue: 794 pending topics. Processing 50.
+[OK] siding-contractor-leads-west-virginia
+[OK] siding-contractor-leads-wyoming
+[OK] tree-service-contractor-leads-alaska
+[OK] tree-service-contractor-leads-delaware
+[OK] tree-service-contractor-leads-hawaii
+[OK] tree-service-contractor-leads-maine
+[OK] tree-service-contractor-leads-montana
+[OK] tree-service-contractor-leads-new-hampshire
+[OK] tree-service-contractor-leads-north-dakota
+[OK] tree-service-contractor-leads-rhode-island
+[OK] tree-service-contractor-leads-south-dakota
+[OK] tree-service-contractor-leads-vermont
+[OK] tree-service-contractor-leads-west-virginia
+[OK] tree-service-contractor-leads-wyoming
+[OK] window-replacement-contractor-leads-alaska
+[OK] window-replacement-contractor-leads-delaware
+[OK] window-replacement-contractor-leads-hawaii
+[OK] window-replacement-contractor-leads-maine
+[OK] window-replacement-contractor-leads-montana
+[OK] window-replacement-contractor-leads-new-hampshire
+[OK] window-replacement-contractor-leads-north-dakota
+[OK] window-replacement-contractor-leads-rhode-island
+[OK] window-replacement-contractor-leads-south-dakota
+[OK] window-replacement-contractor-leads-vermont
+[OK] window-replacement-contractor-leads-west-virginia
+[OK] window-replacement-contractor-leads-wyoming
+[OK] exclusive-concrete-leads-alaska
+[OK] exclusive-concrete-leads-delaware
+[OK] exclusive-concrete-leads-hawaii
+[OK] exclusive-concrete-leads-maine
+[OK] exclusive-concrete-leads-montana
+[OK] exclusive-concrete-leads-new-hampshire
+[OK] exclusive-concrete-leads-north-dakota
+[OK] exclusive-concrete-leads-rhode-island
+[OK] exclusive-concrete-leads-south-dakota
+[OK] exclusive-concrete-leads-vermont
+[OK] exclusive-concrete-leads-west-virginia
+[OK] exclusive-concrete-leads-wyoming
+[OK] exclusive-electrical-leads-alaska
+[OK] exclusive-electrical-leads-delaware
+[OK] exclusive-electrical-leads-hawaii
+[OK] exclusive-electrical-leads-maine
+[OK] exclusive-electrical-leads-montana
+[OK] exclusive-electrical-leads-new-hampshire
+[OK] exclusive-electrical-leads-north-dakota
+[OK] exclusive-electrical-leads-rhode-island
+[OK] exclusive-electrical-leads-south-dakota
+[OK] exclusive-electrical-leads-vermont
+[OK] exclusive-electrical-leads-west-virginia
+[OK] exclusive-electrical-leads-wyoming
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 744
+
