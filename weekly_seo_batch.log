@@ -6090,3 +6090,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 744
 
+=== weekly_seo_batch.py === 2026-08-10 08:09
+Queue: 744 pending topics. Processing 50.
+[OK] exclusive-fencing-leads-alaska
+[OK] exclusive-fencing-leads-delaware
+[OK] exclusive-fencing-leads-hawaii
+[OK] exclusive-fencing-leads-maine
+[OK] exclusive-fencing-leads-montana
+[OK] exclusive-fencing-leads-new-hampshire
+[OK] exclusive-fencing-leads-north-dakota
+[OK] exclusive-fencing-leads-rhode-island
+[OK] exclusive-fencing-leads-south-dakota
+[OK] exclusive-fencing-leads-vermont
+[OK] exclusive-fencing-leads-west-virginia
+[OK] exclusive-fencing-leads-wyoming
+[OK] exclusive-garage-door-repair-leads-alaska
+[OK] exclusive-garage-door-repair-leads-delaware
+[OK] exclusive-garage-door-repair-leads-hawaii
+[OK] exclusive-garage-door-repair-leads-maine
+[OK] exclusive-garage-door-repair-leads-montana
+[OK] exclusive-garage-door-repair-leads-new-hampshire
+[OK] exclusive-garage-door-repair-leads-north-dakota
+[OK] exclusive-garage-door-repair-leads-rhode-island
+[OK] exclusive-garage-door-repair-leads-south-dakota
+[OK] exclusive-garage-door-repair-leads-vermont
+[OK] exclusive-garage-door-repair-leads-west-virginia
+[OK] exclusive-garage-door-repair-leads-wyoming
+[OK] exclusive-gutter-installation-leads-alaska
+[OK] exclusive-gutter-installation-leads-delaware
+[OK] exclusive-gutter-installation-leads-hawaii
+[OK] exclusive-gutter-installation-leads-maine
+[OK] exclusive-gutter-installation-leads-montana
+[OK] exclusive-gutter-installation-leads-new-hampshire
+[OK] exclusive-gutter-installation-leads-north-dakota
+[OK] exclusive-gutter-installation-leads-rhode-island
+[OK] exclusive-gutter-installation-leads-south-dakota
+[OK] exclusive-gutter-installation-leads-vermont
+[OK] exclusive-gutter-installation-leads-west-virginia
+[OK] exclusive-gutter-installation-leads-wyoming
+[OK] exclusive-hvac-leads-alaska
+[OK] exclusive-hvac-leads-delaware
+[OK] exclusive-hvac-leads-hawaii
+[OK] exclusive-hvac-leads-maine
+[OK] exclusive-hvac-leads-montana
+[OK] exclusive-hvac-leads-new-hampshire
+[OK] exclusive-hvac-leads-north-dakota
+[OK] exclusive-hvac-leads-rhode-island
+[OK] exclusive-hvac-leads-south-dakota
+[OK] exclusive-hvac-leads-vermont
+[OK] exclusive-hvac-leads-west-virginia
+[OK] exclusive-hvac-leads-wyoming
+[OK] exclusive-insulation-leads-alaska
+[OK] exclusive-insulation-leads-delaware
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 694
+
