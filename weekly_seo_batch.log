@@ -6147,3 +6147,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 694
 
+=== weekly_seo_batch.py === 2026-08-11 08:09
+Queue: 694 pending topics. Processing 50.
+[OK] exclusive-insulation-leads-hawaii
+[OK] exclusive-insulation-leads-maine
+[OK] exclusive-insulation-leads-montana
+[OK] exclusive-insulation-leads-new-hampshire
+[OK] exclusive-insulation-leads-north-dakota
+[OK] exclusive-insulation-leads-rhode-island
+[OK] exclusive-insulation-leads-south-dakota
+[OK] exclusive-insulation-leads-vermont
+[OK] exclusive-insulation-leads-west-virginia
+[OK] exclusive-insulation-leads-wyoming
+[OK] exclusive-landscaping-leads-alaska
+[OK] exclusive-landscaping-leads-delaware
+[OK] exclusive-landscaping-leads-hawaii
+[OK] exclusive-landscaping-leads-maine
+[OK] exclusive-landscaping-leads-montana
+[OK] exclusive-landscaping-leads-new-hampshire
+[OK] exclusive-landscaping-leads-north-dakota
+[OK] exclusive-landscaping-leads-rhode-island
+[OK] exclusive-landscaping-leads-south-dakota
+[OK] exclusive-landscaping-leads-vermont
+[OK] exclusive-landscaping-leads-west-virginia
+[OK] exclusive-landscaping-leads-wyoming
+[OK] exclusive-painting-leads-alaska
+[OK] exclusive-painting-leads-delaware
+[OK] exclusive-painting-leads-hawaii
+[OK] exclusive-painting-leads-maine
+[OK] exclusive-painting-leads-montana
+[OK] exclusive-painting-leads-new-hampshire
+[OK] exclusive-painting-leads-north-dakota
+[OK] exclusive-painting-leads-rhode-island
+[OK] exclusive-painting-leads-south-dakota
+[OK] exclusive-painting-leads-vermont
+[OK] exclusive-painting-leads-west-virginia
+[OK] exclusive-painting-leads-wyoming
+[OK] exclusive-pest-control-leads-alaska
+[OK] exclusive-pest-control-leads-delaware
+[OK] exclusive-pest-control-leads-hawaii
+[OK] exclusive-pest-control-leads-maine
+[OK] exclusive-pest-control-leads-montana
+[OK] exclusive-pest-control-leads-new-hampshire
+[OK] exclusive-pest-control-leads-north-dakota
+[OK] exclusive-pest-control-leads-rhode-island
+[OK] exclusive-pest-control-leads-south-dakota
+[OK] exclusive-pest-control-leads-vermont
+[OK] exclusive-pest-control-leads-west-virginia
+[OK] exclusive-pest-control-leads-wyoming
+[OK] exclusive-plumbing-leads-alaska
+[OK] exclusive-plumbing-leads-delaware
+[OK] exclusive-plumbing-leads-hawaii
+[OK] exclusive-plumbing-leads-maine
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 644
+
