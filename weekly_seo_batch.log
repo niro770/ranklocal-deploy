@@ -6204,3 +6204,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 644
 
+=== weekly_seo_batch.py === 2026-08-12 08:09
+Queue: 644 pending topics. Processing 50.
+[OK] exclusive-plumbing-leads-montana
+[OK] exclusive-plumbing-leads-new-hampshire
+[OK] exclusive-plumbing-leads-north-dakota
+[OK] exclusive-plumbing-leads-rhode-island
+[OK] exclusive-plumbing-leads-south-dakota
+[OK] exclusive-plumbing-leads-vermont
+[OK] exclusive-plumbing-leads-west-virginia
+[OK] exclusive-plumbing-leads-wyoming
+[OK] exclusive-pressure-washing-leads-alaska
+[OK] exclusive-pressure-washing-leads-delaware
+[OK] exclusive-pressure-washing-leads-hawaii
+[OK] exclusive-pressure-washing-leads-maine
+[OK] exclusive-pressure-washing-leads-montana
+[OK] exclusive-pressure-washing-leads-new-hampshire
+[OK] exclusive-pressure-washing-leads-north-dakota
+[OK] exclusive-pressure-washing-leads-rhode-island
+[OK] exclusive-pressure-washing-leads-south-dakota
+[OK] exclusive-pressure-washing-leads-vermont
+[OK] exclusive-pressure-washing-leads-west-virginia
+[OK] exclusive-pressure-washing-leads-wyoming
+[OK] exclusive-roofing-leads-alaska
+[OK] exclusive-roofing-leads-delaware
+[OK] exclusive-roofing-leads-hawaii
+[OK] exclusive-roofing-leads-maine
+[OK] exclusive-roofing-leads-montana
+[OK] exclusive-roofing-leads-new-hampshire
+[OK] exclusive-roofing-leads-north-dakota
+[OK] exclusive-roofing-leads-rhode-island
+[OK] exclusive-roofing-leads-south-dakota
+[OK] exclusive-roofing-leads-vermont
+[OK] exclusive-roofing-leads-west-virginia
+[OK] exclusive-roofing-leads-wyoming
+[OK] exclusive-siding-leads-alaska
+[OK] exclusive-siding-leads-delaware
+[OK] exclusive-siding-leads-hawaii
+[OK] exclusive-siding-leads-maine
+[OK] exclusive-siding-leads-montana
+[OK] exclusive-siding-leads-new-hampshire
+[OK] exclusive-siding-leads-north-dakota
+[OK] exclusive-siding-leads-rhode-island
+[OK] exclusive-siding-leads-south-dakota
+[OK] exclusive-siding-leads-vermont
+[OK] exclusive-siding-leads-west-virginia
+[OK] exclusive-siding-leads-wyoming
+[OK] exclusive-tree-service-leads-alaska
+[OK] exclusive-tree-service-leads-delaware
+[OK] exclusive-tree-service-leads-hawaii
+[OK] exclusive-tree-service-leads-maine
+[OK] exclusive-tree-service-leads-montana
+[OK] exclusive-tree-service-leads-new-hampshire
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 594
+
