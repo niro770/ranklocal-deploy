@@ -6261,3 +6261,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 594
 
+=== weekly_seo_batch.py === 2026-08-13 08:10
+Queue: 594 pending topics. Processing 50.
+[OK] exclusive-tree-service-leads-north-dakota
+[OK] exclusive-tree-service-leads-rhode-island
+[OK] exclusive-tree-service-leads-south-dakota
+[OK] exclusive-tree-service-leads-vermont
+[OK] exclusive-tree-service-leads-west-virginia
+[OK] exclusive-tree-service-leads-wyoming
+[OK] exclusive-window-replacement-leads-alaska
+[OK] exclusive-window-replacement-leads-delaware
+[OK] exclusive-window-replacement-leads-hawaii
+[OK] exclusive-window-replacement-leads-maine
+[OK] exclusive-window-replacement-leads-montana
+[OK] exclusive-window-replacement-leads-new-hampshire
+[OK] exclusive-window-replacement-leads-north-dakota
+[OK] exclusive-window-replacement-leads-rhode-island
+[OK] exclusive-window-replacement-leads-south-dakota
+[OK] exclusive-window-replacement-leads-vermont
+[OK] exclusive-window-replacement-leads-west-virginia
+[OK] exclusive-window-replacement-leads-wyoming
+[OK] concrete-pay-per-call-alaska
+[OK] concrete-pay-per-call-delaware
+[OK] concrete-pay-per-call-hawaii
+[OK] concrete-pay-per-call-maine
+[OK] concrete-pay-per-call-montana
+[OK] concrete-pay-per-call-new-hampshire
+[OK] concrete-pay-per-call-north-dakota
+[OK] concrete-pay-per-call-rhode-island
+[OK] concrete-pay-per-call-south-dakota
+[OK] concrete-pay-per-call-vermont
+[OK] concrete-pay-per-call-west-virginia
+[OK] concrete-pay-per-call-wyoming
+[OK] electrical-pay-per-call-alaska
+[OK] electrical-pay-per-call-delaware
+[OK] electrical-pay-per-call-hawaii
+[OK] electrical-pay-per-call-maine
+[OK] electrical-pay-per-call-montana
+[OK] electrical-pay-per-call-new-hampshire
+[OK] electrical-pay-per-call-north-dakota
+[OK] electrical-pay-per-call-rhode-island
+[OK] electrical-pay-per-call-south-dakota
+[OK] electrical-pay-per-call-vermont
+[OK] electrical-pay-per-call-west-virginia
+[OK] electrical-pay-per-call-wyoming
+[OK] fencing-pay-per-call-alaska
+[OK] fencing-pay-per-call-delaware
+[OK] fencing-pay-per-call-hawaii
+[OK] fencing-pay-per-call-maine
+[OK] fencing-pay-per-call-montana
+[OK] fencing-pay-per-call-new-hampshire
+[OK] fencing-pay-per-call-north-dakota
+[OK] fencing-pay-per-call-rhode-island
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 544
+
