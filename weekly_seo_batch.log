@@ -6318,3 +6318,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 544
 
+=== weekly_seo_batch.py === 2026-08-14 08:09
+Queue: 544 pending topics. Processing 50.
+[OK] fencing-pay-per-call-south-dakota
+[OK] fencing-pay-per-call-vermont
+[OK] fencing-pay-per-call-west-virginia
+[OK] fencing-pay-per-call-wyoming
+[OK] garage-door-repair-pay-per-call-alaska
+[OK] garage-door-repair-pay-per-call-delaware
+[OK] garage-door-repair-pay-per-call-hawaii
+[OK] garage-door-repair-pay-per-call-maine
+[OK] garage-door-repair-pay-per-call-montana
+[OK] garage-door-repair-pay-per-call-new-hampshire
+[OK] garage-door-repair-pay-per-call-north-dakota
+[OK] garage-door-repair-pay-per-call-rhode-island
+[OK] garage-door-repair-pay-per-call-south-dakota
+[OK] garage-door-repair-pay-per-call-vermont
+[OK] garage-door-repair-pay-per-call-west-virginia
+[OK] garage-door-repair-pay-per-call-wyoming
+[OK] gutter-installation-pay-per-call-alaska
+[OK] gutter-installation-pay-per-call-delaware
+[OK] gutter-installation-pay-per-call-hawaii
+[OK] gutter-installation-pay-per-call-maine
+[OK] gutter-installation-pay-per-call-montana
+[OK] gutter-installation-pay-per-call-new-hampshire
+[OK] gutter-installation-pay-per-call-north-dakota
+[OK] gutter-installation-pay-per-call-rhode-island
+[OK] gutter-installation-pay-per-call-south-dakota
+[OK] gutter-installation-pay-per-call-vermont
+[OK] gutter-installation-pay-per-call-west-virginia
+[OK] gutter-installation-pay-per-call-wyoming
+[OK] hvac-pay-per-call-alaska
+[OK] hvac-pay-per-call-delaware
+[OK] hvac-pay-per-call-hawaii
+[OK] hvac-pay-per-call-maine
+[OK] hvac-pay-per-call-montana
+[OK] hvac-pay-per-call-new-hampshire
+[OK] hvac-pay-per-call-north-dakota
+[OK] hvac-pay-per-call-rhode-island
+[OK] hvac-pay-per-call-south-dakota
+[OK] hvac-pay-per-call-vermont
+[OK] hvac-pay-per-call-west-virginia
+[OK] hvac-pay-per-call-wyoming
+[OK] insulation-pay-per-call-alaska
+[OK] insulation-pay-per-call-delaware
+[OK] insulation-pay-per-call-hawaii
+[OK] insulation-pay-per-call-maine
+[OK] insulation-pay-per-call-montana
+[OK] insulation-pay-per-call-new-hampshire
+[OK] insulation-pay-per-call-north-dakota
+[OK] insulation-pay-per-call-rhode-island
+[OK] insulation-pay-per-call-south-dakota
+[OK] insulation-pay-per-call-vermont
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 494
+
