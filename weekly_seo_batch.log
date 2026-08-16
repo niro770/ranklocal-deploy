@@ -6375,3 +6375,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 494
 
+=== weekly_seo_batch.py === 2026-08-15 08:09
+Queue: 494 pending topics. Processing 50.
+[OK] insulation-pay-per-call-west-virginia
+[OK] insulation-pay-per-call-wyoming
+[OK] landscaping-pay-per-call-alaska
+[OK] landscaping-pay-per-call-delaware
+[OK] landscaping-pay-per-call-hawaii
+[OK] landscaping-pay-per-call-maine
+[OK] landscaping-pay-per-call-montana
+[OK] landscaping-pay-per-call-new-hampshire
+[OK] landscaping-pay-per-call-north-dakota
+[OK] landscaping-pay-per-call-rhode-island
+[OK] landscaping-pay-per-call-south-dakota
+[OK] landscaping-pay-per-call-vermont
+[OK] landscaping-pay-per-call-west-virginia
+[OK] landscaping-pay-per-call-wyoming
+[OK] painting-pay-per-call-alaska
+[OK] painting-pay-per-call-delaware
+[OK] painting-pay-per-call-hawaii
+[OK] painting-pay-per-call-maine
+[OK] painting-pay-per-call-montana
+[OK] painting-pay-per-call-new-hampshire
+[OK] painting-pay-per-call-north-dakota
+[OK] painting-pay-per-call-rhode-island
+[OK] painting-pay-per-call-south-dakota
+[OK] painting-pay-per-call-vermont
+[OK] painting-pay-per-call-west-virginia
+[OK] painting-pay-per-call-wyoming
+[OK] pest-control-pay-per-call-alaska
+[OK] pest-control-pay-per-call-delaware
+[OK] pest-control-pay-per-call-hawaii
+[OK] pest-control-pay-per-call-maine
+[OK] pest-control-pay-per-call-montana
+[OK] pest-control-pay-per-call-new-hampshire
+[OK] pest-control-pay-per-call-north-dakota
+[OK] pest-control-pay-per-call-rhode-island
+[OK] pest-control-pay-per-call-south-dakota
+[OK] pest-control-pay-per-call-vermont
+[OK] pest-control-pay-per-call-west-virginia
+[OK] pest-control-pay-per-call-wyoming
+[OK] plumbing-pay-per-call-alaska
+[OK] plumbing-pay-per-call-delaware
+[OK] plumbing-pay-per-call-hawaii
+[OK] plumbing-pay-per-call-maine
+[OK] plumbing-pay-per-call-montana
+[OK] plumbing-pay-per-call-new-hampshire
+[OK] plumbing-pay-per-call-north-dakota
+[OK] plumbing-pay-per-call-rhode-island
+[OK] plumbing-pay-per-call-south-dakota
+[OK] plumbing-pay-per-call-vermont
+[OK] plumbing-pay-per-call-west-virginia
+[OK] plumbing-pay-per-call-wyoming
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 444
+
