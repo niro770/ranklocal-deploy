@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-15T07:39:29Z",
+  "last_updated": "2026-08-16T07:39:22Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-30T21:31:30Z",
+      "last_crawled": "2026-08-15T09:55:38Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -57,7 +57,7 @@
     },
     "https://ranklocall.com/pay-per-call/": {
       "verdict": "PASS",
-      "last_crawled": "2026-08-03T23:06:28Z",
+      "last_crawled": "2026-08-04T01:08:30Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
