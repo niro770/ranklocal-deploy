@@ -6432,3 +6432,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 444
 
+=== weekly_seo_batch.py === 2026-08-16 08:09
+Queue: 444 pending topics. Processing 50.
+[OK] pressure-washing-pay-per-call-alaska
+[OK] pressure-washing-pay-per-call-delaware
+[OK] pressure-washing-pay-per-call-hawaii
+[OK] pressure-washing-pay-per-call-maine
+[OK] pressure-washing-pay-per-call-montana
+[OK] pressure-washing-pay-per-call-new-hampshire
+[OK] pressure-washing-pay-per-call-north-dakota
+[OK] pressure-washing-pay-per-call-rhode-island
+[OK] pressure-washing-pay-per-call-south-dakota
+[OK] pressure-washing-pay-per-call-vermont
+[OK] pressure-washing-pay-per-call-west-virginia
+[OK] pressure-washing-pay-per-call-wyoming
+[OK] roofing-pay-per-call-alaska
+[OK] roofing-pay-per-call-delaware
+[OK] roofing-pay-per-call-hawaii
+[OK] roofing-pay-per-call-maine
+[OK] roofing-pay-per-call-montana
+[OK] roofing-pay-per-call-new-hampshire
+[OK] roofing-pay-per-call-north-dakota
+[OK] roofing-pay-per-call-rhode-island
+[OK] roofing-pay-per-call-south-dakota
+[OK] roofing-pay-per-call-vermont
+[OK] roofing-pay-per-call-west-virginia
+[OK] roofing-pay-per-call-wyoming
+[OK] siding-pay-per-call-alaska
+[OK] siding-pay-per-call-delaware
+[OK] siding-pay-per-call-hawaii
+[OK] siding-pay-per-call-maine
+[OK] siding-pay-per-call-montana
+[OK] siding-pay-per-call-new-hampshire
+[OK] siding-pay-per-call-north-dakota
+[OK] siding-pay-per-call-rhode-island
+[OK] siding-pay-per-call-south-dakota
+[OK] siding-pay-per-call-vermont
+[OK] siding-pay-per-call-west-virginia
+[OK] siding-pay-per-call-wyoming
+[OK] tree-service-pay-per-call-alaska
+[OK] tree-service-pay-per-call-delaware
+[OK] tree-service-pay-per-call-hawaii
+[OK] tree-service-pay-per-call-maine
+[OK] tree-service-pay-per-call-montana
+[OK] tree-service-pay-per-call-new-hampshire
+[OK] tree-service-pay-per-call-north-dakota
+[OK] tree-service-pay-per-call-rhode-island
+[OK] tree-service-pay-per-call-south-dakota
+[OK] tree-service-pay-per-call-vermont
+[OK] tree-service-pay-per-call-west-virginia
+[OK] tree-service-pay-per-call-wyoming
+[OK] window-replacement-pay-per-call-alaska
+[OK] window-replacement-pay-per-call-delaware
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 394
+

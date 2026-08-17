@@ -40286,350 +40286,350 @@
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-maine",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-montana",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-new-hampshire",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-north-dakota",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-rhode-island",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-south-dakota",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-vermont",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-west-virginia",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "window-replacement-pay-per-call-wyoming",
     "type": "pay-per-call",
     "trade": "Window Replacement",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-alaska",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-delaware",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-hawaii",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-maine",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-montana",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-new-hampshire",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-north-dakota",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-rhode-island",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-south-dakota",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-vermont",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-west-virginia",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "concrete-phone-leads-wyoming",
     "type": "phone-leads",
     "trade": "Concrete",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-alaska",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-delaware",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-hawaii",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-maine",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-montana",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-new-hampshire",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-north-dakota",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-rhode-island",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-south-dakota",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-vermont",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-west-virginia",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "electrical-phone-leads-wyoming",
     "type": "phone-leads",
     "trade": "Electrical",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-alaska",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-delaware",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-hawaii",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-maine",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-montana",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-new-hampshire",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-north-dakota",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-rhode-island",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-south-dakota",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-vermont",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-west-virginia",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "West Virginia",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "fencing-phone-leads-wyoming",
     "type": "phone-leads",
     "trade": "Fencing",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-phone-leads-alaska",
     "type": "phone-leads",
     "trade": "Garage Door Repair",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-phone-leads-delaware",
     "type": "phone-leads",
     "trade": "Garage Door Repair",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-phone-leads-hawaii",
     "type": "phone-leads",
     "trade": "Garage Door Repair",
     "state": "Hawaii",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-phone-leads-maine",
     "type": "phone-leads",
     "trade": "Garage Door Repair",
     "state": "Maine",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "garage-door-repair-phone-leads-montana",
