@@ -6489,3 +6489,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 394
 
+=== weekly_seo_batch.py === 2026-08-17 08:10
+Queue: 394 pending topics. Processing 50.
+[OK] window-replacement-pay-per-call-hawaii
+[OK] window-replacement-pay-per-call-maine
+[OK] window-replacement-pay-per-call-montana
+[OK] window-replacement-pay-per-call-new-hampshire
+[OK] window-replacement-pay-per-call-north-dakota
+[OK] window-replacement-pay-per-call-rhode-island
+[OK] window-replacement-pay-per-call-south-dakota
+[OK] window-replacement-pay-per-call-vermont
+[OK] window-replacement-pay-per-call-west-virginia
+[OK] window-replacement-pay-per-call-wyoming
+[OK] concrete-phone-leads-alaska
+[OK] concrete-phone-leads-delaware
+[OK] concrete-phone-leads-hawaii
+[OK] concrete-phone-leads-maine
+[OK] concrete-phone-leads-montana
+[OK] concrete-phone-leads-new-hampshire
+[OK] concrete-phone-leads-north-dakota
+[OK] concrete-phone-leads-rhode-island
+[OK] concrete-phone-leads-south-dakota
+[OK] concrete-phone-leads-vermont
+[OK] concrete-phone-leads-west-virginia
+[OK] concrete-phone-leads-wyoming
+[OK] electrical-phone-leads-alaska
+[OK] electrical-phone-leads-delaware
+[OK] electrical-phone-leads-hawaii
+[OK] electrical-phone-leads-maine
+[OK] electrical-phone-leads-montana
+[OK] electrical-phone-leads-new-hampshire
+[OK] electrical-phone-leads-north-dakota
+[OK] electrical-phone-leads-rhode-island
+[OK] electrical-phone-leads-south-dakota
+[OK] electrical-phone-leads-vermont
+[OK] electrical-phone-leads-west-virginia
+[OK] electrical-phone-leads-wyoming
+[OK] fencing-phone-leads-alaska
+[OK] fencing-phone-leads-delaware
+[OK] fencing-phone-leads-hawaii
+[OK] fencing-phone-leads-maine
+[OK] fencing-phone-leads-montana
+[OK] fencing-phone-leads-new-hampshire
+[OK] fencing-phone-leads-north-dakota
+[OK] fencing-phone-leads-rhode-island
+[OK] fencing-phone-leads-south-dakota
+[OK] fencing-phone-leads-vermont
+[OK] fencing-phone-leads-west-virginia
+[OK] fencing-phone-leads-wyoming
+[OK] garage-door-repair-phone-leads-alaska
+[OK] garage-door-repair-phone-leads-delaware
+[OK] garage-door-repair-phone-leads-hawaii
+[OK] garage-door-repair-phone-leads-maine
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 344
+
