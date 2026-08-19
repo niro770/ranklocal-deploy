@@ -6546,3 +6546,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 344
 
+=== weekly_seo_batch.py === 2026-08-18 08:09
+Queue: 344 pending topics. Processing 50.
+[OK] garage-door-repair-phone-leads-montana
+[OK] garage-door-repair-phone-leads-new-hampshire
+[OK] garage-door-repair-phone-leads-north-dakota
+[OK] garage-door-repair-phone-leads-rhode-island
+[OK] garage-door-repair-phone-leads-south-dakota
+[OK] garage-door-repair-phone-leads-vermont
+[OK] garage-door-repair-phone-leads-west-virginia
+[OK] garage-door-repair-phone-leads-wyoming
+[OK] gutter-installation-phone-leads-alaska
+[OK] gutter-installation-phone-leads-delaware
+[OK] gutter-installation-phone-leads-hawaii
+[OK] gutter-installation-phone-leads-maine
+[OK] gutter-installation-phone-leads-montana
+[OK] gutter-installation-phone-leads-new-hampshire
+[OK] gutter-installation-phone-leads-north-dakota
+[OK] gutter-installation-phone-leads-rhode-island
+[OK] gutter-installation-phone-leads-south-dakota
+[OK] gutter-installation-phone-leads-vermont
+[OK] gutter-installation-phone-leads-west-virginia
+[OK] gutter-installation-phone-leads-wyoming
+[OK] hvac-phone-leads-alaska
+[OK] hvac-phone-leads-delaware
+[OK] hvac-phone-leads-hawaii
+[OK] hvac-phone-leads-maine
+[OK] hvac-phone-leads-montana
+[OK] hvac-phone-leads-new-hampshire
+[OK] hvac-phone-leads-north-dakota
+[OK] hvac-phone-leads-rhode-island
+[OK] hvac-phone-leads-south-dakota
+[OK] hvac-phone-leads-vermont
+[OK] hvac-phone-leads-west-virginia
+[OK] hvac-phone-leads-wyoming
+[OK] insulation-phone-leads-alaska
+[OK] insulation-phone-leads-delaware
+[OK] insulation-phone-leads-hawaii
+[OK] insulation-phone-leads-maine
+[OK] insulation-phone-leads-montana
+[OK] insulation-phone-leads-new-hampshire
+[OK] insulation-phone-leads-north-dakota
+[OK] insulation-phone-leads-rhode-island
+[OK] insulation-phone-leads-south-dakota
+[OK] insulation-phone-leads-vermont
+[OK] insulation-phone-leads-west-virginia
+[OK] insulation-phone-leads-wyoming
+[OK] landscaping-phone-leads-alaska
+[OK] landscaping-phone-leads-delaware
+[OK] landscaping-phone-leads-hawaii
+[OK] landscaping-phone-leads-maine
+[OK] landscaping-phone-leads-montana
+[OK] landscaping-phone-leads-new-hampshire
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 294
+
