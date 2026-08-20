@@ -6603,3 +6603,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 294
 
+=== weekly_seo_batch.py === 2026-08-19 08:09
+Queue: 294 pending topics. Processing 50.
+[OK] landscaping-phone-leads-north-dakota
+[OK] landscaping-phone-leads-rhode-island
+[OK] landscaping-phone-leads-south-dakota
+[OK] landscaping-phone-leads-vermont
+[OK] landscaping-phone-leads-west-virginia
+[OK] landscaping-phone-leads-wyoming
+[OK] painting-phone-leads-alaska
+[OK] painting-phone-leads-delaware
+[OK] painting-phone-leads-hawaii
+[OK] painting-phone-leads-maine
+[OK] painting-phone-leads-montana
+[OK] painting-phone-leads-new-hampshire
+[OK] painting-phone-leads-north-dakota
+[OK] painting-phone-leads-rhode-island
+[OK] painting-phone-leads-south-dakota
+[OK] painting-phone-leads-vermont
+[OK] painting-phone-leads-west-virginia
+[OK] painting-phone-leads-wyoming
+[OK] pest-control-phone-leads-alaska
+[OK] pest-control-phone-leads-delaware
+[OK] pest-control-phone-leads-hawaii
+[OK] pest-control-phone-leads-maine
+[OK] pest-control-phone-leads-montana
+[OK] pest-control-phone-leads-new-hampshire
+[OK] pest-control-phone-leads-north-dakota
+[OK] pest-control-phone-leads-rhode-island
+[OK] pest-control-phone-leads-south-dakota
+[OK] pest-control-phone-leads-vermont
+[OK] pest-control-phone-leads-west-virginia
+[OK] pest-control-phone-leads-wyoming
+[OK] plumbing-phone-leads-alaska
+[OK] plumbing-phone-leads-delaware
+[OK] plumbing-phone-leads-hawaii
+[OK] plumbing-phone-leads-maine
+[OK] plumbing-phone-leads-montana
+[OK] plumbing-phone-leads-new-hampshire
+[OK] plumbing-phone-leads-north-dakota
+[OK] plumbing-phone-leads-rhode-island
+[OK] plumbing-phone-leads-south-dakota
+[OK] plumbing-phone-leads-vermont
+[OK] plumbing-phone-leads-west-virginia
+[OK] plumbing-phone-leads-wyoming
+[OK] pressure-washing-phone-leads-alaska
+[OK] pressure-washing-phone-leads-delaware
+[OK] pressure-washing-phone-leads-hawaii
+[OK] pressure-washing-phone-leads-maine
+[OK] pressure-washing-phone-leads-montana
+[OK] pressure-washing-phone-leads-new-hampshire
+[OK] pressure-washing-phone-leads-north-dakota
+[OK] pressure-washing-phone-leads-rhode-island
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 244
+
