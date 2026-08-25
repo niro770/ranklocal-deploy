@@ -42036,350 +42036,350 @@
     "type": "service",
     "trade": "HVAC",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-california",
     "type": "service",
     "trade": "HVAC",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-delaware",
     "type": "service",
     "trade": "HVAC",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-florida",
     "type": "service",
     "trade": "HVAC",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-montana",
     "type": "service",
     "trade": "HVAC",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-new-hampshire",
     "type": "service",
     "trade": "HVAC",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-north-dakota",
     "type": "service",
     "trade": "HVAC",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-rhode-island",
     "type": "service",
     "trade": "HVAC",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-south-dakota",
     "type": "service",
     "trade": "HVAC",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-texas",
     "type": "service",
     "trade": "HVAC",
     "state": "Texas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-vermont",
     "type": "service",
     "trade": "HVAC",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "hvac-leads-wyoming",
     "type": "service",
     "trade": "HVAC",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-alaska",
     "type": "service",
     "trade": "Insulation",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-california",
     "type": "service",
     "trade": "Insulation",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-delaware",
     "type": "service",
     "trade": "Insulation",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-florida",
     "type": "service",
     "trade": "Insulation",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-montana",
     "type": "service",
     "trade": "Insulation",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-new-hampshire",
     "type": "service",
     "trade": "Insulation",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-north-dakota",
     "type": "service",
     "trade": "Insulation",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-rhode-island",
     "type": "service",
     "trade": "Insulation",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-south-dakota",
     "type": "service",
     "trade": "Insulation",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-texas",
     "type": "service",
     "trade": "Insulation",
     "state": "Texas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-vermont",
     "type": "service",
     "trade": "Insulation",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "insulation-leads-wyoming",
     "type": "service",
     "trade": "Insulation",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-alaska",
     "type": "service",
     "trade": "Landscaping",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-california",
     "type": "service",
     "trade": "Landscaping",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-delaware",
     "type": "service",
     "trade": "Landscaping",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-florida",
     "type": "service",
     "trade": "Landscaping",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-montana",
     "type": "service",
     "trade": "Landscaping",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-new-hampshire",
     "type": "service",
     "trade": "Landscaping",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-north-dakota",
     "type": "service",
     "trade": "Landscaping",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-rhode-island",
     "type": "service",
     "trade": "Landscaping",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-south-dakota",
     "type": "service",
     "trade": "Landscaping",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-texas",
     "type": "service",
     "trade": "Landscaping",
     "state": "Texas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-vermont",
     "type": "service",
     "trade": "Landscaping",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "landscaping-leads-wyoming",
     "type": "service",
     "trade": "Landscaping",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-alaska",
     "type": "service",
     "trade": "Locksmith",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-california",
     "type": "service",
     "trade": "Locksmith",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-delaware",
     "type": "service",
     "trade": "Locksmith",
     "state": "Delaware",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-florida",
     "type": "service",
     "trade": "Locksmith",
     "state": "Florida",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-montana",
     "type": "service",
     "trade": "Locksmith",
     "state": "Montana",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-new-hampshire",
     "type": "service",
     "trade": "Locksmith",
     "state": "New Hampshire",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-north-dakota",
     "type": "service",
     "trade": "Locksmith",
     "state": "North Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-rhode-island",
     "type": "service",
     "trade": "Locksmith",
     "state": "Rhode Island",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-south-dakota",
     "type": "service",
     "trade": "Locksmith",
     "state": "South Dakota",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-texas",
     "type": "service",
     "trade": "Locksmith",
     "state": "Texas",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-vermont",
     "type": "service",
     "trade": "Locksmith",
     "state": "Vermont",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "locksmith-leads-wyoming",
     "type": "service",
     "trade": "Locksmith",
     "state": "Wyoming",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-alaska",
     "type": "service",
     "trade": "Painting",
     "state": "Alaska",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-california",
     "type": "service",
     "trade": "Painting",
     "state": "California",
-    "status": "pending"
+    "status": "done"
   },
   {
     "slug": "painting-leads-delaware",

@@ -6717,3 +6717,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 194
 
+=== weekly_seo_batch.py === 2026-08-21 08:09
+Queue: 194 pending topics. Processing 50.
+[OK] window-replacement-phone-leads-west-virginia
+[OK] window-replacement-phone-leads-wyoming
+[OK] electrical-leads-alaska
+[SKIP] electrical-leads-california (already exists)
+[OK] electrical-leads-delaware
+[SKIP] electrical-leads-florida (already exists)
+[OK] electrical-leads-montana
+[OK] electrical-leads-new-hampshire
+[OK] electrical-leads-north-dakota
+[OK] electrical-leads-rhode-island
+[OK] electrical-leads-south-dakota
+[SKIP] electrical-leads-texas (already exists)
+[OK] electrical-leads-vermont
+[OK] electrical-leads-wyoming
+[OK] fencing-leads-alaska
+[OK] fencing-leads-california
+[OK] fencing-leads-delaware
+[OK] fencing-leads-florida
+[OK] fencing-leads-montana
+[OK] fencing-leads-new-hampshire
+[OK] fencing-leads-north-dakota
+[OK] fencing-leads-rhode-island
+[OK] fencing-leads-south-dakota
+[OK] fencing-leads-texas
+[OK] fencing-leads-vermont
+[OK] fencing-leads-wyoming
+[OK] garage-door-leads-alaska
+[SKIP] garage-door-leads-california (already exists)
+[OK] garage-door-leads-delaware
+[SKIP] garage-door-leads-florida (already exists)
+[OK] garage-door-leads-montana
+[OK] garage-door-leads-new-hampshire
+[OK] garage-door-leads-north-dakota
+[OK] garage-door-leads-rhode-island
+[OK] garage-door-leads-south-dakota
+[SKIP] garage-door-leads-texas (already exists)
+[OK] garage-door-leads-vermont
+[OK] garage-door-leads-wyoming
+[OK] gutter-leads-alaska
+[OK] gutter-leads-california
+[OK] gutter-leads-delaware
+[OK] gutter-leads-florida
+[OK] gutter-leads-montana
+[OK] gutter-leads-new-hampshire
+[OK] gutter-leads-north-dakota
+[OK] gutter-leads-rhode-island
+[OK] gutter-leads-south-dakota
+[OK] gutter-leads-texas
+[OK] gutter-leads-vermont
+[OK] gutter-leads-wyoming
+Sitemap: 44 URLs added. YML: 44 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 44 | Skipped: 6 | Queue remaining: 144
+
