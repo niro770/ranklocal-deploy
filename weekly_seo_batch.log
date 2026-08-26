@@ -6774,3 +6774,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 44 | Skipped: 6 | Queue remaining: 144
 
+=== weekly_seo_batch.py === 2026-08-26 00:01
+Queue: 144 pending topics. Processing 50.
+[OK] hvac-leads-alaska
+[SKIP] hvac-leads-california (already exists)
+[OK] hvac-leads-delaware
+[SKIP] hvac-leads-florida (already exists)
+[OK] hvac-leads-montana
+[OK] hvac-leads-new-hampshire
+[OK] hvac-leads-north-dakota
+[OK] hvac-leads-rhode-island
+[OK] hvac-leads-south-dakota
+[SKIP] hvac-leads-texas (already exists)
+[OK] hvac-leads-vermont
+[OK] hvac-leads-wyoming
+[OK] insulation-leads-alaska
+[OK] insulation-leads-california
+[OK] insulation-leads-delaware
+[OK] insulation-leads-florida
+[OK] insulation-leads-montana
+[OK] insulation-leads-new-hampshire
+[OK] insulation-leads-north-dakota
+[OK] insulation-leads-rhode-island
+[OK] insulation-leads-south-dakota
+[OK] insulation-leads-texas
+[OK] insulation-leads-vermont
+[OK] insulation-leads-wyoming
+[OK] landscaping-leads-alaska
+[SKIP] landscaping-leads-california (already exists)
+[OK] landscaping-leads-delaware
+[SKIP] landscaping-leads-florida (already exists)
+[OK] landscaping-leads-montana
+[OK] landscaping-leads-new-hampshire
+[OK] landscaping-leads-north-dakota
+[OK] landscaping-leads-rhode-island
+[OK] landscaping-leads-south-dakota
+[SKIP] landscaping-leads-texas (already exists)
+[OK] landscaping-leads-vermont
+[OK] landscaping-leads-wyoming
+[OK] locksmith-leads-alaska
+[OK] locksmith-leads-california
+[OK] locksmith-leads-delaware
+[OK] locksmith-leads-florida
+[OK] locksmith-leads-montana
+[OK] locksmith-leads-new-hampshire
+[OK] locksmith-leads-north-dakota
+[OK] locksmith-leads-rhode-island
+[OK] locksmith-leads-south-dakota
+[OK] locksmith-leads-texas
+[OK] locksmith-leads-vermont
+[OK] locksmith-leads-wyoming
+[OK] painting-leads-alaska
+[SKIP] painting-leads-california (already exists)
+Sitemap: 43 URLs added. YML: 43 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 43 | Skipped: 7 | Queue remaining: 94
+
