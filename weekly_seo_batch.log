@@ -6831,3 +6831,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 43 | Skipped: 7 | Queue remaining: 94
 
+=== weekly_seo_batch.py === 2026-08-26 08:09
+Queue: 94 pending topics. Processing 50.
+[OK] painting-leads-delaware
+[SKIP] painting-leads-florida (already exists)
+[OK] painting-leads-montana
+[OK] painting-leads-new-hampshire
+[OK] painting-leads-north-dakota
+[OK] painting-leads-rhode-island
+[OK] painting-leads-south-dakota
+[SKIP] painting-leads-texas (already exists)
+[OK] painting-leads-vermont
+[OK] painting-leads-wyoming
+[OK] pest-control-leads-alaska
+[SKIP] pest-control-leads-california (already exists)
+[OK] pest-control-leads-delaware
+[SKIP] pest-control-leads-florida (already exists)
+[OK] pest-control-leads-montana
+[OK] pest-control-leads-new-hampshire
+[OK] pest-control-leads-north-dakota
+[OK] pest-control-leads-rhode-island
+[OK] pest-control-leads-south-dakota
+[SKIP] pest-control-leads-texas (already exists)
+[OK] pest-control-leads-vermont
+[OK] pest-control-leads-wyoming
+[OK] plumbing-leads-alaska
+[SKIP] plumbing-leads-california (already exists)
+[OK] plumbing-leads-delaware
+[SKIP] plumbing-leads-florida (already exists)
+[OK] plumbing-leads-montana
+[OK] plumbing-leads-new-hampshire
+[OK] plumbing-leads-north-dakota
+[OK] plumbing-leads-rhode-island
+[OK] plumbing-leads-south-dakota
+[SKIP] plumbing-leads-texas (already exists)
+[OK] plumbing-leads-vermont
+[OK] plumbing-leads-wyoming
+[OK] pressure-washing-leads-alaska
+[OK] pressure-washing-leads-california
+[OK] pressure-washing-leads-delaware
+[SKIP] pressure-washing-leads-florida (already exists)
+[OK] pressure-washing-leads-montana
+[OK] pressure-washing-leads-new-hampshire
+[OK] pressure-washing-leads-north-dakota
+[OK] pressure-washing-leads-rhode-island
+[OK] pressure-washing-leads-south-dakota
+[OK] pressure-washing-leads-texas
+[OK] pressure-washing-leads-vermont
+[OK] pressure-washing-leads-wyoming
+[OK] roofing-leads-alaska
+[SKIP] roofing-leads-california (already exists)
+[OK] roofing-leads-delaware
+[SKIP] roofing-leads-florida (already exists)
+Sitemap: 39 URLs added. YML: 39 URLs added.
+Git push: OK
+Google ping: skipped/failed
+Done. Written: 39 | Skipped: 11 | Queue remaining: 44
+
