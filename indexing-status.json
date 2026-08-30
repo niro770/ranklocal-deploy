@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T13:09:51Z",
+  "last_updated": "2026-08-30T12:46:31Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -15,7 +15,7 @@
     },
     "https://ranklocall.com/google-maps-ranking/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-21T11:52:14Z",
+      "last_crawled": "2026-08-30T01:29:28Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -39,7 +39,7 @@
     },
     "https://ranklocall.com/citations/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-21T11:39:55Z",
+      "last_crawled": "2026-08-30T02:54:51Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -64,7 +64,7 @@
     "https://ranklocall.com/pay-per-call-marketplace/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-plumbers/": {
@@ -201,7 +201,7 @@
     },
     "https://ranklocall.com/blog/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-21T07:53:50Z",
+      "last_crawled": "2026-08-30T03:01:00Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
