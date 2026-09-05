@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-04T12:07:44Z",
+  "last_updated": "2026-09-05T11:17:27Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
-      "last_crawled": "2026-08-19T08:54:27Z",
+      "last_crawled": "2026-09-04T14:22:41Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -165,7 +165,7 @@
     },
     "https://ranklocall.com/tools/call-value-calculator/": {
       "verdict": "PASS",
-      "last_crawled": "2026-08-18T16:15:53Z",
+      "last_crawled": "2026-09-05T10:28:15Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
