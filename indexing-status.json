@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T11:37:21Z",
+  "last_updated": "2026-09-13T12:43:01Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -64,7 +64,7 @@
     "https://ranklocall.com/pay-per-call-marketplace/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-plumbers/": {
@@ -230,9 +230,9 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/how-does-pay-per-call-work/": {
-      "verdict": "PASS",
+      "verdict": "NEUTRAL",
       "last_crawled": "2026-07-17T21:17:24Z",
-      "coverage": "Submitted and indexed",
+      "coverage": "Crawled - currently not indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/pay-per-call-vs-google-ads/": {
