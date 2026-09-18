@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T12:35:10Z",
+  "last_updated": "2026-09-18T12:14:36Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -224,10 +224,9 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/pay-per-call-vs-pay-per-lead/": {
-      "verdict": "PASS",
-      "last_crawled": "2026-07-15T19:45:52Z",
-      "coverage": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED"
+      "verdict": "ERROR",
+      "last_crawled": null,
+      "coverage": "API error 500"
     },
     "https://ranklocall.com/blog/how-does-pay-per-call-work/": {
       "verdict": "NEUTRAL",
