@@ -43038,5 +43038,1055 @@
     "trade": "Window Replacement",
     "state": "Wyoming",
     "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-alabama",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Alabama",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-alaska",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Alaska",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-arizona",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Arizona",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-arkansas",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Arkansas",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-california",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "California",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-colorado",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Colorado",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-connecticut",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Connecticut",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-delaware",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Delaware",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-florida",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Florida",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-georgia",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Georgia",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-hawaii",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Hawaii",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-idaho",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Idaho",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-illinois",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Illinois",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-indiana",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Indiana",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-iowa",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Iowa",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-kansas",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Kansas",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-kentucky",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Kentucky",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-louisiana",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Louisiana",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-maine",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Maine",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-maryland",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Maryland",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-massachusetts",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Massachusetts",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-michigan",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Michigan",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-minnesota",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Minnesota",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-mississippi",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Mississippi",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-missouri",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Missouri",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-montana",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Montana",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-nebraska",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Nebraska",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-nevada",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Nevada",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-new-hampshire",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "New Hampshire",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-new-jersey",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "New Jersey",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-new-mexico",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "New Mexico",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-new-york",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "New York",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-north-carolina",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "North Carolina",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-north-dakota",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "North Dakota",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-ohio",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Ohio",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-oklahoma",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Oklahoma",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-oregon",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Oregon",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-pennsylvania",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Pennsylvania",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-rhode-island",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Rhode Island",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-south-carolina",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "South Carolina",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-south-dakota",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "South Dakota",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-tennessee",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Tennessee",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-texas",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Texas",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-utah",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Utah",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-vermont",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Vermont",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-virginia",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Virginia",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-washington",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Washington",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-west-virginia",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "West Virginia",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-wisconsin",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Wisconsin",
+    "status": "done"
+  },
+  {
+    "slug": "water-damage-restoration-leads-wyoming",
+    "type": "service",
+    "trade": "Water Damage Restoration",
+    "state": "Wyoming",
+    "status": "done"
+  },
+  {
+    "slug": "junk-removal-leads-alabama",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Alabama",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-alaska",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Alaska",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-arizona",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Arizona",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-arkansas",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Arkansas",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-california",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "California",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-colorado",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Colorado",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-connecticut",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Connecticut",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-delaware",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Delaware",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-florida",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Florida",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-georgia",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Georgia",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-hawaii",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Hawaii",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-idaho",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Idaho",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-illinois",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Illinois",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-indiana",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Indiana",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-iowa",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Iowa",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-kansas",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Kansas",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-kentucky",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Kentucky",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-louisiana",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Louisiana",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-maine",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Maine",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-maryland",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Maryland",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-massachusetts",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Massachusetts",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-michigan",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Michigan",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-minnesota",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Minnesota",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-mississippi",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Mississippi",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-missouri",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Missouri",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-montana",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Montana",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-nebraska",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Nebraska",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-nevada",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Nevada",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-new-hampshire",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "New Hampshire",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-new-jersey",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "New Jersey",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-new-mexico",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "New Mexico",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-new-york",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "New York",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-north-carolina",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "North Carolina",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-north-dakota",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "North Dakota",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-ohio",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Ohio",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-oklahoma",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Oklahoma",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-oregon",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Oregon",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-pennsylvania",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Pennsylvania",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-rhode-island",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Rhode Island",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-south-carolina",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "South Carolina",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-south-dakota",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "South Dakota",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-tennessee",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Tennessee",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-texas",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Texas",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-utah",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Utah",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-vermont",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Vermont",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-virginia",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Virginia",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-washington",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Washington",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-west-virginia",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "West Virginia",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-wisconsin",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Wisconsin",
+    "status": "pending"
+  },
+  {
+    "slug": "junk-removal-leads-wyoming",
+    "type": "service",
+    "trade": "Junk Removal",
+    "state": "Wyoming",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-alabama",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Alabama",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-alaska",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Alaska",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-arizona",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Arizona",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-arkansas",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Arkansas",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-california",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "California",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-colorado",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Colorado",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-connecticut",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Connecticut",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-delaware",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Delaware",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-florida",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Florida",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-georgia",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Georgia",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-hawaii",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Hawaii",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-idaho",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Idaho",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-illinois",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Illinois",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-indiana",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Indiana",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-iowa",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Iowa",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-kansas",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Kansas",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-kentucky",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Kentucky",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-louisiana",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Louisiana",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-maine",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Maine",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-maryland",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Maryland",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-massachusetts",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Massachusetts",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-michigan",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Michigan",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-minnesota",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Minnesota",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-mississippi",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Mississippi",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-missouri",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Missouri",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-montana",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Montana",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-nebraska",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Nebraska",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-nevada",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Nevada",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-new-hampshire",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "New Hampshire",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-new-jersey",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "New Jersey",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-new-mexico",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "New Mexico",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-new-york",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "New York",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-north-carolina",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "North Carolina",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-north-dakota",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "North Dakota",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-ohio",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Ohio",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-oklahoma",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Oklahoma",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-oregon",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Oregon",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-pennsylvania",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Pennsylvania",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-rhode-island",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Rhode Island",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-south-carolina",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "South Carolina",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-south-dakota",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "South Dakota",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-tennessee",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Tennessee",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-texas",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Texas",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-utah",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Utah",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-vermont",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Vermont",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-virginia",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Virginia",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-washington",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Washington",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-west-virginia",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "West Virginia",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-wisconsin",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Wisconsin",
+    "status": "pending"
+  },
+  {
+    "slug": "appliance-repair-leads-wyoming",
+    "type": "service",
+    "trade": "Appliance Repair",
+    "state": "Wyoming",
+    "status": "pending"
   }
 ]

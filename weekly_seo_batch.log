@@ -6888,3 +6888,54 @@ Git push: OK
 Google ping: skipped/failed
 Done. Written: 39 | Skipped: 11 | Queue remaining: 44
 
+=== weekly_seo_batch.py === 2026-08-27 08:09
+Queue: 44 pending topics. Processing 44.
+[OK] roofing-leads-montana
+[OK] roofing-leads-new-hampshire
+[OK] roofing-leads-north-dakota
+[OK] roofing-leads-rhode-island
+[OK] roofing-leads-south-dakota
+[SKIP] roofing-leads-texas (already exists)
+[OK] roofing-leads-vermont
+[OK] roofing-leads-wyoming
+[OK] siding-leads-alaska
+[SKIP] siding-leads-california (already exists)
+[OK] siding-leads-delaware
+[SKIP] siding-leads-florida (already exists)
+[OK] siding-leads-montana
+[OK] siding-leads-new-hampshire
+[OK] siding-leads-north-dakota
+[OK] siding-leads-rhode-island
+[OK] siding-leads-south-dakota
+[SKIP] siding-leads-texas (already exists)
+[OK] siding-leads-vermont
+[OK] siding-leads-wyoming
+[OK] tree-service-leads-alaska
+[OK] tree-service-leads-california
+[OK] tree-service-leads-delaware
+[OK] tree-service-leads-florida
+[OK] tree-service-leads-montana
+[OK] tree-service-leads-new-hampshire
+[OK] tree-service-leads-north-dakota
+[OK] tree-service-leads-rhode-island
+[OK] tree-service-leads-south-dakota
+[OK] tree-service-leads-texas
+[OK] tree-service-leads-vermont
+[OK] tree-service-leads-wyoming
+[OK] window-replacement-leads-alaska
+[OK] window-replacement-leads-california
+[OK] window-replacement-leads-delaware
+[OK] window-replacement-leads-florida
+[OK] window-replacement-leads-montana
+[OK] window-replacement-leads-new-hampshire
+[OK] window-replacement-leads-north-dakota
+[OK] window-replacement-leads-rhode-island
+[OK] window-replacement-leads-south-dakota
+[OK] window-replacement-leads-texas
+[OK] window-replacement-leads-vermont
+[OK] window-replacement-leads-wyoming
+Sitemap: 40 URLs added. YML: 40 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 40 | Skipped: 4 | Queue remaining: 0
+
