@@ -6939,3 +6939,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 40 | Skipped: 4 | Queue remaining: 0
 
+=== weekly_seo_batch.py === 2026-09-25 16:20
+Queue: 150 pending topics. Processing 50.
+[OK] water-damage-restoration-leads-alabama
+[OK] water-damage-restoration-leads-alaska
+[OK] water-damage-restoration-leads-arizona
+[OK] water-damage-restoration-leads-arkansas
+[OK] water-damage-restoration-leads-california
+[OK] water-damage-restoration-leads-colorado
+[OK] water-damage-restoration-leads-connecticut
+[OK] water-damage-restoration-leads-delaware
+[OK] water-damage-restoration-leads-florida
+[OK] water-damage-restoration-leads-georgia
+[OK] water-damage-restoration-leads-hawaii
+[OK] water-damage-restoration-leads-idaho
+[OK] water-damage-restoration-leads-illinois
+[OK] water-damage-restoration-leads-indiana
+[OK] water-damage-restoration-leads-iowa
+[OK] water-damage-restoration-leads-kansas
+[OK] water-damage-restoration-leads-kentucky
+[OK] water-damage-restoration-leads-louisiana
+[OK] water-damage-restoration-leads-maine
+[OK] water-damage-restoration-leads-maryland
+[OK] water-damage-restoration-leads-massachusetts
+[OK] water-damage-restoration-leads-michigan
+[OK] water-damage-restoration-leads-minnesota
+[OK] water-damage-restoration-leads-mississippi
+[OK] water-damage-restoration-leads-missouri
+[OK] water-damage-restoration-leads-montana
+[OK] water-damage-restoration-leads-nebraska
+[OK] water-damage-restoration-leads-nevada
+[OK] water-damage-restoration-leads-new-hampshire
+[OK] water-damage-restoration-leads-new-jersey
+[OK] water-damage-restoration-leads-new-mexico
+[OK] water-damage-restoration-leads-new-york
+[OK] water-damage-restoration-leads-north-carolina
+[OK] water-damage-restoration-leads-north-dakota
+[OK] water-damage-restoration-leads-ohio
+[OK] water-damage-restoration-leads-oklahoma
+[OK] water-damage-restoration-leads-oregon
+[OK] water-damage-restoration-leads-pennsylvania
+[OK] water-damage-restoration-leads-rhode-island
+[OK] water-damage-restoration-leads-south-carolina
+[OK] water-damage-restoration-leads-south-dakota
+[OK] water-damage-restoration-leads-tennessee
+[OK] water-damage-restoration-leads-texas
+[OK] water-damage-restoration-leads-utah
+[OK] water-damage-restoration-leads-vermont
+[OK] water-damage-restoration-leads-virginia
+[OK] water-damage-restoration-leads-washington
+[OK] water-damage-restoration-leads-west-virginia
+[OK] water-damage-restoration-leads-wisconsin
+[OK] water-damage-restoration-leads-wyoming
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 100
+
