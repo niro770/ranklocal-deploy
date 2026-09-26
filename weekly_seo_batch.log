@@ -6996,3 +6996,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 100
 
+=== weekly_seo_batch.py === 2026-09-26 08:07
+Queue: 100 pending topics. Processing 50.
+[OK] junk-removal-leads-alabama
+[OK] junk-removal-leads-alaska
+[OK] junk-removal-leads-arizona
+[OK] junk-removal-leads-arkansas
+[OK] junk-removal-leads-california
+[OK] junk-removal-leads-colorado
+[OK] junk-removal-leads-connecticut
+[OK] junk-removal-leads-delaware
+[OK] junk-removal-leads-florida
+[OK] junk-removal-leads-georgia
+[OK] junk-removal-leads-hawaii
+[OK] junk-removal-leads-idaho
+[OK] junk-removal-leads-illinois
+[OK] junk-removal-leads-indiana
+[OK] junk-removal-leads-iowa
+[OK] junk-removal-leads-kansas
+[OK] junk-removal-leads-kentucky
+[OK] junk-removal-leads-louisiana
+[OK] junk-removal-leads-maine
+[OK] junk-removal-leads-maryland
+[OK] junk-removal-leads-massachusetts
+[OK] junk-removal-leads-michigan
+[OK] junk-removal-leads-minnesota
+[OK] junk-removal-leads-mississippi
+[OK] junk-removal-leads-missouri
+[OK] junk-removal-leads-montana
+[OK] junk-removal-leads-nebraska
+[OK] junk-removal-leads-nevada
+[OK] junk-removal-leads-new-hampshire
+[OK] junk-removal-leads-new-jersey
+[OK] junk-removal-leads-new-mexico
+[OK] junk-removal-leads-new-york
+[OK] junk-removal-leads-north-carolina
+[OK] junk-removal-leads-north-dakota
+[OK] junk-removal-leads-ohio
+[OK] junk-removal-leads-oklahoma
+[OK] junk-removal-leads-oregon
+[OK] junk-removal-leads-pennsylvania
+[OK] junk-removal-leads-rhode-island
+[OK] junk-removal-leads-south-carolina
+[OK] junk-removal-leads-south-dakota
+[OK] junk-removal-leads-tennessee
+[OK] junk-removal-leads-texas
+[OK] junk-removal-leads-utah
+[OK] junk-removal-leads-vermont
+[OK] junk-removal-leads-virginia
+[OK] junk-removal-leads-washington
+[OK] junk-removal-leads-west-virginia
+[OK] junk-removal-leads-wisconsin
+[OK] junk-removal-leads-wyoming
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 50
+
