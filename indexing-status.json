@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T12:57:51Z",
+  "last_updated": "2026-09-28T15:16:31Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -129,7 +129,7 @@
     },
     "https://ranklocall.com/pay-per-call-water-damage/": {
       "verdict": "PASS",
-      "last_crawled": "2026-08-22T03:23:32Z",
+      "last_crawled": "2026-09-28T03:09:35Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -147,7 +147,7 @@
     },
     "https://ranklocall.com/pay-per-call-landscaping/": {
       "verdict": "PASS",
-      "last_crawled": "2026-09-02T02:46:55Z",
+      "last_crawled": "2026-09-28T11:19:27Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
