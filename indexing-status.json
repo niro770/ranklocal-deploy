@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03T12:27:31Z",
+  "last_updated": "2026-10-04T13:10:42Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -117,7 +117,7 @@
     },
     "https://ranklocall.com/pay-per-call-locksmiths/": {
       "verdict": "PASS",
-      "last_crawled": "2026-09-11T14:46:18Z",
+      "last_crawled": "2026-10-03T15:25:37Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
