@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<base href="/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi-Crew Lead Routing: Splitting Calls by Territory</title>
+<meta name="description" content="How to route inbound calls across crews, territories or estimators: zip rules, round robin, capacity caps, fallbacks and how to check it&#x27;s working.">
+<link rel="canonical" href="https://ranklocall.com/multi-crew-lead-routing/">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Multi-Crew Lead Routing: Splitting Calls by Territory">
+<meta property="og:description" content="How to route inbound calls across crews, territories or estimators: zip rules, round robin, capacity caps, fallbacks and how to check it&#x27;s working.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ranklocall.com/multi-crew-lead-routing/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ranklocall.com/#organization",
+      "name": "RankLocal",
+      "url": "https://ranklocall.com/",
+      "description": "Exclusive pay-per-call leads, booked appointments, and qualified jobs for US home service companies.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ranklocall.com/#website",
+      "url": "https://ranklocall.com/",
+      "name": "RankLocal",
+      "publisher": {
+        "@id": "https://ranklocall.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ranklocall.com/multi-crew-lead-routing/#webpage",
+      "url": "https://ranklocall.com/multi-crew-lead-routing/",
+      "name": "Multi-Crew Lead Routing: Splitting Calls by Territory",
+      "description": "How to route inbound calls across crews, territories or estimators: zip rules, round robin, capacity caps, fallbacks and how to check it's working.",
+      "isPartOf": {
+        "@id": "https://ranklocall.com/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ranklocall.com/multi-crew-lead-routing/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ranklocall.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to Grow a Home Service Company After You Solve Lead Flow",
+          "item": "https://ranklocall.com/how-to-grow-a-home-service-company/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Multi-Crew Lead Routing: How to Split Calls Across Territories and Crews",
+          "item": "https://ranklocall.com/multi-crew-lead-routing/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://ranklocall.com/multi-crew-lead-routing/#article",
+      "headline": "Multi-Crew Lead Routing: How to Split Calls Across Territories and Crews",
+      "description": "How to route inbound calls across crews, territories or estimators: zip rules, round robin, capacity caps, fallbacks and how to check it's working.",
+      "mainEntityOfPage": {
+        "@id": "https://ranklocall.com/multi-crew-lead-routing/#webpage"
+      },
+      "author": {
+        "@id": "https://ranklocall.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://ranklocall.com/#organization"
+      },
+      "datePublished": "2026-10-06",
+      "dateModified": "2026-10-06",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ranklocall.com/multi-crew-lead-routing/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is lead routing for a contractor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's the set of rules that decide which crew, estimator or location gets an incoming call or lead. Common rules include service area, job type, availability and round robin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I route by zip code or by round robin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use zip or territory rules when drive time drives your cost, and round robin when crews are equally able to cover the same area. Many shops combine them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens when the assigned crew doesn't answer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Set a fallback. Ring the next person after a fixed number of seconds, then the office, then voicemail with a text-back. A call with no fallback becomes a lost lead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does routing affect which calls I'm billed for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Billing depends on your lead vendor's terms, not your routing. If you buy pay-per-call, ask how a call that rings through to several phones is counted, and compare it with your own log."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:#0a0f1e;color:#fff;line-height:1.65}
+a{text-decoration:none;color:inherit}
+:root{--blue:#00AAFF;--blue2:#0044BB;--bg-1:#0d1a35;--border:rgba(255,255,255,0.07);--border-blue:rgba(0,170,255,0.2);--text-muted:#7a7a9a;--radius:14px}
+.grad{background:linear-gradient(135deg,#00AAFF 0%,#00CCFF 60%,#80E8FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 28px;height:68px;display:flex;align-items:center;justify-content:space-between;background:rgba(7,7,10,0.97);border-bottom:1px solid var(--border)}
+.nav-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px}
+.logo-icon{width:32px;height:32px;background:linear-gradient(135deg,#00AAFF,#0044BB);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:14px}
+.logo-text span{color:var(--blue)}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);transition:color .2s}
+.nav-links a:hover{color:#fff}
+.btn-primary{background:linear-gradient(135deg,#00AAFF,#0044BB);color:#fff;border:none;padding:10px 20px;border-radius:10px;font-weight:700;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+footer{background:var(--bg-1);border-top:1px solid var(--border);padding:32px 28px;text-align:center;font-size:13px;color:var(--text-muted)}
+footer a{color:var(--blue)}
+@media(max-width:640px){.nav-links{display:none}}
+main.article{max-width:768px;margin:0 auto;padding:104px 22px 96px}
+main.article h1{font-size:2.1rem;line-height:1.18;margin:0 0 .55em;font-weight:800;letter-spacing:-.01em}
+main.article h2{font-size:1.42rem;margin:1.9em 0 .55em;font-weight:700;padding-top:1.15em;border-top:1px solid var(--border)}
+main.article h3{font-size:1.12rem;margin:1.5em 0 .4em;font-weight:600}
+main.article p,main.article li{color:rgba(255,255,255,0.82);font-size:1.02rem}
+main.article a{color:var(--blue)}
+main.article a:hover{text-decoration:underline}
+main.article strong{color:#fff;font-weight:650}
+main.article ul,main.article ol{margin:.5em 0 1.1em 1.3em}
+main.article li{margin:.32em 0}
+main.article table{border-collapse:collapse;width:100%;margin:1.3em 0;font-size:.95rem}
+main.article th,main.article td{border:1px solid var(--border);padding:9px 12px;text-align:left}
+main.article th{background:rgba(255,255,255,0.05);color:#fff}
+main.article hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+main.article em{color:var(--text-muted)}
+main.article p.answer{background:rgba(0,170,255,0.07);border:1px solid var(--border-blue);border-radius:var(--radius);padding:16px 18px;margin:1.5em 0}
+main.article p.answer strong{color:#fff}</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-logo"><div class="logo-icon">R</div><div class="logo-text">Rank<span>Local</span></div></a>
+  <ul class="nav-links">
+    <li><a href="/appointment-setting/">Appointment Setting</a></li>
+    <li><a href="/pay-per-call/">Pay-Per-Call</a></li>
+    <li><a href="/contractor-leads/">Contractor Leads</a></li>
+    <li><a href="/blog/">Blog</a></li>
+  </ul>
+  <a href="/#contact" class="btn-primary">📞 Book Free Call</a>
+</nav>
+<main class="article"><h1>Multi-Crew Lead Routing: How to Split Calls Across Territories and Crews</h1><p class="answer">Route calls by the rule that matches your biggest cost: territory when drive time hurts, job type when skills differ, round robin when crews are interchangeable, and capacity caps when one crew gets swamped. Write a fallback for every rule so no call dies in a ring. This is part of <a href="/how-to-grow-a-home-service-company/">growing a home-service company</a>.</p>
+<h2>Why routing matters once you have two crews</h2>
+<p>With one crew and one office phone, routing is "whoever answers." Add a second territory or a second estimator and the questions start:</p>
+<ul>
+<li>Who gets the call from a homeowner in the far corner of the service area?</li>
+<li>What if one estimator is booked a week out and another is free tomorrow?</li>
+<li>Who handles a roof call versus a gutter call?</li>
+<li>Who covers when someone's on vacation?</li>
+</ul>
+<p>Without rules, the nearest or loudest person grabs the good calls and the rest get leftovers. Calls you paid for sit in voicemail. Homeowners calling several companies won't wait.</p>
+<h2>Step 1: List what you're actually splitting</h2>
+<p>Write a table of your crews, estimators and locations, and what each can do:</p>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Area</th>
+<th>Job types</th>
+<th>Hours</th>
+<th>Max appointments a day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Crew A</td>
+<td>North side</td>
+<td>Replacement and repair</td>
+<td>Mon-Sat</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Crew B</td>
+<td>South side</td>
+<td>Repair only</td>
+<td>Mon-Fri</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Estimator 1</td>
+<td>Whole metro</td>
+<td>Large jobs</td>
+<td>Mon-Fri</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Office</td>
+<td>n/a</td>
+<td>Overflow</td>
+<td>After hours</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+<p>This is illustrative. Your table will differ. The point is that routing rules come from facts like these, not from a feeling about who's busy.</p>
+<h2>Step 2: Pick the rules</h2>
+<h3>Territory or zip code</h3>
+<p>Assign each zip, city or radius to a crew. This keeps windshield time down and makes it easy to explain: "North of the river goes to Crew A."</p>
+<p>Watch the edges. Homeowners near a boundary can go either way, so choose a tie-breaker: the crew with the earliest open slot, or the one that did the neighbor's job.</p>
+<p>Use it when: drive time is a big share of cost, or crews know specific neighborhoods.</p>
+<h3>Job type or skill</h3>
+<p>Send commercial to one team, roof replacements to your estimator and small repairs to a service tech. A caller's first answer in the intake call decides it. Your <a href="/how-to-qualify-a-home-service-caller/">qualification questions</a> feed these rules.</p>
+<p>Use it when: skills, licenses or equipment differ.</p>
+<h3>Round robin</h3>
+<p>Calls rotate through a list: A, B, C, A, B, C. It's simple and perceived as fair.</p>
+<p>Weakness: it ignores who's busy and who's far away. It works best when crews are interchangeable and territories overlap, or when you're sorting among estimators.</p>
+<h3>Availability and calendar</h3>
+<p>Check each person's calendar and assign the earliest open slot within drive range. This gets homeowners booked fastest, and speed matters; see <a href="/speed-to-lead-for-contractors/">speed to lead</a>. It needs a shared calendar and a habit of keeping it current.</p>
+<h3>Capacity caps</h3>
+<p>Set a maximum number of appointments per day or week per crew. Once a crew hits the cap, calls go to the next rule. Without caps, a good crew gets overbooked and the quality of quotes drops. The reasoning is the same as in <a href="/how-to-know-when-you-can-take-more-leads/">how to know when you can take more leads</a>.</p>
+<h3>Time of day</h3>
+<p>Route daytime calls to the office and after-hours calls to an on-call rotation or an answering service. See <a href="/after-hours-call-handling-for-contractors/">after-hours call handling</a>.</p>
+<h3>Priority or value</h3>
+<p>Some shops send high-value jobs, such as full replacements or insurance claims, to their best closer first. If you do this, make the criteria explicit, like job type from the intake call, not a gut call about who "sounds" big.</p>
+<h2>Step 3: Stack the rules in order</h2>
+<p>Most shops use a stack. A common pattern:</p>
+<ol>
+<li><strong>Is it in service area?</strong> If not, decline politely or refer.</li>
+<li><strong>Job type?</strong> Send to the right team.</li>
+<li><strong>Territory?</strong> Pick the crew for that zip.</li>
+<li><strong>Capacity?</strong> If that crew is at its cap, go to the next crew.</li>
+<li><strong>Availability?</strong> Book the earliest slot.</li>
+<li><strong>Tie?</strong> Round robin.</li>
+</ol>
+<p>Draw it as a flowchart on one page. If you can't draw it, nobody can follow it.</p>
+<h2>Step 4: Build a fallback for every rule</h2>
+<p>The most expensive routing mistake is a rule with no plan B.</p>
+<ul>
+<li><strong>No answer in 15 to 20 seconds:</strong> ring the next person.</li>
+<li><strong>Nobody answers:</strong> go to the office or an answering service.</li>
+<li><strong>Still no answer:</strong> voicemail plus an instant text-back. See <a href="/what-to-do-with-missed-calls-contractors/">what to do with missed calls</a>.</li>
+<li><strong>Everyone's capped:</strong> book the next available day, tell the caller honestly, and offer to hold the slot. Don't pretend there's an opening.</li>
+<li><strong>Out of area:</strong> a short script and, if you have a friendly peer, a referral.</li>
+</ul>
+<p>Pick your timing and test it by calling your own number.</p>
+<h2>Step 5: Decide who answers first</h2>
+<p>Two models:</p>
+<ul>
+<li><strong>Central intake.</strong> One person or team answers every call, qualifies it and books it onto the right calendar. Cleaner data and a consistent script. This is the default I'd start with once you pass two crews. Compare in-house versus outside help in <a href="/contractor-answering-service-vs-in-house-csr/">answering service vs. in-house CSR</a>.</li>
+<li><strong>Direct to crew.</strong> Calls ring the crew lead's phone. Faster for the caller, but it depends on techs answering while working, and quality varies.</li>
+</ul>
+<p>Many shops use central intake for first contact and direct lines for existing customers.</p>
+<h2>Step 6: Tag and measure by crew</h2>
+<p>Routing is a hypothesis. Check it.</p>
+<ul>
+<li><strong>Answer rate by crew or person.</strong> Who picks up?</li>
+<li><strong>Time to first response.</strong></li>
+<li><strong>Call-to-estimate rate by crew.</strong> See <a href="/what-is-call-to-estimate-rate/">call-to-estimate rate</a>.</li>
+<li><strong>Close rate by crew and by territory.</strong></li>
+<li><strong>Average drive time</strong> per appointment.</li>
+<li><strong>No-shows and reschedules.</strong></li>
+</ul>
+<p>You need the source and the assigned crew on the same record. A <a href="/crm-for-contractors-what-to-look-for/">CRM</a> or a spreadsheet will do, provided you tag every call with a source via <a href="/call-tracking-for-contractors/">call tracking</a>. Review it monthly. If Crew B closes far fewer jobs than Crew A on the same job type, look at the people, the territory, and the calls they're getting before you blame the leads.</p>
+<h2>Routing paid calls by territory</h2>
+<p>If you buy inbound calls, territory matters twice: where the call comes from and where your crews can go. Make sure the area your vendor targets matches the zips you actually serve and can reach, and use a different tracking number per territory or per campaign so you see results by area. At RankLocal, calls are exclusive inbound calls from homeowners, and you pay only for qualifying calls, those over 60 seconds. How a call that rings through multiple phones is counted is a question for any vendor, so keep your own log and compare. The basics are in how pay-per-call works.</p>
+<p>Trade pages like <a href="/roofing-leads/">roofing leads</a> or <a href="/fence-leads/">fence leads</a> cover how calls differ by job type, which helps when you set job-type rules.</p>
+<h2>A worked example</h2>
+<p>Here's a hypothetical roofing company with two crews and one estimator.</p>
+<ul>
+<li>North crew covers four zips, south crew covers five, and the estimator handles replacements anywhere.</li>
+<li>A call comes in from a north zip, and the caller says the roof is leaking.</li>
+<li>Intake qualifies: owns the home, leak after a storm, wants a quote.</li>
+<li>Rule 1: in area. Rule 2: leak repair, send to the north crew's calendar. North crew's cap is 3 a day and they have 2. Book tomorrow morning.</li>
+<li>The next call is a full replacement in a south zip. Rule 2 sends it to the estimator, whose calendar has an opening Thursday. Booked.</li>
+<li>A third call arrives after 7 p.m. It goes to the on-call phone, then to voicemail with a text-back, and gets slotted the next morning.</li>
+</ul>
+<p>Nobody had to decide on the fly. That's the goal.</p>
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Rules in someone's head.</strong> Put them in writing.</li>
+<li><strong>Routing to people who don't answer.</strong> Check the numbers.</li>
+<li><strong>No cap.</strong> A star crew gets buried.</li>
+<li><strong>Changing rules weekly.</strong> You can't measure what keeps moving.</li>
+<li><strong>Ignoring the caller's wait.</strong> Every extra hop adds seconds. Keep the chain short.</li>
+<li><strong>Splitting too early.</strong> With one crew, the rules above are overhead.</li>
+</ul>
+<p>When your routing is working and you have room for more calls, you can <a href="/apply/">apply at RankLocal</a> and test volume by territory.</p><h2>Frequently asked questions</h2><h3>What is lead routing for a contractor?</h3><p>It&#x27;s the set of rules that decide which crew, estimator or location gets an incoming call or lead. Common rules include service area, job type, availability and round robin.</p><h3>Should I route by zip code or by round robin?</h3><p>Use zip or territory rules when drive time drives your cost, and round robin when crews are equally able to cover the same area. Many shops combine them.</p><h3>What happens when the assigned crew doesn&#x27;t answer?</h3><p>Set a fallback. Ring the next person after a fixed number of seconds, then the office, then voicemail with a text-back. A call with no fallback becomes a lost lead.</p><h3>Does routing affect which calls I&#x27;m billed for?</h3><p>Billing depends on your lead vendor&#x27;s terms, not your routing. If you buy pay-per-call, ask how a call that rings through to several phones is counted, and compare it with your own log.</p><!-- v2-cluster --><section style="margin:3rem 0 1rem"><h2 style="font-size:1.15rem;color:#fff;margin:0 0 1rem">More in this guide</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.6rem"><a href="/how-to-grow-a-home-service-company/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">How to Grow a Home Service Company After You Solve Lead Flow</a><a href="/how-to-use-google-reviews-to-lift-close-rate/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">How to Use Google Reviews to Lift Your Close Rate</a><a href="/pricing-home-service-jobs-without-racing-to-the-bottom/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">Pricing Home Service Jobs Without Racing to the Bottom</a><a href="/ai-receptionist-for-contractors/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">AI Receptionist for Contractors: What It Can and Can&#x27;t Do on a Service Call</a><a href="/ai-appointment-setting-for-contractors/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">AI Appointment Setting for Contractors: Where It Fits Next to Human Setters</a><a href="/ai-call-scoring-and-summaries-for-contractors/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">How to Use AI Call Scoring and Summaries to Coach Your Team and Track Jobs</a><a href="/how-to-know-when-you-can-take-more-leads/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">How to Know When You Can Take More Leads: A Capacity Test Before You Buy More Calls</a></div></section><!-- /v2-cluster --><!-- v2-related --><section style="margin:3rem 0 1rem"><h2 style="font-size:1.15rem;color:#fff;margin:0 0 1rem">Related resources</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.6rem"><a href="/how-to-grow-a-home-service-company/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">/How To Grow A Home Service Company/</a><a href="/how-to-know-when-you-can-take-more-leads/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">/How To Know When You Can Take More Leads/</a><a href="/how-to-scale-a-roofing-company-from-5-to-20-jobs-a-week/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">/How To Scale A Roofing Company From 5 To 20 Jobs A Week/</a><a href="/what-to-do-with-missed-calls-contractors/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">/What To Do With Missed Calls Contractors/</a><a href="/call-tracking-for-contractors/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">/Call Tracking For Contractors/</a><a href="/crm-for-contractors-what-to-look-for/" style="display:block;padding:.55rem .9rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.18);border-radius:8px;color:#aac4e0;text-decoration:none;font-size:.88rem">/Crm For Contractors What To Look For/</a></div></section><!-- /v2-related --><section style="margin:2.5rem 0;padding:1.5rem;background:rgba(0,170,255,0.07);border:1px solid rgba(0,170,255,0.2);border-radius:12px"><p style="margin:0 0 .9rem;font-weight:600">Want exclusive inbound calls routed to your phone? You pay only for qualifying calls.</p><a href="/apply/" class="btn-primary">Apply for a territory</a></section></main>
+<footer style="background:#060c1a;border-top:1px solid rgba(0,170,255,0.12);padding:2.5rem 1.5rem;margin-top:3rem">
+<div style="max-width:1100px;margin:0 auto">
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.4rem .75rem;margin-bottom:1.75rem">
+<strong style="color:#00AAFF;grid-column:1/-1;display:block;margin-bottom:.5rem;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase">Explore All Verticals</strong>
+<a href="/roofing-leads/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Roofing Leads</a>
+<a href="/fence-leads/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Fence Leads</a>
+<a href="/pest-control-leads/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Pest Control Leads</a>
+<a href="/landscaping-leads/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Landscaping Leads</a>
+<a href="/garage-door-leads/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Garage Door Leads</a>
+<a href="/appointment-setting/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Appointment Setting</a>
+<a href="/pay-per-call-leads/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Pay-Per-Call Leads</a>
+<a href="/home-service-leads/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Home Service Leads</a>
+<a href="/lead-generation-for-contractors/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Contractor Lead Gen</a>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.4rem .75rem;margin-bottom:1.75rem">
+<strong style="color:#00AAFF;grid-column:1/-1;display:block;margin-bottom:.5rem;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase">RankLocal Services</strong>
+<a href="/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Home</a>
+<a href="/pay-per-call/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Pay-Per-Call</a>
+<a href="/pay-per-call-marketplace/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Marketplace</a>
+<a href="/local-seo/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Local SEO</a>
+<a href="/google-business-profile/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Google Business Profile</a>
+<a href="/reputation-management/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Reputation Management</a>
+<a href="/website-seo/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Website SEO</a>
+<a href="/citations/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Citations</a>
+<a href="/apply/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Apply</a>
+</div>
+<p style="color:#556;font-size:.8rem;margin:0">© 2025 RankLocal · Exclusive pay-per-call leads &amp; booked appointments for US home service companies.</p>
+</div>
+</footer>
+</body>
+</html>
