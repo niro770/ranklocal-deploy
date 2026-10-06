@@ -48,7 +48,9 @@ NAV = ('<nav class="site-nav">'
 FOOTER = ('<footer class="site-footer">'
           '<p>&copy; 2025 RankLocal &bull; '
           '<a href="/privacy/">Privacy</a> &bull; '
-          '<a href="/terms/">Terms</a></p>'
+          '<a href="/terms/">Terms</a> &bull; '
+          '<a href="/cookie-policy/">Cookie Policy</a> &bull; '
+          '<a href="/sms-disclosure/">SMS Disclosure</a></p>'
           '</footer>')
 
 # ── TRADE DATA ───────────────────────────────────────────────────────────────

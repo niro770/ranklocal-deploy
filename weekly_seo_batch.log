@@ -7053,3 +7053,60 @@ Git push: FAILED
 Google ping: skipped/failed
 Done. Written: 50 | Skipped: 0 | Queue remaining: 50
 
+=== weekly_seo_batch.py === 2026-09-27 08:07
+Queue: 50 pending topics. Processing 50.
+[OK] appliance-repair-leads-alabama
+[OK] appliance-repair-leads-alaska
+[OK] appliance-repair-leads-arizona
+[OK] appliance-repair-leads-arkansas
+[OK] appliance-repair-leads-california
+[OK] appliance-repair-leads-colorado
+[OK] appliance-repair-leads-connecticut
+[OK] appliance-repair-leads-delaware
+[OK] appliance-repair-leads-florida
+[OK] appliance-repair-leads-georgia
+[OK] appliance-repair-leads-hawaii
+[OK] appliance-repair-leads-idaho
+[OK] appliance-repair-leads-illinois
+[OK] appliance-repair-leads-indiana
+[OK] appliance-repair-leads-iowa
+[OK] appliance-repair-leads-kansas
+[OK] appliance-repair-leads-kentucky
+[OK] appliance-repair-leads-louisiana
+[OK] appliance-repair-leads-maine
+[OK] appliance-repair-leads-maryland
+[OK] appliance-repair-leads-massachusetts
+[OK] appliance-repair-leads-michigan
+[OK] appliance-repair-leads-minnesota
+[OK] appliance-repair-leads-mississippi
+[OK] appliance-repair-leads-missouri
+[OK] appliance-repair-leads-montana
+[OK] appliance-repair-leads-nebraska
+[OK] appliance-repair-leads-nevada
+[OK] appliance-repair-leads-new-hampshire
+[OK] appliance-repair-leads-new-jersey
+[OK] appliance-repair-leads-new-mexico
+[OK] appliance-repair-leads-new-york
+[OK] appliance-repair-leads-north-carolina
+[OK] appliance-repair-leads-north-dakota
+[OK] appliance-repair-leads-ohio
+[OK] appliance-repair-leads-oklahoma
+[OK] appliance-repair-leads-oregon
+[OK] appliance-repair-leads-pennsylvania
+[OK] appliance-repair-leads-rhode-island
+[OK] appliance-repair-leads-south-carolina
+[OK] appliance-repair-leads-south-dakota
+[OK] appliance-repair-leads-tennessee
+[OK] appliance-repair-leads-texas
+[OK] appliance-repair-leads-utah
+[OK] appliance-repair-leads-vermont
+[OK] appliance-repair-leads-virginia
+[OK] appliance-repair-leads-washington
+[OK] appliance-repair-leads-west-virginia
+[OK] appliance-repair-leads-wisconsin
+[OK] appliance-repair-leads-wyoming
+Sitemap: 50 URLs added. YML: 50 URLs added.
+Git push: FAILED
+Google ping: skipped/failed
+Done. Written: 50 | Skipped: 0 | Queue remaining: 0
+
