@@ -69,7 +69,7 @@ FOOTER = """<footer style="background:#060c1a;border-top:1px solid rgba(0,170,25
 <a href="/blog/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Blog</a>
 <a href="/apply/" style="color:#aac4e0;text-decoration:none;font-size:.88rem">Apply</a>
 </div>
-<p style="color:#556;font-size:.8rem;margin:0">&copy; 2026 RankLocal &middot; Exclusive pay-per-call leads &amp; booked appointments for US home service companies.</p>
+<p style="color:#556;font-size:.8rem;margin:0">&copy; 2026 RankLocal &middot; 8808 Quiet Inlet Lane, Boca Raton, FL 33496 &middot; Exclusive pay-per-call leads &amp; booked appointments for US home service companies.</p>
 </div>
 </footer>"""
 

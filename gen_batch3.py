@@ -97,7 +97,7 @@ def render_article(p):
 </main>
 <footer class="site-footer">
 <div class="container">
-<p>&copy; 2026 RankLocal &mdash; <a href="/privacy/">Privacy</a> &mdash; <a href="/apply/">Get Started</a></p>
+<p>&copy; 2026 RankLocal &middot; 8808 Quiet Inlet Lane, Boca Raton, FL 33496 &mdash; <a href="/privacy/">Privacy</a> &mdash; <a href="/apply/">Get Started</a></p>
 </div>
 </footer>
 </body>
