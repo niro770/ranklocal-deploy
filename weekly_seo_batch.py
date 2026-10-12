@@ -46,7 +46,7 @@ NAV = ('<nav class="site-nav">'
        '</nav>')
 
 FOOTER = ('<footer class="site-footer">'
-          '<p>&copy; 2025 RankLocal &bull; '
+          '<p>&copy; 2025 RankLocal &middot; 8808 Quiet Inlet Lane, Boca Raton, FL 33496 &bull; '
           '<a href="/privacy/">Privacy</a> &bull; '
           '<a href="/terms/">Terms</a> &bull; '
           '<a href="/cookie-policy/">Cookie Policy</a> &bull; '
