@@ -1,0 +1,10 @@
+cap raised
+legacy metros: 30
+regenerated: 208
+redirect stubs (excluded): 156
+city-leads : 4096 / 4354 | orphans: 258
+combined-city : 3831 / 3831 | orphans: 0
+hs-state : 51 / 51 | orphans: 0
+mca-city : 3831 / 3831 | orphans: 0
+mca-state : 51 / 51 | orphans: 0
+orphan samples: ['roofing-leads-new-york-city', 'roofing-leads-nashville', 'roofing-leads-indianapolis', 'roofing-leads-louisville', 'fencing-leads-new-york-city', 'fencing-leads-nashville', 'fencing-leads-indianapolis', 'landscaping-leads-new-york-city', 'landscaping-leads-nashville', 'landscaping-leads-indianapolis']

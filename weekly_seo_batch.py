@@ -13,7 +13,7 @@ Run: python weekly_seo_batch.py
 Schedule: every Sunday (Cowork scheduled task)
 """
 
-import json, os, hashlib, subprocess, datetime, urllib.request, urllib.error, sys
+import io, json, os, hashlib, subprocess, datetime, urllib.request, urllib.error, sys
 
 # ── CONFIG ──────────────────────────────────────────────────────────────────
 BASE        = r"C:\Users\19522\Documents\ranklocal-deploy-push"
@@ -721,25 +721,47 @@ def _geo_neighbor_links(slug_prefix, city, state, label_fmt, n=4):
     out = []
     for c in ranked:
         slug = slug_prefix + "-" + _cslug(c["city"]) + "-" + ab
+        old_slug = slug_prefix + "-" + _cslug(c["city"])
         if os.path.isdir(os.path.join(BASE, slug)):
             out.append({"href": "/" + slug + "/", "text": label_fmt.format(city=c["city"])})
+        elif os.path.isdir(os.path.join(BASE, old_slug)):
+            out.append({"href": "/" + old_slug + "/", "text": label_fmt.format(city=c["city"])})
         if len(out) >= n:
             break
     return out
 
-def _same_city_trade_links(city, state, exclude_prefix, n=3):
+def _same_city_trade_links(city, state, exclude_prefix, n=14):
     ab = _ST_ABBR.get(state, "")
     cs = _cslug(city)
     out = []
     for tr, pref in [("Roofing", "roofing-leads"), ("HVAC", "hvac-leads"), ("Plumbing", "plumbing-leads"),
                      ("Pest Control", "pest-control-leads"), ("Landscaping", "landscaping-leads"),
                      ("Fencing", "fencing-leads"), ("Garage Door", "garage-door-leads"),
-                     ("Business Funding", "mca-leads")]:
+                     ("Business Funding", "mca-leads"),
+                     ("Electrical", "electrical-leads"), ("Painting", "painting-leads"),
+                     ("Window Replacement", "window-replacement-leads"), ("Siding", "siding-leads"),
+                     ("Gutters", "gutters-leads"), ("Pressure Washing", "pressure-washing-leads"),
+                     ("Tree Service", "tree-service-leads"), ("Insulation", "insulation-leads"),
+                     ("Locksmith", "locksmith-leads"),
+                     ("Concrete", "concrete-leads"),
+                     ("Garage Door Repair", "garage-door-repair-leads"),
+                     ("Gutter Installation", "gutter-installation-leads")]:
         if pref == exclude_prefix:
             continue
         slug = pref + "-" + cs + "-" + ab
+        old_slug = pref + "-" + cs
+        target = None
         if os.path.isdir(os.path.join(BASE, slug)):
-            out.append({"href": "/" + slug + "/", "text": tr + " Leads in " + city})
+            target = slug
+        elif os.path.isdir(os.path.join(BASE, old_slug)):
+            try:
+                head = io.open(os.path.join(BASE, old_slug, "index.html"), encoding="utf-8").read(400)
+                if "http-equiv=\"refresh\"" not in head:
+                    target = old_slug
+            except Exception:
+                pass
+        if target:
+            out.append({"href": "/" + target + "/", "text": tr + " Leads in " + city})
         if len(out) >= n:
             break
     return out
@@ -1720,7 +1742,11 @@ def make_combined_city_page(topic):
         {"href": "/home-service-leads/", "text": "Home Service Leads"},
         {"href": "/contractor-leads/", "text": "Contractor Lead Generation"},
         {"href": "/pay-per-call/", "text": "How Pay-Per-Call Works"},
-    ] + _geo_neighbor_links("home-service-leads", city, state, "Home Service Leads in {city}") + [
+    ] + _geo_neighbor_links("home-service-leads", city, state, "Home Service Leads in {city}") + (
+        [{"href": "/home-service-leads-" + _cslug(state) + "/",
+          "text": "Home Service Leads in " + state}]
+        if os.path.isdir(os.path.join(BASE, "home-service-leads-" + _cslug(state))) else []
+    ) + [
         {"href": "/apply/", "text": "Apply Now"},
     ]
     return {
@@ -1795,6 +1821,59 @@ def make_mca_state_page(topic):
         "hero_sub": "Exclusive business funding calls across " + state + ", one buyer per call.",
         "trade": "Business Funding",
         "body": body, "faq": faqs, "links": links,
+    }
+
+
+
+def make_hs_state_page(topic):
+    """home-service-leads-{state} directory of combined city pages."""
+    state = topic.get("state", "")
+    slug  = topic["slug"]
+    sd = STATE_DATA.get(state, {})
+    ab = _ST_ABBR.get(state, "")
+    city_links = []
+    for c in sorted(_GEO_BY_STATE.get(state, []), key=lambda x: x["rank"]):
+        cslug_ = "home-service-leads-" + _cslug(c["city"]) + "-" + ab
+        if os.path.isdir(os.path.join(BASE, cslug_)):
+            city_links.append((c["city"], "/" + cslug_ + "/"))
+    quick = ("<div class='quick-answer'><p><strong>Quick answer:</strong> RankLocal sells exclusive "
+             "home service leads across " + state + " - live inbound calls for roofing, HVAC, plumbing, "
+             "pest control, landscaping, fencing and garage door contractors. One contractor per call, "
+             "pay per qualified call over 60 seconds.</p></div>")
+    paras = [
+        ("Contractors across " + state + " use RankLocal to buy exclusive inbound phone leads. "
+         + sd.get("market", "The state has an active home services market").capitalize() + ". "
+         + "Seasonality: " + sd.get("seasonal", "year-round demand") + "."),
+        ("Pick your trade and coverage area, set a daily cap and hours, and calls from local "
+         "homeowners route straight to your phone. No shared leads, no monthly fees - start with "
+         "a prepay of 10 billable calls."),
+    ]
+    body = quick + "".join("<p>" + p + "</p>" for p in paras)
+    if city_links:
+        body += ("<h2>" + state + " cities we cover</h2><ul>"
+                 + "".join("<li><a href='" + h + "'>Home Service Leads in " + c + "</a></li>"
+                           for c, h in city_links) + "</ul>")
+    faqs = [
+        {"q": "Which trades can buy leads in " + state + "?",
+         "a": "Roofing, HVAC, plumbing, pest control, landscaping, fencing, garage door and related home service trades. Business funding buyers are served separately."},
+        {"q": "How is a lead billed?",
+         "a": "A billable lead is an inbound call lasting over 60 seconds from your coverage area. Disputes resolve within 48 hours."},
+    ]
+    return {
+        "slug": slug, "type": "hs-state",
+        "title": "Home Service Leads in " + state + " | Exclusive Inbound Calls",
+        "h1": "Home Service Leads in " + state,
+        "meta": ("Exclusive home service leads in " + state + " - live inbound calls for contractors in "
+                 + str(len(city_links)) + "+ cities. One contractor per call, never shared."),
+        "hero_sub": "Exclusive inbound contractor calls across " + state + ".",
+        "trade": "Home Services",
+        "body": body, "faq": faqs,
+        "links": [
+            {"href": "/home-service-leads/", "text": "Home Service Leads"},
+            {"href": "/contractor-leads/", "text": "Contractor Lead Generation"},
+            {"href": "/pay-per-call/", "text": "How Pay-Per-Call Works"},
+            {"href": "/apply/", "text": "Apply Now"},
+        ],
     }
 
 # ── SCHEMA BUILDERS ──────────────────────────────────────────────────────────
@@ -2100,6 +2179,8 @@ def main():
             page = make_combined_city_page(topic)
         elif topic.get("type") == "mca-state":
             page = make_mca_state_page(topic)
+        elif topic.get("type") == "hs-state":
+            page = make_hs_state_page(topic)
         else:
             log("[SKIP] " + slug + " (unknown type - skipping)")
             topic["status"] = "pending"
