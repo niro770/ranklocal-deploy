@@ -678,6 +678,72 @@ STATE_DATA = {
     },
 }
 
+
+# ── GEO CITY INDEX (cities-top-2000.csv) ─────────────────────────────────────
+import csv as _csv
+
+def _cslug(name):
+    import re as _re
+    x = name.lower()
+    x = _re.sub(r"[^a-z0-9 -]", "", x)
+    return _re.sub(r"\s+", "-", x.strip())
+
+GEO_CITIES = []
+_GEO_BY_STATE = {}
+try:
+    with open(os.path.join(BASE, "cities-top-2000.csv"), encoding="utf-8") as _f:
+        for _r in _csv.DictReader(_f):
+            _c = {"rank": int(_r["rank"]), "city": _r["city"], "state": _r["state"],
+                  "pop": int(_r["population_2023"]), "tier": int(_r["tier"])}
+            GEO_CITIES.append(_c)
+            _GEO_BY_STATE.setdefault(_c["state"], []).append(_c)
+except Exception:
+    pass
+
+_ST_ABBR = {'Alabama':'al','Alaska':'ak','Arizona':'az','Arkansas':'ar','California':'ca','Colorado':'co',
+'Connecticut':'ct','Delaware':'de','District of Columbia':'dc','Florida':'fl','Georgia':'ga','Hawaii':'hi',
+'Idaho':'id','Illinois':'il','Indiana':'in','Iowa':'ia','Kansas':'ks','Kentucky':'ky','Louisiana':'la',
+'Maine':'me','Maryland':'md','Massachusetts':'ma','Michigan':'mi','Minnesota':'mn','Mississippi':'ms',
+'Missouri':'mo','Montana':'mt','Nebraska':'ne','Nevada':'nv','New Hampshire':'nh','New Jersey':'nj',
+'New Mexico':'nm','New York':'ny','North Carolina':'nc','North Dakota':'nd','Ohio':'oh','Oklahoma':'ok',
+'Oregon':'or','Pennsylvania':'pa','Puerto Rico':'pr','Rhode Island':'ri','South Carolina':'sc',
+'South Dakota':'sd','Tennessee':'tn','Texas':'tx','Utah':'ut','Vermont':'vt','Virginia':'va',
+'Washington':'wa','West Virginia':'wv','Wisconsin':'wi','Wyoming':'wy'}
+
+def _geo_neighbor_links(slug_prefix, city, state, label_fmt, n=4):
+    """Links to existing same-pattern pages for nearby (same-state, closest-rank) cities."""
+    sts = _GEO_BY_STATE.get(state, [])
+    me = next((c for c in sts if c["city"] == city), None)
+    if not me:
+        return []
+    ab = _ST_ABBR.get(state, "")
+    ranked = sorted((c for c in sts if c["city"] != city), key=lambda c: abs(c["rank"] - me["rank"]))
+    out = []
+    for c in ranked:
+        slug = slug_prefix + "-" + _cslug(c["city"]) + "-" + ab
+        if os.path.isdir(os.path.join(BASE, slug)):
+            out.append({"href": "/" + slug + "/", "text": label_fmt.format(city=c["city"])})
+        if len(out) >= n:
+            break
+    return out
+
+def _same_city_trade_links(city, state, exclude_prefix, n=3):
+    ab = _ST_ABBR.get(state, "")
+    cs = _cslug(city)
+    out = []
+    for tr, pref in [("Roofing", "roofing-leads"), ("HVAC", "hvac-leads"), ("Plumbing", "plumbing-leads"),
+                     ("Pest Control", "pest-control-leads"), ("Landscaping", "landscaping-leads"),
+                     ("Fencing", "fencing-leads"), ("Garage Door", "garage-door-leads"),
+                     ("Business Funding", "mca-leads")]:
+        if pref == exclude_prefix:
+            continue
+        slug = pref + "-" + cs + "-" + ab
+        if os.path.isdir(os.path.join(BASE, slug)):
+            out.append({"href": "/" + slug + "/", "text": tr + " Leads in " + city})
+        if len(out) >= n:
+            break
+    return out
+
 # ── CONTENT GENERATION ───────────────────────────────────────────────────────
 
 def _variant(slug, n):
@@ -1424,11 +1490,12 @@ def make_city_page(topic):
     td = TRADE_DATA.get(trade, {})
     cd = CITY_DATA.get(city, {})
     state         = cd.get("state", topic.get("state", ""))
+    sd = STATE_DATA.get(state, {})
     metro         = cd.get("metro", city + " metro area")
-    neighborhoods = cd.get("neighborhoods", "")
-    climate       = cd.get("climate", "active home services market")
-    market        = cd.get("market", "strong residential demand")
-    seasonal      = cd.get("seasonal", "year-round demand")
+    neighborhoods = cd.get("neighborhoods", "") or ("nearby " + sd.get("cities", "surrounding communities"))
+    climate       = cd.get("climate", sd.get("climate", "active home services market"))
+    market        = cd.get("market", sd.get("market", "strong residential demand"))
+    seasonal      = cd.get("seasonal", sd.get("seasonal", "year-round demand"))
     avg_job  = td.get("avg_job", "$500-5,000")
     cpl      = td.get("cpl", "$50-90")
     close    = td.get("close_rate", "25-35%")
@@ -1450,7 +1517,20 @@ def make_city_page(topic):
         + "Cost per qualified call: " + cpl + ". "
         + "Close rate on exclusive inbound calls: " + close + "."
     )
-    full_body = "<p>" + body_main + "</p><p>" + city_para + "</p>"
+    qa_variants = [
+        "RankLocal sells exclusive " + trade.lower() + " leads in " + city + ", " + state
+        + " as live inbound phone calls from local homeowners. You pay per qualified call over 60 seconds ("
+        + cpl + " typical), one contractor per call, no shared leads and no monthly fees.",
+        "Yes - you can buy exclusive " + trade.lower() + " leads in " + city + ", " + state
+        + ". RankLocal delivers them as live inbound calls: typical cost " + cpl
+        + " per qualified call, close rates around " + close + ", one contractor per lead.",
+        "Exclusive " + trade.lower() + " leads in " + city + " are live phone calls from " + state
+        + " homeowners ready to hire, routed to one contractor. Pricing is per qualified 60-second call ("
+        + cpl + "); there are no subscriptions or shared leads.",
+    ]
+    quick = ("<div class='quick-answer'><p><strong>Quick answer:</strong> "
+             + qa_variants[_variant(slug + "qa", len(qa_variants))] + "</p></div>")
+    full_body = quick + "<p>" + body_main + "</p><p>" + city_para + "</p>"
     base_faqs = td.get("faqs", [])
     faqs = [{"q": q, "a": a} for q, a in base_faqs]
     faqs.append({
@@ -1482,6 +1562,9 @@ def make_city_page(topic):
     links    = [{"href": h, "text": t} for h, t in related]
     links.append({"href": "/" + trade_slug + "-leads/", "text": trade + " Lead Generation"})
     links.append({"href": "/contractor-leads/", "text": "Contractor Lead Generation"})
+    links += _geo_neighbor_links(trade_slug + "-leads", city, state,
+                                 trade + " Leads in {city}")
+    links += _same_city_trade_links(city, state, trade_slug + "-leads")
     links.append({"href": "/apply/", "text": "Apply Now"})
     return {
         "slug": slug, "type": "city-leads",
@@ -1525,7 +1608,11 @@ def make_mca_city_page(topic):
         "fewer disputes earn more call volume. Prepay for 10 billable calls to start — "
         "no long-term contracts."
     )
-    full_body = "<p>" + body_main + "</p><p>" + city_para + "</p>"
+    quick = ("<div class='quick-answer'><p><strong>Quick answer:</strong> RankLocal sells exclusive "
+             "business loan and MCA leads in " + city + ", " + state + " as live inbound calls from "
+             "merchants seeking funding - pay per qualified call over 60 seconds, one buyer per call, "
+             "10-call prepay to start.</p></div>")
+    full_body = quick + "<p>" + body_main + "</p><p>" + city_para + "</p>"
     faqs = [
         {"q": "How do business loan leads in " + city + " work?",
          "a": ("RankLocal generates inbound calls from " + city + " merchants searching for business "
@@ -1549,6 +1636,7 @@ def make_mca_city_page(topic):
         {"href": "/business-loan-leads/", "text": "Business Loan Leads"},
         {"href": "/merchant-cash-advance-leads/", "text": "Merchant Cash Advance Leads"},
         {"href": "/pay-per-call/", "text": "How Pay-Per-Call Works"},
+    ] + _geo_neighbor_links("mca-leads", city, state, "MCA Leads in {city}") + [
         {"href": "/apply/", "text": "Apply Now"},
     ]
     return {
@@ -1596,7 +1684,16 @@ def make_combined_city_page(topic):
         "<li><a href='/fence-leads/'>Fencing leads</a></li>"
         "<li><a href='/garage-door-repair-leads/'>Garage door leads</a></li></ul>"
     )
-    full_body = "<p>" + body_main + "</p><p>" + city_para + "</p>" + trades_html
+    sd = STATE_DATA.get(state, {})
+    state_extra = ""
+    if sd:
+        state_extra = ("<p>" + state + " market context: " + sd.get("market", "") + ". "
+                       + sd.get("seasonal", "").capitalize() + ".</p>")
+    quick = ("<div class='quick-answer'><p><strong>Quick answer:</strong> RankLocal sells exclusive "
+             "home service leads in " + city + ", " + state + " - live inbound calls for roofing, HVAC, "
+             "plumbing, pest control, landscaping, fencing and garage door contractors. Pay per "
+             "qualified call over 60 seconds; one contractor per call.</p></div>")
+    full_body = quick + "<p>" + body_main + "</p><p>" + city_para + "</p>" + state_extra + trades_html
     faqs = [
         {"q": "How do home service leads in " + city + " work?",
          "a": ("Homeowners in " + city + " searching for a contractor call a RankLocal tracking "
@@ -1619,6 +1716,7 @@ def make_combined_city_page(topic):
         {"href": "/home-service-leads/", "text": "Home Service Leads"},
         {"href": "/contractor-leads/", "text": "Contractor Lead Generation"},
         {"href": "/pay-per-call/", "text": "How Pay-Per-Call Works"},
+    ] + _geo_neighbor_links("home-service-leads", city, state, "Home Service Leads in {city}") + [
         {"href": "/apply/", "text": "Apply Now"},
     ]
     return {
