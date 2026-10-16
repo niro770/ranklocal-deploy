@@ -1636,7 +1636,11 @@ def make_mca_city_page(topic):
         {"href": "/business-loan-leads/", "text": "Business Loan Leads"},
         {"href": "/merchant-cash-advance-leads/", "text": "Merchant Cash Advance Leads"},
         {"href": "/pay-per-call/", "text": "How Pay-Per-Call Works"},
-    ] + _geo_neighbor_links("mca-leads", city, state, "MCA Leads in {city}") + [
+    ] + _geo_neighbor_links("mca-leads", city, state, "MCA Leads in {city}") + (
+        [{"href": "/business-loan-leads-" + _cslug(state) + "/",
+          "text": "Business Loan Leads in " + state}]
+        if os.path.isdir(os.path.join(BASE, "business-loan-leads-" + _cslug(state))) else []
+    ) + [
         {"href": "/apply/", "text": "Apply Now"},
     ]
     return {
@@ -1724,6 +1728,73 @@ def make_combined_city_page(topic):
         "title": title, "h1": h1, "meta": meta,
         "hero_sub": hero_sub, "trade": "Home Services",
         "body": full_body, "faq": faqs, "links": links,
+    }
+
+
+
+def make_mca_state_page(topic):
+    """business-loan-leads-{state} state hub."""
+    state = topic.get("state", "")
+    slug  = topic["slug"]
+    sd = STATE_DATA.get(state, {})
+    cities_in_state = [c for c in _GEO_BY_STATE.get(state, [])]
+    ab = _ST_ABBR.get(state, "")
+    city_links = []
+    for c in sorted(cities_in_state, key=lambda x: x["rank"]):
+        cslug_ = "mca-leads-" + _cslug(c["city"]) + "-" + ab
+        if os.path.isdir(os.path.join(BASE, cslug_)):
+            city_links.append((c["city"], "/" + cslug_ + "/"))
+    n_cities = len(city_links)
+    market = sd.get("market", "an active small-business economy")
+    big_cities = sd.get("cities", ", ".join(x[0] for x in city_links[:5]) or "its major metros")
+    quick = ("<div class='quick-answer'><p><strong>Quick answer:</strong> RankLocal sells exclusive "
+             "business loan and MCA leads across " + state + " as live inbound calls from merchants "
+             "seeking funding. One buyer per call, pay per qualified call over 60 seconds, "
+             "10-call prepay to start.</p></div>")
+    paras = [
+        ("Funders, ISOs, and brokers buying business loan leads in " + state + " can get exclusive, "
+         "real-time inbound calls from merchants across the state - merchant cash advance, working "
+         "capital, SBA, equipment financing, and business line of credit inquiries, delivered one "
+         "buyer per call."),
+        (state + " has " + market + ", with funding demand concentrated around " + big_cities + ". "
+         "RankLocal captures that demand through Google and Bing search - never social media - and "
+         "routes it live to your closers during your business hours."),
+        ("Set your coverage (statewide or metro-level), daily cap, and schedule. Larger coverage, "
+         "longer hours, and fewer disputes earn more volume. Start with a prepay of 10 billable "
+         "calls; campaigns go live within 72 hours."),
+    ]
+    body = quick + "".join("<p>" + p + "</p>" for p in paras)
+    if city_links:
+        body += ("<h2>" + state + " markets we cover</h2><ul>"
+                 + "".join("<li><a href='" + h + "'>Business Loan & MCA Leads in " + c + "</a></li>"
+                           for c, h in city_links)
+                 + "</ul>")
+    faqs = [
+        {"q": "Can I buy business loan leads statewide in " + state + "?",
+         "a": ("Yes - set your coverage to all of " + state + " or limit it to specific metros"
+               + ((" like " + big_cities) if big_cities else "") + ". You control the daily cap and hours.")},
+        {"q": "What does a business loan lead cost in " + state + "?",
+         "a": "Pricing is quoted per qualified call for your exact coverage and volume before you commit. A qualified call lasts over 60 seconds; disputes resolve within 48 hours."},
+        {"q": "Are the leads exclusive?",
+         "a": "Every call and form lead goes to exactly one buyer. Nothing is shared or resold."},
+    ]
+    title = "Business Loan & MCA Leads in " + state + " | Exclusive Pay-Per-Call"
+    h1    = "Business Loan & MCA Leads in " + state
+    meta  = ("Exclusive business loan and MCA leads in " + state + ": live inbound calls from merchants "
+             "seeking funding. One buyer per call. " + str(n_cities) + "+ metros covered.")
+    links = [
+        {"href": "/business-loan-leads/", "text": "Business Loan Leads"},
+        {"href": "/mca-leads/", "text": "MCA Leads"},
+        {"href": "/merchant-cash-advance-leads/", "text": "Merchant Cash Advance Leads"},
+        {"href": "/pay-per-call/", "text": "How Pay-Per-Call Works"},
+        {"href": "/apply/", "text": "Apply Now"},
+    ]
+    return {
+        "slug": slug, "type": "mca-state",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": "Exclusive business funding calls across " + state + ", one buyer per call.",
+        "trade": "Business Funding",
+        "body": body, "faq": faqs, "links": links,
     }
 
 # ── SCHEMA BUILDERS ──────────────────────────────────────────────────────────
@@ -2027,6 +2098,8 @@ def main():
             page = make_mca_city_page(topic)
         elif topic.get("type") == "combined-city":
             page = make_combined_city_page(topic)
+        elif topic.get("type") == "mca-state":
+            page = make_mca_state_page(topic)
         else:
             log("[SKIP] " + slug + " (unknown type - skipping)")
             topic["status"] = "pending"

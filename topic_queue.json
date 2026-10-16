@@ -98578,5 +98578,7862 @@
     "pop": 18754,
     "tier": 3,
     "status": "done"
+  },
+  {
+    "slug": "mca-leads-high-point-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "High Point",
+    "state": "North Carolina",
+    "pop": 116926,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-clearwater-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Clearwater",
+    "state": "Florida",
+    "pop": 116850,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-league-city-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "League City",
+    "state": "Texas",
+    "pop": 116320,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-odessa-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Odessa",
+    "state": "Texas",
+    "pop": 115743,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-manchester-nh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Manchester",
+    "state": "New Hampshire",
+    "pop": 115474,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-evansville-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Evansville",
+    "state": "Indiana",
+    "pop": 115332,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-waterbury-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Waterbury",
+    "state": "Connecticut",
+    "pop": 114990,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-jordan-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West Jordan",
+    "state": "Utah",
+    "pop": 114908,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-las-cruces-nm",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Las Cruces",
+    "state": "New Mexico",
+    "pop": 114892,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-westminster-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Westminster",
+    "state": "Colorado",
+    "pop": 114875,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lowell-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lowell",
+    "state": "Massachusetts",
+    "pop": 114296,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-nampa-id",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Nampa",
+    "state": "Idaho",
+    "pop": 114268,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-richmond-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Richmond",
+    "state": "California",
+    "pop": 114106,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pompano-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pompano Beach",
+    "state": "Florida",
+    "pop": 113619,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-carlsbad-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Carlsbad",
+    "state": "California",
+    "pop": 113495,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-menifee-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Menifee",
+    "state": "California",
+    "pop": 113433,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-provo-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Provo",
+    "state": "Utah",
+    "pop": 113343,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-elgin-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Elgin",
+    "state": "Illinois",
+    "pop": 113310,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-greeley-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Greeley",
+    "state": "Colorado",
+    "pop": 112609,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-springfield-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Springfield",
+    "state": "Illinois",
+    "pop": 112544,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-beaumont-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Beaumont",
+    "state": "Texas",
+    "pop": 112193,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lansing-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lansing",
+    "state": "Michigan",
+    "pop": 112115,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-murrieta-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Murrieta",
+    "state": "California",
+    "pop": 111878,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-goodyear-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Goodyear",
+    "state": "Arizona",
+    "pop": 111805,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-allen-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Allen",
+    "state": "Texas",
+    "pop": 111620,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-tuscaloosa-al",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Tuscaloosa",
+    "state": "Alabama",
+    "pop": 111338,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-everett-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Everett",
+    "state": "Washington",
+    "pop": 111180,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pueblo-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pueblo",
+    "state": "Colorado",
+    "pop": 111077,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-new-braunfels-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "New Braunfels",
+    "state": "Texas",
+    "pop": 110958,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-south-fulton-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "South Fulton",
+    "state": "Georgia",
+    "pop": 110920,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-miami-gardens-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Miami Gardens",
+    "state": "Florida",
+    "pop": 110717,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gresham-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gresham",
+    "state": "Oregon",
+    "pop": 110685,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-temecula-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Temecula",
+    "state": "California",
+    "pop": 110682,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rio-rancho-nm",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rio Rancho",
+    "state": "New Mexico",
+    "pop": 110660,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-peoria-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Peoria",
+    "state": "Illinois",
+    "pop": 110460,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-tyler-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Tyler",
+    "state": "Texas",
+    "pop": 110327,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sparks-nv",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sparks",
+    "state": "Nevada",
+    "pop": 110323,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-concord-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Concord",
+    "state": "North Carolina",
+    "pop": 110119,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-santa-maria-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Santa Maria",
+    "state": "California",
+    "pop": 109987,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-buenaventura-ventura-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Buenaventura (Ventura)",
+    "state": "California",
+    "pop": 109058,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-buckeye-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Buckeye",
+    "state": "Arizona",
+    "pop": 108909,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-downey-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Downey",
+    "state": "California",
+    "pop": 108816,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sugar-land-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sugar Land",
+    "state": "Texas",
+    "pop": 108515,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-costa-mesa-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Costa Mesa",
+    "state": "California",
+    "pop": 108354,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-conroe-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Conroe",
+    "state": "Texas",
+    "pop": 108248,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-spokane-valley-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Spokane Valley",
+    "state": "Washington",
+    "pop": 108235,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-davie-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Davie",
+    "state": "Florida",
+    "pop": 107799,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hillsboro-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hillsboro",
+    "state": "Oregon",
+    "pop": 107730,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-jurupa-valley-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Jurupa Valley",
+    "state": "California",
+    "pop": 107321,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-centennial-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Centennial",
+    "state": "Colorado",
+    "pop": 106883,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-boulder-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Boulder",
+    "state": "Colorado",
+    "pop": 105898,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-dearborn-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Dearborn",
+    "state": "Michigan",
+    "pop": 105811,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-edinburg-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Edinburg",
+    "state": "Texas",
+    "pop": 105799,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sandy-springs-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sandy Springs",
+    "state": "Georgia",
+    "pop": 105793,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-green-bay-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Green Bay",
+    "state": "Wisconsin",
+    "pop": 105744,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-covina-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West Covina",
+    "state": "California",
+    "pop": 105617,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-brockton-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Brockton",
+    "state": "Massachusetts",
+    "pop": 104890,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-st-george-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "St. George",
+    "state": "Utah",
+    "pop": 104578,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bend-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bend",
+    "state": "Oregon",
+    "pop": 104557,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-renton-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Renton",
+    "state": "Washington",
+    "pop": 104491,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lees-summit-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lee's Summit",
+    "state": "Missouri",
+    "pop": 104184,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fishers-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fishers",
+    "state": "Indiana",
+    "pop": 104094,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-el-monte-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "El Monte",
+    "state": "California",
+    "pop": 103794,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-south-bend-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "South Bend",
+    "state": "Indiana",
+    "pop": 103395,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rialto-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rialto",
+    "state": "California",
+    "pop": 103391,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-el-cajon-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "El Cajon",
+    "state": "California",
+    "pop": 102991,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-inglewood-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Inglewood",
+    "state": "California",
+    "pop": 102865,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-burbank-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Burbank",
+    "state": "California",
+    "pop": 102755,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wichita-falls-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wichita Falls",
+    "state": "Texas",
+    "pop": 102691,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-vacaville-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Vacaville",
+    "state": "California",
+    "pop": 102526,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-carmel-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Carmel",
+    "state": "Indiana",
+    "pop": 102296,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-palm-coast-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Palm Coast",
+    "state": "Florida",
+    "pop": 102113,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fayetteville-ar",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fayetteville",
+    "state": "Arkansas",
+    "pop": 101680,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-quincy-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Quincy",
+    "state": "Massachusetts",
+    "pop": 101597,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-mateo-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Mateo",
+    "state": "California",
+    "pop": 101327,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-chico-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Chico",
+    "state": "California",
+    "pop": 101301,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lynn-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lynn",
+    "state": "Massachusetts",
+    "pop": 101241,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-albany-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Albany",
+    "state": "New York",
+    "pop": 101228,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-yuma-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Yuma",
+    "state": "Arizona",
+    "pop": 100858,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-new-bedford-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "New Bedford",
+    "state": "Massachusetts",
+    "pop": 100695,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-suffolk-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Suffolk",
+    "state": "Virginia",
+    "pop": 100659,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hesperia-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hesperia",
+    "state": "California",
+    "pop": 100633,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-davenport-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Davenport",
+    "state": "Iowa",
+    "pop": 100354,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-boca-raton-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Boca Raton",
+    "state": "Florida",
+    "pop": 99974,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-daly-city-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Daly City",
+    "state": "California",
+    "pop": 99833,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-angelo-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Angelo",
+    "state": "Texas",
+    "pop": 99262,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-deltona-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Deltona",
+    "state": "Florida",
+    "pop": 98739,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-longmont-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Longmont",
+    "state": "Colorado",
+    "pop": 98630,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-vista-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Vista",
+    "state": "California",
+    "pop": 98344,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kenosha-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kenosha",
+    "state": "Wisconsin",
+    "pop": 98211,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-edmond-ok",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Edmond",
+    "state": "Oklahoma",
+    "pop": 98103,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-norwalk-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Norwalk",
+    "state": "California",
+    "pop": 98078,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-tracy-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Tracy",
+    "state": "California",
+    "pop": 98010,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-federal-way-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Federal Way",
+    "state": "Washington",
+    "pop": 97701,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fort-myers-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fort Myers",
+    "state": "Florida",
+    "pop": 97372,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-roanoke-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Roanoke",
+    "state": "Virginia",
+    "pop": 97171,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-beaverton-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Beaverton",
+    "state": "Oregon",
+    "pop": 96945,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sunrise-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sunrise",
+    "state": "Florida",
+    "pop": 96808,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-portsmouth-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Portsmouth",
+    "state": "Virginia",
+    "pop": 96793,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-yakima-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Yakima",
+    "state": "Washington",
+    "pop": 96750,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-plantation-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Plantation",
+    "state": "Florida",
+    "pop": 96548,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-georgetown-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Georgetown",
+    "state": "Texas",
+    "pop": 96312,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lawrence-ks",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lawrence",
+    "state": "Kansas",
+    "pop": 96207,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-orem-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Orem",
+    "state": "Utah",
+    "pop": 95519,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mount-pleasant-sc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mount Pleasant",
+    "state": "South Carolina",
+    "pop": 95232,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-asheville-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Asheville",
+    "state": "North Carolina",
+    "pop": 95056,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-reading-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Reading",
+    "state": "Pennsylvania",
+    "pop": 94903,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bellingham-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bellingham",
+    "state": "Washington",
+    "pop": 94720,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-marcos-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Marcos",
+    "state": "California",
+    "pop": 94188,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-ofallon-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "O'Fallon",
+    "state": "Missouri",
+    "pop": 94074,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fall-river-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fall River",
+    "state": "Massachusetts",
+    "pop": 93840,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-merced-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Merced",
+    "state": "California",
+    "pop": 93692,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-avondale-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Avondale",
+    "state": "Arizona",
+    "pop": 93545,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-chino-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Chino",
+    "state": "California",
+    "pop": 93114,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-temple-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Temple",
+    "state": "Texas",
+    "pop": 93095,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-indio-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Indio",
+    "state": "California",
+    "pop": 93057,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-erie-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Erie",
+    "state": "Pennsylvania",
+    "pop": 92957,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-redding-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Redding",
+    "state": "California",
+    "pop": 92727,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-norwalk-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "pop": 92458,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hoover-al",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hoover",
+    "state": "Alabama",
+    "pop": 92448,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hemet-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hemet",
+    "state": "California",
+    "pop": 92368,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-livonia-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Livonia",
+    "state": "Michigan",
+    "pop": 92185,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sandy-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sandy",
+    "state": "Utah",
+    "pop": 91943,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-roswell-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Roswell",
+    "state": "Georgia",
+    "pop": 91706,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kirkland-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kirkland",
+    "state": "Washington",
+    "pop": 91194,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-carson-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Carson",
+    "state": "California",
+    "pop": 91139,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-manteca-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Manteca",
+    "state": "California",
+    "pop": 91059,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-nashua-nh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Nashua",
+    "state": "New Hampshire",
+    "pop": 91003,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-compton-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Compton",
+    "state": "California",
+    "pop": 90986,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mission-viejo-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mission Viejo",
+    "state": "California",
+    "pop": 90624,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lawton-ok",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lawton",
+    "state": "Oklahoma",
+    "pop": 90245,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lehi-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lehi",
+    "state": "Utah",
+    "pop": 90227,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-south-gate-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "South Gate",
+    "state": "California",
+    "pop": 90070,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-greenville-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Greenville",
+    "state": "North Carolina",
+    "pop": 90053,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-santa-monica-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Santa Monica",
+    "state": "California",
+    "pop": 89922,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fort-smith-ar",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fort Smith",
+    "state": "Arkansas",
+    "pop": 89770,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-trenton-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Trenton",
+    "state": "New Jersey",
+    "pop": 89620,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bryan-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bryan",
+    "state": "Texas",
+    "pop": 89615,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-champaign-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Champaign",
+    "state": "Illinois",
+    "pop": 89189,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-santa-fe-nm",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Santa Fe",
+    "state": "New Mexico",
+    "pop": 89167,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-north-port-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "North Port",
+    "state": "Florida",
+    "pop": 88934,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-westminster-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Westminster",
+    "state": "California",
+    "pop": 88729,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-franklin-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Franklin",
+    "state": "Tennessee",
+    "pop": 88558,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-clifton-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Clifton",
+    "state": "New Jersey",
+    "pop": 88461,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-newton-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Newton",
+    "state": "Massachusetts",
+    "pop": 88415,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-springdale-ar",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Springdale",
+    "state": "Arkansas",
+    "pop": 88224,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lawrence-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lawrence",
+    "state": "Massachusetts",
+    "pop": 88172,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-duluth-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Duluth",
+    "state": "Minnesota",
+    "pop": 87680,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-waukegan-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Waukegan",
+    "state": "Illinois",
+    "pop": 87642,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bloomington-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bloomington",
+    "state": "Minnesota",
+    "pop": 87398,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-troy-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Troy",
+    "state": "Michigan",
+    "pop": 87339,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-deerfield-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Deerfield Beach",
+    "state": "Florida",
+    "pop": 87325,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mission-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mission",
+    "state": "Texas",
+    "pop": 87292,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-ogden-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Ogden",
+    "state": "Utah",
+    "pop": 87267,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-melbourne-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Melbourne",
+    "state": "Florida",
+    "pop": 86960,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-santa-barbara-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Santa Barbara",
+    "state": "California",
+    "pop": 86499,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-citrus-heights-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Citrus Heights",
+    "state": "California",
+    "pop": 86239,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-danbury-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Danbury",
+    "state": "Connecticut",
+    "pop": 86124,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lake-forest-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lake Forest",
+    "state": "California",
+    "pop": 85840,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-frederick-md",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Frederick",
+    "state": "Maryland",
+    "pop": 85793,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-leandro-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Leandro",
+    "state": "California",
+    "pop": 85784,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sioux-city-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sioux City",
+    "state": "Iowa",
+    "pop": 85727,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kennewick-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kennewick",
+    "state": "Washington",
+    "pop": 85158,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-medford-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Medford",
+    "state": "Oregon",
+    "pop": 85098,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-ramon-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Ramon",
+    "state": "California",
+    "pop": 84929,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-folsom-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Folsom",
+    "state": "California",
+    "pop": 84782,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-warner-robins-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Warner Robins",
+    "state": "Georgia",
+    "pop": 84537,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-south-jordan-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "South Jordan",
+    "state": "Utah",
+    "pop": 84528,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-whittier-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Whittier",
+    "state": "California",
+    "pop": 84143,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-baytown-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Baytown",
+    "state": "Texas",
+    "pop": 84067,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gastonia-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gastonia",
+    "state": "North Carolina",
+    "pop": 83942,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-auburn-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Auburn",
+    "state": "Washington",
+    "pop": 83870,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-new-rochelle-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "New Rochelle",
+    "state": "New York",
+    "pop": 83742,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-layton-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Layton",
+    "state": "Utah",
+    "pop": 83516,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hawthorne-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hawthorne",
+    "state": "California",
+    "pop": 83364,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-longview-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Longview",
+    "state": "Texas",
+    "pop": 83236,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-warwick-ri",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Warwick",
+    "state": "Rhode Island",
+    "pop": 82999,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-livermore-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Livermore",
+    "state": "California",
+    "pop": 82908,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-newport-beach-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Newport Beach",
+    "state": "California",
+    "pop": 82637,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cranston-ri",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cranston",
+    "state": "Rhode Island",
+    "pop": 82635,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rancho-cordova-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rancho Cordova",
+    "state": "California",
+    "pop": 82605,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-westland-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Westland",
+    "state": "Michigan",
+    "pop": 82574,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-farmington-hills-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Farmington Hills",
+    "state": "Michigan",
+    "pop": 82528,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-daytona-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Daytona Beach",
+    "state": "Florida",
+    "pop": 82485,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-largo-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Largo",
+    "state": "Florida",
+    "pop": 82248,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-auburn-al",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Auburn",
+    "state": "Alabama",
+    "pop": 82025,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-brooklyn-park-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Brooklyn Park",
+    "state": "Minnesota",
+    "pop": 82017,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-buena-park-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Buena Park",
+    "state": "California",
+    "pop": 81958,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mountain-view-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mountain View",
+    "state": "California",
+    "pop": 81785,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-homestead-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Homestead",
+    "state": "Florida",
+    "pop": 81659,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-castle-rock-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Castle Rock",
+    "state": "Colorado",
+    "pop": 81415,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kissimmee-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kissimmee",
+    "state": "Florida",
+    "pop": 81269,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-boynton-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Boynton Beach",
+    "state": "Florida",
+    "pop": 81267,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-johns-creek-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Johns Creek",
+    "state": "Georgia",
+    "pop": 81108,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cicero-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cicero",
+    "state": "Illinois",
+    "pop": 81004,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-redwood-city-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Redwood City",
+    "state": "California",
+    "pop": 80996,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-jonesboro-ar",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Jonesboro",
+    "state": "Arkansas",
+    "pop": 80650,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-perris-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Perris",
+    "state": "California",
+    "pop": 80603,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pharr-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pharr",
+    "state": "Texas",
+    "pop": 80410,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-somerville-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Somerville",
+    "state": "Massachusetts",
+    "pop": 80407,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-redmond-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Redmond",
+    "state": "Washington",
+    "pop": 80280,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-leander-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Leander",
+    "state": "Texas",
+    "pop": 80067,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pasco-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pasco",
+    "state": "Washington",
+    "pop": 80038,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-alhambra-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Alhambra",
+    "state": "California",
+    "pop": 79776,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-flint-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Flint",
+    "state": "Michigan",
+    "pop": 79661,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lake-charles-la",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lake Charles",
+    "state": "Louisiana",
+    "pop": 79633,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-miami-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Miami Beach",
+    "state": "Florida",
+    "pop": 79607,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-woodbury-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Woodbury",
+    "state": "Minnesota",
+    "pop": 79538,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lynchburg-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lynchburg",
+    "state": "Virginia",
+    "pop": 79535,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-flower-mound-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Flower Mound",
+    "state": "Texas",
+    "pop": 79445,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rapid-city-sd",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rapid City",
+    "state": "South Dakota",
+    "pop": 79404,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-doral-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Doral",
+    "state": "Florida",
+    "pop": 79359,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-loveland-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Loveland",
+    "state": "Colorado",
+    "pop": 79352,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-parma-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Parma",
+    "state": "Ohio",
+    "pop": 78951,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bloomington-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bloomington",
+    "state": "Indiana",
+    "pop": 78840,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-upland-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Upland",
+    "state": "California",
+    "pop": 78699,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bloomington-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bloomington",
+    "state": "Illinois",
+    "pop": 78587,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mansfield-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mansfield",
+    "state": "Texas",
+    "pop": 78542,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bethlehem-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bethlehem",
+    "state": "Pennsylvania",
+    "pop": 78300,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lakewood-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lakewood",
+    "state": "California",
+    "pop": 78135,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-missoula-mt",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Missoula",
+    "state": "Montana",
+    "pop": 77757,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-tustin-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Tustin",
+    "state": "California",
+    "pop": 77704,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-plymouth-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Plymouth",
+    "state": "Minnesota",
+    "pop": 77648,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cedar-park-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cedar Park",
+    "state": "Texas",
+    "pop": 77516,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-napa-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Napa",
+    "state": "California",
+    "pop": 77492,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wyoming-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wyoming",
+    "state": "Michigan",
+    "pop": 77451,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-milpitas-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Milpitas",
+    "state": "California",
+    "pop": 77321,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-chino-hills-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Chino Hills",
+    "state": "California",
+    "pop": 77212,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-broomfield-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Broomfield",
+    "state": "Colorado",
+    "pop": 76860,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-missouri-city-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Missouri City",
+    "state": "Texas",
+    "pop": 76773,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-racine-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Racine",
+    "state": "Wisconsin",
+    "pop": 76602,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-flagstaff-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Flagstaff",
+    "state": "Arizona",
+    "pop": 76586,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-queen-creek-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Queen Creek",
+    "state": "Arizona",
+    "pop": 76570,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lakeville-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lakeville",
+    "state": "Minnesota",
+    "pop": 76243,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bowling-green-ky",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bowling Green",
+    "state": "Kentucky",
+    "pop": 76212,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hammond-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hammond",
+    "state": "Indiana",
+    "pop": 76193,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rochester-hills-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rochester Hills",
+    "state": "Michigan",
+    "pop": 76002,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-scranton-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Scranton",
+    "state": "Pennsylvania",
+    "pop": 75805,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pittsburg-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pittsburg",
+    "state": "California",
+    "pop": 75803,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-schaumburg-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Schaumburg",
+    "state": "Illinois",
+    "pop": 75750,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-southfield-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Southfield",
+    "state": "Michigan",
+    "pop": 75687,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-iowa-city-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Iowa City",
+    "state": "Iowa",
+    "pop": 75678,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rock-hill-sc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rock Hill",
+    "state": "South Carolina",
+    "pop": 75654,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-alameda-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Alameda",
+    "state": "California",
+    "pop": 75353,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pawtucket-ri",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pawtucket",
+    "state": "Rhode Island",
+    "pop": 75321,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bellflower-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bellflower",
+    "state": "California",
+    "pop": 75122,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bismarck-nd",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bismarck",
+    "state": "North Dakota",
+    "pop": 75092,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-evanston-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Evanston",
+    "state": "Illinois",
+    "pop": 75070,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-apple-valley-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Apple Valley",
+    "state": "California",
+    "pop": 75036,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-appleton-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Appleton",
+    "state": "Wisconsin",
+    "pop": 74719,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pleasanton-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pleasanton",
+    "state": "California",
+    "pop": 74653,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-arlington-heights-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Arlington Heights",
+    "state": "Illinois",
+    "pop": 74495,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-ankeny-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Ankeny",
+    "state": "Iowa",
+    "pop": 74458,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bolingbrook-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bolingbrook",
+    "state": "Illinois",
+    "pop": 74088,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-new-britain-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "New Britain",
+    "state": "Connecticut",
+    "pop": 74080,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rogers-ar",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rogers",
+    "state": "Arkansas",
+    "pop": 74035,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lauderhill-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lauderhill",
+    "state": "Florida",
+    "pop": 73974,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-noblesville-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Noblesville",
+    "state": "Indiana",
+    "pop": 73916,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-blaine-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Blaine",
+    "state": "Minnesota",
+    "pop": 73774,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rocklin-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rocklin",
+    "state": "California",
+    "pop": 73472,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-johnson-city-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Johnson City",
+    "state": "Tennessee",
+    "pop": 73337,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kalamazoo-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kalamazoo",
+    "state": "Michigan",
+    "pop": 73126,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lake-elsinore-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lake Elsinore",
+    "state": "California",
+    "pop": 73028,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-marysville-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Marysville",
+    "state": "Washington",
+    "pop": 72916,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-jacksonville-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Jacksonville",
+    "state": "North Carolina",
+    "pop": 72879,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-greenville-sc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Greenville",
+    "state": "South Carolina",
+    "pop": 72824,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gulfport-ms",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gulfport",
+    "state": "Mississippi",
+    "pop": 72823,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-redlands-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Redlands",
+    "state": "California",
+    "pop": 72556,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-tamarac-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Tamarac",
+    "state": "Florida",
+    "pop": 72372,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-apex-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Apex",
+    "state": "North Carolina",
+    "pop": 72225,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-des-moines-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West Des Moines",
+    "state": "Iowa",
+    "pop": 72205,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-turlock-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Turlock",
+    "state": "California",
+    "pop": 72100,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-framingham-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Framingham",
+    "state": "Massachusetts",
+    "pop": 71875,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-st-charles-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "St. Charles",
+    "state": "Missouri",
+    "pop": 71800,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wilmington-de",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wilmington",
+    "state": "Delaware",
+    "pop": 71675,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-marcos-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Marcos",
+    "state": "Texas",
+    "pop": 71569,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-harlingen-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Harlingen",
+    "state": "Texas",
+    "pop": 71510,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-maple-grove-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Maple Grove",
+    "state": "Minnesota",
+    "pop": 71288,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-dothan-al",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Dothan",
+    "state": "Alabama",
+    "pop": 71258,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lafayette-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lafayette",
+    "state": "Indiana",
+    "pop": 71216,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mount-vernon-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mount Vernon",
+    "state": "New York",
+    "pop": 71168,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-camden-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Camden",
+    "state": "New Jersey",
+    "pop": 71100,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-tulare-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Tulare",
+    "state": "California",
+    "pop": 71092,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-maricopa-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Maricopa",
+    "state": "Arizona",
+    "pop": 71022,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-st-cloud-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "St. Cloud",
+    "state": "Minnesota",
+    "pop": 71013,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-north-richland-hills-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "North Richland Hills",
+    "state": "Texas",
+    "pop": 70658,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-st-joseph-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "St. Joseph",
+    "state": "Missouri",
+    "pop": 70634,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-eau-claire-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Eau Claire",
+    "state": "Wisconsin",
+    "pop": 70542,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-eastvale-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Eastvale",
+    "state": "California",
+    "pop": 70510,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-waukesha-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Waukesha",
+    "state": "Wisconsin",
+    "pop": 70446,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bayonne-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bayonne",
+    "state": "New Jersey",
+    "pop": 70300,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-conway-ar",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Conway",
+    "state": "Arkansas",
+    "pop": 69580,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gaithersburg-md",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gaithersburg",
+    "state": "Maryland",
+    "pop": 69563,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-east-orange-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "East Orange",
+    "state": "New Jersey",
+    "pop": 69556,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-camarillo-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Camarillo",
+    "state": "California",
+    "pop": 69514,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-shawnee-ks",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Shawnee",
+    "state": "Kansas",
+    "pop": 69417,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-grand-junction-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Grand Junction",
+    "state": "Colorado",
+    "pop": 69412,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-canton-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Canton",
+    "state": "Ohio",
+    "pop": 69197,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-walnut-creek-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Walnut Creek",
+    "state": "California",
+    "pop": 69152,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-dublin-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Dublin",
+    "state": "California",
+    "pop": 69128,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-portland-me",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Portland",
+    "state": "Maine",
+    "pop": 69104,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-passaic-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Passaic",
+    "state": "New Jersey",
+    "pop": 68903,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-baldwin-park-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Baldwin Park",
+    "state": "California",
+    "pop": 68806,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-decatur-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Decatur",
+    "state": "Illinois",
+    "pop": 68670,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-yuba-city-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Yuba City",
+    "state": "California",
+    "pop": 68666,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-schenectady-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Schenectady",
+    "state": "New York",
+    "pop": 68544,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-ocala-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Ocala",
+    "state": "Florida",
+    "pop": 68426,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-caldwell-id",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Caldwell",
+    "state": "Idaho",
+    "pop": 68336,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-jackson-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Jackson",
+    "state": "Tennessee",
+    "pop": 68264,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-commerce-city-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Commerce City",
+    "state": "Colorado",
+    "pop": 68245,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-weston-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Weston",
+    "state": "Florida",
+    "pop": 68181,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-madera-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Madera",
+    "state": "California",
+    "pop": 68079,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-idaho-falls-id",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Idaho Falls",
+    "state": "Idaho",
+    "pop": 68001,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-redondo-beach-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Redondo Beach",
+    "state": "California",
+    "pop": 67749,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lodi-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lodi",
+    "state": "California",
+    "pop": 67679,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gary-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gary",
+    "state": "Indiana",
+    "pop": 67652,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-delray-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Delray Beach",
+    "state": "Florida",
+    "pop": 67536,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-haverhill-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Haverhill",
+    "state": "Massachusetts",
+    "pop": 67415,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-eagan-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Eagan",
+    "state": "Minnesota",
+    "pop": 67396,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rockville-md",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rockville",
+    "state": "Maryland",
+    "pop": 67297,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-alpharetta-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Alpharetta",
+    "state": "Georgia",
+    "pop": 67056,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-albany-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Albany",
+    "state": "Georgia",
+    "pop": 66877,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rowlett-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rowlett",
+    "state": "Texas",
+    "pop": 66813,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-waterloo-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Waterloo",
+    "state": "Iowa",
+    "pop": 66606,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-st-cloud-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "St. Cloud",
+    "state": "Florida",
+    "pop": 66448,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-novi-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Novi",
+    "state": "Michigan",
+    "pop": 66314,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-greenwood-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Greenwood",
+    "state": "Indiana",
+    "pop": 66296,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-oshkosh-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Oshkosh",
+    "state": "Wisconsin",
+    "pop": 66184,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-yorba-linda-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Yorba Linda",
+    "state": "California",
+    "pop": 66147,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-janesville-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Janesville",
+    "state": "Wisconsin",
+    "pop": 66102,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-port-orange-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Port Orange",
+    "state": "Florida",
+    "pop": 65966,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-palo-alto-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Palo Alto",
+    "state": "California",
+    "pop": 65882,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-davis-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Davis",
+    "state": "California",
+    "pop": 65832,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-victoria-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Victoria",
+    "state": "Texas",
+    "pop": 65800,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-ames-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Ames",
+    "state": "Iowa",
+    "pop": 65686,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-union-city-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Union City",
+    "state": "California",
+    "pop": 65414,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sanford-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sanford",
+    "state": "Florida",
+    "pop": 65394,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lorain-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lorain",
+    "state": "Ohio",
+    "pop": 65337,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pflugerville-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pflugerville",
+    "state": "Texas",
+    "pop": 65301,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cheyenne-wy",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cheyenne",
+    "state": "Wyoming",
+    "pop": 65168,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-malden-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Malden",
+    "state": "Massachusetts",
+    "pop": 65133,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-brentwood-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Brentwood",
+    "state": "California",
+    "pop": 65126,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sammamish-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sammamish",
+    "state": "Washington",
+    "pop": 65116,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-muncie-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Muncie",
+    "state": "Indiana",
+    "pop": 65081,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-skokie-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Skokie",
+    "state": "Illinois",
+    "pop": 64937,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-palatine-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Palatine",
+    "state": "Illinois",
+    "pop": 64869,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-burnsville-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Burnsville",
+    "state": "Minnesota",
+    "pop": 64772,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-huntersville-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Huntersville",
+    "state": "North Carolina",
+    "pop": 64688,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-north-little-rock-ar",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "North Little Rock",
+    "state": "Arkansas",
+    "pop": 64531,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-waltham-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Waltham",
+    "state": "Massachusetts",
+    "pop": 64477,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-union-city-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Union City",
+    "state": "New Jersey",
+    "pop": 64462,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bellevue-ne",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bellevue",
+    "state": "Nebraska",
+    "pop": 63922,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-richland-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Richland",
+    "state": "Washington",
+    "pop": 63757,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-casa-grande-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Casa Grande",
+    "state": "Arizona",
+    "pop": 63743,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hendersonville-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hendersonville",
+    "state": "Tennessee",
+    "pop": 63618,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-utica-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Utica",
+    "state": "New York",
+    "pop": 63607,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-moore-ok",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Moore",
+    "state": "Oklahoma",
+    "pop": 63470,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-coon-rapids-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Coon Rapids",
+    "state": "Minnesota",
+    "pop": 63377,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kenner-la",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kenner",
+    "state": "Louisiana",
+    "pop": 63333,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lynwood-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lynwood",
+    "state": "California",
+    "pop": 63234,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-south-san-francisco-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "South San Francisco",
+    "state": "California",
+    "pop": 63123,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hamilton-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hamilton",
+    "state": "Ohio",
+    "pop": 62997,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-laguna-niguel-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Laguna Niguel",
+    "state": "California",
+    "pop": 62899,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-porterville-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Porterville",
+    "state": "California",
+    "pop": 62876,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-marietta-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Marietta",
+    "state": "Georgia",
+    "pop": 62769,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-parker-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Parker",
+    "state": "Colorado",
+    "pop": 62743,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bossier-city-la",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bossier City",
+    "state": "Louisiana",
+    "pop": 62738,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kyle-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kyle",
+    "state": "Texas",
+    "pop": 62548,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-council-bluffs-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Council Bluffs",
+    "state": "Iowa",
+    "pop": 62399,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-clemente-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Clemente",
+    "state": "California",
+    "pop": 62313,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lakewood-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lakewood",
+    "state": "Washington",
+    "pop": 62303,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-millcreek-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Millcreek",
+    "state": "Utah",
+    "pop": 62205,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-eden-prairie-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Eden Prairie",
+    "state": "Minnesota",
+    "pop": 62166,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-chapel-hill-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Chapel Hill",
+    "state": "North Carolina",
+    "pop": 62043,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pontiac-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pontiac",
+    "state": "Michigan",
+    "pop": 61689,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wellington-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wellington",
+    "state": "Florida",
+    "pop": 61634,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bristol-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bristol",
+    "state": "Connecticut",
+    "pop": 61601,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-santa-cruz-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Santa Cruz",
+    "state": "California",
+    "pop": 61501,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-shoreline-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Shoreline",
+    "state": "Washington",
+    "pop": 61353,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-jupiter-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Jupiter",
+    "state": "Florida",
+    "pop": 61291,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-white-plains-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "White Plains",
+    "state": "New York",
+    "pop": 61288,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-taylor-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Taylor",
+    "state": "Michigan",
+    "pop": 61241,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-palm-beach-gardens-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Palm Beach Gardens",
+    "state": "Florida",
+    "pop": 61146,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-woodland-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Woodland",
+    "state": "California",
+    "pop": 61123,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-corvallis-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Corvallis",
+    "state": "Oregon",
+    "pop": 61087,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-springfield-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Springfield",
+    "state": "Oregon",
+    "pop": 61085,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wylie-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wylie",
+    "state": "Texas",
+    "pop": 61078,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-la-habra-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "La Habra",
+    "state": "California",
+    "pop": 60991,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-dearborn-heights-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Dearborn Heights",
+    "state": "Michigan",
+    "pop": 60872,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-madison-al",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Madison",
+    "state": "Alabama",
+    "pop": 60854,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-encinitas-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Encinitas",
+    "state": "California",
+    "pop": 60841,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-vineland-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Vineland",
+    "state": "New Jersey",
+    "pop": 60797,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-stonecrest-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Stonecrest",
+    "state": "Georgia",
+    "pop": 60677,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-blue-springs-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Blue Springs",
+    "state": "Missouri",
+    "pop": 60539,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-la-mesa-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "La Mesa",
+    "state": "California",
+    "pop": 60537,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-great-falls-mt",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Great Falls",
+    "state": "Montana",
+    "pop": 60422,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-taunton-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Taunton",
+    "state": "Massachusetts",
+    "pop": 60412,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-owensboro-ky",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Owensboro",
+    "state": "Kentucky",
+    "pop": 60140,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-meriden-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Meriden",
+    "state": "Connecticut",
+    "pop": 60111,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-herriman-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Herriman",
+    "state": "Utah",
+    "pop": 60049,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-burlington-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Burlington",
+    "state": "North Carolina",
+    "pop": 60032,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-montebello-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Montebello",
+    "state": "California",
+    "pop": 60015,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hanford-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hanford",
+    "state": "California",
+    "pop": 59938,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kokomo-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kokomo",
+    "state": "Indiana",
+    "pop": 59890,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-euless-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Euless",
+    "state": "Texas",
+    "pop": 59686,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-rafael-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Rafael",
+    "state": "California",
+    "pop": 59555,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-santee-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Santee",
+    "state": "California",
+    "pop": 59478,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bentonville-ar",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bentonville",
+    "state": "Arkansas",
+    "pop": 59471,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-st-peters-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "St. Peters",
+    "state": "Missouri",
+    "pop": 59413,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kannapolis-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kannapolis",
+    "state": "North Carolina",
+    "pop": 59321,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lake-havasu-city-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lake Havasu City",
+    "state": "Arizona",
+    "pop": 59257,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pico-rivera-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pico Rivera",
+    "state": "California",
+    "pop": 59189,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-weymouth-town-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Weymouth Town",
+    "state": "Massachusetts",
+    "pop": 59114,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-apopka-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Apopka",
+    "state": "Florida",
+    "pop": 59113,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-youngstown-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Youngstown",
+    "state": "Ohio",
+    "pop": 59108,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-north-miami-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "North Miami",
+    "state": "Florida",
+    "pop": 59008,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-grand-forks-nd",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Grand Forks",
+    "state": "North Dakota",
+    "pop": 58921,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-dubuque-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Dubuque",
+    "state": "Iowa",
+    "pop": 58877,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-allis-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West Allis",
+    "state": "Wisconsin",
+    "pop": 58874,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-petaluma-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Petaluma",
+    "state": "California",
+    "pop": 58800,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-medford-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Medford",
+    "state": "Massachusetts",
+    "pop": 58744,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-casper-wy",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Casper",
+    "state": "Wyoming",
+    "pop": 58720,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-margate-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Margate",
+    "state": "Florida",
+    "pop": 58593,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lenexa-ks",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lenexa",
+    "state": "Kansas",
+    "pop": 58536,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-terre-haute-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Terre Haute",
+    "state": "Indiana",
+    "pop": 58502,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-little-elm-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Little Elm",
+    "state": "Texas",
+    "pop": 58496,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-beaumont-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Beaumont",
+    "state": "California",
+    "pop": 58463,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-marana-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Marana",
+    "state": "Arizona",
+    "pop": 58430,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gardena-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gardena",
+    "state": "California",
+    "pop": 58377,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lacey-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lacey",
+    "state": "Washington",
+    "pop": 58326,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-decatur-al",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Decatur",
+    "state": "Alabama",
+    "pop": 58321,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gilroy-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gilroy",
+    "state": "California",
+    "pop": 58250,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hempstead-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hempstead",
+    "state": "New York",
+    "pop": 58225,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-midwest-city-ok",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Midwest City",
+    "state": "Oklahoma",
+    "pop": 58086,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-springfield-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Springfield",
+    "state": "Ohio",
+    "pop": 58082,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pocatello-id",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pocatello",
+    "state": "Idaho",
+    "pop": 58064,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-carson-nv",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Carson",
+    "state": "Nevada",
+    "pop": 58036,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-des-plaines-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Des Plaines",
+    "state": "Illinois",
+    "pop": 58010,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-revere-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Revere",
+    "state": "Massachusetts",
+    "pop": 57954,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-brookhaven-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Brookhaven",
+    "state": "Georgia",
+    "pop": 57945,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-monterey-park-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Monterey Park",
+    "state": "California",
+    "pop": 57877,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-westfield-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Westfield",
+    "state": "Indiana",
+    "pop": 57746,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-coconut-creek-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Coconut Creek",
+    "state": "Florida",
+    "pop": 57694,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-spring-hill-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Spring Hill",
+    "state": "Tennessee",
+    "pop": 57637,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sarasota-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sarasota",
+    "state": "Florida",
+    "pop": 57602,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-st-clair-shores-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "St. Clair Shores",
+    "state": "Michigan",
+    "pop": 57548,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-royal-oak-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Royal Oak",
+    "state": "Michigan",
+    "pop": 57452,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-smyrna-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Smyrna",
+    "state": "Tennessee",
+    "pop": 57418,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bozeman-mt",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bozeman",
+    "state": "Montana",
+    "pop": 57305,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cupertino-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cupertino",
+    "state": "California",
+    "pop": 57285,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bowie-md",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bowie",
+    "state": "Maryland",
+    "pop": 57254,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lancaster-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lancaster",
+    "state": "Pennsylvania",
+    "pop": 57153,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-winter-haven-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Winter Haven",
+    "state": "Florida",
+    "pop": 57109,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-taylorsville-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Taylorsville",
+    "state": "Utah",
+    "pop": 57098,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bradenton-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bradenton",
+    "state": "Florida",
+    "pop": 57076,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-orland-park-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Orland Park",
+    "state": "Illinois",
+    "pop": 57074,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-albany-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Albany",
+    "state": "Oregon",
+    "pop": 57053,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hoboken-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hoboken",
+    "state": "New Jersey",
+    "pop": 57010,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-eagle-mountain-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Eagle Mountain",
+    "state": "Utah",
+    "pop": 56932,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-coeur-dalene-id",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Coeur d'Alene",
+    "state": "Idaho",
+    "pop": 56894,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kettering-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kettering",
+    "state": "Ohio",
+    "pop": 56876,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-southaven-ms",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Southaven",
+    "state": "Mississippi",
+    "pop": 56851,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kingsport-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kingsport",
+    "state": "Tennessee",
+    "pop": 56704,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-texas-city-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Texas City",
+    "state": "Texas",
+    "pop": 56609,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-smyrna-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Smyrna",
+    "state": "Georgia",
+    "pop": 56566,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bonita-springs-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bonita Springs",
+    "state": "Florida",
+    "pop": 56229,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-highland-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Highland",
+    "state": "California",
+    "pop": 56202,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bartlett-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bartlett",
+    "state": "Tennessee",
+    "pop": 56030,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-new-brunswick-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "New Brunswick",
+    "state": "New Jersey",
+    "pop": 55846,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-sacramento-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West Sacramento",
+    "state": "California",
+    "pop": 55842,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-desoto-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "DeSoto",
+    "state": "Texas",
+    "pop": 55740,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-oak-lawn-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Oak Lawn",
+    "state": "Illinois",
+    "pop": 55734,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-olympia-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Olympia",
+    "state": "Washington",
+    "pop": 55733,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-tigard-or",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Tigard",
+    "state": "Oregon",
+    "pop": 55590,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-port-arthur-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Port Arthur",
+    "state": "Texas",
+    "pop": 55547,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fountain-valley-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fountain Valley",
+    "state": "California",
+    "pop": 55468,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-jacinto-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Jacinto",
+    "state": "California",
+    "pop": 55440,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-apple-valley-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Apple Valley",
+    "state": "Minnesota",
+    "pop": 55336,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-logan-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Logan",
+    "state": "Utah",
+    "pop": 55250,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-perth-amboy-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Perth Amboy",
+    "state": "New Jersey",
+    "pop": 55249,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-national-city-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "National City",
+    "state": "California",
+    "pop": 55236,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-burleson-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Burleson",
+    "state": "Texas",
+    "pop": 55220,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-anderson-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Anderson",
+    "state": "Indiana",
+    "pop": 55199,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-valdosta-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Valdosta",
+    "state": "Georgia",
+    "pop": 55025,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-twin-falls-id",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Twin Falls",
+    "state": "Idaho",
+    "pop": 54943,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-chicopee-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Chicopee",
+    "state": "Massachusetts",
+    "pop": 54838,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-haven-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West Haven",
+    "state": "Connecticut",
+    "pop": 54790,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-plainfield-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Plainfield",
+    "state": "New Jersey",
+    "pop": 54670,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lincoln-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lincoln",
+    "state": "California",
+    "pop": 54538,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-berwyn-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Berwyn",
+    "state": "Illinois",
+    "pop": 54414,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wake-forest-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wake Forest",
+    "state": "North Carolina",
+    "pop": 54337,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mount-prospect-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mount Prospect",
+    "state": "Illinois",
+    "pop": 54298,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rocky-mount-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rocky Mount",
+    "state": "North Carolina",
+    "pop": 54245,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-arcadia-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Arcadia",
+    "state": "California",
+    "pop": 54157,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-peabody-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Peabody",
+    "state": "Massachusetts",
+    "pop": 54056,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kentwood-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kentwood",
+    "state": "Michigan",
+    "pop": 53987,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-yucaipa-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Yucaipa",
+    "state": "California",
+    "pop": 53947,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-tinley-park-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Tinley Park",
+    "state": "Illinois",
+    "pop": 53886,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pensacola-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pensacola",
+    "state": "Florida",
+    "pop": 53724,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mooresville-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mooresville",
+    "state": "North Carolina",
+    "pop": 53721,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-manhattan-ks",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Manhattan",
+    "state": "Kansas",
+    "pop": 53682,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-elkhart-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Elkhart",
+    "state": "Indiana",
+    "pop": 53484,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pinellas-park-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pinellas Park",
+    "state": "Florida",
+    "pop": 53456,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-methuen-town-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Methuen Town",
+    "state": "Massachusetts",
+    "pop": 53455,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-colton-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Colton",
+    "state": "California",
+    "pop": 53357,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-edina-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Edina",
+    "state": "Minnesota",
+    "pop": 53348,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-galveston-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Galveston",
+    "state": "Texas",
+    "pop": 53237,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-elyria-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Elyria",
+    "state": "Ohio",
+    "pop": 53117,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-joplin-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Joplin",
+    "state": "Missouri",
+    "pop": 53095,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wheaton-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wheaton",
+    "state": "Illinois",
+    "pop": 52938,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rockwall-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rockwall",
+    "state": "Texas",
+    "pop": 52918,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-grand-island-ne",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Grand Island",
+    "state": "Nebraska",
+    "pop": 52622,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-normal-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Normal",
+    "state": "Illinois",
+    "pop": 52618,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-saratoga-springs-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Saratoga Springs",
+    "state": "Utah",
+    "pop": 52532,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-minnetonka-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Minnetonka",
+    "state": "Minnesota",
+    "pop": 52463,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cathedral-city-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cathedral City",
+    "state": "California",
+    "pop": 52356,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-placentia-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Placentia",
+    "state": "California",
+    "pop": 52192,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-battle-creek-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Battle Creek",
+    "state": "Michigan",
+    "pop": 52175,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-oak-park-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Oak Park",
+    "state": "Illinois",
+    "pop": 52055,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-diamond-bar-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Diamond Bar",
+    "state": "California",
+    "pop": 52041,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-palm-desert-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Palm Desert",
+    "state": "California",
+    "pop": 51951,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-huntington-park-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Huntington Park",
+    "state": "California",
+    "pop": 51942,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-summerville-sc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Summerville",
+    "state": "South Carolina",
+    "pop": 51884,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-novato-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Novato",
+    "state": "California",
+    "pop": 51722,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-dunwoody-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Dunwoody",
+    "state": "Georgia",
+    "pop": 51713,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-columbus-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Columbus",
+    "state": "Indiana",
+    "pop": 51522,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-delano-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Delano",
+    "state": "California",
+    "pop": 51500,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-middletown-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Middletown",
+    "state": "Ohio",
+    "pop": 51478,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-la-crosse-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "La Crosse",
+    "state": "Wisconsin",
+    "pop": 51327,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-collierville-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Collierville",
+    "state": "Tennessee",
+    "pop": 51317,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-jeffersonville-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Jeffersonville",
+    "state": "Indiana",
+    "pop": 51235,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-florissant-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Florissant",
+    "state": "Missouri",
+    "pop": 51128,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-harrisonburg-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Harrisonburg",
+    "state": "Virginia",
+    "pop": 51082,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-paramount-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Paramount",
+    "state": "California",
+    "pop": 51072,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-newark-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Newark",
+    "state": "Ohio",
+    "pop": 51046,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-grapevine-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Grapevine",
+    "state": "Texas",
+    "pop": 50928,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-watsonville-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Watsonville",
+    "state": "California",
+    "pop": 50867,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mishawaka-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mishawaka",
+    "state": "Indiana",
+    "pop": 50842,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-new-york-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West New York",
+    "state": "New Jersey",
+    "pop": 50754,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cuyahoga-falls-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cuyahoga Falls",
+    "state": "Ohio",
+    "pop": 50742,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-burien-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Burien",
+    "state": "Washington",
+    "pop": 50730,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-troy-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Troy",
+    "state": "New York",
+    "pop": 50607,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-enid-ok",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Enid",
+    "state": "Oklahoma",
+    "pop": 50577,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-milford-city-balance-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Milford city (balance)",
+    "state": "Connecticut",
+    "pop": 50421,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gallatin-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gallatin",
+    "state": "Tennessee",
+    "pop": 50355,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-everett-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Everett",
+    "state": "Massachusetts",
+    "pop": 50318,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-aliso-viejo-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Aliso Viejo",
+    "state": "California",
+    "pop": 50263,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bothell-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bothell",
+    "state": "Washington",
+    "pop": 50213,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hoffman-estates-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hoffman Estates",
+    "state": "Illinois",
+    "pop": 50179,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-prescott-valley-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Prescott Valley",
+    "state": "Arizona",
+    "pop": 50045,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-harrisburg-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Harrisburg",
+    "state": "Pennsylvania",
+    "pop": 50012,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-glendora-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Glendora",
+    "state": "California",
+    "pop": 49934,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-barnstable-town-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Barnstable Town",
+    "state": "Massachusetts",
+    "pop": 49709,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-downers-grove-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Downers Grove",
+    "state": "Illinois",
+    "pop": 49706,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-st-louis-park-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "St. Louis Park",
+    "state": "Minnesota",
+    "pop": 49697,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sheboygan-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sheboygan",
+    "state": "Wisconsin",
+    "pop": 49686,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-titusville-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Titusville",
+    "state": "Florida",
+    "pop": 49680,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-draper-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Draper",
+    "state": "Utah",
+    "pop": 49602,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-murray-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Murray",
+    "state": "Utah",
+    "pop": 49553,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-stillwater-ok",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Stillwater",
+    "state": "Oklahoma",
+    "pop": 49525,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fort-pierce-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fort Pierce",
+    "state": "Florida",
+    "pop": 49374,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lakewood-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lakewood",
+    "state": "Ohio",
+    "pop": 49337,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-leesburg-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Leesburg",
+    "state": "Virginia",
+    "pop": 49312,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rosemead-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rosemead",
+    "state": "California",
+    "pop": 49305,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-portage-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Portage",
+    "state": "Michigan",
+    "pop": 49302,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-ocoee-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Ocoee",
+    "state": "Florida",
+    "pop": 49261,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-goose-creek-sc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Goose Creek",
+    "state": "South Carolina",
+    "pop": 49249,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-luis-obispo-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Luis Obispo",
+    "state": "California",
+    "pop": 49244,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lawrence-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lawrence",
+    "state": "Indiana",
+    "pop": 49235,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-chesterfield-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Chesterfield",
+    "state": "Missouri",
+    "pop": 49166,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cleveland-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cleveland",
+    "state": "Tennessee",
+    "pop": 49086,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-dublin-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Dublin",
+    "state": "Ohio",
+    "pop": 48923,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cypress-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cypress",
+    "state": "California",
+    "pop": 48782,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-covina-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Covina",
+    "state": "California",
+    "pop": 48728,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-clermont-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Clermont",
+    "state": "Florida",
+    "pop": 48621,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-los-banos-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Los Banos",
+    "state": "California",
+    "pop": 48553,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-huntsville-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Huntsville",
+    "state": "Texas",
+    "pop": 48552,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-east-lansing-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "East Lansing",
+    "state": "Michigan",
+    "pop": 48528,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-brea-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Brea",
+    "state": "California",
+    "pop": 48479,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hattiesburg-ms",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hattiesburg",
+    "state": "Mississippi",
+    "pop": 48414,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cedar-hill-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cedar Hill",
+    "state": "Texas",
+    "pop": 48411,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-ceres-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Ceres",
+    "state": "California",
+    "pop": 48397,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bedford-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bedford",
+    "state": "Texas",
+    "pop": 48370,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-coral-gables-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Coral Gables",
+    "state": "Florida",
+    "pop": 48353,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-oro-valley-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Oro Valley",
+    "state": "Arizona",
+    "pop": 48311,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-azusa-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Azusa",
+    "state": "California",
+    "pop": 48272,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-biloxi-ms",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Biloxi",
+    "state": "Mississippi",
+    "pop": 48235,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-euclid-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Euclid",
+    "state": "Ohio",
+    "pop": 48212,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lebanon-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lebanon",
+    "state": "Tennessee",
+    "pop": 48112,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-poway-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Poway",
+    "state": "California",
+    "pop": 48051,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-middletown-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Middletown",
+    "state": "Connecticut",
+    "pop": 47984,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wilson-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wilson",
+    "state": "North Carolina",
+    "pop": 47833,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-prescott-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Prescott",
+    "state": "Arizona",
+    "pop": 47757,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mansfield-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mansfield",
+    "state": "Ohio",
+    "pop": 47711,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-niagara-falls-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Niagara Falls",
+    "state": "New York",
+    "pop": 47599,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wentzville-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wentzville",
+    "state": "Missouri",
+    "pop": 47497,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sherman-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sherman",
+    "state": "Texas",
+    "pop": 47473,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-plainfield-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Plainfield",
+    "state": "Illinois",
+    "pop": 47448,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-columbia-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Columbia",
+    "state": "Tennessee",
+    "pop": 47445,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-minot-nd",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Minot",
+    "state": "North Dakota",
+    "pop": 47373,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-winter-garden-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Winter Garden",
+    "state": "Florida",
+    "pop": 47294,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-gainesville-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Gainesville",
+    "state": "Georgia",
+    "pop": 47265,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-waxahachie-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Waxahachie",
+    "state": "Texas",
+    "pop": 47201,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-beavercreek-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Beavercreek",
+    "state": "Ohio",
+    "pop": 47193,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-shakopee-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Shakopee",
+    "state": "Minnesota",
+    "pop": 47158,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-roswell-nm",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Roswell",
+    "state": "New Mexico",
+    "pop": 47109,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wauwatosa-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wauwatosa",
+    "state": "Wisconsin",
+    "pop": 47038,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-olive-branch-ms",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Olive Branch",
+    "state": "Mississippi",
+    "pop": 47029,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-newark-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Newark",
+    "state": "California",
+    "pop": 46929,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mentor-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mentor",
+    "state": "Ohio",
+    "pop": 46929,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-glenview-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Glenview",
+    "state": "Illinois",
+    "pop": 46904,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-east-providence-ri",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "East Providence",
+    "state": "Rhode Island",
+    "pop": 46900,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-charleston-wv",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Charleston",
+    "state": "West Virginia",
+    "pop": 46838,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cerritos-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cerritos",
+    "state": "California",
+    "pop": 46797,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-urbandale-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Urbandale",
+    "state": "Iowa",
+    "pop": 46729,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-binghamton-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Binghamton",
+    "state": "New York",
+    "pop": 46727,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-roseville-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Roseville",
+    "state": "Michigan",
+    "pop": 46666,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-attleboro-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Attleboro",
+    "state": "Massachusetts",
+    "pop": 46654,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-monroe-la",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Monroe",
+    "state": "Louisiana",
+    "pop": 46616,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-keller-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Keller",
+    "state": "Texas",
+    "pop": 46316,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-holly-springs-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Holly Springs",
+    "state": "North Carolina",
+    "pop": 46271,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-farmington-nm",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Farmington",
+    "state": "New Mexico",
+    "pop": 46237,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rancho-santa-margarita-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rancho Santa Margarita",
+    "state": "California",
+    "pop": 46182,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-salina-ks",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Salina",
+    "state": "Kansas",
+    "pop": 45792,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-oakley-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Oakley",
+    "state": "California",
+    "pop": 45761,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mankato-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mankato",
+    "state": "Minnesota",
+    "pop": 45742,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hackensack-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hackensack",
+    "state": "New Jersey",
+    "pop": 45736,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-spanish-fork-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Spanish Fork",
+    "state": "Utah",
+    "pop": 45557,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-strongsville-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Strongsville",
+    "state": "Ohio",
+    "pop": 45511,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-la-mirada-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "La Mirada",
+    "state": "California",
+    "pop": 45505,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sayreville-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sayreville",
+    "state": "New Jersey",
+    "pop": 45496,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-blacksburg-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Blacksburg",
+    "state": "Virginia",
+    "pop": 45485,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-the-colony-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "The Colony",
+    "state": "Texas",
+    "pop": 45471,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bremerton-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bremerton",
+    "state": "Washington",
+    "pop": 45450,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-elmhurst-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Elmhurst",
+    "state": "Illinois",
+    "pop": 45336,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-huntington-wv",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Huntington",
+    "state": "West Virginia",
+    "pop": 45325,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-haltom-city-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Haltom City",
+    "state": "Texas",
+    "pop": 45290,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-brentwood-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Brentwood",
+    "state": "Tennessee",
+    "pop": 45265,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-altamonte-springs-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Altamonte Springs",
+    "state": "Florida",
+    "pop": 45257,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-palm-springs-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Palm Springs",
+    "state": "California",
+    "pop": 45218,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-moorhead-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Moorhead",
+    "state": "Minnesota",
+    "pop": 45202,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-delaware-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Delaware",
+    "state": "Ohio",
+    "pop": 45158,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-charlottesville-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Charlottesville",
+    "state": "Virginia",
+    "pop": 44983,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-newnan-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Newnan",
+    "state": "Georgia",
+    "pop": 44940,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-york-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "York",
+    "state": "Pennsylvania",
+    "pop": 44867,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-riverton-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Riverton",
+    "state": "Utah",
+    "pop": 44854,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-lafayette-in",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West Lafayette",
+    "state": "Indiana",
+    "pop": 44829,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-post-falls-id",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Post Falls",
+    "state": "Idaho",
+    "pop": 44798,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-north-lauderdale-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "North Lauderdale",
+    "state": "Florida",
+    "pop": 44784,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-salem-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Salem",
+    "state": "Massachusetts",
+    "pop": 44744,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hollister-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hollister",
+    "state": "California",
+    "pop": 44658,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-concord-nh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Concord",
+    "state": "New Hampshire",
+    "pop": 44629,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rohnert-park-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rohnert Park",
+    "state": "California",
+    "pop": 44546,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-burlington-vt",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Burlington",
+    "state": "Vermont",
+    "pop": 44528,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-morgan-hill-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Morgan Hill",
+    "state": "California",
+    "pop": 44478,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-littleton-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Littleton",
+    "state": "Colorado",
+    "pop": 44451,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fairfield-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fairfield",
+    "state": "Ohio",
+    "pop": 44447,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sierra-vista-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sierra Vista",
+    "state": "Arizona",
+    "pop": 44431,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hickory-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hickory",
+    "state": "North Carolina",
+    "pop": 44415,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-greer-sc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Greer",
+    "state": "South Carolina",
+    "pop": 44387,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fond-du-lac-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fond du Lac",
+    "state": "Wisconsin",
+    "pop": 44300,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-ormond-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Ormond Beach",
+    "state": "Florida",
+    "pop": 44277,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-wilkes-barre-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Wilkes-Barre",
+    "state": "Pennsylvania",
+    "pop": 44254,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bountiful-ut",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bountiful",
+    "state": "Utah",
+    "pop": 44144,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-oakland-park-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Oakland Park",
+    "state": "Florida",
+    "pop": 44105,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-greenacres-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Greenacres",
+    "state": "Florida",
+    "pop": 44103,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-linden-nj",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Linden",
+    "state": "New Jersey",
+    "pop": 43950,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cleveland-heights-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cleveland Heights",
+    "state": "Ohio",
+    "pop": 43908,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lynnwood-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lynnwood",
+    "state": "Washington",
+    "pop": 43867,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fuquay-varina-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fuquay-Varina",
+    "state": "North Carolina",
+    "pop": 43817,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lombard-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lombard",
+    "state": "Illinois",
+    "pop": 43779,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-el-centro-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "El Centro",
+    "state": "California",
+    "pop": 43772,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cutler-bay-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cutler Bay",
+    "state": "Florida",
+    "pop": 43762,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-freeport-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Freeport",
+    "state": "New York",
+    "pop": 43756,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-leominster-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Leominster",
+    "state": "Massachusetts",
+    "pop": 43627,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-coachella-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Coachella",
+    "state": "California",
+    "pop": 43590,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hagerstown-md",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hagerstown",
+    "state": "Maryland",
+    "pop": 43553,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-alexandria-la",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Alexandria",
+    "state": "Louisiana",
+    "pop": 43466,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lake-worth-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lake Worth Beach",
+    "state": "Florida",
+    "pop": 43346,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-celina-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Celina",
+    "state": "Texas",
+    "pop": 43317,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-huber-heights-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Huber Heights",
+    "state": "Ohio",
+    "pop": 43313,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-bullhead-city-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Bullhead City",
+    "state": "Arizona",
+    "pop": 43302,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-schertz-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Schertz",
+    "state": "Texas",
+    "pop": 43239,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-saginaw-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Saginaw",
+    "state": "Michigan",
+    "pop": 43185,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-woonsocket-ri",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Woonsocket",
+    "state": "Rhode Island",
+    "pop": 43135,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-pittsfield-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Pittsfield",
+    "state": "Massachusetts",
+    "pop": 43076,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-weslaco-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Weslaco",
+    "state": "Texas",
+    "pop": 43053,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lompoc-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lompoc",
+    "state": "California",
+    "pop": 43045,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-deland-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "DeLand",
+    "state": "Florida",
+    "pop": 43009,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-danville-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Danville",
+    "state": "California",
+    "pop": 42999,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-mount-juliet-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Mount Juliet",
+    "state": "Tennessee",
+    "pop": 42912,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-indian-trail-nc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Indian Trail",
+    "state": "North Carolina",
+    "pop": 42854,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-north-miami-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "North Miami Beach",
+    "state": "Florida",
+    "pop": 42789,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-altoona-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Altoona",
+    "state": "Pennsylvania",
+    "pop": 42788,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-grove-city-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Grove City",
+    "state": "Ohio",
+    "pop": 42782,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-sumter-sc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Sumter",
+    "state": "South Carolina",
+    "pop": 42766,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-edmonds-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Edmonds",
+    "state": "Washington",
+    "pop": 42701,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-manassas-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Manassas",
+    "state": "Virginia",
+    "pop": 42696,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-midland-mi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Midland",
+    "state": "Michigan",
+    "pop": 42663,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fulshear-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fulshear",
+    "state": "Texas",
+    "pop": 42616,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-jefferson-city-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Jefferson City",
+    "state": "Missouri",
+    "pop": 42552,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-buffalo-grove-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Buffalo Grove",
+    "state": "Illinois",
+    "pop": 42482,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-brighton-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Brighton",
+    "state": "Colorado",
+    "pop": 42477,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-florence-al",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Florence",
+    "state": "Alabama",
+    "pop": 42437,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-beverly-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Beverly",
+    "state": "Massachusetts",
+    "pop": 42318,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-marion-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Marion",
+    "state": "Iowa",
+    "pop": 42213,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-puyallup-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Puyallup",
+    "state": "Washington",
+    "pop": 42179,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-shelton-ct",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Shelton",
+    "state": "Connecticut",
+    "pop": 42144,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-peachtree-corners-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Peachtree Corners",
+    "state": "Georgia",
+    "pop": 42136,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cottage-grove-mn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cottage Grove",
+    "state": "Minnesota",
+    "pop": 42056,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-moline-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Moline",
+    "state": "Illinois",
+    "pop": 41965,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-brookfield-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Brookfield",
+    "state": "Wisconsin",
+    "pop": 41884,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-kiryas-joel-ny",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Kiryas Joel",
+    "state": "New York",
+    "pop": 41857,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-danville-va",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Danville",
+    "state": "Virginia",
+    "pop": 41837,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-campbell-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Campbell",
+    "state": "California",
+    "pop": 41700,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-prosper-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Prosper",
+    "state": "Texas",
+    "pop": 41660,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-woburn-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Woburn",
+    "state": "Massachusetts",
+    "pop": 41647,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-fitchburg-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Fitchburg",
+    "state": "Massachusetts",
+    "pop": 41579,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-hallandale-beach-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Hallandale Beach",
+    "state": "Florida",
+    "pop": 41547,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lancaster-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lancaster",
+    "state": "Ohio",
+    "pop": 41422,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-coppell-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Coppell",
+    "state": "Texas",
+    "pop": 41404,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-milton-ga",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Milton",
+    "state": "Georgia",
+    "pop": 41383,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-midlothian-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Midlothian",
+    "state": "Texas",
+    "pop": 41352,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-san-bruno-ca",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "San Bruno",
+    "state": "California",
+    "pop": 41327,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-oviedo-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Oviedo",
+    "state": "Florida",
+    "pop": 41231,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-reynoldsburg-oh",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Reynoldsburg",
+    "state": "Ohio",
+    "pop": 41220,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-marlborough-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Marlborough",
+    "state": "Massachusetts",
+    "pop": 41179,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-owasso-ok",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Owasso",
+    "state": "Oklahoma",
+    "pop": 41162,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-apache-junction-az",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Apache Junction",
+    "state": "Arizona",
+    "pop": 41153,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-rosenberg-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Rosenberg",
+    "state": "Texas",
+    "pop": 41104,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-covington-ky",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Covington",
+    "state": "Kentucky",
+    "pop": 40972,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-romeoville-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Romeoville",
+    "state": "Illinois",
+    "pop": 40955,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-crystal-lake-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Crystal Lake",
+    "state": "Illinois",
+    "pop": 40861,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-friendswood-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Friendswood",
+    "state": "Texas",
+    "pop": 40826,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cedar-falls-ia",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cedar Falls",
+    "state": "Iowa",
+    "pop": 40737,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-belleville-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Belleville",
+    "state": "Illinois",
+    "pop": 40726,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-state-college-pa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "State College",
+    "state": "Pennsylvania",
+    "pop": 40687,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-florence-sc",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Florence",
+    "state": "South Carolina",
+    "pop": 40609,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-plant-city-fl",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Plant City",
+    "state": "Florida",
+    "pop": 40571,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-annapolis-md",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Annapolis",
+    "state": "Maryland",
+    "pop": 40552,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lake-stevens-wa",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lake Stevens",
+    "state": "Washington",
+    "pop": 40521,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-westfield-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Westfield",
+    "state": "Massachusetts",
+    "pop": 40509,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-cape-girardeau-mo",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Cape Girardeau",
+    "state": "Missouri",
+    "pop": 40508,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-west-fargo-nd",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "West Fargo",
+    "state": "North Dakota",
+    "pop": 40400,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-windsor-co",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Windsor",
+    "state": "Colorado",
+    "pop": 40349,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-amherst-town-ma",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Amherst Town",
+    "state": "Massachusetts",
+    "pop": 40277,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-germantown-tn",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Germantown",
+    "state": "Tennessee",
+    "pop": 40267,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-new-berlin-wi",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "New Berlin",
+    "state": "Wisconsin",
+    "pop": 40260,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-lancaster-tx",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "Lancaster",
+    "state": "Texas",
+    "pop": 40215,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "mca-leads-dekalb-il",
+    "type": "mca-city",
+    "trade": "Business Funding",
+    "city": "DeKalb",
+    "state": "Illinois",
+    "pop": 40211,
+    "tier": 2,
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-alabama",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Alabama",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-alaska",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Alaska",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-arizona",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Arizona",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-arkansas",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Arkansas",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-california",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "California",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-colorado",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Colorado",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-connecticut",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Connecticut",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-delaware",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Delaware",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-district-of-columbia",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "District of Columbia",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-florida",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Florida",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-georgia",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Georgia",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-hawaii",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Hawaii",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-idaho",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Idaho",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-illinois",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Illinois",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-indiana",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Indiana",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-iowa",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Iowa",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-kansas",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Kansas",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-kentucky",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Kentucky",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-louisiana",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Louisiana",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-maine",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Maine",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-maryland",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Maryland",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-massachusetts",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Massachusetts",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-michigan",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Michigan",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-minnesota",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Minnesota",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-mississippi",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Mississippi",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-missouri",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Missouri",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-montana",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Montana",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-nebraska",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Nebraska",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-nevada",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Nevada",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-new-hampshire",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "New Hampshire",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-new-jersey",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "New Jersey",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-new-mexico",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "New Mexico",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-new-york",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "New York",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-north-carolina",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "North Carolina",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-north-dakota",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "North Dakota",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-ohio",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Ohio",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-oklahoma",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Oklahoma",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-oregon",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Oregon",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-pennsylvania",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Pennsylvania",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-rhode-island",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Rhode Island",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-south-carolina",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "South Carolina",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-south-dakota",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "South Dakota",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-tennessee",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Tennessee",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-texas",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Texas",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-utah",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Utah",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-vermont",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Vermont",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-virginia",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Virginia",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-washington",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Washington",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-west-virginia",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "West Virginia",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-wisconsin",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Wisconsin",
+    "status": "done"
+  },
+  {
+    "slug": "business-loan-leads-wyoming",
+    "type": "mca-state",
+    "trade": "Business Funding",
+    "state": "Wyoming",
+    "status": "done"
   }
 ]
