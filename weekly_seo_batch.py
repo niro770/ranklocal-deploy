@@ -21,7 +21,7 @@ QUEUE_PATH  = os.path.join(BASE, "topic_queue.json")
 SITEMAP     = os.path.join(BASE, "sitemap.xml")
 YML_PATH    = os.path.join(BASE, ".github", "workflows", "google-indexing.yml")
 LOG_PATH    = os.path.join(BASE, "weekly_seo_batch.log")
-BATCH_SIZE  = 50
+BATCH_SIZE  = 100
 SITE        = "https://ranklocall.com"
 
 _now       = datetime.datetime.now()
@@ -1435,8 +1435,10 @@ def make_city_page(topic):
     bodies = td.get("bodies", [("",)])
     body_idx = _variant(slug, len(bodies))
     body_main = bodies[body_idx][_variant(slug + "cy", len(bodies[body_idx]))]
+    pop = topic.get("pop")
+    pop_txt = ("Home to roughly {:,} residents, the ".format(pop)) if pop else "The "
     city_para = (
-        "The " + metro + " generates strong demand for " + trade.lower() + " services year-round. "
+        pop_txt + metro + " generates strong demand for " + trade.lower() + " services year-round. "
         + market.capitalize() + ". "
         + climate.capitalize() + ". "
         + "RankLocal delivers exclusive " + trade.lower() + " leads in " + city
@@ -1488,6 +1490,143 @@ def make_city_page(topic):
         "body": full_body, "faq": faqs, "links": links,
     }
 
+
+
+
+# ── GEO EXPANSION PAGE MAKERS (business funding + combined city) ─────────────
+
+def make_mca_city_page(topic):
+    """mca-leads-{city}-{st} cluster (business funding geo pages)."""
+    city  = topic.get("city", "")
+    state = topic.get("state", "")
+    slug  = topic["slug"]
+    pop   = topic.get("pop")
+    pop_txt = ("roughly {:,} residents".format(pop)) if pop else "a dense base of small businesses"
+    intros = [
+        ("Funders, ISOs, and business loan brokers buying leads in " + city + " face the same problem "
+         "everywhere: shared leads get dialed by five shops before you reach the merchant. RankLocal "
+         "sells exclusive, inbound pay-per-call business funding leads — the merchant calls first, "
+         "and the call routes to one buyer."),
+        ("If you fund merchant cash advances or broker business loans in " + city + ", " + state + ", "
+         "the fastest path to submissions is an inbound call from a merchant actively seeking capital. "
+         "RankLocal generates those calls through search — Google and Bing, never social — and delivers "
+         "them exclusively to your phone."),
+        (city + " is an active market for small-business financing, and merchants there search for "
+         "working capital every day. RankLocal captures that search demand and converts it into live "
+         "inbound calls and qualified form leads, sold exclusively — one buyer per lead."),
+    ]
+    body_main = intros[_variant(slug, len(intros))]
+    city_para = (
+        "With " + pop_txt + ", " + city + " supports steady demand for merchant cash advances, "
+        "working capital, SBA loans, equipment financing, and business lines of credit. "
+        "RankLocal delivers business funding leads in " + city + " and the surrounding metro as "
+        "live inbound phone calls — you pay only for qualified calls over 60 seconds. "
+        "Set your daily cap and hours of operation; larger coverage areas, longer hours, and "
+        "fewer disputes earn more call volume. Prepay for 10 billable calls to start — "
+        "no long-term contracts."
+    )
+    full_body = "<p>" + body_main + "</p><p>" + city_para + "</p>"
+    faqs = [
+        {"q": "How do business loan leads in " + city + " work?",
+         "a": ("RankLocal generates inbound calls from " + city + " merchants searching for business "
+               "funding. Each call is delivered live to one buyer — never shared. You pay per "
+               "qualified call over 60 seconds, starting with a 10-call prepay.")},
+        {"q": "What types of business funding leads do you sell in " + city + "?",
+         "a": ("MCA / merchant cash advance, working capital, SBA, equipment financing, and business "
+               "line of credit inquiries from " + city + ", " + state + ". Calls and form leads are "
+               "exclusive to one buyer.")},
+        {"q": "Can I cap my daily volume for " + city + " funding leads?",
+         "a": ("Yes. You set the daily cap, schedule, and the DID we forward calls to. "
+               "Pause or adjust anytime from your campaign settings.")},
+    ]
+    title = ("Business Loan & MCA Leads in " + city + ", " + state + " | Exclusive Pay-Per-Call")
+    h1    = "Business Loan & MCA Leads in " + city
+    meta  = ("Exclusive business loan and MCA leads in " + city + ", " + state +
+             ". Live inbound calls from merchants seeking funding. One buyer per call - never shared.")
+    hero_sub = ("Exclusive business funding calls from " + city + " merchants, delivered live to your phone.")
+    links = [
+        {"href": "/mca-leads/", "text": "MCA Leads"},
+        {"href": "/business-loan-leads/", "text": "Business Loan Leads"},
+        {"href": "/merchant-cash-advance-leads/", "text": "Merchant Cash Advance Leads"},
+        {"href": "/pay-per-call/", "text": "How Pay-Per-Call Works"},
+        {"href": "/apply/", "text": "Apply Now"},
+    ]
+    return {
+        "slug": slug, "type": "mca-city",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": "Business Funding",
+        "body": full_body, "faq": faqs, "links": links,
+    }
+
+
+def make_combined_city_page(topic):
+    """home-service-leads-{city}-{st} combined page (tier-3 cities)."""
+    city  = topic.get("city", "")
+    state = topic.get("state", "")
+    slug  = topic["slug"]
+    pop   = topic.get("pop")
+    pop_txt = ("about {:,} residents".format(pop)) if pop else "a steady residential base"
+    intros = [
+        ("Contractors in " + city + ", " + state + " can buy exclusive inbound phone leads across "
+         "every major home service trade — roofing, HVAC, plumbing, pest control, landscaping, "
+         "fencing, and garage door repair. One call, one contractor, never shared."),
+        ("RankLocal delivers pay-per-call home service leads in " + city + ". Homeowners searching "
+         "Google and Bing for local contractors call our tracked numbers, and the call rings "
+         "straight to your phone — exclusively."),
+        ("Looking for more jobs in " + city + "? RankLocal turns local search demand into live "
+         "inbound calls for home service contractors. You pay only for qualified calls over "
+         "60 seconds from your service area."),
+    ]
+    body_main = intros[_variant(slug, len(intros))]
+    city_para = (
+        city + " has " + pop_txt + ", generating year-round demand for repairs, replacements, and "
+        "maintenance across the trades. RankLocal covers " + city + " and surrounding communities "
+        "with exclusive pay-per-call campaigns: set your trades, service radius, daily cap, and "
+        "hours — we deliver live calls from local homeowners ready to hire. All calls come from "
+        "Google and Bing local search, never social media. Start with a 10-call prepay; "
+        "no monthly minimums, no shared leads."
+    )
+    trades_html = (
+        "<h2>Trades we cover in " + city + "</h2><ul>"
+        "<li><a href='/roofing-leads/'>Roofing leads</a></li>"
+        "<li><a href='/pay-per-call-hvac/'>HVAC leads</a></li>"
+        "<li><a href='/pay-per-call-plumbers/'>Plumbing leads</a></li>"
+        "<li><a href='/pest-control-leads/'>Pest control leads</a></li>"
+        "<li><a href='/landscaping-leads/'>Landscaping leads</a></li>"
+        "<li><a href='/fence-leads/'>Fencing leads</a></li>"
+        "<li><a href='/garage-door-repair-leads/'>Garage door leads</a></li></ul>"
+    )
+    full_body = "<p>" + body_main + "</p><p>" + city_para + "</p>" + trades_html
+    faqs = [
+        {"q": "How do home service leads in " + city + " work?",
+         "a": ("Homeowners in " + city + " searching for a contractor call a RankLocal tracking "
+               "number. The call transfers live to one contractor. You pay per qualified call "
+               "over 60 seconds — no shared leads, no monthly fees.")},
+        {"q": "How many calls per month can I expect in " + city + "?",
+         "a": ("Volume depends on trade, season, and your coverage settings. Smaller markets like "
+               + city + " typically support focused campaigns — widening your radius to nearby "
+               "towns increases volume. Your quote includes an expected range before you commit.")},
+        {"q": "Which areas around " + city + " can I include?",
+         "a": ("You define the service radius — most " + city + " contractors include surrounding "
+               "zip codes and nearby towns. Adjust anytime.")},
+    ]
+    title = ("Home Service Leads in " + city + ", " + state + " | Exclusive Inbound Calls")
+    h1    = "Exclusive Home Service Leads in " + city
+    meta  = ("Exclusive home service leads in " + city + ", " + state + " - roofing, HVAC, plumbing, "
+             "pest control and more. Live inbound calls, one contractor per lead.")
+    hero_sub = ("Exclusive inbound calls for " + city + " contractors across all major trades.")
+    links = [
+        {"href": "/home-service-leads/", "text": "Home Service Leads"},
+        {"href": "/contractor-leads/", "text": "Contractor Lead Generation"},
+        {"href": "/pay-per-call/", "text": "How Pay-Per-Call Works"},
+        {"href": "/apply/", "text": "Apply Now"},
+    ]
+    return {
+        "slug": slug, "type": "combined-city",
+        "title": title, "h1": h1, "meta": meta,
+        "hero_sub": hero_sub, "trade": "Home Services",
+        "body": full_body, "faq": faqs, "links": links,
+    }
 
 # ── SCHEMA BUILDERS ──────────────────────────────────────────────────────────
 
@@ -1786,6 +1925,10 @@ def main():
             page = make_phone_leads_page(topic)
         elif topic.get("type") == "city-leads":
             page = make_city_page(topic)
+        elif topic.get("type") == "mca-city":
+            page = make_mca_city_page(topic)
+        elif topic.get("type") == "combined-city":
+            page = make_combined_city_page(topic)
         else:
             log("[SKIP] " + slug + " (unknown type - skipping)")
             topic["status"] = "pending"
