@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-10-27T13:09:14Z",
+  "last_updated": "2026-10-28T13:59:17Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
-      "last_crawled": "2026-10-25T00:31:05Z",
+      "last_crawled": "2026-10-27T23:01:45Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -14,13 +14,14 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/google-maps-ranking/": {
-      "verdict": "ERROR",
-      "last_crawled": null,
-      "coverage": "API error 500"
+      "verdict": "PASS",
+      "last_crawled": "2026-10-27T11:10:35Z",
+      "coverage": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/google-business-profile/": {
       "verdict": "PASS",
-      "last_crawled": "2026-08-24T18:27:27Z",
+      "last_crawled": "2026-10-28T05:22:40Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
