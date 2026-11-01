@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T13:33:20Z",
+  "last_updated": "2026-11-01T14:14:29Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -33,7 +33,7 @@
     },
     "https://ranklocall.com/reputation-management/": {
       "verdict": "PASS",
-      "last_crawled": "2026-09-11T02:45:49Z",
+      "last_crawled": "2026-11-01T06:54:05Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -57,7 +57,7 @@
     },
     "https://ranklocall.com/pay-per-call/": {
       "verdict": "PASS",
-      "last_crawled": "2026-09-18T22:36:26Z",
+      "last_crawled": "2026-11-01T05:58:06Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -93,7 +93,7 @@
     },
     "https://ranklocall.com/pay-per-call-dentists/": {
       "verdict": "PASS",
-      "last_crawled": "2026-09-28T15:17:34Z",
+      "last_crawled": "2026-11-01T04:25:22Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -147,7 +147,7 @@
     },
     "https://ranklocall.com/pay-per-call-landscaping/": {
       "verdict": "PASS",
-      "last_crawled": "2026-10-16T21:35:42Z",
+      "last_crawled": "2026-11-01T04:28:07Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -165,7 +165,7 @@
     },
     "https://ranklocall.com/tools/call-value-calculator/": {
       "verdict": "PASS",
-      "last_crawled": "2026-10-16T04:35:38Z",
+      "last_crawled": "2026-11-01T02:33:50Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
