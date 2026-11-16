@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T14:41:44Z",
+  "last_updated": "2026-11-16T16:57:21Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -9,7 +9,7 @@
     },
     "https://ranklocall.com/local-seo/": {
       "verdict": "PASS",
-      "last_crawled": "2026-10-06T07:35:59Z",
+      "last_crawled": "2026-11-16T12:40:17Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -28,7 +28,7 @@
     "https://ranklocall.com/website-seo/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/reputation-management/": {
@@ -64,7 +64,7 @@
     "https://ranklocall.com/pay-per-call-marketplace/": {
       "verdict": "NEUTRAL",
       "last_crawled": null,
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED"
     },
     "https://ranklocall.com/pay-per-call-plumbers/": {
@@ -99,7 +99,7 @@
     },
     "https://ranklocall.com/pay-per-call-contractors/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-18T23:50:56Z",
+      "last_crawled": "2026-11-16T08:57:21Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -111,7 +111,7 @@
     },
     "https://ranklocall.com/pay-per-call-pest-control/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-16T08:53:12Z",
+      "last_crawled": "2026-11-16T13:15:02Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -141,7 +141,7 @@
     },
     "https://ranklocall.com/pay-per-call-tree-service/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-18T22:42:05Z",
+      "last_crawled": "2026-11-16T02:05:41Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -195,13 +195,13 @@
     },
     "https://ranklocall.com/tools/rank-simulator/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-21T00:37:10Z",
+      "last_crawled": "2026-11-16T06:40:19Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/blog/": {
       "verdict": "PASS",
-      "last_crawled": "2026-10-08T23:18:30Z",
+      "last_crawled": "2026-11-16T10:37:44Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -225,7 +225,7 @@
     },
     "https://ranklocall.com/blog/pay-per-call-vs-pay-per-lead/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-15T19:45:52Z",
+      "last_crawled": "2026-11-16T05:25:30Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -249,7 +249,7 @@
     },
     "https://ranklocall.com/blog/best-industries-for-pay-per-call/": {
       "verdict": "PASS",
-      "last_crawled": "2026-07-16T00:38:23Z",
+      "last_crawled": "2026-11-16T10:08:43Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     }
