@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T16:32:20Z",
+  "last_updated": "2026-11-20T16:09:39Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
@@ -38,10 +38,9 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/citations/": {
-      "verdict": "PASS",
-      "last_crawled": "2026-10-19T14:35:58Z",
-      "coverage": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED"
+      "verdict": "ERROR",
+      "last_crawled": null,
+      "coverage": "API error 503"
     },
     "https://ranklocall.com/apply/": {
       "verdict": "PASS",
@@ -56,10 +55,9 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call/": {
-      "verdict": "PASS",
-      "last_crawled": "2026-11-01T05:58:06Z",
-      "coverage": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED"
+      "verdict": "ERROR",
+      "last_crawled": null,
+      "coverage": "API error 503"
     },
     "https://ranklocall.com/pay-per-call-marketplace/": {
       "verdict": "NEUTRAL",
@@ -116,10 +114,9 @@
       "indexing_state": "INDEXING_ALLOWED"
     },
     "https://ranklocall.com/pay-per-call-locksmiths/": {
-      "verdict": "PASS",
-      "last_crawled": "2026-11-16T21:18:58Z",
-      "coverage": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED"
+      "verdict": "ERROR",
+      "last_crawled": null,
+      "coverage": "API error 503"
     },
     "https://ranklocall.com/pay-per-call-insurance/": {
       "verdict": "PASS",
