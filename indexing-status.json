@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-11-26T17:42:30Z",
+  "last_updated": "2026-11-27T17:25:06Z",
   "urls": {
     "https://ranklocall.com/": {
       "verdict": "PASS",
-      "last_crawled": "2026-11-23T03:34:25Z",
+      "last_crawled": "2026-11-26T21:55:11Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
@@ -123,7 +123,7 @@
     },
     "https://ranklocall.com/pay-per-call-insurance/": {
       "verdict": "PASS",
-      "last_crawled": "2026-10-21T05:24:31Z",
+      "last_crawled": "2026-11-26T21:10:22Z",
       "coverage": "Submitted and indexed",
       "indexing_state": "INDEXING_ALLOWED"
     },
